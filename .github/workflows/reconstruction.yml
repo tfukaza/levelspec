@@ -1,0 +1,29 @@
+name: Image reconstruction
+on:
+  pull_request:
+    paths:
+      - "docs/RECONSTRUCTION.md"
+      - "tools/superspec.mjs"
+      - "superspec.lock.json"
+      - ".github/workflows/reconstruction.yml"
+  workflow_dispatch:
+    inputs:
+      superspec_ref:
+        description: Published SuperSpec commit matching superspec.lock.json
+        required: true
+        type: string
+permissions:
+  contents: read
+jobs:
+  unavailable:
+    if: ${{ inputs.superspec_ref == '' && vars.SUPERSPEC_REF == '' }}
+    runs-on: ubuntu-latest
+    steps:
+      - run: |
+          echo "::error::SuperSpec acceptance requires a published engine revision. Set SUPERSPEC_REF to the matching commit or dispatch this workflow with superspec_ref. The extraction must be published first."
+          exit 1
+  verify:
+    if: ${{ inputs.superspec_ref != '' || vars.SUPERSPEC_REF != '' }}
+    uses: ./.github/workflows/rust.yml
+    with:
+      superspec_ref: ${{ inputs.superspec_ref || vars.SUPERSPEC_REF }}

@@ -1,0 +1,122 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Kowloon · Material studies</title>
+  <style>
+    :root {
+      color-scheme: dark;
+      --page: #141816;
+      --text: #f0eee6;
+      --muted: #c0c2b6;
+      --accent: #b6cda8;
+      --line: #434c42;
+      font: 16px/1.5 "Instrument Sans", "Segoe UI", sans-serif;
+    }
+    * { box-sizing: border-box; }
+    body { margin: 0; background: var(--page); color: var(--text); }
+    main { max-width: 1360px; margin: 0 auto; padding: 42px 48px 36px; }
+    header { border-top: 3px solid var(--accent); padding-top: 23px; }
+    h1, h2, h3, p, figure { margin: 0; }
+    h1 { font-size: clamp(2.25rem, 5vw, 4.25rem); line-height: 1.05; letter-spacing: -.045em; }
+    header p { color: var(--muted); margin-top: 12px; }
+    section { border-top: 1px solid var(--line); margin-top: 28px; padding-top: 17px; }
+    h2 { font-size: 1.65rem; letter-spacing: -.025em; margin-bottom: 12px; }
+    h3 { font-size: 1rem; margin-top: 9px; }
+    .studies { display: grid; grid-template-columns: minmax(0, 2fr) minmax(0, 1fr); gap: 27px; }
+    .matrix { display: grid; grid-template-columns: 74px minmax(0, 1fr); gap: 7px 8px; }
+    .column-labels { grid-column: 2; display: grid; grid-template-columns: repeat(4, 1fr); text-align: center; }
+    .row-labels { display: grid; grid-template-rows: repeat(3, 1fr); align-items: center; }
+    .column-labels, .row-labels { color: var(--accent); font-size: .8rem; font-weight: 600; line-height: 1.25; }
+    .column-labels span { padding: 0 4px; }
+    img { display: block; width: 100%; height: auto; }
+    .scene { padding-top: 23px; }
+    figcaption p, .matrix-note, footer { font-size: .87rem; color: var(--muted); }
+    figcaption p { margin-top: 4px; }
+    .matrix-note { grid-column: 2; }
+    .scene img { border: 1px solid var(--line); }
+    .scene a { display: block; font-size: .8rem; }
+    .scene a + a { margin-top: 10px; }
+    .scene a span { display: inline-block; margin-top: 3px; }
+    a { color: var(--accent); text-underline-offset: .19em; }
+    a:focus-visible { outline: 2px solid var(--accent); outline-offset: 4px; }
+    footer { border-top: 1px solid var(--line); margin-top: 28px; padding-top: 14px; }
+    footer p + p { margin-top: 6px; }
+    @media (max-width: 780px) {
+      main { padding: 25px 20px; }
+      .studies { grid-template-columns: 1fr; gap: 15px; }
+      .scene { padding-top: 0; }
+    }
+    @media (max-width: 430px) {
+      main { padding-inline: 12px; }
+      .matrix { grid-template-columns: 47px minmax(0, 1fr); gap: 6px; }
+      .column-labels, .row-labels { font-size: .66rem; }
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <header>
+      <h1>Kowloon material studies</h1>
+      <p>Concrete, ceramic and reflective metal across three levels of wear, with two anime treatments for each scene.</p>
+    </header>
+
+    <section aria-labelledby="concrete">
+      <h2 id="concrete">Concrete &amp; render</h2>
+      <div class="studies">
+        <figure class="matrix">
+          <div class="column-labels"><span>Blue-gray cast</span><span>Sand-gray render</span><span>Ivory plaster</span><span>Charcoal aggregate</span></div>
+          <div class="row-labels"><span>Low wear</span><span>Medium</span><span>Heavy</span></div>
+          <a href="concrete-swatches.png"><img src="concrete-swatches.png" alt="Twelve concrete and render swatches. Intact pores and trowel marks give way to runoff, cracking, and exposed aggregate."></a>
+          <figcaption class="matrix-note">Keep the base mottling broad. Use fine relief for pores and give deep spalls visible depth. Plaster loss exposes coarse concrete.</figcaption>
+        </figure>
+        <figure class="scene">
+          <a href="concrete-window-wall-anime.png"><img src="concrete-window-wall-anime.png" alt="Anime background painting of two recessed casement windows in a concrete tenement wall with repaired render and runoff below the sills."><span>’90s sci-fi anime</span></a>
+          <a href="concrete-window-wall-ghibli.png"><img src="concrete-window-wall-ghibli.png" alt="Sunlit plaster and blue sky reflections in the tenement windows."><span>Studio Ghibli-inspired</span></a>
+          <figcaption><h3>Tenement window wall</h3><p>Sills concentrate runoff. The newer repair and chipped edges show where the wall’s layers meet.</p></figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <section aria-labelledby="tile">
+      <h2 id="tile">Ceramic tile</h2>
+      <div class="studies">
+        <figure class="matrix">
+          <div class="column-labels"><span>Ivory square</span><span>Jade rectangle</span><span>Petrol-blue mosaic</span><span>Red quarry tile</span></div>
+          <div class="row-labels"><span>Low wear</span><span>Medium</span><span>Heavy</span></div>
+          <a href="tile-swatches.png"><img src="tile-swatches.png" alt="Twelve ceramic tile swatches. Intact tiles progress to scratched glaze, chipped corners, and exposed ridged bedding."></a>
+          <figcaption class="matrix-note">Give glaze, grout and bedding distinct roughness. Use chipped corners and clusters of missing tiles where edges take impacts.</figcaption>
+        </figure>
+        <figure class="scene">
+          <a href="ceramic-shop-threshold-anime.png"><img src="ceramic-shop-threshold-anime.png" alt="Anime background painting of a shop entrance with jade and ivory wall tiles, red quarry floor tile, and a worn concrete threshold."><span>’90s sci-fi anime</span></a>
+          <a href="ceramic-shop-threshold-ghibli.png"><img src="ceramic-shop-threshold-ghibli.png" alt="Sunlit jade and ivory tile beside the red shop floor and blue puddles."><span>Studio Ghibli-inspired</span></a>
+          <figcaption><h3>Shop threshold</h3><p>Glazed wall tiles catch the light above a satin quarry-tile floor. Missing tiles reveal the bedding at the entrance.</p></figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <section aria-labelledby="metal">
+      <h2 id="metal">Reflective metal</h2>
+      <div class="studies">
+        <figure class="matrix">
+          <div class="column-labels"><span>Brushed stainless</span><span>Galvanized steel</span><span>Polished chrome</span><span>Warm brass</span></div>
+          <div class="row-labels"><span>Low wear</span><span>Medium</span><span>Heavy</span></div>
+          <a href="metal-swatches.png"><img src="metal-swatches.png" alt="Twelve metal swatches with reflections that soften where the surfaces are scratched, hazed, or tarnished."></a>
+          <figcaption class="matrix-note">Stainless stretches reflections along the brush grain. Chrome holds a sharp highlight. Scratches and deposits break up reflections locally.</figcaption>
+        </figure>
+        <figure class="scene">
+          <a href="metal-exhaust-duct-anime.png"><img src="metal-exhaust-duct-anime.png" alt="Anime background painting of a folded sheet-metal exhaust duct with a reflective elbow, flanges, brackets, and wear around fasteners."><span>’90s sci-fi anime</span></a>
+          <a href="metal-exhaust-duct-ghibli.png"><img src="metal-exhaust-duct-ghibli.png" alt="Exhaust duct with watercolor washes and pale blue and gold reflections."><span>Studio Ghibli-inspired</span></a>
+          <figcaption><h3>Restaurant exhaust duct</h3><p>Broad reflections make the folded faces legible. Haze, abrasion and staining gather around the joints.</p></figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <footer>
+      <p>Material swatches and anime background studies with illustrative lighting and scale. Click any image to open it at full resolution.</p>
+      <p><a href="prompts.md">ImageGen prompts and visual references</a></p>
+    </footer>
+  </main>
+</body>
+</html>

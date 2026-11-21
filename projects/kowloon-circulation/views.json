@@ -1,0 +1,110 @@
+[
+  {
+    "id": "overview",
+    "position": [
+      30,
+      -34,
+      63
+    ],
+    "target": [
+      -1,
+      6,
+      3.2
+    ],
+    "projection": "orthographic",
+    "viewHeight": 45,
+    "frameAspect": 1.5
+  },
+  {
+    "id": "alley",
+    "position": [
+      -9.96,
+      6.32,
+      1.78
+    ],
+    "target": [
+      -9.98,
+      9.65,
+      1.63
+    ],
+    "projection": "perspective",
+    "fov": 69
+  },
+  {
+    "id": "ring-ramp",
+    "position": [
+      -15.35,
+      4.93,
+      3.16
+    ],
+    "target": [
+      -6.4,
+      5.08,
+      0.57
+    ],
+    "projection": "perspective",
+    "fov": 57
+  },
+  {
+    "id": "road-underpass",
+    "position": [
+      -5,
+      0.92,
+      1.66
+    ],
+    "target": [
+      9,
+      -0.7,
+      2.25
+    ],
+    "projection": "perspective",
+    "fov": 62,
+    "frameAspect": 1.55
+  },
+  {
+    "id": "canal-bridge",
+    "position": [
+      6.04,
+      11.47,
+      1.69
+    ],
+    "target": [
+      10.1,
+      13.9,
+      -0.13
+    ],
+    "projection": "perspective",
+    "fov": 59,
+    "frameAspect": 1.45
+  },
+  {
+    "id": "overpass-deck",
+    "position": [
+      5.25,
+      -3.75,
+      6.23
+    ],
+    "target": [
+      5.3,
+      5.6,
+      4.7
+    ],
+    "projection": "perspective",
+    "fov": 61
+  },
+  {
+    "id": "plaza",
+    "position": [
+      0.6,
+      9.1,
+      2.32
+    ],
+    "target": [
+      -8,
+      5.3,
+      0.7
+    ],
+    "projection": "perspective",
+    "fov": 69
+  }
+]

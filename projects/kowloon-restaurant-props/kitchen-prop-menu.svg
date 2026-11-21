@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="680" height="920" viewBox="0 0 680 920" role="img" aria-labelledby="title">
+  <title id="title">燒味飯麵價目表</title>
+  <defs>
+    <filter id="paper">
+      <feTurbulence type="fractalNoise" baseFrequency=".035 .067" numOctaves="3" seed="43"/>
+      <feColorMatrix type="matrix" values="0 0 0 0 .41 0 0 0 0 .27 0 0 0 0 .14 0 0 0 .19 0"/>
+      <feBlend in="SourceGraphic" mode="multiply"/>
+    </filter>
+  </defs>
+  <rect width="680" height="920" fill="#e3cca3"/>
+  <rect width="680" height="920" fill="#ecdbb8" filter="url(#paper)"/>
+  <path fill="#ac784b" opacity=".21" d="M0 0h76l-7 16-21 7-10 30L0 65zM680 843l-20 14-6 20-27 6-13 37h66zM0 838l17 10 4 32 22 14 1 26H0z"/>
+  <path fill="none" stroke="#873c2b" stroke-width="3" d="M33 33h614v854H33zM45 45h590v830H45z"/>
+  <g font-family="Microsoft JhengHei, Noto Sans CJK TC, sans-serif" fill="#7e3427" text-anchor="middle">
+    <text x="340" y="153" font-size="93" font-weight="700" letter-spacing="8">燒味飯麵</text>
+    <text x="340" y="218" font-size="34" letter-spacing="10">價目表</text>
+    <text x="340" y="829" font-size="37" font-weight="700" letter-spacing="10">歡迎外賣</text>
+  </g>
+  <path d="M84 253h512M84 755h512" stroke="#873c2b" stroke-width="2.5"/>
+  <g font-family="Microsoft JhengHei, Noto Sans CJK TC, sans-serif" font-size="53" font-weight="700" fill="#393229">
+    <text x="91" y="338">燒鴨飯</text><text x="581" y="338" text-anchor="end">$32</text>
+    <text x="91" y="430">叉燒飯</text><text x="581" y="430" text-anchor="end">$30</text>
+    <text x="91" y="522">油雞飯</text><text x="581" y="522" text-anchor="end">$30</text>
+    <text x="91" y="614">雙拼飯</text><text x="581" y="614" text-anchor="end">$38</text>
+    <text x="91" y="706">燒鴨湯麵</text><text x="581" y="706" text-anchor="end">$34</text>
+  </g>
+  <path d="M84 368h512M84 460h512M84 552h512M84 644h512" stroke="#925f42" stroke-width="1.5" opacity=".43" stroke-dasharray="4 6"/>
+</svg>

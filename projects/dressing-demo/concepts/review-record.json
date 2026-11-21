@@ -1,0 +1,65 @@
+{
+  "date": "2026-11-12",
+  "latestDuctFollowup": "duct-material-study/review-refined/acceptance.json",
+  "source": "industrial-daylight.png",
+  "detailIndex": "details/README.md",
+  "scope": [
+    "Broad two-return industrial duct",
+    "Ribbon windows and fitted cages",
+    "Cool daylight shadows and contact occlusion"
+  ],
+  "duct": {
+    "render": "generated/dressing-demo/art-review/vent-v9-lighting",
+    "accepted": [
+      "Wide folded duct with two wall returns and triangular support",
+      "Matte mottled gray zinc with sparse seam corrosion",
+      "Softened painted AO and longer brown runoff at mouths",
+      "Tight contact occlusion and darker shadow fill with daylight key retained"
+    ],
+    "residuals": [
+      "Source has finer local wall variation",
+      "Lower boot mouth angle retains a modest undercut difference"
+    ]
+  },
+  "windows": {
+    "render": "generated/dressing-demo/art-review/window-v2",
+    "accepted": [
+      "10cm ceramic joints visible close and subtle at host scale",
+      "Varied recessed fabric and glass",
+      "Fitted cage with sparse warm tapered planters and clear gaps"
+    ],
+    "residuals": [
+      "Source frames are slightly lighter and thinner",
+      "Current navy profiles remain more chipped than source"
+    ]
+  },
+  "checks": {
+    "typecheck": "passed",
+    "focusedWindowFacadeDuctTests": 15,
+    "posterAndDemoTests": 12,
+    "physicalRoutes": [
+      "climb",
+      "back-lane-climb"
+    ],
+    "lighting": {
+      "neutralMeanAbsoluteDifference": 0.0169921875,
+      "dayNightDayDifference": 0,
+      "coolNeutralDifference": 0
+    }
+  },
+  "scene": {
+    "disposition": "Accepted by independent exterior visual reviewer",
+    "fingerprint": "a14ae4052f744da3aba06adce63bcee3ba79d7dbf0522ed2a710901e92303d22",
+    "renderHash": "b8b16d710f51919c0abf6725c369e91a1f8558fd9f7c9def9b01709d712bdecf",
+    "comparison": "generated/dressing-demo/art-review/published-review/comparison.png",
+    "captures": "generated/dressing-demo/art-review/published-review/capture.json",
+    "walk": "generated/dressing-demo/art-review/published-review/walk.json",
+    "published": "generated/dressing-demo/presets",
+    "residuals": [
+      "Roof and narrow right-return duct variants remain future work",
+      "Brown corner facade has less localized equipment and streaking than concept",
+      "Some plaster chip clusters remain sharper than concept",
+      "Glazing remains somewhat more uniformly navy"
+    ]
+  }
+}

@@ -1,0 +1,4 @@
+<architecture version="1" id="storefront-study" name="Kowloon storefront comparison" validation="premap">
+  <box id="study-host" width="6" depth="4" height="3.8" visible="false" collidable="false"/>
+  <dressing theme="kowloon-street@1" seed="storefront-study" grime="0.8" wear="0.6" rust="0.35" detail="high"/>
+</architecture>

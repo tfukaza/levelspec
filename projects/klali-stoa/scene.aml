@@ -1,0 +1,1564 @@
+<architecture version="1" id="klali-stoa" units="meters" validation="premap">
+  <material id="m-white"/>
+  <material id="m-shell"/>
+  <material id="m-floor"/>
+  <material id="m-pave"/>
+  <material id="m-concrete"/>
+  <material id="m-dark"/>
+  <material id="m-orange"/>
+  <material id="m-red"/>
+  <material id="m-blue"/>
+  <material id="m-sky"/>
+  <material id="m-teal"/>
+  <material id="m-yellow"/>
+  <material id="m-green"/>
+  <material id="m-wood"/>
+  <material id="m-lamp"/>
+  <material id="m-roof"/>
+  <box id="brush-0" position="-7 -9 -4" width="14" depth="18" height="4" material="m-floor" collidable="true" visible="true"/>
+  <box id="brush-1" position="7 -9 -4" width="4" depth="18" height="4" material="m-floor" collidable="true" visible="true"/>
+  <box id="brush-2" position="-10 -2 -4" width="3" depth="4" height="4" material="m-floor" collidable="true" visible="true"/>
+  <box id="brush-3" position="-19 -2 -4" width="9" depth="4" height="4" material="m-floor" collidable="true" visible="true"/>
+  <box id="brush-4" position="10 -2 -4" width="9" depth="4" height="4" material="m-floor" collidable="true" visible="true"/>
+  <box id="brush-5" position="-31 -9 -4" width="12" depth="18" height="2" material="m-pave" collidable="true" visible="true"/>
+  <box id="brush-6" position="19 -20 -4" width="12" depth="40" height="4" material="m-floor" collidable="true" visible="true"/>
+  <box id="brush-7" position="-23 -2 -4" width="0.125" depth="4" height="2.0625" material="m-white" collidable="true" visible="false"/>
+  <box id="brush-8" position="-22.875 -2 -4" width="0.125" depth="4" height="2.125" material="m-white" collidable="true" visible="false"/>
+  <box id="brush-9" position="-22.75 -2 -4" width="0.125" depth="4" height="2.1875" material="m-white" collidable="true" visible="false"/>
+  <box id="brush-10" position="-22.625 -2 -4" width="0.125" depth="4" height="2.25" material="m-white" collidable="true" visible="false"/>
+  <box id="brush-11" position="-22.5 -2 -4" width="0.125" depth="4" height="2.3125" material="m-white" collidable="true" visible="false"/>
+  <box id="brush-12" position="-22.375 -2 -4" width="0.125" depth="4" height="2.375" material="m-white" collidable="true" visible="false"/>
+  <box id="brush-13" position="-22.25 -2 -4" width="0.125" depth="4" height="2.4375" material="m-white" collidable="true" visible="false"/>
+  <box id="brush-14" position="-22.125 -2 -4" width="0.125" depth="4" height="2.5" material="m-white" collidable="true" visible="false"/>
+  <box id="brush-15" position="-22 -2 -4" width="0.125" depth="4" height="2.5625" material="m-white" collidable="true" visible="false"/>
+  <box id="brush-16" position="-21.875 -2 -4" width="0.125" depth="4" height="2.625" material="m-white" collidable="true" visible="false"/>
+  <box id="brush-17" position="-21.75 -2 -4" width="0.125" depth="4" height="2.6875" material="m-white" collidable="true" visible="false"/>
+  <box id="brush-18" position="-21.625 -2 -4" width="0.125" depth="4" height="2.75" material="m-white" collidable="true" visible="false"/>
+  <box id="brush-19" position="-21.5 -2 -4" width="0.125" depth="4" height="2.8125" material="m-white" collidable="true" visible="false"/>
+  <box id="brush-20" position="-21.375 -2 -4" width="0.125" depth="4" height="2.875" material="m-white" collidable="true" visible="false"/>
+  <box id="brush-21" position="-21.25 -2 -4" width="0.125" depth="4" height="2.9375" material="m-white" collidable="true" visible="false"/>
+  <box id="brush-22" position="-21.125 -2 -4" width="0.125" depth="4" height="3" material="m-white" collidable="true" visible="false"/>
+  <box id="brush-23" position="-21 -2 -4" width="0.125" depth="4" height="3.0625" material="m-white" collidable="true" visible="false"/>
+  <box id="brush-24" position="-20.875 -2 -4" width="0.125" depth="4" height="3.125" material="m-white" collidable="true" visible="false"/>
+  <box id="brush-25" position="-20.75 -2 -4" width="0.125" depth="4" height="3.1875" material="m-white" collidable="true" visible="false"/>
+  <box id="brush-26" position="-20.625 -2 -4" width="0.125" depth="4" height="3.25" material="m-white" collidable="true" visible="false"/>
+  <box id="brush-27" position="-20.5 -2 -4" width="0.125" depth="4" height="3.3125" material="m-white" collidable="true" visible="false"/>
+  <box id="brush-28" position="-20.375 -2 -4" width="0.125" depth="4" height="3.375" material="m-white" collidable="true" visible="false"/>
+  <box id="brush-29" position="-20.25 -2 -4" width="0.125" depth="4" height="3.4375" material="m-white" collidable="true" visible="false"/>
+  <box id="brush-30" position="-20.125 -2 -4" width="0.125" depth="4" height="3.5" material="m-white" collidable="true" visible="false"/>
+  <box id="brush-31" position="-20 -2 -4" width="0.125" depth="4" height="3.5625" material="m-white" collidable="true" visible="false"/>
+  <box id="brush-32" position="-19.875 -2 -4" width="0.125" depth="4" height="3.625" material="m-white" collidable="true" visible="false"/>
+  <box id="brush-33" position="-19.75 -2 -4" width="0.125" depth="4" height="3.6875" material="m-white" collidable="true" visible="false"/>
+  <box id="brush-34" position="-19.625 -2 -4" width="0.125" depth="4" height="3.75" material="m-white" collidable="true" visible="false"/>
+  <box id="brush-35" position="-19.5 -2 -4" width="0.125" depth="4" height="3.8125" material="m-white" collidable="true" visible="false"/>
+  <box id="brush-36" position="-19.375 -2 -4" width="0.125" depth="4" height="3.875" material="m-white" collidable="true" visible="false"/>
+  <box id="brush-37" position="-19.25 -2 -4" width="0.125" depth="4" height="3.9375" material="m-white" collidable="true" visible="false"/>
+  <box id="brush-38" position="-19.125 -2 -4" width="0.125" depth="4" height="4" material="m-white" collidable="true" visible="false"/>
+  <box id="brush-39" position="-23 -2 -4" width="0.25" depth="4" height="2.0938" material="m-yellow" collidable="false" visible="true"/>
+  <box id="brush-40" position="-22.75 -2 -4" width="0.25" depth="4" height="2.2188" material="m-white" collidable="false" visible="true"/>
+  <box id="brush-41" position="-22.5 -2 -4" width="0.25" depth="4" height="2.3438" material="m-white" collidable="false" visible="true"/>
+  <box id="brush-42" position="-22.25 -2 -4" width="0.25" depth="4" height="2.4688" material="m-white" collidable="false" visible="true"/>
+  <box id="brush-43" position="-22 -2 -4" width="0.25" depth="4" height="2.5938" material="m-white" collidable="false" visible="true"/>
+  <box id="brush-44" position="-21.75 -2 -4" width="0.25" depth="4" height="2.7188" material="m-white" collidable="false" visible="true"/>
+  <box id="brush-45" position="-21.5 -2 -4" width="0.25" depth="4" height="2.8438" material="m-white" collidable="false" visible="true"/>
+  <box id="brush-46" position="-21.25 -2 -4" width="0.25" depth="4" height="2.9688" material="m-white" collidable="false" visible="true"/>
+  <box id="brush-47" position="-21 -2 -4" width="0.25" depth="4" height="3.0938" material="m-white" collidable="false" visible="true"/>
+  <box id="brush-48" position="-20.75 -2 -4" width="0.25" depth="4" height="3.2188" material="m-white" collidable="false" visible="true"/>
+  <box id="brush-49" position="-20.5 -2 -4" width="0.25" depth="4" height="3.3438" material="m-white" collidable="false" visible="true"/>
+  <box id="brush-50" position="-20.25 -2 -4" width="0.25" depth="4" height="3.4688" material="m-white" collidable="false" visible="true"/>
+  <box id="brush-51" position="-20 -2 -4" width="0.25" depth="4" height="3.5938" material="m-white" collidable="false" visible="true"/>
+  <box id="brush-52" position="-19.75 -2 -4" width="0.25" depth="4" height="3.7188" material="m-white" collidable="false" visible="true"/>
+  <box id="brush-53" position="-19.5 -2 -4" width="0.25" depth="4" height="3.8438" material="m-white" collidable="false" visible="true"/>
+  <box id="brush-54" position="-19.25 -2 -4" width="0.25" depth="4" height="3.9688" material="m-yellow" collidable="false" visible="true"/>
+  <box id="brush-55" position="-29 -3 -2" width="3.5" depth="6" height="1.2" material="m-yellow" collidable="true" visible="false"/>
+  <box id="brush-55-base" position="-29 -3 -2" width="3.5" depth="6" height="1.06" material="m-yellow" collidable="false" visible="true"/>
+  <box id="brush-55-south" position="-29 -3 -0.94" width="3.5" depth="0.15" height="0.14" material="m-yellow" collidable="false" visible="true"/>
+  <box id="brush-55-north" position="-29 2.85 -0.94" width="3.5" depth="0.15" height="0.14" material="m-yellow" collidable="false" visible="true"/>
+  <box id="brush-55-west" position="-29 -2.85 -0.94" width="0.15" depth="5.7" height="0.14" material="m-yellow" collidable="false" visible="true"/>
+  <box id="brush-55-east" position="-25.65 -2.85 -0.94" width="0.15" depth="5.7" height="0.14" material="m-yellow" collidable="false" visible="true"/>
+  <box id="brush-57" position="-20.4 6.4 -2" width="0.8" depth="0.8" height="7" material="m-yellow" collidable="true" visible="true"/>
+  <box id="brush-58" position="-20.4 -7.2 -2" width="0.8" depth="0.8" height="7" material="m-yellow" collidable="true" visible="true"/>
+  <box id="brush-59" position="-30.5 8.2 -2" width="11" depth="0.3" height="0.02" material="m-yellow" collidable="false" visible="true"/>
+  <box id="brush-60" position="-30.5 -8.5 -2" width="11" depth="0.3" height="0.02" material="m-yellow" collidable="false" visible="true"/>
+  <box id="brush-61" position="-30.5 -8.2 -2" width="0.3" depth="16.4" height="0.02" material="m-yellow" collidable="false" visible="true"/>
+  <box id="brush-62" position="-19.8 -8.2 -2" width="0.3" depth="16.4" height="0.02" material="m-yellow" collidable="false" visible="true"/>
+  <box id="brush-63" position="-7 -9 3.25" width="14" depth="18" height="0.25" material="m-white" collidable="true" visible="true"/>
+  <box id="brush-64" position="-10 -2 3.25" width="3" depth="4" height="0.25" material="m-white" collidable="true" visible="true"/>
+  <box id="brush-65" position="7 -1.5 3.25" width="16" depth="3" height="0.25" material="m-white" collidable="true" visible="true"/>
+  <box id="brush-66" position="23 -12 3.25" width="8" depth="24" height="0.25" material="m-white" collidable="true" visible="true"/>
+  <box id="brush-67" position="7 1.35 3.5" width="16" depth="0.15" height="1" material="m-dark" collidable="true" visible="true"/>
+  <box id="brush-68" position="7 -1.5 3.5" width="16" depth="0.15" height="1" material="m-dark" collidable="true" visible="true"/>
+  <box id="brush-69" position="19 3 0" width="2.3" depth="0.6" height="3.25" material="m-teal" collidable="true" visible="true"/>
+  <box id="brush-70" position="20.7 -3.6 0" width="2.3" depth="0.6" height="3.25" material="m-teal" collidable="true" visible="true"/>
+  <box id="brush-71" position="-1.5 -1.5 0" width="3" depth="3" height="3.25" material="m-dark" collidable="true" visible="true"/>
+  <box id="brush-72" position="-7.3 4 6.8" width="14.6" depth="5.3" height="0.25" material="m-white" collidable="true" visible="true"/>
+  <face-material id="top-72" host="brush-72" face="top" material="m-roof"/>
+  <box id="brush-73" position="-7.3 -9.3 6.8" width="14.6" depth="5.3" height="0.25" material="m-white" collidable="true" visible="true"/>
+  <face-material id="top-73" host="brush-73" face="top" material="m-roof"/>
+  <box id="brush-74" position="-7.3 -4 6.8" width="4.8" depth="8" height="0.25" material="m-white" collidable="true" visible="true"/>
+  <face-material id="top-74" host="brush-74" face="top" material="m-roof"/>
+  <box id="brush-75" position="2.5 -4 6.8" width="4.8" depth="8" height="0.25" material="m-white" collidable="true" visible="true"/>
+  <face-material id="top-75" host="brush-75" face="top" material="m-roof"/>
+  <box id="brush-76" position="-1.5 -2 3.5" width="3" depth="4" height="0.9" material="m-dark" collidable="true" visible="false"/>
+  <box id="brush-76-base" position="-1.5 -2 3.5" width="3" depth="4" height="0.76" material="m-dark" collidable="false" visible="true"/>
+  <box id="brush-76-south" position="-1.5 -2 4.26" width="3" depth="0.15" height="0.14" material="m-dark" collidable="false" visible="true"/>
+  <box id="brush-76-north" position="-1.5 1.85 4.26" width="3" depth="0.15" height="0.14" material="m-dark" collidable="false" visible="true"/>
+  <box id="brush-76-west" position="-1.5 -1.85 4.26" width="0.15" depth="3.7" height="0.14" material="m-dark" collidable="false" visible="true"/>
+  <box id="brush-76-east" position="1.35 -1.85 4.26" width="0.15" depth="3.7" height="0.14" material="m-dark" collidable="false" visible="true"/>
+  <box id="brush-78" position="-6.5 -3.7 0" width="6.5" depth="0.3" height="3.25" material="m-yellow" collidable="true" visible="true"/>
+  <box id="brush-79" position="0 3.4 0" width="6.5" depth="0.3" height="3.25" material="m-yellow" collidable="true" visible="true"/>
+  <box id="brush-80" position="6.5 7 0" width="0.5" depth="1.5" height="3.25" material="m-white" collidable="true" visible="true"/>
+  <box id="brush-81" position="6.5 4 0" width="0.5" depth="3" height="1.1" material="m-white" collidable="true" visible="true"/>
+  <box id="brush-82" position="6.5 4 2.3" width="0.5" depth="3" height="0.95" material="m-white" collidable="true" visible="true"/>
+  <box id="brush-83" position="6.5 1.5 0" width="0.5" depth="2.5" height="3.25" material="m-white" collidable="true" visible="true"/>
+  <box id="brush-84" position="6.5 -4 0" width="0.5" depth="2.5" height="3.25" material="m-white" collidable="true" visible="true"/>
+  <box id="brush-85" position="6.5 -7 0" width="0.5" depth="3" height="1.1" material="m-white" collidable="true" visible="true"/>
+  <box id="brush-86" position="6.5 -7 2.3" width="0.5" depth="3" height="0.95" material="m-white" collidable="true" visible="true"/>
+  <box id="brush-87" position="6.5 -8.5 0" width="0.5" depth="1.5" height="3.25" material="m-white" collidable="true" visible="true"/>
+  <box id="brush-90" position="-7 1.5 0" width="0.5" depth="7" height="3.25" material="m-white" collidable="true" visible="true"/>
+  <box id="brush-91" position="-7 -8.5 0" width="0.5" depth="7" height="3.25" material="m-white" collidable="true" visible="true"/>
+  <box id="brush-92" position="6.5 6.5 3.5" width="0.5" depth="2" height="3.3" material="m-white" collidable="true" visible="true"/>
+  <box id="brush-93" position="6.5 4 3.5" width="0.5" depth="2.5" height="1" material="m-white" collidable="true" visible="true"/>
+  <box id="brush-94" position="6.5 4 5.9" width="0.5" depth="2.5" height="0.9" material="m-white" collidable="true" visible="true"/>
+  <box id="brush-95" position="6.5 1.5 3.5" width="0.5" depth="2.5" height="3.3" material="m-white" collidable="true" visible="true"/>
+  <box id="brush-96" position="6.5 -4 3.5" width="0.5" depth="2.5" height="3.3" material="m-white" collidable="true" visible="true"/>
+  <box id="brush-97" position="6.5 -6.5 3.5" width="0.5" depth="2.5" height="1" material="m-white" collidable="true" visible="true"/>
+  <box id="brush-98" position="6.5 -6.5 5.9" width="0.5" depth="2.5" height="0.9" material="m-white" collidable="true" visible="true"/>
+  <box id="brush-99" position="6.5 -8.5 3.5" width="0.5" depth="2" height="3.3" material="m-white" collidable="true" visible="true"/>
+  <box id="brush-100" position="-7 1.5 3.5" width="0.5" depth="7" height="3.3" material="m-white" collidable="true" visible="false"/>
+  <box id="brush-101" position="-7 -8.5 3.5" width="0.5" depth="7" height="3.3" material="m-white" collidable="true" visible="false"/>
+  <box id="brush-102" position="23 11.4 0" width="0.6" depth="0.6" height="3.25" material="m-white" collidable="true" visible="true"/>
+  <box id="brush-103" position="23 8.3 0" width="0.6" depth="0.6" height="3.25" material="m-white" collidable="true" visible="true"/>
+  <box id="brush-104" position="23 5 0" width="0.6" depth="0.6" height="3.25" material="m-white" collidable="true" visible="true"/>
+  <box id="brush-105" position="23 1.7 0" width="0.6" depth="0.6" height="3.25" material="m-white" collidable="true" visible="true"/>
+  <box id="brush-106" position="23 -2.3 0" width="0.6" depth="0.6" height="3.25" material="m-white" collidable="true" visible="true"/>
+  <box id="brush-107" position="23 -5.6 0" width="0.6" depth="0.6" height="3.25" material="m-white" collidable="true" visible="true"/>
+  <box id="brush-108" position="23 -8.9 0" width="0.6" depth="0.6" height="3.25" material="m-white" collidable="true" visible="true"/>
+  <box id="brush-109" position="23 -12 0" width="0.6" depth="0.6" height="3.25" material="m-white" collidable="true" visible="true"/>
+  <box id="brush-110" position="23 7 3.5" width="0.15" depth="5" height="1" material="m-white" collidable="true" visible="true"/>
+  <box id="brush-111" position="23 1.5 3.5" width="0.15" depth="3.5" height="1" material="m-white" collidable="true" visible="true"/>
+  <box id="brush-112" position="23 -5 3.5" width="0.15" depth="3.5" height="1" material="m-white" collidable="true" visible="true"/>
+  <box id="brush-113" position="23 -12 3.5" width="0.15" depth="5" height="1" material="m-white" collidable="true" visible="true"/>
+  <box id="brush-114" position="26 -0.3 3.5" width="5" depth="0.6" height="3" material="m-teal" collidable="true" visible="true"/>
+  <box id="brush-115" position="30.9 -12 0" width="0.1" depth="24" height="3.25" material="m-teal" collidable="false" visible="true"/>
+  <box id="brush-116" position="23.6 -12 0" width="0.6" depth="24" height="0.02" material="m-teal" collidable="false" visible="true"/>
+  <box id="brush-117" position="26.4 7.9 3.19" width="0.9" depth="3.2" height="0.06" material="m-lamp" collidable="false" visible="true"/>
+  <box id="brush-118" position="26.4 1.9 3.19" width="0.9" depth="3.2" height="0.06" material="m-lamp" collidable="false" visible="true"/>
+  <box id="brush-119" position="26.4 -5.1 3.19" width="0.9" depth="3.2" height="0.06" material="m-lamp" collidable="false" visible="true"/>
+  <box id="brush-120" position="26.4 -11.1 3.19" width="0.9" depth="3.2" height="0.06" material="m-lamp" collidable="false" visible="true"/>
+  <box id="brush-121" position="13 -0.4 3.19" width="3" depth="0.8" height="0.06" material="m-lamp" collidable="false" visible="true"/>
+  <box id="brush-122" position="25 4.4 0" width="1.85" depth="1.2" height="2.2" material="m-teal" collidable="true" visible="true"/>
+  <box id="brush-123" position="28.4 7 0" width="1.8" depth="1.2" height="1.1" material="m-wood" collidable="true" visible="true"/>
+  <box id="brush-124" position="23.6 -5.6 0" width="2.4" depth="1.2" height="2.2" material="m-teal" collidable="true" visible="true"/>
+  <box id="brush-125" position="28.4 -8.2 0" width="1.8" depth="1.2" height="1.1" material="m-wood" collidable="true" visible="true"/>
+  <box id="brush-126" position="8.9 4.8 0" width="2.1" depth="1.4" height="2.2" material="m-wood" collidable="true" visible="true"/>
+  <box id="brush-127" position="7 -6.2 0" width="2.1" depth="1.4" height="2.2" material="m-wood" collidable="true" visible="true"/>
+  <box id="brush-134" position="-31 -13 -0.3" width="0.05" depth="26" height="0.3" material="m-yellow" collidable="false" visible="true"/>
+  <box id="brush-135" position="-19.05 2 -0.3" width="0.05" depth="7" height="0.3" material="m-yellow" collidable="false" visible="true"/>
+  <box id="brush-136" position="-19.05 -9 -0.3" width="0.05" depth="7" height="0.3" material="m-yellow" collidable="false" visible="true"/>
+  <box id="brush-137" position="23.3 1.6 3.5" width="0.3" depth="10.2" height="0.02" material="m-teal" collidable="false" visible="true"/>
+  <box id="brush-138" position="23.3 -11.8 3.5" width="0.3" depth="10.2" height="0.02" material="m-teal" collidable="false" visible="true"/>
+  <box id="brush-139" position="30.3 4.5 3.88" width="0.5" depth="3" height="0.08" material="m-wood" collidable="false" visible="true"/>
+  <box id="brush-140" position="30.35 7.25 3.5" width="0.4" depth="0.1" height="0.38" material="m-dark" collidable="false" visible="true"/>
+  <box id="brush-141" position="30.35 4.65 3.5" width="0.4" depth="0.1" height="0.38" material="m-dark" collidable="false" visible="true"/>
+  <box id="brush-142" position="30.3 -7.5 3.88" width="0.5" depth="3" height="0.08" material="m-wood" collidable="false" visible="true"/>
+  <box id="brush-143" position="30.35 -4.75 3.5" width="0.4" depth="0.1" height="0.38" material="m-dark" collidable="false" visible="true"/>
+  <box id="brush-144" position="30.35 -7.35 3.5" width="0.4" depth="0.1" height="0.38" material="m-dark" collidable="false" visible="true"/>
+  <box id="brush-145" position="22.96 6.96 4.5" width="0.23" depth="5.08" height="0.07" material="m-dark" collidable="false" visible="true"/>
+  <box id="brush-146" position="22.96 1.46 4.5" width="0.23" depth="3.58" height="0.07" material="m-dark" collidable="false" visible="true"/>
+  <box id="brush-147" position="22.96 -5.04 4.5" width="0.23" depth="3.58" height="0.07" material="m-dark" collidable="false" visible="true"/>
+  <box id="brush-148" position="22.96 -12.04 4.5" width="0.23" depth="5.08" height="0.07" material="m-dark" collidable="false" visible="true"/>
+  <box id="brush-149" position="25.96 -0.34 6.5" width="5.08" depth="0.68" height="0.07" material="m-dark" collidable="false" visible="false"/>
+  <box id="brush-149-finish-0" position="25.96 -0.34 6.5" width="5.04" depth="0.68" height="0.07" material="m-dark" collidable="false" visible="true"/>
+  <box id="brush-149-finish-1" position="31 -0.34 6.5" width="0.04" depth="0.09" height="0.07" material="m-dark" collidable="false" visible="true"/>
+  <box id="brush-150" position="6.96 1.31 4.5" width="16.08" depth="0.23" height="0.07" material="m-white" collidable="false" visible="true"/>
+  <box id="brush-151" position="6.96 -1.54 4.5" width="16.08" depth="0.23" height="0.07" material="m-white" collidable="false" visible="true"/>
+  <box id="brush-156" position="-31 20 -4" width="62" depth="11" height="4" material="m-floor" collidable="true" visible="true"/>
+  <box id="brush-157" position="-10 9 -4" width="20" depth="11" height="4" material="m-floor" collidable="true" visible="true"/>
+  <box id="brush-158" position="-31 13 -4" width="12" depth="7" height="4" material="m-floor" collidable="true" visible="true"/>
+  <box id="brush-159" position="-19 14 -4" width="3" depth="4" height="4" material="m-floor" collidable="true" visible="true"/>
+  <box id="brush-160" position="16 14 -4" width="3" depth="4" height="4" material="m-floor" collidable="true" visible="true"/>
+  <box id="brush-161" position="-31 9 -4" width="12" depth="0.125" height="2.0625" material="m-white" collidable="true" visible="false"/>
+  <box id="brush-162" position="-31 9.125 -4" width="12" depth="0.125" height="2.125" material="m-white" collidable="true" visible="false"/>
+  <box id="brush-163" position="-31 9.25 -4" width="12" depth="0.125" height="2.1875" material="m-white" collidable="true" visible="false"/>
+  <box id="brush-164" position="-31 9.375 -4" width="12" depth="0.125" height="2.25" material="m-white" collidable="true" visible="false"/>
+  <box id="brush-165" position="-31 9.5 -4" width="12" depth="0.125" height="2.3125" material="m-white" collidable="true" visible="false"/>
+  <box id="brush-166" position="-31 9.625 -4" width="12" depth="0.125" height="2.375" material="m-white" collidable="true" visible="false"/>
+  <box id="brush-167" position="-31 9.75 -4" width="12" depth="0.125" height="2.4375" material="m-white" collidable="true" visible="false"/>
+  <box id="brush-168" position="-31 9.875 -4" width="12" depth="0.125" height="2.5" material="m-white" collidable="true" visible="false"/>
+  <box id="brush-169" position="-31 10 -4" width="12" depth="0.125" height="2.5625" material="m-white" collidable="true" visible="false"/>
+  <box id="brush-170" position="-31 10.125 -4" width="12" depth="0.125" height="2.625" material="m-white" collidable="true" visible="false"/>
+  <box id="brush-171" position="-31 10.25 -4" width="12" depth="0.125" height="2.6875" material="m-white" collidable="true" visible="false"/>
+  <box id="brush-172" position="-31 10.375 -4" width="12" depth="0.125" height="2.75" material="m-white" collidable="true" visible="false"/>
+  <box id="brush-173" position="-31 10.5 -4" width="12" depth="0.125" height="2.8125" material="m-white" collidable="true" visible="false"/>
+  <box id="brush-174" position="-31 10.625 -4" width="12" depth="0.125" height="2.875" material="m-white" collidable="true" visible="false"/>
+  <box id="brush-175" position="-31 10.75 -4" width="12" depth="0.125" height="2.9375" material="m-white" collidable="true" visible="false"/>
+  <box id="brush-176" position="-31 10.875 -4" width="12" depth="0.125" height="3" material="m-white" collidable="true" visible="false"/>
+  <box id="brush-177" position="-31 11 -4" width="12" depth="0.125" height="3.0625" material="m-white" collidable="true" visible="false"/>
+  <box id="brush-178" position="-31 11.125 -4" width="12" depth="0.125" height="3.125" material="m-white" collidable="true" visible="false"/>
+  <box id="brush-179" position="-31 11.25 -4" width="12" depth="0.125" height="3.1875" material="m-white" collidable="true" visible="false"/>
+  <box id="brush-180" position="-31 11.375 -4" width="12" depth="0.125" height="3.25" material="m-white" collidable="true" visible="false"/>
+  <box id="brush-181" position="-31 11.5 -4" width="12" depth="0.125" height="3.3125" material="m-white" collidable="true" visible="false"/>
+  <box id="brush-182" position="-31 11.625 -4" width="12" depth="0.125" height="3.375" material="m-white" collidable="true" visible="false"/>
+  <box id="brush-183" position="-31 11.75 -4" width="12" depth="0.125" height="3.4375" material="m-white" collidable="true" visible="false"/>
+  <box id="brush-184" position="-31 11.875 -4" width="12" depth="0.125" height="3.5" material="m-white" collidable="true" visible="false"/>
+  <box id="brush-185" position="-31 12 -4" width="12" depth="0.125" height="3.5625" material="m-white" collidable="true" visible="false"/>
+  <box id="brush-186" position="-31 12.125 -4" width="12" depth="0.125" height="3.625" material="m-white" collidable="true" visible="false"/>
+  <box id="brush-187" position="-31 12.25 -4" width="12" depth="0.125" height="3.6875" material="m-white" collidable="true" visible="false"/>
+  <box id="brush-188" position="-31 12.375 -4" width="12" depth="0.125" height="3.75" material="m-white" collidable="true" visible="false"/>
+  <box id="brush-189" position="-31 12.5 -4" width="12" depth="0.125" height="3.8125" material="m-white" collidable="true" visible="false"/>
+  <box id="brush-190" position="-31 12.625 -4" width="12" depth="0.125" height="3.875" material="m-white" collidable="true" visible="false"/>
+  <box id="brush-191" position="-31 12.75 -4" width="12" depth="0.125" height="3.9375" material="m-white" collidable="true" visible="false"/>
+  <box id="brush-192" position="-31 12.875 -4" width="12" depth="0.125" height="4" material="m-white" collidable="true" visible="false"/>
+  <box id="brush-193" position="-31 9 -4" width="12" depth="0.25" height="2.0938" material="m-yellow" collidable="false" visible="true"/>
+  <box id="brush-194" position="-31 9.25 -4" width="12" depth="0.25" height="2.2188" material="m-white" collidable="false" visible="true"/>
+  <box id="brush-195" position="-31 9.5 -4" width="12" depth="0.25" height="2.3438" material="m-white" collidable="false" visible="true"/>
+  <box id="brush-196" position="-31 9.75 -4" width="12" depth="0.25" height="2.4688" material="m-white" collidable="false" visible="true"/>
+  <box id="brush-197" position="-31 10 -4" width="12" depth="0.25" height="2.5938" material="m-white" collidable="false" visible="true"/>
+  <box id="brush-198" position="-31 10.25 -4" width="12" depth="0.25" height="2.7188" material="m-white" collidable="false" visible="true"/>
+  <box id="brush-199" position="-31 10.5 -4" width="12" depth="0.25" height="2.8438" material="m-white" collidable="false" visible="true"/>
+  <box id="brush-200" position="-31 10.75 -4" width="12" depth="0.25" height="2.9688" material="m-white" collidable="false" visible="true"/>
+  <box id="brush-201" position="-31 11 -4" width="12" depth="0.25" height="3.0938" material="m-white" collidable="false" visible="true"/>
+  <box id="brush-202" position="-31 11.25 -4" width="12" depth="0.25" height="3.2188" material="m-white" collidable="false" visible="true"/>
+  <box id="brush-203" position="-31 11.5 -4" width="12" depth="0.25" height="3.3438" material="m-white" collidable="false" visible="true"/>
+  <box id="brush-204" position="-31 11.75 -4" width="12" depth="0.25" height="3.4688" material="m-white" collidable="false" visible="true"/>
+  <box id="brush-205" position="-31 12 -4" width="12" depth="0.25" height="3.5938" material="m-white" collidable="false" visible="true"/>
+  <box id="brush-206" position="-31 12.25 -4" width="12" depth="0.25" height="3.7188" material="m-white" collidable="false" visible="true"/>
+  <box id="brush-207" position="-31 12.5 -4" width="12" depth="0.25" height="3.8438" material="m-white" collidable="false" visible="true"/>
+  <box id="brush-208" position="-31 12.75 -4" width="12" depth="0.25" height="3.9688" material="m-yellow" collidable="false" visible="true"/>
+  <box id="brush-209" position="-10 8.875 -4" width="3" depth="0.125" height="4.0625" material="m-white" collidable="true" visible="false"/>
+  <box id="brush-210" position="-10 8.75 -4" width="3" depth="0.125" height="4.125" material="m-white" collidable="true" visible="false"/>
+  <box id="brush-211" position="-10 8.625 -4" width="3" depth="0.125" height="4.1875" material="m-white" collidable="true" visible="false"/>
+  <box id="brush-212" position="-10 8.5 -4" width="3" depth="0.125" height="4.25" material="m-white" collidable="true" visible="false"/>
+  <box id="brush-213" position="-10 8.375 -4" width="3" depth="0.125" height="4.3125" material="m-white" collidable="true" visible="false"/>
+  <box id="brush-214" position="-10 8.25 -4" width="3" depth="0.125" height="4.375" material="m-white" collidable="true" visible="false"/>
+  <box id="brush-215" position="-10 8.125 -4" width="3" depth="0.125" height="4.4375" material="m-white" collidable="true" visible="false"/>
+  <box id="brush-216" position="-10 8 -4" width="3" depth="0.125" height="4.5" material="m-white" collidable="true" visible="false"/>
+  <box id="brush-217" position="-10 7.875 -4" width="3" depth="0.125" height="4.5625" material="m-white" collidable="true" visible="false"/>
+  <box id="brush-218" position="-10 7.75 -4" width="3" depth="0.125" height="4.625" material="m-white" collidable="true" visible="false"/>
+  <box id="brush-219" position="-10 7.625 -4" width="3" depth="0.125" height="4.6875" material="m-white" collidable="true" visible="false"/>
+  <box id="brush-220" position="-10 7.5 -4" width="3" depth="0.125" height="4.75" material="m-white" collidable="true" visible="false"/>
+  <box id="brush-221" position="-10 7.375 -4" width="3" depth="0.125" height="4.8125" material="m-white" collidable="true" visible="false"/>
+  <box id="brush-222" position="-10 7.25 -4" width="3" depth="0.125" height="4.875" material="m-white" collidable="true" visible="false"/>
+  <box id="brush-223" position="-10 7.125 -4" width="3" depth="0.125" height="4.9375" material="m-white" collidable="true" visible="false"/>
+  <box id="brush-224" position="-10 7 -4" width="3" depth="0.125" height="5" material="m-white" collidable="true" visible="false"/>
+  <box id="brush-225" position="-10 6.875 -4" width="3" depth="0.125" height="5.0625" material="m-white" collidable="true" visible="false"/>
+  <box id="brush-226" position="-10 6.75 -4" width="3" depth="0.125" height="5.125" material="m-white" collidable="true" visible="false"/>
+  <box id="brush-227" position="-10 6.625 -4" width="3" depth="0.125" height="5.1875" material="m-white" collidable="true" visible="false"/>
+  <box id="brush-228" position="-10 6.5 -4" width="3" depth="0.125" height="5.25" material="m-white" collidable="true" visible="false"/>
+  <box id="brush-229" position="-10 6.375 -4" width="3" depth="0.125" height="5.3125" material="m-white" collidable="true" visible="false"/>
+  <box id="brush-230" position="-10 6.25 -4" width="3" depth="0.125" height="5.375" material="m-white" collidable="true" visible="false"/>
+  <box id="brush-231" position="-10 6.125 -4" width="3" depth="0.125" height="5.4375" material="m-white" collidable="true" visible="false"/>
+  <box id="brush-232" position="-10 6 -4" width="3" depth="0.125" height="5.5" material="m-white" collidable="true" visible="false"/>
+  <box id="brush-233" position="-10 5.875 -4" width="3" depth="0.125" height="5.5625" material="m-white" collidable="true" visible="false"/>
+  <box id="brush-234" position="-10 5.75 -4" width="3" depth="0.125" height="5.625" material="m-white" collidable="true" visible="false"/>
+  <box id="brush-235" position="-10 5.625 -4" width="3" depth="0.125" height="5.6875" material="m-white" collidable="true" visible="false"/>
+  <box id="brush-236" position="-10 5.5 -4" width="3" depth="0.125" height="5.75" material="m-white" collidable="true" visible="false"/>
+  <box id="brush-237" position="-10 5.375 -4" width="3" depth="0.125" height="5.8125" material="m-white" collidable="true" visible="false"/>
+  <box id="brush-238" position="-10 5.25 -4" width="3" depth="0.125" height="5.875" material="m-white" collidable="true" visible="false"/>
+  <box id="brush-239" position="-10 5.125 -4" width="3" depth="0.125" height="5.9375" material="m-white" collidable="true" visible="false"/>
+  <box id="brush-240" position="-10 5 -4" width="3" depth="0.125" height="6" material="m-white" collidable="true" visible="false"/>
+  <box id="brush-241" position="-10 4.875 -4" width="3" depth="0.125" height="6.0625" material="m-white" collidable="true" visible="false"/>
+  <box id="brush-242" position="-10 4.75 -4" width="3" depth="0.125" height="6.125" material="m-white" collidable="true" visible="false"/>
+  <box id="brush-243" position="-10 4.625 -4" width="3" depth="0.125" height="6.1875" material="m-white" collidable="true" visible="false"/>
+  <box id="brush-244" position="-10 4.5 -4" width="3" depth="0.125" height="6.25" material="m-white" collidable="true" visible="false"/>
+  <box id="brush-245" position="-10 4.375 -4" width="3" depth="0.125" height="6.3125" material="m-white" collidable="true" visible="false"/>
+  <box id="brush-246" position="-10 4.25 -4" width="3" depth="0.125" height="6.375" material="m-white" collidable="true" visible="false"/>
+  <box id="brush-247" position="-10 4.125 -4" width="3" depth="0.125" height="6.4375" material="m-white" collidable="true" visible="false"/>
+  <box id="brush-248" position="-10 4 -4" width="3" depth="0.125" height="6.5" material="m-white" collidable="true" visible="false"/>
+  <box id="brush-249" position="-10 3.875 -4" width="3" depth="0.125" height="6.5625" material="m-white" collidable="true" visible="false"/>
+  <box id="brush-250" position="-10 3.75 -4" width="3" depth="0.125" height="6.625" material="m-white" collidable="true" visible="false"/>
+  <box id="brush-251" position="-10 3.625 -4" width="3" depth="0.125" height="6.6875" material="m-white" collidable="true" visible="false"/>
+  <box id="brush-252" position="-10 3.5 -4" width="3" depth="0.125" height="6.75" material="m-white" collidable="true" visible="false"/>
+  <box id="brush-253" position="-10 3.375 -4" width="3" depth="0.125" height="6.8125" material="m-white" collidable="true" visible="false"/>
+  <box id="brush-254" position="-10 3.25 -4" width="3" depth="0.125" height="6.875" material="m-white" collidable="true" visible="false"/>
+  <box id="brush-255" position="-10 3.125 -4" width="3" depth="0.125" height="6.9375" material="m-white" collidable="true" visible="false"/>
+  <box id="brush-256" position="-10 3 -4" width="3" depth="0.125" height="7" material="m-white" collidable="true" visible="false"/>
+  <box id="brush-257" position="-10 2.875 -4" width="3" depth="0.125" height="7.0625" material="m-white" collidable="true" visible="false"/>
+  <box id="brush-258" position="-10 2.75 -4" width="3" depth="0.125" height="7.125" material="m-white" collidable="true" visible="false"/>
+  <box id="brush-259" position="-10 2.625 -4" width="3" depth="0.125" height="7.1875" material="m-white" collidable="true" visible="false"/>
+  <box id="brush-260" position="-10 2.5 -4" width="3" depth="0.125" height="7.25" material="m-white" collidable="true" visible="false"/>
+  <box id="brush-261" position="-10 2.375 -4" width="3" depth="0.125" height="7.3125" material="m-white" collidable="true" visible="false"/>
+  <box id="brush-262" position="-10 2.25 -4" width="3" depth="0.125" height="7.375" material="m-white" collidable="true" visible="false"/>
+  <box id="brush-263" position="-10 2.125 -4" width="3" depth="0.125" height="7.4375" material="m-white" collidable="true" visible="false"/>
+  <box id="brush-264" position="-10 2 -4" width="3" depth="0.125" height="7.5" material="m-white" collidable="true" visible="false"/>
+  <box id="brush-265" position="-10 8.75 -4" width="3" depth="0.25" height="4.0938" material="m-orange" collidable="false" visible="true"/>
+  <box id="brush-266" position="-10 8.5 -4" width="3" depth="0.25" height="4.2188" material="m-white" collidable="false" visible="true"/>
+  <box id="brush-267" position="-10 8.25 -4" width="3" depth="0.25" height="4.3438" material="m-white" collidable="false" visible="true"/>
+  <box id="brush-268" position="-10 8 -4" width="3" depth="0.25" height="4.4688" material="m-white" collidable="false" visible="true"/>
+  <box id="brush-269" position="-10 7.75 -4" width="3" depth="0.25" height="4.5938" material="m-white" collidable="false" visible="true"/>
+  <box id="brush-270" position="-10 7.5 -4" width="3" depth="0.25" height="4.7188" material="m-white" collidable="false" visible="true"/>
+  <box id="brush-271" position="-10 7.25 -4" width="3" depth="0.25" height="4.8438" material="m-white" collidable="false" visible="true"/>
+  <box id="brush-272" position="-10 7 -4" width="3" depth="0.25" height="4.9688" material="m-white" collidable="false" visible="true"/>
+  <box id="brush-273" position="-10 6.75 -4" width="3" depth="0.25" height="5.0938" material="m-white" collidable="false" visible="true"/>
+  <box id="brush-274" position="-10 6.5 -4" width="3" depth="0.25" height="5.2188" material="m-white" collidable="false" visible="true"/>
+  <box id="brush-275" position="-10 6.25 -4" width="3" depth="0.25" height="5.3438" material="m-white" collidable="false" visible="true"/>
+  <box id="brush-276" position="-10 6 -4" width="3" depth="0.25" height="5.4688" material="m-white" collidable="false" visible="true"/>
+  <box id="brush-277" position="-10 5.75 -4" width="3" depth="0.25" height="5.5938" material="m-white" collidable="false" visible="true"/>
+  <box id="brush-278" position="-10 5.5 -4" width="3" depth="0.25" height="5.7188" material="m-white" collidable="false" visible="true"/>
+  <box id="brush-279" position="-10 5.25 -4" width="3" depth="0.25" height="5.8438" material="m-white" collidable="false" visible="true"/>
+  <box id="brush-280" position="-10 5 -4" width="3" depth="0.25" height="5.9688" material="m-white" collidable="false" visible="true"/>
+  <box id="brush-281" position="-10 4.75 -4" width="3" depth="0.25" height="6.0938" material="m-white" collidable="false" visible="true"/>
+  <box id="brush-282" position="-10 4.5 -4" width="3" depth="0.25" height="6.2188" material="m-white" collidable="false" visible="true"/>
+  <box id="brush-283" position="-10 4.25 -4" width="3" depth="0.25" height="6.3438" material="m-white" collidable="false" visible="true"/>
+  <box id="brush-284" position="-10 4 -4" width="3" depth="0.25" height="6.4688" material="m-white" collidable="false" visible="true"/>
+  <box id="brush-285" position="-10 3.75 -4" width="3" depth="0.25" height="6.5938" material="m-white" collidable="false" visible="true"/>
+  <box id="brush-286" position="-10 3.5 -4" width="3" depth="0.25" height="6.7188" material="m-white" collidable="false" visible="true"/>
+  <box id="brush-287" position="-10 3.25 -4" width="3" depth="0.25" height="6.8438" material="m-white" collidable="false" visible="true"/>
+  <box id="brush-288" position="-10 3 -4" width="3" depth="0.25" height="6.9688" material="m-white" collidable="false" visible="true"/>
+  <box id="brush-289" position="-10 2.75 -4" width="3" depth="0.25" height="7.0938" material="m-white" collidable="false" visible="true"/>
+  <box id="brush-290" position="-10 2.5 -4" width="3" depth="0.25" height="7.2188" material="m-white" collidable="false" visible="true"/>
+  <box id="brush-291" position="-10 2.25 -4" width="3" depth="0.25" height="7.3438" material="m-white" collidable="false" visible="true"/>
+  <box id="brush-292" position="-10 2 -4" width="3" depth="0.25" height="7.4688" material="m-orange" collidable="false" visible="true"/>
+  <box id="brush-293" position="27 18.875 -4" width="4" depth="0.125" height="4.0625" material="m-white" collidable="true" visible="false"/>
+  <box id="brush-294" position="27 18.75 -4" width="4" depth="0.125" height="4.125" material="m-white" collidable="true" visible="false"/>
+  <box id="brush-295" position="27 18.625 -4" width="4" depth="0.125" height="4.1875" material="m-white" collidable="true" visible="false"/>
+  <box id="brush-296" position="27 18.5 -4" width="4" depth="0.125" height="4.25" material="m-white" collidable="true" visible="false"/>
+  <box id="brush-297" position="27 18.375 -4" width="4" depth="0.125" height="4.3125" material="m-white" collidable="true" visible="false"/>
+  <box id="brush-298" position="27 18.25 -4" width="4" depth="0.125" height="4.375" material="m-white" collidable="true" visible="false"/>
+  <box id="brush-299" position="27 18.125 -4" width="4" depth="0.125" height="4.4375" material="m-white" collidable="true" visible="false"/>
+  <box id="brush-300" position="27 18 -4" width="4" depth="0.125" height="4.5" material="m-white" collidable="true" visible="false"/>
+  <box id="brush-301" position="27 17.875 -4" width="4" depth="0.125" height="4.5625" material="m-white" collidable="true" visible="false"/>
+  <box id="brush-302" position="27 17.75 -4" width="4" depth="0.125" height="4.625" material="m-white" collidable="true" visible="false"/>
+  <box id="brush-303" position="27 17.625 -4" width="4" depth="0.125" height="4.6875" material="m-white" collidable="true" visible="false"/>
+  <box id="brush-304" position="27 17.5 -4" width="4" depth="0.125" height="4.75" material="m-white" collidable="true" visible="false"/>
+  <box id="brush-305" position="27 17.375 -4" width="4" depth="0.125" height="4.8125" material="m-white" collidable="true" visible="false"/>
+  <box id="brush-306" position="27 17.25 -4" width="4" depth="0.125" height="4.875" material="m-white" collidable="true" visible="false"/>
+  <box id="brush-307" position="27 17.125 -4" width="4" depth="0.125" height="4.9375" material="m-white" collidable="true" visible="false"/>
+  <box id="brush-308" position="27 17 -4" width="4" depth="0.125" height="5" material="m-white" collidable="true" visible="false"/>
+  <box id="brush-309" position="27 16.875 -4" width="4" depth="0.125" height="5.0625" material="m-white" collidable="true" visible="false"/>
+  <box id="brush-310" position="27 16.75 -4" width="4" depth="0.125" height="5.125" material="m-white" collidable="true" visible="false"/>
+  <box id="brush-311" position="27 16.625 -4" width="4" depth="0.125" height="5.1875" material="m-white" collidable="true" visible="false"/>
+  <box id="brush-312" position="27 16.5 -4" width="4" depth="0.125" height="5.25" material="m-white" collidable="true" visible="false"/>
+  <box id="brush-313" position="27 16.375 -4" width="4" depth="0.125" height="5.3125" material="m-white" collidable="true" visible="false"/>
+  <box id="brush-314" position="27 16.25 -4" width="4" depth="0.125" height="5.375" material="m-white" collidable="true" visible="false"/>
+  <box id="brush-315" position="27 16.125 -4" width="4" depth="0.125" height="5.4375" material="m-white" collidable="true" visible="false"/>
+  <box id="brush-316" position="27 16 -4" width="4" depth="0.125" height="5.5" material="m-white" collidable="true" visible="false"/>
+  <box id="brush-317" position="27 15.875 -4" width="4" depth="0.125" height="5.5625" material="m-white" collidable="true" visible="false"/>
+  <box id="brush-318" position="27 15.75 -4" width="4" depth="0.125" height="5.625" material="m-white" collidable="true" visible="false"/>
+  <box id="brush-319" position="27 15.625 -4" width="4" depth="0.125" height="5.6875" material="m-white" collidable="true" visible="false"/>
+  <box id="brush-320" position="27 15.5 -4" width="4" depth="0.125" height="5.75" material="m-white" collidable="true" visible="false"/>
+  <box id="brush-321" position="27 15.375 -4" width="4" depth="0.125" height="5.8125" material="m-white" collidable="true" visible="false"/>
+  <box id="brush-322" position="27 15.25 -4" width="4" depth="0.125" height="5.875" material="m-white" collidable="true" visible="false"/>
+  <box id="brush-323" position="27 15.125 -4" width="4" depth="0.125" height="5.9375" material="m-white" collidable="true" visible="false"/>
+  <box id="brush-324" position="27 15 -4" width="4" depth="0.125" height="6" material="m-white" collidable="true" visible="false"/>
+  <box id="brush-325" position="27 14.875 -4" width="4" depth="0.125" height="6.0625" material="m-white" collidable="true" visible="false"/>
+  <box id="brush-326" position="27 14.75 -4" width="4" depth="0.125" height="6.125" material="m-white" collidable="true" visible="false"/>
+  <box id="brush-327" position="27 14.625 -4" width="4" depth="0.125" height="6.1875" material="m-white" collidable="true" visible="false"/>
+  <box id="brush-328" position="27 14.5 -4" width="4" depth="0.125" height="6.25" material="m-white" collidable="true" visible="false"/>
+  <box id="brush-329" position="27 14.375 -4" width="4" depth="0.125" height="6.3125" material="m-white" collidable="true" visible="false"/>
+  <box id="brush-330" position="27 14.25 -4" width="4" depth="0.125" height="6.375" material="m-white" collidable="true" visible="false"/>
+  <box id="brush-331" position="27 14.125 -4" width="4" depth="0.125" height="6.4375" material="m-white" collidable="true" visible="false"/>
+  <box id="brush-332" position="27 14 -4" width="4" depth="0.125" height="6.5" material="m-white" collidable="true" visible="false"/>
+  <box id="brush-333" position="27 13.875 -4" width="4" depth="0.125" height="6.5625" material="m-white" collidable="true" visible="false"/>
+  <box id="brush-334" position="27 13.75 -4" width="4" depth="0.125" height="6.625" material="m-white" collidable="true" visible="false"/>
+  <box id="brush-335" position="27 13.625 -4" width="4" depth="0.125" height="6.6875" material="m-white" collidable="true" visible="false"/>
+  <box id="brush-336" position="27 13.5 -4" width="4" depth="0.125" height="6.75" material="m-white" collidable="true" visible="false"/>
+  <box id="brush-337" position="27 13.375 -4" width="4" depth="0.125" height="6.8125" material="m-white" collidable="true" visible="false"/>
+  <box id="brush-338" position="27 13.25 -4" width="4" depth="0.125" height="6.875" material="m-white" collidable="true" visible="false"/>
+  <box id="brush-339" position="27 13.125 -4" width="4" depth="0.125" height="6.9375" material="m-white" collidable="true" visible="false"/>
+  <box id="brush-340" position="27 13 -4" width="4" depth="0.125" height="7" material="m-white" collidable="true" visible="false"/>
+  <box id="brush-341" position="27 12.875 -4" width="4" depth="0.125" height="7.0625" material="m-white" collidable="true" visible="false"/>
+  <box id="brush-342" position="27 12.75 -4" width="4" depth="0.125" height="7.125" material="m-white" collidable="true" visible="false"/>
+  <box id="brush-343" position="27 12.625 -4" width="4" depth="0.125" height="7.1875" material="m-white" collidable="true" visible="false"/>
+  <box id="brush-344" position="27 12.5 -4" width="4" depth="0.125" height="7.25" material="m-white" collidable="true" visible="false"/>
+  <box id="brush-345" position="27 12.375 -4" width="4" depth="0.125" height="7.3125" material="m-white" collidable="true" visible="false"/>
+  <box id="brush-346" position="27 12.25 -4" width="4" depth="0.125" height="7.375" material="m-white" collidable="true" visible="false"/>
+  <box id="brush-347" position="27 12.125 -4" width="4" depth="0.125" height="7.4375" material="m-white" collidable="true" visible="false"/>
+  <box id="brush-348" position="27 12 -4" width="4" depth="0.125" height="7.5" material="m-white" collidable="true" visible="false"/>
+  <box id="brush-349" position="27 18.75 -4" width="4" depth="0.25" height="4.0938" material="m-teal" collidable="false" visible="true"/>
+  <box id="brush-350" position="27 18.5 -4" width="4" depth="0.25" height="4.2188" material="m-white" collidable="false" visible="true"/>
+  <box id="brush-351" position="27 18.25 -4" width="4" depth="0.25" height="4.3438" material="m-white" collidable="false" visible="true"/>
+  <box id="brush-352" position="27 18 -4" width="4" depth="0.25" height="4.4688" material="m-white" collidable="false" visible="true"/>
+  <box id="brush-353" position="27 17.75 -4" width="4" depth="0.25" height="4.5938" material="m-white" collidable="false" visible="true"/>
+  <box id="brush-354" position="27 17.5 -4" width="4" depth="0.25" height="4.7188" material="m-white" collidable="false" visible="true"/>
+  <box id="brush-355" position="27 17.25 -4" width="4" depth="0.25" height="4.8438" material="m-white" collidable="false" visible="true"/>
+  <box id="brush-356" position="27 17 -4" width="4" depth="0.25" height="4.9688" material="m-white" collidable="false" visible="true"/>
+  <box id="brush-357" position="27 16.75 -4" width="4" depth="0.25" height="5.0938" material="m-white" collidable="false" visible="true"/>
+  <box id="brush-358" position="27 16.5 -4" width="4" depth="0.25" height="5.2188" material="m-white" collidable="false" visible="true"/>
+  <box id="brush-359" position="27 16.25 -4" width="4" depth="0.25" height="5.3438" material="m-white" collidable="false" visible="true"/>
+  <box id="brush-360" position="27 16 -4" width="4" depth="0.25" height="5.4688" material="m-white" collidable="false" visible="true"/>
+  <box id="brush-361" position="27 15.75 -4" width="4" depth="0.25" height="5.5938" material="m-white" collidable="false" visible="true"/>
+  <box id="brush-362" position="27 15.5 -4" width="4" depth="0.25" height="5.7188" material="m-white" collidable="false" visible="true"/>
+  <box id="brush-363" position="27 15.25 -4" width="4" depth="0.25" height="5.8438" material="m-white" collidable="false" visible="true"/>
+  <box id="brush-364" position="27 15 -4" width="4" depth="0.25" height="5.9688" material="m-white" collidable="false" visible="true"/>
+  <box id="brush-365" position="27 14.75 -4" width="4" depth="0.25" height="6.0938" material="m-white" collidable="false" visible="true"/>
+  <box id="brush-366" position="27 14.5 -4" width="4" depth="0.25" height="6.2188" material="m-white" collidable="false" visible="true"/>
+  <box id="brush-367" position="27 14.25 -4" width="4" depth="0.25" height="6.3438" material="m-white" collidable="false" visible="true"/>
+  <box id="brush-368" position="27 14 -4" width="4" depth="0.25" height="6.4688" material="m-white" collidable="false" visible="true"/>
+  <box id="brush-369" position="27 13.75 -4" width="4" depth="0.25" height="6.5938" material="m-white" collidable="false" visible="true"/>
+  <box id="brush-370" position="27 13.5 -4" width="4" depth="0.25" height="6.7188" material="m-white" collidable="false" visible="true"/>
+  <box id="brush-371" position="27 13.25 -4" width="4" depth="0.25" height="6.8438" material="m-white" collidable="false" visible="true"/>
+  <box id="brush-372" position="27 13 -4" width="4" depth="0.25" height="6.9688" material="m-white" collidable="false" visible="true"/>
+  <box id="brush-373" position="27 12.75 -4" width="4" depth="0.25" height="7.0938" material="m-white" collidable="false" visible="true"/>
+  <box id="brush-374" position="27 12.5 -4" width="4" depth="0.25" height="7.2188" material="m-white" collidable="false" visible="true"/>
+  <box id="brush-375" position="27 12.25 -4" width="4" depth="0.25" height="7.3438" material="m-white" collidable="false" visible="true"/>
+  <box id="brush-376" position="27 12 -4" width="4" depth="0.25" height="7.4688" material="m-teal" collidable="false" visible="true"/>
+  <box id="brush-377" position="26.85 17.25 0" width="0.15" depth="1.75" height="1.875" material="m-white" collidable="true" visible="true"/>
+  <box id="brush-378" position="26.85 15.5 0" width="0.15" depth="1.75" height="2.75" material="m-white" collidable="true" visible="true"/>
+  <box id="brush-379" position="26.85 13.75 0" width="0.15" depth="1.75" height="3.625" material="m-white" collidable="true" visible="true"/>
+  <box id="brush-380" position="26.85 12 0" width="0.15" depth="1.75" height="4.5" material="m-white" collidable="true" visible="true"/>
+  <box id="brush-381" position="23 11.85 3.5" width="4" depth="0.15" height="1" material="m-white" collidable="true" visible="true"/>
+  <box id="brush-382" position="-7 8.5 0" width="1" depth="0.5" height="3.25" material="m-white" collidable="true" visible="true"/>
+  <box id="brush-383" position="-6 8.5 0" width="3" depth="0.5" height="1.1" material="m-white" collidable="true" visible="true"/>
+  <box id="brush-384" position="-6 8.5 2.3" width="3" depth="0.5" height="0.95" material="m-white" collidable="true" visible="true"/>
+  <box id="brush-385" position="-3 8.5 0" width="1.5" depth="0.5" height="3.25" material="m-white" collidable="true" visible="true"/>
+  <box id="brush-386" position="1.5 8.5 0" width="1.5" depth="0.5" height="3.25" material="m-white" collidable="true" visible="true"/>
+  <box id="brush-387" position="3 8.5 0" width="3" depth="0.5" height="1.1" material="m-white" collidable="true" visible="true"/>
+  <box id="brush-388" position="3 8.5 2.3" width="3" depth="0.5" height="0.95" material="m-white" collidable="true" visible="true"/>
+  <box id="brush-389" position="6 8.5 0" width="1" depth="0.5" height="3.25" material="m-white" collidable="true" visible="true"/>
+  <box id="brush-390" position="-7 8.5 3.5" width="2.5" depth="0.5" height="3.3" material="m-white" collidable="true" visible="false"/>
+  <box id="brush-391" position="-0.75 8.5 3.5" width="1.5" depth="0.5" height="3.3" material="m-white" collidable="true" visible="true"/>
+  <box id="brush-392" position="4.5 8.5 3.5" width="2.5" depth="0.5" height="3.3" material="m-white" collidable="true" visible="true"/>
+  <box id="brush-393" position="-5 9 3.25" width="10" depth="2" height="0.25" material="m-white" collidable="true" visible="true"/>
+  <box id="brush-394" position="-5 10.85 3.5" width="4" depth="0.15" height="1" material="m-orange" collidable="true" visible="true"/>
+  <box id="brush-395" position="1 10.85 3.5" width="4" depth="0.15" height="1" material="m-orange" collidable="true" visible="true"/>
+  <box id="brush-396" position="-5 9 3.5" width="0.15" depth="1.85" height="1" material="m-orange" collidable="true" visible="true"/>
+  <box id="brush-397" position="4.85 9 3.5" width="0.15" depth="1.85" height="1" material="m-orange" collidable="true" visible="true"/>
+  <box id="brush-398" position="-7 9 5.9" width="14" depth="0.06" height="0.9" material="m-orange" collidable="false" visible="true"/>
+  <box id="brush-399" position="-4.25 4.75 0" width="0.5" depth="0.5" height="3.25" material="m-white" collidable="true" visible="true"/>
+  <box id="brush-400" position="3.75 4.75 0" width="0.5" depth="0.5" height="3.25" material="m-white" collidable="true" visible="true"/>
+  <box id="brush-401" position="-4 5.3 3.5" width="2.5" depth="0.3" height="1.1" material="m-orange" collidable="true" visible="true"/>
+  <box id="brush-404" position="-6.5 14.5 0" width="3" depth="1" height="1.1" material="m-white" collidable="true" visible="false"/>
+  <box id="brush-404-base" position="-6.5 14.5 0" width="3" depth="1" height="0.96" material="m-white" collidable="false" visible="true"/>
+  <box id="brush-404-south" position="-6.5 14.5 0.96" width="3" depth="0.15" height="0.14" material="m-white" collidable="false" visible="true"/>
+  <box id="brush-404-north" position="-6.5 15.35 0.96" width="3" depth="0.15" height="0.14" material="m-white" collidable="false" visible="true"/>
+  <box id="brush-404-west" position="-6.5 14.65 0.96" width="0.15" depth="0.7" height="0.14" material="m-white" collidable="false" visible="true"/>
+  <box id="brush-404-east" position="-3.65 14.65 0.96" width="0.15" depth="0.7" height="0.14" material="m-white" collidable="false" visible="true"/>
+  <box id="brush-406" position="3.5 12.5 0" width="3" depth="1" height="1.1" material="m-white" collidable="true" visible="false"/>
+  <box id="brush-406-base" position="3.5 12.5 0" width="3" depth="1" height="0.96" material="m-white" collidable="false" visible="true"/>
+  <box id="brush-406-south" position="3.5 12.5 0.96" width="3" depth="0.15" height="0.14" material="m-white" collidable="false" visible="true"/>
+  <box id="brush-406-north" position="3.5 13.35 0.96" width="3" depth="0.15" height="0.14" material="m-white" collidable="false" visible="true"/>
+  <box id="brush-406-west" position="3.5 12.65 0.96" width="0.15" depth="0.7" height="0.14" material="m-white" collidable="false" visible="true"/>
+  <box id="brush-406-east" position="6.35 12.65 0.96" width="0.15" depth="0.7" height="0.14" material="m-white" collidable="false" visible="true"/>
+  <box id="brush-408" position="-0.6 17.4 0" width="1.2" depth="1.2" height="4.5" material="m-orange" collidable="true" visible="true"/>
+  <box id="brush-409" position="-9.5 19.3 0" width="19" depth="0.2" height="0.02" material="m-orange" collidable="false" visible="true"/>
+  <box id="brush-410" position="-9.5 9.6 0" width="19" depth="0.2" height="0.02" material="m-orange" collidable="false" visible="true"/>
+  <box id="brush-411" position="-9.5 9.8 0" width="0.2" depth="9.5" height="0.02" material="m-orange" collidable="false" visible="true"/>
+  <box id="brush-412" position="9.3 9.8 0" width="0.2" depth="9.5" height="0.02" material="m-orange" collidable="false" visible="true"/>
+  <box id="brush-413" position="-27 15 0" width="4" depth="1" height="1.1" material="m-white" collidable="true" visible="false"/>
+  <box id="brush-413-base" position="-27 15 0" width="4" depth="1" height="0.96" material="m-white" collidable="false" visible="true"/>
+  <box id="brush-413-south" position="-27 15 0.96" width="4" depth="0.15" height="0.14" material="m-white" collidable="false" visible="true"/>
+  <box id="brush-413-north" position="-27 15.85 0.96" width="4" depth="0.15" height="0.14" material="m-white" collidable="false" visible="true"/>
+  <box id="brush-413-west" position="-27 15.15 0.96" width="0.15" depth="0.7" height="0.14" material="m-white" collidable="false" visible="true"/>
+  <box id="brush-413-east" position="-23.15 15.15 0.96" width="0.15" depth="0.7" height="0.14" material="m-white" collidable="false" visible="true"/>
+  <box id="brush-415" position="-31 25.5 0" width="12.5" depth="0.5" height="3.2" material="m-orange" collidable="true" visible="true"/>
+  <box id="brush-416" position="-15.5 25.5 0" width="2" depth="0.5" height="3.2" material="m-orange" collidable="true" visible="true"/>
+  <box id="brush-417" position="-10.5 25.5 0" width="21" depth="0.5" height="3.2" material="m-orange" collidable="true" visible="true"/>
+  <box id="brush-418" position="13.5 25.5 0" width="2" depth="0.5" height="3.2" material="m-orange" collidable="true" visible="true"/>
+  <box id="brush-419" position="18.5 25.5 0" width="12.5" depth="0.5" height="3.2" material="m-orange" collidable="true" visible="true"/>
+  <box id="brush-420" position="-14.25 26 0" width="0.5" depth="2.5" height="3.2" material="m-white" collidable="true" visible="true"/>
+  <box id="brush-421" position="13.75 26 0" width="0.5" depth="2.5" height="3.2" material="m-white" collidable="true" visible="true"/>
+  <box id="brush-422" position="-0.25 27.2 0" width="0.5" depth="3.8" height="3.2" material="m-white" collidable="true" visible="true"/>
+  <box id="brush-423" position="-20 26 0" width="0.5" depth="2.5" height="3.2" material="m-white" collidable="true" visible="true"/>
+  <box id="brush-424" position="-9.5 26 0" width="0.5" depth="2.5" height="3.2" material="m-white" collidable="true" visible="true"/>
+  <box id="brush-425" position="9 26 0" width="0.5" depth="2.5" height="3.2" material="m-white" collidable="true" visible="true"/>
+  <box id="brush-426" position="19.5 26 0" width="0.5" depth="2.5" height="3.2" material="m-white" collidable="true" visible="true"/>
+  <box id="brush-427" position="-19.5 22.5 0" width="0.5" depth="3" height="3.2" material="m-orange" collidable="true" visible="true"/>
+  <box id="brush-428" position="19 22.5 0" width="0.5" depth="3" height="3.2" material="m-orange" collidable="true" visible="true"/>
+  <box id="brush-429" position="-10.5 20 0" width="0.5" depth="3.5" height="3.2" material="m-white" collidable="true" visible="true"/>
+  <box id="brush-430" position="10 22 0" width="0.5" depth="3.5" height="3.2" material="m-white" collidable="true" visible="true"/>
+  <box id="brush-431" position="-0.5 22.3 0" width="1" depth="1" height="4.2" material="m-orange" collidable="true" visible="true"/>
+  <box id="brush-432" position="-31 25 0" width="62" depth="0.4" height="0.02" material="m-orange" collidable="false" visible="true"/>
+  <box id="brush-433" position="-19 14 0" width="3" depth="4" height="0.02" material="m-orange" collidable="false" visible="true"/>
+  <box id="brush-434" position="16 14 0" width="3" depth="4" height="0.02" material="m-orange" collidable="false" visible="true"/>
+  <box id="brush-435" position="-16.05 14 0" width="0.05" depth="4" height="3" material="m-orange" collidable="false" visible="true"/>
+  <box id="brush-436" position="16 14 0" width="0.05" depth="4" height="3" material="m-orange" collidable="false" visible="true"/>
+  <box id="brush-437" position="-1.95 9 0" width="0.45" depth="0.05" height="3.25" material="m-orange" collidable="false" visible="true"/>
+  <box id="brush-438" position="1.5 9 0" width="0.45" depth="0.05" height="3.25" material="m-orange" collidable="false" visible="true"/>
+  <box id="brush-439" position="-3 9.7 3.19" width="6" depth="1" height="0.06" material="m-lamp" collidable="false" visible="true"/>
+  <box id="brush-440" position="-31.04 25.46 3.2" width="12.58" depth="0.58" height="0.07" material="m-dark" collidable="false" visible="false"/>
+  <box id="brush-440-finish-0" position="-31 25.46 3.2" width="12.54" depth="0.58" height="0.07" material="m-dark" collidable="false" visible="true"/>
+  <box id="brush-441" position="-15.54 25.46 3.2" width="2.08" depth="0.58" height="0.07" material="m-dark" collidable="false" visible="true"/>
+  <box id="brush-442" position="-10.54 25.46 3.2" width="21.08" depth="0.58" height="0.07" material="m-dark" collidable="false" visible="true"/>
+  <box id="brush-443" position="13.46 25.46 3.2" width="2.08" depth="0.58" height="0.07" material="m-dark" collidable="false" visible="true"/>
+  <box id="brush-444" position="18.46 25.46 3.2" width="12.58" depth="0.58" height="0.07" material="m-dark" collidable="false" visible="false"/>
+  <box id="brush-444-finish-0" position="18.46 25.46 3.2" width="12.54" depth="0.58" height="0.07" material="m-dark" collidable="false" visible="true"/>
+  <box id="brush-445" position="-0.54 22.26 4.2" width="1.08" depth="1.08" height="0.07" material="m-dark" collidable="false" visible="true"/>
+  <box id="brush-446" position="-0.64 17.36 4.5" width="1.28" depth="1.28" height="0.07" material="m-dark" collidable="false" visible="true"/>
+  <box id="brush-447" position="-5.04 10.81 4.5" width="4.08" depth="0.23" height="0.07" material="m-dark" collidable="false" visible="true"/>
+  <box id="brush-448" position="0.96 10.81 4.5" width="4.08" depth="0.23" height="0.07" material="m-dark" collidable="false" visible="true"/>
+  <box id="brush-457" position="-31 -31 -4" width="62" depth="11" height="4" material="m-floor" collidable="true" visible="true"/>
+  <box id="brush-458" position="-10 -20 -4" width="20" depth="11" height="4" material="m-floor" collidable="true" visible="true"/>
+  <box id="brush-459" position="-31 -20 -4" width="12" depth="7" height="4" material="m-floor" collidable="true" visible="true"/>
+  <box id="brush-460" position="-19 -18 -4" width="3" depth="4" height="4" material="m-floor" collidable="true" visible="true"/>
+  <box id="brush-461" position="16 -18 -4" width="3" depth="4" height="4" material="m-floor" collidable="true" visible="true"/>
+  <box id="brush-462" position="-31 -9.125 -4" width="12" depth="0.125" height="2.0625" material="m-white" collidable="true" visible="false"/>
+  <box id="brush-463" position="-31 -9.25 -4" width="12" depth="0.125" height="2.125" material="m-white" collidable="true" visible="false"/>
+  <box id="brush-464" position="-31 -9.375 -4" width="12" depth="0.125" height="2.1875" material="m-white" collidable="true" visible="false"/>
+  <box id="brush-465" position="-31 -9.5 -4" width="12" depth="0.125" height="2.25" material="m-white" collidable="true" visible="false"/>
+  <box id="brush-466" position="-31 -9.625 -4" width="12" depth="0.125" height="2.3125" material="m-white" collidable="true" visible="false"/>
+  <box id="brush-467" position="-31 -9.75 -4" width="12" depth="0.125" height="2.375" material="m-white" collidable="true" visible="false"/>
+  <box id="brush-468" position="-31 -9.875 -4" width="12" depth="0.125" height="2.4375" material="m-white" collidable="true" visible="false"/>
+  <box id="brush-469" position="-31 -10 -4" width="12" depth="0.125" height="2.5" material="m-white" collidable="true" visible="false"/>
+  <box id="brush-470" position="-31 -10.125 -4" width="12" depth="0.125" height="2.5625" material="m-white" collidable="true" visible="false"/>
+  <box id="brush-471" position="-31 -10.25 -4" width="12" depth="0.125" height="2.625" material="m-white" collidable="true" visible="false"/>
+  <box id="brush-472" position="-31 -10.375 -4" width="12" depth="0.125" height="2.6875" material="m-white" collidable="true" visible="false"/>
+  <box id="brush-473" position="-31 -10.5 -4" width="12" depth="0.125" height="2.75" material="m-white" collidable="true" visible="false"/>
+  <box id="brush-474" position="-31 -10.625 -4" width="12" depth="0.125" height="2.8125" material="m-white" collidable="true" visible="false"/>
+  <box id="brush-475" position="-31 -10.75 -4" width="12" depth="0.125" height="2.875" material="m-white" collidable="true" visible="false"/>
+  <box id="brush-476" position="-31 -10.875 -4" width="12" depth="0.125" height="2.9375" material="m-white" collidable="true" visible="false"/>
+  <box id="brush-477" position="-31 -11 -4" width="12" depth="0.125" height="3" material="m-white" collidable="true" visible="false"/>
+  <box id="brush-478" position="-31 -11.125 -4" width="12" depth="0.125" height="3.0625" material="m-white" collidable="true" visible="false"/>
+  <box id="brush-479" position="-31 -11.25 -4" width="12" depth="0.125" height="3.125" material="m-white" collidable="true" visible="false"/>
+  <box id="brush-480" position="-31 -11.375 -4" width="12" depth="0.125" height="3.1875" material="m-white" collidable="true" visible="false"/>
+  <box id="brush-481" position="-31 -11.5 -4" width="12" depth="0.125" height="3.25" material="m-white" collidable="true" visible="false"/>
+  <box id="brush-482" position="-31 -11.625 -4" width="12" depth="0.125" height="3.3125" material="m-white" collidable="true" visible="false"/>
+  <box id="brush-483" position="-31 -11.75 -4" width="12" depth="0.125" height="3.375" material="m-white" collidable="true" visible="false"/>
+  <box id="brush-484" position="-31 -11.875 -4" width="12" depth="0.125" height="3.4375" material="m-white" collidable="true" visible="false"/>
+  <box id="brush-485" position="-31 -12 -4" width="12" depth="0.125" height="3.5" material="m-white" collidable="true" visible="false"/>
+  <box id="brush-486" position="-31 -12.125 -4" width="12" depth="0.125" height="3.5625" material="m-white" collidable="true" visible="false"/>
+  <box id="brush-487" position="-31 -12.25 -4" width="12" depth="0.125" height="3.625" material="m-white" collidable="true" visible="false"/>
+  <box id="brush-488" position="-31 -12.375 -4" width="12" depth="0.125" height="3.6875" material="m-white" collidable="true" visible="false"/>
+  <box id="brush-489" position="-31 -12.5 -4" width="12" depth="0.125" height="3.75" material="m-white" collidable="true" visible="false"/>
+  <box id="brush-490" position="-31 -12.625 -4" width="12" depth="0.125" height="3.8125" material="m-white" collidable="true" visible="false"/>
+  <box id="brush-491" position="-31 -12.75 -4" width="12" depth="0.125" height="3.875" material="m-white" collidable="true" visible="false"/>
+  <box id="brush-492" position="-31 -12.875 -4" width="12" depth="0.125" height="3.9375" material="m-white" collidable="true" visible="false"/>
+  <box id="brush-493" position="-31 -13 -4" width="12" depth="0.125" height="4" material="m-white" collidable="true" visible="false"/>
+  <box id="brush-494" position="-31 -9.25 -4" width="12" depth="0.25" height="2.0938" material="m-yellow" collidable="false" visible="true"/>
+  <box id="brush-495" position="-31 -9.5 -4" width="12" depth="0.25" height="2.2188" material="m-white" collidable="false" visible="true"/>
+  <box id="brush-496" position="-31 -9.75 -4" width="12" depth="0.25" height="2.3438" material="m-white" collidable="false" visible="true"/>
+  <box id="brush-497" position="-31 -10 -4" width="12" depth="0.25" height="2.4688" material="m-white" collidable="false" visible="true"/>
+  <box id="brush-498" position="-31 -10.25 -4" width="12" depth="0.25" height="2.5938" material="m-white" collidable="false" visible="true"/>
+  <box id="brush-499" position="-31 -10.5 -4" width="12" depth="0.25" height="2.7188" material="m-white" collidable="false" visible="true"/>
+  <box id="brush-500" position="-31 -10.75 -4" width="12" depth="0.25" height="2.8438" material="m-white" collidable="false" visible="true"/>
+  <box id="brush-501" position="-31 -11 -4" width="12" depth="0.25" height="2.9688" material="m-white" collidable="false" visible="true"/>
+  <box id="brush-502" position="-31 -11.25 -4" width="12" depth="0.25" height="3.0938" material="m-white" collidable="false" visible="true"/>
+  <box id="brush-503" position="-31 -11.5 -4" width="12" depth="0.25" height="3.2188" material="m-white" collidable="false" visible="true"/>
+  <box id="brush-504" position="-31 -11.75 -4" width="12" depth="0.25" height="3.3438" material="m-white" collidable="false" visible="true"/>
+  <box id="brush-505" position="-31 -12 -4" width="12" depth="0.25" height="3.4688" material="m-white" collidable="false" visible="true"/>
+  <box id="brush-506" position="-31 -12.25 -4" width="12" depth="0.25" height="3.5938" material="m-white" collidable="false" visible="true"/>
+  <box id="brush-507" position="-31 -12.5 -4" width="12" depth="0.25" height="3.7188" material="m-white" collidable="false" visible="true"/>
+  <box id="brush-508" position="-31 -12.75 -4" width="12" depth="0.25" height="3.8438" material="m-white" collidable="false" visible="true"/>
+  <box id="brush-509" position="-31 -13 -4" width="12" depth="0.25" height="3.9688" material="m-yellow" collidable="false" visible="true"/>
+  <box id="brush-510" position="-10 -9 -4" width="3" depth="0.125" height="4.0625" material="m-white" collidable="true" visible="false"/>
+  <box id="brush-511" position="-10 -8.875 -4" width="3" depth="0.125" height="4.125" material="m-white" collidable="true" visible="false"/>
+  <box id="brush-512" position="-10 -8.75 -4" width="3" depth="0.125" height="4.1875" material="m-white" collidable="true" visible="false"/>
+  <box id="brush-513" position="-10 -8.625 -4" width="3" depth="0.125" height="4.25" material="m-white" collidable="true" visible="false"/>
+  <box id="brush-514" position="-10 -8.5 -4" width="3" depth="0.125" height="4.3125" material="m-white" collidable="true" visible="false"/>
+  <box id="brush-515" position="-10 -8.375 -4" width="3" depth="0.125" height="4.375" material="m-white" collidable="true" visible="false"/>
+  <box id="brush-516" position="-10 -8.25 -4" width="3" depth="0.125" height="4.4375" material="m-white" collidable="true" visible="false"/>
+  <box id="brush-517" position="-10 -8.125 -4" width="3" depth="0.125" height="4.5" material="m-white" collidable="true" visible="false"/>
+  <box id="brush-518" position="-10 -8 -4" width="3" depth="0.125" height="4.5625" material="m-white" collidable="true" visible="false"/>
+  <box id="brush-519" position="-10 -7.875 -4" width="3" depth="0.125" height="4.625" material="m-white" collidable="true" visible="false"/>
+  <box id="brush-520" position="-10 -7.75 -4" width="3" depth="0.125" height="4.6875" material="m-white" collidable="true" visible="false"/>
+  <box id="brush-521" position="-10 -7.625 -4" width="3" depth="0.125" height="4.75" material="m-white" collidable="true" visible="false"/>
+  <box id="brush-522" position="-10 -7.5 -4" width="3" depth="0.125" height="4.8125" material="m-white" collidable="true" visible="false"/>
+  <box id="brush-523" position="-10 -7.375 -4" width="3" depth="0.125" height="4.875" material="m-white" collidable="true" visible="false"/>
+  <box id="brush-524" position="-10 -7.25 -4" width="3" depth="0.125" height="4.9375" material="m-white" collidable="true" visible="false"/>
+  <box id="brush-525" position="-10 -7.125 -4" width="3" depth="0.125" height="5" material="m-white" collidable="true" visible="false"/>
+  <box id="brush-526" position="-10 -7 -4" width="3" depth="0.125" height="5.0625" material="m-white" collidable="true" visible="false"/>
+  <box id="brush-527" position="-10 -6.875 -4" width="3" depth="0.125" height="5.125" material="m-white" collidable="true" visible="false"/>
+  <box id="brush-528" position="-10 -6.75 -4" width="3" depth="0.125" height="5.1875" material="m-white" collidable="true" visible="false"/>
+  <box id="brush-529" position="-10 -6.625 -4" width="3" depth="0.125" height="5.25" material="m-white" collidable="true" visible="false"/>
+  <box id="brush-530" position="-10 -6.5 -4" width="3" depth="0.125" height="5.3125" material="m-white" collidable="true" visible="false"/>
+  <box id="brush-531" position="-10 -6.375 -4" width="3" depth="0.125" height="5.375" material="m-white" collidable="true" visible="false"/>
+  <box id="brush-532" position="-10 -6.25 -4" width="3" depth="0.125" height="5.4375" material="m-white" collidable="true" visible="false"/>
+  <box id="brush-533" position="-10 -6.125 -4" width="3" depth="0.125" height="5.5" material="m-white" collidable="true" visible="false"/>
+  <box id="brush-534" position="-10 -6 -4" width="3" depth="0.125" height="5.5625" material="m-white" collidable="true" visible="false"/>
+  <box id="brush-535" position="-10 -5.875 -4" width="3" depth="0.125" height="5.625" material="m-white" collidable="true" visible="false"/>
+  <box id="brush-536" position="-10 -5.75 -4" width="3" depth="0.125" height="5.6875" material="m-white" collidable="true" visible="false"/>
+  <box id="brush-537" position="-10 -5.625 -4" width="3" depth="0.125" height="5.75" material="m-white" collidable="true" visible="false"/>
+  <box id="brush-538" position="-10 -5.5 -4" width="3" depth="0.125" height="5.8125" material="m-white" collidable="true" visible="false"/>
+  <box id="brush-539" position="-10 -5.375 -4" width="3" depth="0.125" height="5.875" material="m-white" collidable="true" visible="false"/>
+  <box id="brush-540" position="-10 -5.25 -4" width="3" depth="0.125" height="5.9375" material="m-white" collidable="true" visible="false"/>
+  <box id="brush-541" position="-10 -5.125 -4" width="3" depth="0.125" height="6" material="m-white" collidable="true" visible="false"/>
+  <box id="brush-542" position="-10 -5 -4" width="3" depth="0.125" height="6.0625" material="m-white" collidable="true" visible="false"/>
+  <box id="brush-543" position="-10 -4.875 -4" width="3" depth="0.125" height="6.125" material="m-white" collidable="true" visible="false"/>
+  <box id="brush-544" position="-10 -4.75 -4" width="3" depth="0.125" height="6.1875" material="m-white" collidable="true" visible="false"/>
+  <box id="brush-545" position="-10 -4.625 -4" width="3" depth="0.125" height="6.25" material="m-white" collidable="true" visible="false"/>
+  <box id="brush-546" position="-10 -4.5 -4" width="3" depth="0.125" height="6.3125" material="m-white" collidable="true" visible="false"/>
+  <box id="brush-547" position="-10 -4.375 -4" width="3" depth="0.125" height="6.375" material="m-white" collidable="true" visible="false"/>
+  <box id="brush-548" position="-10 -4.25 -4" width="3" depth="0.125" height="6.4375" material="m-white" collidable="true" visible="false"/>
+  <box id="brush-549" position="-10 -4.125 -4" width="3" depth="0.125" height="6.5" material="m-white" collidable="true" visible="false"/>
+  <box id="brush-550" position="-10 -4 -4" width="3" depth="0.125" height="6.5625" material="m-white" collidable="true" visible="false"/>
+  <box id="brush-551" position="-10 -3.875 -4" width="3" depth="0.125" height="6.625" material="m-white" collidable="true" visible="false"/>
+  <box id="brush-552" position="-10 -3.75 -4" width="3" depth="0.125" height="6.6875" material="m-white" collidable="true" visible="false"/>
+  <box id="brush-553" position="-10 -3.625 -4" width="3" depth="0.125" height="6.75" material="m-white" collidable="true" visible="false"/>
+  <box id="brush-554" position="-10 -3.5 -4" width="3" depth="0.125" height="6.8125" material="m-white" collidable="true" visible="false"/>
+  <box id="brush-555" position="-10 -3.375 -4" width="3" depth="0.125" height="6.875" material="m-white" collidable="true" visible="false"/>
+  <box id="brush-556" position="-10 -3.25 -4" width="3" depth="0.125" height="6.9375" material="m-white" collidable="true" visible="false"/>
+  <box id="brush-557" position="-10 -3.125 -4" width="3" depth="0.125" height="7" material="m-white" collidable="true" visible="false"/>
+  <box id="brush-558" position="-10 -3 -4" width="3" depth="0.125" height="7.0625" material="m-white" collidable="true" visible="false"/>
+  <box id="brush-559" position="-10 -2.875 -4" width="3" depth="0.125" height="7.125" material="m-white" collidable="true" visible="false"/>
+  <box id="brush-560" position="-10 -2.75 -4" width="3" depth="0.125" height="7.1875" material="m-white" collidable="true" visible="false"/>
+  <box id="brush-561" position="-10 -2.625 -4" width="3" depth="0.125" height="7.25" material="m-white" collidable="true" visible="false"/>
+  <box id="brush-562" position="-10 -2.5 -4" width="3" depth="0.125" height="7.3125" material="m-white" collidable="true" visible="false"/>
+  <box id="brush-563" position="-10 -2.375 -4" width="3" depth="0.125" height="7.375" material="m-white" collidable="true" visible="false"/>
+  <box id="brush-564" position="-10 -2.25 -4" width="3" depth="0.125" height="7.4375" material="m-white" collidable="true" visible="false"/>
+  <box id="brush-565" position="-10 -2.125 -4" width="3" depth="0.125" height="7.5" material="m-white" collidable="true" visible="false"/>
+  <box id="brush-566" position="-10 -9 -4" width="3" depth="0.25" height="4.0938" material="m-blue" collidable="false" visible="true"/>
+  <box id="brush-567" position="-10 -8.75 -4" width="3" depth="0.25" height="4.2188" material="m-white" collidable="false" visible="true"/>
+  <box id="brush-568" position="-10 -8.5 -4" width="3" depth="0.25" height="4.3438" material="m-white" collidable="false" visible="true"/>
+  <box id="brush-569" position="-10 -8.25 -4" width="3" depth="0.25" height="4.4688" material="m-white" collidable="false" visible="true"/>
+  <box id="brush-570" position="-10 -8 -4" width="3" depth="0.25" height="4.5938" material="m-white" collidable="false" visible="true"/>
+  <box id="brush-571" position="-10 -7.75 -4" width="3" depth="0.25" height="4.7188" material="m-white" collidable="false" visible="true"/>
+  <box id="brush-572" position="-10 -7.5 -4" width="3" depth="0.25" height="4.8438" material="m-white" collidable="false" visible="true"/>
+  <box id="brush-573" position="-10 -7.25 -4" width="3" depth="0.25" height="4.9688" material="m-white" collidable="false" visible="true"/>
+  <box id="brush-574" position="-10 -7 -4" width="3" depth="0.25" height="5.0938" material="m-white" collidable="false" visible="true"/>
+  <box id="brush-575" position="-10 -6.75 -4" width="3" depth="0.25" height="5.2188" material="m-white" collidable="false" visible="true"/>
+  <box id="brush-576" position="-10 -6.5 -4" width="3" depth="0.25" height="5.3438" material="m-white" collidable="false" visible="true"/>
+  <box id="brush-577" position="-10 -6.25 -4" width="3" depth="0.25" height="5.4688" material="m-white" collidable="false" visible="true"/>
+  <box id="brush-578" position="-10 -6 -4" width="3" depth="0.25" height="5.5938" material="m-white" collidable="false" visible="true"/>
+  <box id="brush-579" position="-10 -5.75 -4" width="3" depth="0.25" height="5.7188" material="m-white" collidable="false" visible="true"/>
+  <box id="brush-580" position="-10 -5.5 -4" width="3" depth="0.25" height="5.8438" material="m-white" collidable="false" visible="true"/>
+  <box id="brush-581" position="-10 -5.25 -4" width="3" depth="0.25" height="5.9688" material="m-white" collidable="false" visible="true"/>
+  <box id="brush-582" position="-10 -5 -4" width="3" depth="0.25" height="6.0938" material="m-white" collidable="false" visible="true"/>
+  <box id="brush-583" position="-10 -4.75 -4" width="3" depth="0.25" height="6.2188" material="m-white" collidable="false" visible="true"/>
+  <box id="brush-584" position="-10 -4.5 -4" width="3" depth="0.25" height="6.3438" material="m-white" collidable="false" visible="true"/>
+  <box id="brush-585" position="-10 -4.25 -4" width="3" depth="0.25" height="6.4688" material="m-white" collidable="false" visible="true"/>
+  <box id="brush-586" position="-10 -4 -4" width="3" depth="0.25" height="6.5938" material="m-white" collidable="false" visible="true"/>
+  <box id="brush-587" position="-10 -3.75 -4" width="3" depth="0.25" height="6.7188" material="m-white" collidable="false" visible="true"/>
+  <box id="brush-588" position="-10 -3.5 -4" width="3" depth="0.25" height="6.8438" material="m-white" collidable="false" visible="true"/>
+  <box id="brush-589" position="-10 -3.25 -4" width="3" depth="0.25" height="6.9688" material="m-white" collidable="false" visible="true"/>
+  <box id="brush-590" position="-10 -3 -4" width="3" depth="0.25" height="7.0938" material="m-white" collidable="false" visible="true"/>
+  <box id="brush-591" position="-10 -2.75 -4" width="3" depth="0.25" height="7.2188" material="m-white" collidable="false" visible="true"/>
+  <box id="brush-592" position="-10 -2.5 -4" width="3" depth="0.25" height="7.3438" material="m-white" collidable="false" visible="true"/>
+  <box id="brush-593" position="-10 -2.25 -4" width="3" depth="0.25" height="7.4688" material="m-blue" collidable="false" visible="true"/>
+  <box id="brush-594" position="27 -19 -4" width="4" depth="0.125" height="4.0625" material="m-white" collidable="true" visible="false"/>
+  <box id="brush-595" position="27 -18.875 -4" width="4" depth="0.125" height="4.125" material="m-white" collidable="true" visible="false"/>
+  <box id="brush-596" position="27 -18.75 -4" width="4" depth="0.125" height="4.1875" material="m-white" collidable="true" visible="false"/>
+  <box id="brush-597" position="27 -18.625 -4" width="4" depth="0.125" height="4.25" material="m-white" collidable="true" visible="false"/>
+  <box id="brush-598" position="27 -18.5 -4" width="4" depth="0.125" height="4.3125" material="m-white" collidable="true" visible="false"/>
+  <box id="brush-599" position="27 -18.375 -4" width="4" depth="0.125" height="4.375" material="m-white" collidable="true" visible="false"/>
+  <box id="brush-600" position="27 -18.25 -4" width="4" depth="0.125" height="4.4375" material="m-white" collidable="true" visible="false"/>
+  <box id="brush-601" position="27 -18.125 -4" width="4" depth="0.125" height="4.5" material="m-white" collidable="true" visible="false"/>
+  <box id="brush-602" position="27 -18 -4" width="4" depth="0.125" height="4.5625" material="m-white" collidable="true" visible="false"/>
+  <box id="brush-603" position="27 -17.875 -4" width="4" depth="0.125" height="4.625" material="m-white" collidable="true" visible="false"/>
+  <box id="brush-604" position="27 -17.75 -4" width="4" depth="0.125" height="4.6875" material="m-white" collidable="true" visible="false"/>
+  <box id="brush-605" position="27 -17.625 -4" width="4" depth="0.125" height="4.75" material="m-white" collidable="true" visible="false"/>
+  <box id="brush-606" position="27 -17.5 -4" width="4" depth="0.125" height="4.8125" material="m-white" collidable="true" visible="false"/>
+  <box id="brush-607" position="27 -17.375 -4" width="4" depth="0.125" height="4.875" material="m-white" collidable="true" visible="false"/>
+  <box id="brush-608" position="27 -17.25 -4" width="4" depth="0.125" height="4.9375" material="m-white" collidable="true" visible="false"/>
+  <box id="brush-609" position="27 -17.125 -4" width="4" depth="0.125" height="5" material="m-white" collidable="true" visible="false"/>
+  <box id="brush-610" position="27 -17 -4" width="4" depth="0.125" height="5.0625" material="m-white" collidable="true" visible="false"/>
+  <box id="brush-611" position="27 -16.875 -4" width="4" depth="0.125" height="5.125" material="m-white" collidable="true" visible="false"/>
+  <box id="brush-612" position="27 -16.75 -4" width="4" depth="0.125" height="5.1875" material="m-white" collidable="true" visible="false"/>
+  <box id="brush-613" position="27 -16.625 -4" width="4" depth="0.125" height="5.25" material="m-white" collidable="true" visible="false"/>
+  <box id="brush-614" position="27 -16.5 -4" width="4" depth="0.125" height="5.3125" material="m-white" collidable="true" visible="false"/>
+  <box id="brush-615" position="27 -16.375 -4" width="4" depth="0.125" height="5.375" material="m-white" collidable="true" visible="false"/>
+  <box id="brush-616" position="27 -16.25 -4" width="4" depth="0.125" height="5.4375" material="m-white" collidable="true" visible="false"/>
+  <box id="brush-617" position="27 -16.125 -4" width="4" depth="0.125" height="5.5" material="m-white" collidable="true" visible="false"/>
+  <box id="brush-618" position="27 -16 -4" width="4" depth="0.125" height="5.5625" material="m-white" collidable="true" visible="false"/>
+  <box id="brush-619" position="27 -15.875 -4" width="4" depth="0.125" height="5.625" material="m-white" collidable="true" visible="false"/>
+  <box id="brush-620" position="27 -15.75 -4" width="4" depth="0.125" height="5.6875" material="m-white" collidable="true" visible="false"/>
+  <box id="brush-621" position="27 -15.625 -4" width="4" depth="0.125" height="5.75" material="m-white" collidable="true" visible="false"/>
+  <box id="brush-622" position="27 -15.5 -4" width="4" depth="0.125" height="5.8125" material="m-white" collidable="true" visible="false"/>
+  <box id="brush-623" position="27 -15.375 -4" width="4" depth="0.125" height="5.875" material="m-white" collidable="true" visible="false"/>
+  <box id="brush-624" position="27 -15.25 -4" width="4" depth="0.125" height="5.9375" material="m-white" collidable="true" visible="false"/>
+  <box id="brush-625" position="27 -15.125 -4" width="4" depth="0.125" height="6" material="m-white" collidable="true" visible="false"/>
+  <box id="brush-626" position="27 -15 -4" width="4" depth="0.125" height="6.0625" material="m-white" collidable="true" visible="false"/>
+  <box id="brush-627" position="27 -14.875 -4" width="4" depth="0.125" height="6.125" material="m-white" collidable="true" visible="false"/>
+  <box id="brush-628" position="27 -14.75 -4" width="4" depth="0.125" height="6.1875" material="m-white" collidable="true" visible="false"/>
+  <box id="brush-629" position="27 -14.625 -4" width="4" depth="0.125" height="6.25" material="m-white" collidable="true" visible="false"/>
+  <box id="brush-630" position="27 -14.5 -4" width="4" depth="0.125" height="6.3125" material="m-white" collidable="true" visible="false"/>
+  <box id="brush-631" position="27 -14.375 -4" width="4" depth="0.125" height="6.375" material="m-white" collidable="true" visible="false"/>
+  <box id="brush-632" position="27 -14.25 -4" width="4" depth="0.125" height="6.4375" material="m-white" collidable="true" visible="false"/>
+  <box id="brush-633" position="27 -14.125 -4" width="4" depth="0.125" height="6.5" material="m-white" collidable="true" visible="false"/>
+  <box id="brush-634" position="27 -14 -4" width="4" depth="0.125" height="6.5625" material="m-white" collidable="true" visible="false"/>
+  <box id="brush-635" position="27 -13.875 -4" width="4" depth="0.125" height="6.625" material="m-white" collidable="true" visible="false"/>
+  <box id="brush-636" position="27 -13.75 -4" width="4" depth="0.125" height="6.6875" material="m-white" collidable="true" visible="false"/>
+  <box id="brush-637" position="27 -13.625 -4" width="4" depth="0.125" height="6.75" material="m-white" collidable="true" visible="false"/>
+  <box id="brush-638" position="27 -13.5 -4" width="4" depth="0.125" height="6.8125" material="m-white" collidable="true" visible="false"/>
+  <box id="brush-639" position="27 -13.375 -4" width="4" depth="0.125" height="6.875" material="m-white" collidable="true" visible="false"/>
+  <box id="brush-640" position="27 -13.25 -4" width="4" depth="0.125" height="6.9375" material="m-white" collidable="true" visible="false"/>
+  <box id="brush-641" position="27 -13.125 -4" width="4" depth="0.125" height="7" material="m-white" collidable="true" visible="false"/>
+  <box id="brush-642" position="27 -13 -4" width="4" depth="0.125" height="7.0625" material="m-white" collidable="true" visible="false"/>
+  <box id="brush-643" position="27 -12.875 -4" width="4" depth="0.125" height="7.125" material="m-white" collidable="true" visible="false"/>
+  <box id="brush-644" position="27 -12.75 -4" width="4" depth="0.125" height="7.1875" material="m-white" collidable="true" visible="false"/>
+  <box id="brush-645" position="27 -12.625 -4" width="4" depth="0.125" height="7.25" material="m-white" collidable="true" visible="false"/>
+  <box id="brush-646" position="27 -12.5 -4" width="4" depth="0.125" height="7.3125" material="m-white" collidable="true" visible="false"/>
+  <box id="brush-647" position="27 -12.375 -4" width="4" depth="0.125" height="7.375" material="m-white" collidable="true" visible="false"/>
+  <box id="brush-648" position="27 -12.25 -4" width="4" depth="0.125" height="7.4375" material="m-white" collidable="true" visible="false"/>
+  <box id="brush-649" position="27 -12.125 -4" width="4" depth="0.125" height="7.5" material="m-white" collidable="true" visible="false"/>
+  <box id="brush-650" position="27 -19 -4" width="4" depth="0.25" height="4.0938" material="m-teal" collidable="false" visible="true"/>
+  <box id="brush-651" position="27 -18.75 -4" width="4" depth="0.25" height="4.2188" material="m-white" collidable="false" visible="true"/>
+  <box id="brush-652" position="27 -18.5 -4" width="4" depth="0.25" height="4.3438" material="m-white" collidable="false" visible="true"/>
+  <box id="brush-653" position="27 -18.25 -4" width="4" depth="0.25" height="4.4688" material="m-white" collidable="false" visible="true"/>
+  <box id="brush-654" position="27 -18 -4" width="4" depth="0.25" height="4.5938" material="m-white" collidable="false" visible="true"/>
+  <box id="brush-655" position="27 -17.75 -4" width="4" depth="0.25" height="4.7188" material="m-white" collidable="false" visible="true"/>
+  <box id="brush-656" position="27 -17.5 -4" width="4" depth="0.25" height="4.8438" material="m-white" collidable="false" visible="true"/>
+  <box id="brush-657" position="27 -17.25 -4" width="4" depth="0.25" height="4.9688" material="m-white" collidable="false" visible="true"/>
+  <box id="brush-658" position="27 -17 -4" width="4" depth="0.25" height="5.0938" material="m-white" collidable="false" visible="true"/>
+  <box id="brush-659" position="27 -16.75 -4" width="4" depth="0.25" height="5.2188" material="m-white" collidable="false" visible="true"/>
+  <box id="brush-660" position="27 -16.5 -4" width="4" depth="0.25" height="5.3438" material="m-white" collidable="false" visible="true"/>
+  <box id="brush-661" position="27 -16.25 -4" width="4" depth="0.25" height="5.4688" material="m-white" collidable="false" visible="true"/>
+  <box id="brush-662" position="27 -16 -4" width="4" depth="0.25" height="5.5938" material="m-white" collidable="false" visible="true"/>
+  <box id="brush-663" position="27 -15.75 -4" width="4" depth="0.25" height="5.7188" material="m-white" collidable="false" visible="true"/>
+  <box id="brush-664" position="27 -15.5 -4" width="4" depth="0.25" height="5.8438" material="m-white" collidable="false" visible="true"/>
+  <box id="brush-665" position="27 -15.25 -4" width="4" depth="0.25" height="5.9688" material="m-white" collidable="false" visible="true"/>
+  <box id="brush-666" position="27 -15 -4" width="4" depth="0.25" height="6.0938" material="m-white" collidable="false" visible="true"/>
+  <box id="brush-667" position="27 -14.75 -4" width="4" depth="0.25" height="6.2188" material="m-white" collidable="false" visible="true"/>
+  <box id="brush-668" position="27 -14.5 -4" width="4" depth="0.25" height="6.3438" material="m-white" collidable="false" visible="true"/>
+  <box id="brush-669" position="27 -14.25 -4" width="4" depth="0.25" height="6.4688" material="m-white" collidable="false" visible="true"/>
+  <box id="brush-670" position="27 -14 -4" width="4" depth="0.25" height="6.5938" material="m-white" collidable="false" visible="true"/>
+  <box id="brush-671" position="27 -13.75 -4" width="4" depth="0.25" height="6.7188" material="m-white" collidable="false" visible="true"/>
+  <box id="brush-672" position="27 -13.5 -4" width="4" depth="0.25" height="6.8438" material="m-white" collidable="false" visible="true"/>
+  <box id="brush-673" position="27 -13.25 -4" width="4" depth="0.25" height="6.9688" material="m-white" collidable="false" visible="true"/>
+  <box id="brush-674" position="27 -13 -4" width="4" depth="0.25" height="7.0938" material="m-white" collidable="false" visible="true"/>
+  <box id="brush-675" position="27 -12.75 -4" width="4" depth="0.25" height="7.2188" material="m-white" collidable="false" visible="true"/>
+  <box id="brush-676" position="27 -12.5 -4" width="4" depth="0.25" height="7.3438" material="m-white" collidable="false" visible="true"/>
+  <box id="brush-677" position="27 -12.25 -4" width="4" depth="0.25" height="7.4688" material="m-teal" collidable="false" visible="true"/>
+  <box id="brush-678" position="26.85 -19 0" width="0.15" depth="1.75" height="1.875" material="m-white" collidable="true" visible="true"/>
+  <box id="brush-679" position="26.85 -17.25 0" width="0.15" depth="1.75" height="2.75" material="m-white" collidable="true" visible="true"/>
+  <box id="brush-680" position="26.85 -15.5 0" width="0.15" depth="1.75" height="3.625" material="m-white" collidable="true" visible="true"/>
+  <box id="brush-681" position="26.85 -13.75 0" width="0.15" depth="1.75" height="4.5" material="m-white" collidable="true" visible="true"/>
+  <box id="brush-682" position="23 -12 3.5" width="4" depth="0.15" height="1" material="m-white" collidable="true" visible="true"/>
+  <box id="brush-683" position="-7 -9 0" width="1" depth="0.5" height="3.25" material="m-white" collidable="true" visible="true"/>
+  <box id="brush-684" position="-6 -9 0" width="3" depth="0.5" height="1.1" material="m-white" collidable="true" visible="true"/>
+  <box id="brush-685" position="-6 -9 2.3" width="3" depth="0.5" height="0.95" material="m-white" collidable="true" visible="true"/>
+  <box id="brush-686" position="-3 -9 0" width="1.5" depth="0.5" height="3.25" material="m-white" collidable="true" visible="true"/>
+  <box id="brush-687" position="1.5 -9 0" width="1.5" depth="0.5" height="3.25" material="m-white" collidable="true" visible="true"/>
+  <box id="brush-688" position="3 -9 0" width="3" depth="0.5" height="1.1" material="m-white" collidable="true" visible="true"/>
+  <box id="brush-689" position="3 -9 2.3" width="3" depth="0.5" height="0.95" material="m-white" collidable="true" visible="true"/>
+  <box id="brush-690" position="6 -9 0" width="1" depth="0.5" height="3.25" material="m-white" collidable="true" visible="true"/>
+  <box id="brush-691" position="-7 -9 3.5" width="2.5" depth="0.5" height="3.3" material="m-white" collidable="true" visible="true"/>
+  <box id="brush-692" position="-0.75 -9 3.5" width="1.5" depth="0.5" height="3.3" material="m-white" collidable="true" visible="true"/>
+  <box id="brush-693" position="4.5 -9 3.5" width="2.5" depth="0.5" height="3.3" material="m-white" collidable="true" visible="true"/>
+  <box id="brush-694" position="-5 -11 3.25" width="10" depth="2" height="0.25" material="m-white" collidable="true" visible="true"/>
+  <box id="brush-695" position="-5 -11 3.5" width="4" depth="0.15" height="1" material="m-blue" collidable="true" visible="true"/>
+  <box id="brush-696" position="1 -11 3.5" width="4" depth="0.15" height="1" material="m-blue" collidable="true" visible="true"/>
+  <box id="brush-697" position="-5 -10.85 3.5" width="0.15" depth="1.85" height="1" material="m-blue" collidable="true" visible="true"/>
+  <box id="brush-698" position="4.85 -10.85 3.5" width="0.15" depth="1.85" height="1" material="m-blue" collidable="true" visible="true"/>
+  <box id="brush-699" position="-7 -9.06 5.9" width="14" depth="0.06" height="0.9" material="m-blue" collidable="false" visible="true"/>
+  <box id="brush-700" position="-4.25 -5.25 0" width="0.5" depth="0.5" height="3.25" material="m-white" collidable="true" visible="true"/>
+  <box id="brush-701" position="3.75 -5.25 0" width="0.5" depth="0.5" height="3.25" material="m-white" collidable="true" visible="true"/>
+  <box id="brush-702" position="-4 -5.6 3.5" width="2.5" depth="0.3" height="1.1" material="m-blue" collidable="true" visible="true"/>
+  <box id="brush-705" position="-6.5 -15.5 0" width="3" depth="1" height="1.1" material="m-white" collidable="true" visible="false"/>
+  <box id="brush-705-base" position="-6.5 -15.5 0" width="3" depth="1" height="0.96" material="m-white" collidable="false" visible="true"/>
+  <box id="brush-705-south" position="-6.5 -15.5 0.96" width="3" depth="0.15" height="0.14" material="m-white" collidable="false" visible="true"/>
+  <box id="brush-705-north" position="-6.5 -14.65 0.96" width="3" depth="0.15" height="0.14" material="m-white" collidable="false" visible="true"/>
+  <box id="brush-705-west" position="-6.5 -15.35 0.96" width="0.15" depth="0.7" height="0.14" material="m-white" collidable="false" visible="true"/>
+  <box id="brush-705-east" position="-3.65 -15.35 0.96" width="0.15" depth="0.7" height="0.14" material="m-white" collidable="false" visible="true"/>
+  <box id="brush-707" position="3.5 -13.5 0" width="3" depth="1" height="1.1" material="m-white" collidable="true" visible="false"/>
+  <box id="brush-707-base" position="3.5 -13.5 0" width="3" depth="1" height="0.96" material="m-white" collidable="false" visible="true"/>
+  <box id="brush-707-south" position="3.5 -13.5 0.96" width="3" depth="0.15" height="0.14" material="m-white" collidable="false" visible="true"/>
+  <box id="brush-707-north" position="3.5 -12.65 0.96" width="3" depth="0.15" height="0.14" material="m-white" collidable="false" visible="true"/>
+  <box id="brush-707-west" position="3.5 -13.35 0.96" width="0.15" depth="0.7" height="0.14" material="m-white" collidable="false" visible="true"/>
+  <box id="brush-707-east" position="6.35 -13.35 0.96" width="0.15" depth="0.7" height="0.14" material="m-white" collidable="false" visible="true"/>
+  <box id="brush-709" position="-0.6 -18.6 0" width="1.2" depth="1.2" height="4.5" material="m-blue" collidable="true" visible="true"/>
+  <box id="brush-710" position="-9.5 -19.5 0" width="19" depth="0.2" height="0.02" material="m-blue" collidable="false" visible="true"/>
+  <box id="brush-711" position="-9.5 -9.8 0" width="19" depth="0.2" height="0.02" material="m-blue" collidable="false" visible="true"/>
+  <box id="brush-712" position="-9.5 -19.3 0" width="0.2" depth="9.5" height="0.02" material="m-blue" collidable="false" visible="true"/>
+  <box id="brush-713" position="9.3 -19.3 0" width="0.2" depth="9.5" height="0.02" material="m-blue" collidable="false" visible="true"/>
+  <box id="brush-714" position="-27 -16 0" width="4" depth="1" height="1.1" material="m-white" collidable="true" visible="false"/>
+  <box id="brush-714-base" position="-27 -16 0" width="4" depth="1" height="0.96" material="m-white" collidable="false" visible="true"/>
+  <box id="brush-714-south" position="-27 -16 0.96" width="4" depth="0.15" height="0.14" material="m-white" collidable="false" visible="true"/>
+  <box id="brush-714-north" position="-27 -15.15 0.96" width="4" depth="0.15" height="0.14" material="m-white" collidable="false" visible="true"/>
+  <box id="brush-714-west" position="-27 -15.85 0.96" width="0.15" depth="0.7" height="0.14" material="m-white" collidable="false" visible="true"/>
+  <box id="brush-714-east" position="-23.15 -15.85 0.96" width="0.15" depth="0.7" height="0.14" material="m-white" collidable="false" visible="true"/>
+  <box id="brush-716" position="-31 -26 0" width="12.5" depth="0.5" height="3.2" material="m-blue" collidable="true" visible="true"/>
+  <box id="brush-717" position="-15.5 -26 0" width="2" depth="0.5" height="3.2" material="m-blue" collidable="true" visible="true"/>
+  <box id="brush-718" position="-10.5 -26 0" width="21" depth="0.5" height="3.2" material="m-blue" collidable="true" visible="true"/>
+  <box id="brush-719" position="13.5 -26 0" width="2" depth="0.5" height="3.2" material="m-blue" collidable="true" visible="true"/>
+  <box id="brush-720" position="18.5 -26 0" width="12.5" depth="0.5" height="3.2" material="m-blue" collidable="true" visible="true"/>
+  <box id="brush-721" position="-14.25 -28.5 0" width="0.5" depth="2.5" height="3.2" material="m-white" collidable="true" visible="true"/>
+  <box id="brush-722" position="13.75 -28.5 0" width="0.5" depth="2.5" height="3.2" material="m-white" collidable="true" visible="true"/>
+  <box id="brush-723" position="-0.25 -31 0" width="0.5" depth="3.8" height="3.2" material="m-white" collidable="true" visible="true"/>
+  <box id="brush-724" position="-20 -28.5 0" width="0.5" depth="2.5" height="3.2" material="m-white" collidable="true" visible="true"/>
+  <box id="brush-725" position="-9.5 -28.5 0" width="0.5" depth="2.5" height="3.2" material="m-white" collidable="true" visible="true"/>
+  <box id="brush-726" position="9 -28.5 0" width="0.5" depth="2.5" height="3.2" material="m-white" collidable="true" visible="true"/>
+  <box id="brush-727" position="19.5 -28.5 0" width="0.5" depth="2.5" height="3.2" material="m-white" collidable="true" visible="true"/>
+  <box id="brush-728" position="-19.5 -25.5 0" width="0.5" depth="3" height="3.2" material="m-blue" collidable="true" visible="true"/>
+  <box id="brush-729" position="19 -25.5 0" width="0.5" depth="3" height="3.2" material="m-blue" collidable="true" visible="true"/>
+  <box id="brush-730" position="-10.5 -23.5 0" width="0.5" depth="3.5" height="3.2" material="m-white" collidable="true" visible="true"/>
+  <box id="brush-731" position="10 -25.5 0" width="0.5" depth="3.5" height="3.2" material="m-white" collidable="true" visible="true"/>
+  <box id="brush-732" position="-0.5 -23.3 0" width="1" depth="1" height="4.2" material="m-blue" collidable="true" visible="true"/>
+  <box id="brush-733" position="-31 -25.4 0" width="62" depth="0.4" height="0.02" material="m-blue" collidable="false" visible="true"/>
+  <box id="brush-734" position="-19 -18 0" width="3" depth="4" height="0.02" material="m-blue" collidable="false" visible="true"/>
+  <box id="brush-735" position="16 -18 0" width="3" depth="4" height="0.02" material="m-blue" collidable="false" visible="true"/>
+  <box id="brush-736" position="-16.05 -18 0" width="0.05" depth="4" height="3" material="m-blue" collidable="false" visible="true"/>
+  <box id="brush-737" position="16 -18 0" width="0.05" depth="4" height="3" material="m-blue" collidable="false" visible="true"/>
+  <box id="brush-738" position="-1.95 -9.05 0" width="0.45" depth="0.05" height="3.25" material="m-blue" collidable="false" visible="true"/>
+  <box id="brush-739" position="1.5 -9.05 0" width="0.45" depth="0.05" height="3.25" material="m-blue" collidable="false" visible="true"/>
+  <box id="brush-740" position="-3 -10.7 3.19" width="6" depth="1" height="0.06" material="m-lamp" collidable="false" visible="true"/>
+  <box id="brush-741" position="-31.04 -26.04 3.2" width="12.58" depth="0.58" height="0.07" material="m-dark" collidable="false" visible="false"/>
+  <box id="brush-741-finish-0" position="-31 -26.04 3.2" width="12.54" depth="0.58" height="0.07" material="m-dark" collidable="false" visible="true"/>
+  <box id="brush-742" position="-15.54 -26.04 3.2" width="2.08" depth="0.58" height="0.07" material="m-dark" collidable="false" visible="true"/>
+  <box id="brush-743" position="-10.54 -26.04 3.2" width="21.08" depth="0.58" height="0.07" material="m-dark" collidable="false" visible="true"/>
+  <box id="brush-744" position="13.46 -26.04 3.2" width="2.08" depth="0.58" height="0.07" material="m-dark" collidable="false" visible="true"/>
+  <box id="brush-745" position="18.46 -26.04 3.2" width="12.58" depth="0.58" height="0.07" material="m-dark" collidable="false" visible="false"/>
+  <box id="brush-745-finish-0" position="18.46 -26.04 3.2" width="12.54" depth="0.58" height="0.07" material="m-dark" collidable="false" visible="true"/>
+  <box id="brush-746" position="-0.54 -23.34 4.2" width="1.08" depth="1.08" height="0.07" material="m-dark" collidable="false" visible="true"/>
+  <box id="brush-747" position="-0.64 -18.64 4.5" width="1.28" depth="1.28" height="0.07" material="m-dark" collidable="false" visible="true"/>
+  <box id="brush-748" position="-5.04 -11.04 4.5" width="4.08" depth="0.23" height="0.07" material="m-dark" collidable="false" visible="true"/>
+  <box id="brush-749" position="0.96 -11.04 4.5" width="4.08" depth="0.23" height="0.07" material="m-dark" collidable="false" visible="true"/>
+  <box id="brush-758" position="-32 -32 -4" width="1" depth="64" height="11" material="m-white" collidable="true" visible="false"/>
+  <box id="brush-758-finish-0" position="-32 -32 -4" width="1" depth="1" height="11" material="m-white" collidable="false" visible="true"/>
+  <face-material id="top-758-finish-0" host="brush-758-finish-0" face="top" material="m-roof"/>
+  <box id="brush-758-finish-1" position="-32 -24 -4" width="1" depth="2.35" height="11" material="m-white" collidable="false" visible="true"/>
+  <face-material id="top-758-finish-1" host="brush-758-finish-1" face="top" material="m-roof"/>
+  <box id="brush-758-finish-2" position="-32 -11.85 -4" width="1" depth="1.1" height="11" material="m-white" collidable="false" visible="true"/>
+  <face-material id="top-758-finish-2" host="brush-758-finish-2" face="top" material="m-roof"/>
+  <box id="brush-758-finish-3" position="-32 -0.95 -4" width="1" depth="2.9" height="11" material="m-white" collidable="false" visible="true"/>
+  <face-material id="top-758-finish-3" host="brush-758-finish-3" face="top" material="m-roof"/>
+  <box id="brush-758-finish-4" position="-32 8.95 -4" width="1" depth="1.75" height="11" material="m-white" collidable="false" visible="true"/>
+  <face-material id="top-758-finish-4" host="brush-758-finish-4" face="top" material="m-roof"/>
+  <box id="brush-758-finish-5" position="-32 20.5 -4" width="1" depth="0.65" height="11" material="m-white" collidable="false" visible="true"/>
+  <face-material id="top-758-finish-5" host="brush-758-finish-5" face="top" material="m-roof"/>
+  <box id="brush-758-finish-6" position="-32 30.95 -4" width="1" depth="1.05" height="11" material="m-white" collidable="false" visible="true"/>
+  <face-material id="top-758-finish-6" host="brush-758-finish-6" face="top" material="m-roof"/>
+  <box id="brush-759" position="-31 31 -4" width="62" depth="1" height="12" material="m-white" collidable="true" visible="false"/>
+  <box id="brush-759-finish-0" position="-21.2 31 -4" width="0.65" depth="1" height="12" material="m-white" collidable="false" visible="true"/>
+  <face-material id="top-759-finish-0" host="brush-759-finish-0" face="top" material="m-roof"/>
+  <box id="brush-759-finish-1" position="-13.55 31 -4" width="2.35" depth="1" height="12" material="m-white" collidable="false" visible="true"/>
+  <face-material id="top-759-finish-1" host="brush-759-finish-1" face="top" material="m-roof"/>
+  <box id="brush-759-finish-2" position="-1.4 31 -4" width="1.1" depth="1" height="12" material="m-white" collidable="false" visible="true"/>
+  <face-material id="top-759-finish-2" host="brush-759-finish-2" face="top" material="m-roof"/>
+  <box id="brush-759-finish-3" position="9.5 31 -4" width="2.9" depth="1" height="12" material="m-white" collidable="false" visible="true"/>
+  <face-material id="top-759-finish-3" host="brush-759-finish-3" face="top" material="m-roof"/>
+  <box id="brush-759-finish-4" position="19.4 31 -4" width="1.75" depth="1" height="12" material="m-white" collidable="false" visible="true"/>
+  <face-material id="top-759-finish-4" host="brush-759-finish-4" face="top" material="m-roof"/>
+  <box id="brush-759-finish-5" position="30.95 31 -4" width="0.05" depth="1" height="12" material="m-white" collidable="false" visible="true"/>
+  <face-material id="top-759-finish-5" host="brush-759-finish-5" face="top" material="m-roof"/>
+  <box id="brush-760" position="31 -32 -4" width="1" depth="64" height="9.7" material="m-white" collidable="true" visible="false"/>
+  <box id="brush-760-finish-0" position="31 -32 -4" width="1" depth="1.05" height="9.7" material="m-white" collidable="false" visible="true"/>
+  <face-material id="top-760-finish-0" host="brush-760-finish-0" face="top" material="m-roof"/>
+  <box id="brush-760-finish-1" position="31 -21.15 -4" width="1" depth="1.1" height="9.7" material="m-white" collidable="false" visible="true"/>
+  <face-material id="top-760-finish-1" host="brush-760-finish-1" face="top" material="m-roof"/>
+  <box id="brush-760-finish-2" position="31 -13.05 -4" width="1" depth="2.35" height="9.7" material="m-white" collidable="false" visible="true"/>
+  <face-material id="top-760-finish-2" host="brush-760-finish-2" face="top" material="m-roof"/>
+  <box id="brush-760-finish-3" position="31 -0.9 -4" width="1" depth="0.65" height="9.7" material="m-white" collidable="false" visible="true"/>
+  <face-material id="top-760-finish-3" host="brush-760-finish-3" face="top" material="m-roof"/>
+  <box id="brush-760-finish-4" position="31 9.55 -4" width="1" depth="1.75" height="9.7" material="m-white" collidable="false" visible="true"/>
+  <face-material id="top-760-finish-4" host="brush-760-finish-4" face="top" material="m-roof"/>
+  <box id="brush-760-finish-5" position="31 18.3 -4" width="1" depth="2.9" height="9.7" material="m-white" collidable="false" visible="true"/>
+  <face-material id="top-760-finish-5" host="brush-760-finish-5" face="top" material="m-roof"/>
+  <box id="brush-760-finish-6" position="31 31 -4" width="1" depth="1" height="9.7" material="m-white" collidable="false" visible="true"/>
+  <face-material id="top-760-finish-6" host="brush-760-finish-6" face="top" material="m-roof"/>
+  <box id="brush-761" position="-19 18 -4" width="9" depth="2" height="11.5" material="m-white" collidable="true" visible="true"/>
+  <face-material id="top-761" host="brush-761" face="top" material="m-roof"/>
+  <box id="brush-762" position="10 18 -4" width="9" depth="2" height="12.5" material="m-white" collidable="true" visible="true"/>
+  <face-material id="top-762" host="brush-762" face="top" material="m-roof"/>
+  <box id="brush-763" position="-16 2 -4" width="6" depth="16" height="11.5" material="m-white" collidable="true" visible="false"/>
+  <box id="brush-763-finish-0" position="-16 11.8 -4" width="6" depth="6.2" height="11.5" material="m-white" collidable="false" visible="true"/>
+  <face-material id="top-763-finish-0" host="brush-763-finish-0" face="top" material="m-roof"/>
+  <box id="brush-764" position="10 9 -4" width="6" depth="9" height="12.5" material="m-white" collidable="true" visible="false"/>
+  <box id="brush-764-finish-0" position="10 9 -4" width="2" depth="9" height="12.5" material="m-white" collidable="false" visible="true"/>
+  <face-material id="top-764-finish-0" host="brush-764-finish-0" face="top" material="m-roof"/>
+  <box id="brush-764-finish-1" position="12 11.8 -4" width="4" depth="6.2" height="12.5" material="m-white" collidable="false" visible="true"/>
+  <face-material id="top-764-finish-1" host="brush-764-finish-1" face="top" material="m-roof"/>
+  <box id="brush-765" position="-19 2 -4" width="3" depth="12" height="11.5" material="m-white" collidable="true" visible="false"/>
+  <box id="brush-765-finish-0" position="-19 2 -4" width="2" depth="12" height="11.5" material="m-white" collidable="false" visible="true"/>
+  <face-material id="top-765-finish-0" host="brush-765-finish-0" face="top" material="m-roof"/>
+  <box id="brush-765-finish-1" position="-17 11.8 -4" width="1" depth="2.2" height="11.5" material="m-white" collidable="false" visible="true"/>
+  <face-material id="top-765-finish-1" host="brush-765-finish-1" face="top" material="m-roof"/>
+  <box id="brush-766" position="16 2 -4" width="3" depth="12" height="12.5" material="m-white" collidable="true" visible="false"/>
+  <box id="brush-766-finish-0" position="16 11.8 -4" width="3" depth="2.2" height="12.5" material="m-white" collidable="false" visible="true"/>
+  <face-material id="top-766-finish-0" host="brush-766-finish-0" face="top" material="m-roof"/>
+  <box id="brush-767" position="11 2 -4" width="5" depth="7" height="12.5" material="m-white" collidable="true" visible="false"/>
+  <box id="brush-767-finish-0" position="11 2 -4" width="1" depth="7" height="12.5" material="m-white" collidable="false" visible="true"/>
+  <face-material id="top-767-finish-0" host="brush-767-finish-0" face="top" material="m-roof"/>
+  <box id="brush-768" position="-19 -14 -4" width="9" depth="12" height="12.5" material="m-white" collidable="true" visible="false"/>
+  <box id="brush-768-finish-0" position="-12 -14 -4" width="2" depth="12" height="12.5" material="m-white" collidable="false" visible="true"/>
+  <face-material id="top-768-finish-0" host="brush-768-finish-0" face="top" material="m-roof"/>
+  <box id="brush-768-finish-1" position="-19 -14 -4" width="7" depth="1.2" height="12.5" material="m-white" collidable="false" visible="true"/>
+  <face-material id="top-768-finish-1" host="brush-768-finish-1" face="top" material="m-roof"/>
+  <box id="brush-768-finish-2" position="-19 -3 -4" width="7" depth="1" height="12.5" material="m-white" collidable="false" visible="true"/>
+  <face-material id="top-768-finish-2" host="brush-768-finish-2" face="top" material="m-roof"/>
+  <box id="brush-769" position="11 -14 -4" width="8" depth="12" height="11.5" material="m-white" collidable="true" visible="false"/>
+  <box id="brush-769-finish-0" position="11 -14 -4" width="1" depth="12" height="11.5" material="m-white" collidable="false" visible="true"/>
+  <face-material id="top-769-finish-0" host="brush-769-finish-0" face="top" material="m-roof"/>
+  <box id="brush-769-finish-1" position="12 -4.2 -4" width="7" depth="2.2" height="11.5" material="m-white" collidable="false" visible="true"/>
+  <face-material id="top-769-finish-1" host="brush-769-finish-1" face="top" material="m-roof"/>
+  <box id="brush-770" position="10 -20 -4" width="1" depth="11" height="11.5" material="m-white" collidable="true" visible="true"/>
+  <face-material id="top-770" host="brush-770" face="top" material="m-roof"/>
+  <box id="brush-771" position="-16 -20 -4" width="6" depth="6" height="12.5" material="m-white" collidable="true" visible="true"/>
+  <face-material id="top-771" host="brush-771" face="top" material="m-roof"/>
+  <box id="brush-772" position="11 -20 -4" width="5" depth="6" height="11.5" material="m-white" collidable="true" visible="true"/>
+  <face-material id="top-772" host="brush-772" face="top" material="m-roof"/>
+  <box id="brush-773" position="-19 -20 -4" width="3" depth="2" height="12.5" material="m-white" collidable="true" visible="true"/>
+  <face-material id="top-773" host="brush-773" face="top" material="m-roof"/>
+  <box id="brush-774" position="16 -20 -4" width="3" depth="2" height="11.5" material="m-white" collidable="true" visible="true"/>
+  <face-material id="top-774" host="brush-774" face="top" material="m-roof"/>
+  <box id="brush-775" position="-31 -32 -4" width="62" depth="1" height="12" material="m-white" collidable="true" visible="false"/>
+  <box id="brush-775-finish-0" position="-31 -32 -4" width="0.05" depth="1" height="12" material="m-white" collidable="false" visible="true"/>
+  <face-material id="top-775-finish-0" host="brush-775-finish-0" face="top" material="m-roof"/>
+  <box id="brush-775-finish-1" position="-23.95 -32 -4" width="2.35" depth="1" height="12" material="m-white" collidable="false" visible="true"/>
+  <face-material id="top-775-finish-1" host="brush-775-finish-1" face="top" material="m-roof"/>
+  <box id="brush-775-finish-2" position="-11.8 -32 -4" width="0.65" depth="1" height="12" material="m-white" collidable="false" visible="true"/>
+  <face-material id="top-775-finish-2" host="brush-775-finish-2" face="top" material="m-roof"/>
+  <box id="brush-775-finish-3" position="-1.35 -32 -4" width="1.75" depth="1" height="12" material="m-white" collidable="false" visible="true"/>
+  <face-material id="top-775-finish-3" host="brush-775-finish-3" face="top" material="m-roof"/>
+  <box id="brush-775-finish-4" position="7.4 -32 -4" width="2.9" depth="1" height="12" material="m-white" collidable="false" visible="true"/>
+  <face-material id="top-775-finish-4" host="brush-775-finish-4" face="top" material="m-roof"/>
+  <box id="brush-775-finish-5" position="20.1 -32 -4" width="1.1" depth="1" height="12" material="m-white" collidable="false" visible="true"/>
+  <face-material id="top-775-finish-5" host="brush-775-finish-5" face="top" material="m-roof"/>
+  <box id="brush-794" position="-150 32 -4.3" width="300" depth="118" height="4.3" material="m-pave" collidable="false" visible="true"/>
+  <box id="brush-795" position="-150 -150 -4.3" width="300" depth="118" height="4.3" material="m-pave" collidable="false" visible="true"/>
+  <box id="brush-796" position="-150 -32 -4.3" width="118" depth="64" height="4.3" material="m-pave" collidable="false" visible="true"/>
+  <box id="brush-797" position="32 -32 -4.3" width="118" depth="64" height="4.3" material="m-pave" collidable="false" visible="true"/>
+  <marker id="attacker-0" kind="attacker_spawn" team="attack" element="brush-156" position="-27 28.5 0"/>
+  <marker id="attacker-1" kind="attacker_spawn" team="attack" element="brush-156" position="-24 29.5 0"/>
+  <marker id="attacker-2" kind="attacker_spawn" team="attack" element="brush-156" position="-21.5 28.5 0"/>
+  <marker id="attacker-3" kind="attacker_spawn" team="attack" element="brush-156" position="-5 29.5 0"/>
+  <marker id="attacker-4" kind="attacker_spawn" team="attack" element="brush-156" position="-3 28 0"/>
+  <marker id="attacker-5" kind="attacker_spawn" team="attack" element="brush-156" position="4 29 0"/>
+  <marker id="attacker-6" kind="attacker_spawn" team="attack" element="brush-156" position="21.5 28.5 0"/>
+  <marker id="attacker-7" kind="attacker_spawn" team="attack" element="brush-156" position="24 29.5 0"/>
+  <marker id="attacker-8" kind="attacker_spawn" team="attack" element="brush-156" position="27 28.5 0"/>
+  <marker id="attacker-9" kind="attacker_spawn" team="attack" element="brush-159" position="-17.5 17 0"/>
+  <marker id="attacker-10" kind="attacker_spawn" team="attack" element="brush-160" position="17.5 17 0"/>
+  <marker id="attacker-11" kind="attacker_spawn" team="attack" element="brush-159" position="-17.5 15 0"/>
+  <marker id="attacker-12" kind="attacker_spawn" team="attack" element="brush-160" position="17.5 15 0"/>
+  <marker id="attacker-13" kind="attacker_spawn" team="attack" element="brush-66" position="28.5 9.5 3.5"/>
+  <marker id="attacker-14" kind="attacker_spawn" team="attack" element="brush-66" position="30 9.5 3.5"/>
+  <marker id="defender-0" kind="defender_spawn" team="defend" element="brush-457" position="-27 -28.5 0"/>
+  <marker id="defender-1" kind="defender_spawn" team="defend" element="brush-457" position="-24 -29.5 0"/>
+  <marker id="defender-2" kind="defender_spawn" team="defend" element="brush-457" position="-21.5 -28.5 0"/>
+  <marker id="defender-3" kind="defender_spawn" team="defend" element="brush-457" position="-5 -29.5 0"/>
+  <marker id="defender-4" kind="defender_spawn" team="defend" element="brush-457" position="-3 -28 0"/>
+  <marker id="defender-5" kind="defender_spawn" team="defend" element="brush-457" position="4 -29 0"/>
+  <marker id="defender-6" kind="defender_spawn" team="defend" element="brush-457" position="21.5 -28.5 0"/>
+  <marker id="defender-7" kind="defender_spawn" team="defend" element="brush-457" position="24 -29.5 0"/>
+  <marker id="defender-8" kind="defender_spawn" team="defend" element="brush-457" position="27 -28.5 0"/>
+  <marker id="defender-9" kind="defender_spawn" team="defend" element="brush-460" position="-17.5 -17 0"/>
+  <marker id="defender-10" kind="defender_spawn" team="defend" element="brush-461" position="17.5 -17 0"/>
+  <marker id="defender-11" kind="defender_spawn" team="defend" element="brush-460" position="-17.5 -15 0"/>
+  <marker id="defender-12" kind="defender_spawn" team="defend" element="brush-461" position="17.5 -15 0"/>
+  <marker id="defender-13" kind="defender_spawn" team="defend" element="brush-66" position="28.5 -9.5 3.5"/>
+  <marker id="defender-14" kind="defender_spawn" team="defend" element="brush-66" position="30 -9.5 3.5"/>
+  <profile id="back-street-plan" points="-50.0174 -7.9387; -56.4677 -57.3908; 11.9124 -50.0268; 50.5892 -56.4729; 59.0391 11.1264; 50.4902 51.7339; -13.1337 59.035; -55.2263 50.4007"><hole points="-48.7737 45.5993; -12.8663 52.965; 45.5098 46.2661; 52.9609 10.8736; 45.4108 -49.5271; 12.0876 -43.9732; -49.5323 -50.6092; -43.9826 -8.0613"/></profile>
+  <slab id="back-street" profile="back-street-plan" position="0 0 0.018" thickness="0.12" material="m-pave" collidable="false"/>
+  <profile id="back-pavement-plan" points="-52.029 -7.8978; -58.7795 -59.6513; 11.854 -52.0446; 52.3154 -58.7882; 61.0652 11.2107; 52.1503 53.5565; -13.2229 61.0584; -57.3771 52.0011"><hole points="-55.2263 50.4007; -13.1337 59.035; 50.4902 51.7339; 59.0391 11.1264; 50.5892 -56.4729; 11.9124 -50.0268; -56.4677 -57.3908; -50.0174 -7.9387"/></profile>
+  <slab id="back-pavement" profile="back-pavement-plan" position="0 0 0.15" thickness="0.12" material="m-concrete" collidable="false"/>
+  <profile id="opposite-pavement-plan" points="-43.9826 -8.0613; -49.5323 -50.6092; 12.0876 -43.9732; 45.4108 -49.5271; 52.9609 10.8736; 45.5098 46.2661; -12.8663 52.965; -48.7737 45.5993"><hole points="-46.6229 43.9989; -12.7771 50.9416; 43.8497 44.4435; 50.9348 10.7893; 43.6846 -47.2118; 12.146 -41.9554; -47.2205 -48.3487; -41.971 -8.1022"/></profile>
+  <slab id="opposite-pavement" profile="opposite-pavement-plan" position="0 0 0.15" thickness="0.12" material="m-concrete" collidable="false"/>
+  <profile id="service-courts-plan" points="-41.971 -8.1022; -47.2205 -48.3487; 12.146 -41.9554; 43.6846 -47.2118; 50.9348 10.7893; 43.8497 44.4435; -12.7771 50.9416; -46.6229 43.9989"><hole points="-35.8686 35.9967; -12.3313 40.8248; 35.549 35.3304; 40.8043 10.3679; 35.0538 -35.6354; 12.438 -31.8661; -35.6616 -37.0461; -31.9129 -8.3067"/></profile>
+  <slab id="service-courts" profile="service-courts-plan" position="0 0 0.008" thickness="0.12" material="m-floor" collidable="false"/>
+  <city>
+    <building id="inner-west-north" position="-10 2 0" heading="90" floors="5" seed="8"/>
+    <building id="inner-east-north" position="19 2 0" heading="90" floors="4" seed="4" front-trade="roast"/>
+    <building id="inner-west-south" position="-19 -3 0" heading="270" floors="6" seed="6"/>
+    <building id="inner-east-south" position="19 -14 0" heading="90" floors="5" seed="8"/>
+    <building id="rim-0-0" position="-31 31 0" heading="0" floors="4" seed="4"/>
+    <building id="rim-0-1" position="-13.55 31.35 0" heading="90" floors="6" seed="6"/>
+    <building id="rim-0-2" position="-11.2 31.05 0" heading="0" floors="3" seed="9"/>
+    <building id="rim-0-3" position="-0.3 31.75 0" heading="0" floors="5" seed="8"/>
+    <building id="rim-0-4" position="19.4 31.15 0" heading="90" floors="7" seed="7"/>
+    <building id="rim-0-5" position="21.15 31.45 0" heading="0" floors="4" seed="4"/>
+    <building id="rim-1-0" position="-31.05 -24 0" heading="180" floors="6" seed="6"/>
+    <building id="rim-1-1" position="-31.75 -21.65 0" heading="90" floors="3" seed="9"/>
+    <building id="rim-1-2" position="-31.15 -10.75 0" heading="90" floors="5" seed="8"/>
+    <building id="rim-1-3" position="-31.45 8.95 0" heading="180" floors="7" seed="7"/>
+    <building id="rim-1-4" position="-31 10.7 0" heading="90" floors="4" seed="4"/>
+    <building id="rim-1-5" position="-31.35 21.15 0" heading="90" floors="4" seed="4"/>
+    <building id="rim-2-0" position="31 -31.15 0" heading="180" floors="3" seed="9"/>
+    <building id="rim-2-1" position="20.1 -31.45 0" heading="180" floors="5" seed="8"/>
+    <building id="rim-2-2" position="0.4 -31 0" heading="270" floors="7" seed="7"/>
+    <building id="rim-2-3" position="-1.35 -31.35 0" heading="180" floors="4" seed="4"/>
+    <building id="rim-2-4" position="-11.8 -31.05 0" heading="180" floors="4" seed="4"/>
+    <building id="rim-2-5" position="-30.95 -31.75 0" heading="270" floors="6" seed="6"/>
+    <building id="rim-3-0" position="31 31 0" heading="270" floors="5" seed="8"/>
+    <building id="rim-3-1" position="31.35 11.3 0" heading="360" floors="7" seed="7"/>
+    <building id="rim-3-2" position="31.05 9.55 0" heading="270" floors="4" seed="4"/>
+    <building id="rim-3-3" position="31.75 -0.9 0" heading="270" floors="4" seed="4"/>
+    <building id="rim-3-4" position="31.15 -20.05 0" heading="360" floors="6" seed="6"/>
+    <building id="rim-3-5" position="31.45 -21.15 0" heading="270" floors="3" seed="9"/>
+    <building id="outer-0-0" position="-48.0031 53.975 0" heading="11.5922" floors="5" seed="8"/>
+    <building id="outer-0-1" position="-38.4005 56.2306 0" heading="11.5922" floors="7" seed="7"/>
+    <building id="return-0" position="-32.86 64.5537 0" heading="101.5922" floors="5" seed="8"/>
+    <building id="outer-0-2" position="-28.826 58.6234 0" heading="11.5922" floors="4" seed="4"/>
+    <building id="outer-1-0" position="-6.3816 60.6055 0" heading="-6.5463" floors="8" seed="8"/>
+    <building id="outer-1-1" position="3.462 59.8987 0" heading="-6.5463" floors="6" seed="6"/>
+    <building id="outer-1-2" position="13.1984 58.2579 0" heading="-6.5463" floors="3" seed="9"/>
+    <building id="return-1" position="21.0547 64.4426 0" heading="83.4537" floors="3" seed="9"/>
+    <building id="outer-1-3" position="22.9736 56.955 0" heading="-6.5463" floors="5" seed="8"/>
+    <building id="outer-1-4" position="32.8012 56.1091 0" heading="-6.5463" floors="7" seed="7"/>
+    <building id="outer-2-0" position="54.5798 45.6573 0" heading="-78.1113" floors="5" seed="8"/>
+    <building id="outer-2-1" position="56.1022 35.9017 0" heading="-78.1113" floors="7" seed="7"/>
+    <building id="return-2" position="64.4539 30.4043 0" heading="11.8887" floors="5" seed="8"/>
+    <building id="outer-2-2" position="57.9573 26.2161 0" heading="-78.1113" floors="4" seed="4"/>
+    <building id="outer-3-0" position="60.8586 7.7029 0" heading="-97.125" floors="8" seed="8"/>
+    <building id="outer-3-1" position="59.457 -2.0587 0" heading="-97.125" floors="6" seed="6"/>
+    <building id="outer-3-2" position="58.5118 -11.8772 0" heading="-97.125" floors="3" seed="9"/>
+    <building id="outer-3-3" position="57.7056 -21.7132 0" heading="-97.125" floors="5" seed="8"/>
+    <building id="return-3" position="63.8106 -29.6316 0" heading="-7.125" floors="3" seed="9"/>
+    <building id="outer-3-4" position="55.9666 -31.4326 0" heading="-97.125" floors="7" seed="7"/>
+    <building id="outer-3-5" position="54.565 -41.1941 0" heading="-97.125" floors="4" seed="4"/>
+    <building id="outer-4-0" position="43.7586 -57.4128 0" heading="170.5377" floors="5" seed="8"/>
+    <building id="outer-4-1" position="33.9867 -56.068 0" heading="170.5377" floors="7" seed="7"/>
+    <building id="return-4" position="25.8259 -61.845 0" heading="260.5377" floors="5" seed="8"/>
+    <building id="outer-4-2" position="24.1918 -54.8613 0" heading="170.5377" floors="4" seed="4"/>
+    <building id="outer-5-1" position="-0.2777 -54.1055 0" heading="-173.8534" floors="6" seed="6"/>
+    <building id="outer-5-2" position="-10.1367 -54.6442 0" heading="-173.8534" floors="3" seed="9"/>
+    <building id="outer-5-3" position="-19.9593 -55.521 0" heading="-173.8534" floors="5" seed="8"/>
+    <building id="return-5" position="-26.2647 -63.2807 0" heading="-83.8534" floors="3" seed="9"/>
+    <building id="outer-5-4" position="-29.7326 -56.8551 0" heading="-173.8534" floors="7" seed="7"/>
+    <building id="outer-5-5" position="-39.491 -58.3284 0" heading="-173.8534" floors="4" seed="4"/>
+    <building id="outer-6-0" position="-58.2523 -49.8107 0" heading="82.5686" floors="5" seed="8"/>
+    <building id="outer-6-1" position="-56.4614 -40.1007 0" heading="82.5686" floors="7" seed="7"/>
+    <building id="outer-6-2" position="-55.0076 -30.3468 0" heading="82.5686" floors="4" seed="4"/>
+    <building id="return-6" position="-61.0702 -22.3959 0" heading="172.5686" floors="3" seed="9"/>
+    <building id="outer-6-3" position="-54.0099 -20.5334 0" heading="82.5686" floors="8" seed="8"/>
+    <building id="outer-7-0" position="-52.5171 -5.0174 0" heading="95.1022" floors="8" seed="8"/>
+    <building id="outer-7-1" position="-53.2147 4.8195 0" heading="95.1022" floors="6" seed="6"/>
+    <building id="outer-7-2" position="-54.3704 14.6155 0" heading="95.1022" floors="3" seed="9"/>
+    <building id="return-7" position="-62.0139 21.0613 0" heading="185.1022" floors="3" seed="9"/>
+    <building id="outer-7-3" position="-55.6657 24.3991 0" heading="95.1022" floors="5" seed="8"/>
+    <building id="outer-7-4" position="-56.0246 34.2663 0" heading="95.1022" floors="7" seed="7"/>
+    <building id="court-0-0" position="-36.3184 46.031 0" heading="191.5922" floors="3" seed="9"/>
+    <building id="court-0-1" position="-26.64 48.0163 0" heading="191.5922" floors="4" seed="4"/>
+    <building id="court-0-2" position="-16.9615 50.0016 0" heading="191.5922" floors="3" seed="9"/>
+    <building id="court-1-0" position="2.1975 49.1427 0" heading="173.4537" floors="4" seed="4"/>
+    <building id="court-1-1" position="12.0131 48.0163 0" heading="173.4537" floors="3" seed="9"/>
+    <building id="court-1-3" position="31.6442 45.7636 0" heading="173.4537" floors="5" seed="8"/>
+    <building id="court-1-4" position="41.4598 44.6372 0" heading="173.4537" floors="3" seed="9"/>
+    <building id="court-2-1" position="48.0467 24.1194 0" heading="101.8887" floors="6" seed="6"/>
+    <building id="court-2-2" position="50.082 14.4514 0" heading="101.8887" floors="5" seed="8"/>
+    <building id="court-3-0" position="49.4102 -0.7625 0" heading="82.875" floors="6" seed="6"/>
+    <building id="court-3-1" position="48.1847 -10.5662 0" heading="82.875" floors="5" seed="8"/>
+    <building id="court-3-4" position="44.5083 -39.9773 0" heading="82.875" floors="3" seed="9"/>
+    <building id="court-3-5" position="43.2828 -49.781 0" heading="82.875" floors="6" seed="6"/>
+    <building id="court-5-4" position="-40.6903 -47.565 0" heading="6.1466" floors="5" seed="8"/>
+    <building id="court-5-5" position="-50.5135 -48.6229 0" heading="6.1466" floors="3" seed="9"/>
+    <lamp id="lamp-0-0" position="-45.8329 53.3483 0.15" heading="11.5922" banner="true"/>
+    <lamp id="lamp-0-2" position="-26.5151 57.311 0.15" heading="11.5922" banner="true"/>
+    <lamp id="lamp-1-0" position="-4.5463 59.0562 0.15" heading="-6.5463" banner="true"/>
+    <lamp id="lamp-1-2" position="15.0451 56.808 0.15" heading="-6.5463" banner="true"/>
+    <lamp id="lamp-1-4" position="34.6366 54.5598 0.15" heading="-6.5463" banner="true"/>
+    <lamp id="lamp-2-0" position="53.2793 43.3397 0.15" heading="-78.1113" banner="true"/>
+    <lamp id="lamp-2-2" position="57.3419 24.0427 0.15" heading="-78.1113" banner="true"/>
+    <lamp id="lamp-3-0" position="59.39 5.8709 0.15" heading="-97.125" banner="true"/>
+    <lamp id="lamp-3-2" position="56.944 -13.6968 0.15" heading="-97.125" banner="true"/>
+    <lamp id="lamp-3-4" position="54.4981 -33.2646 0.15" heading="-97.125" banner="true"/>
+    <lamp id="lamp-4-0" position="41.9584 -56.0482 0.15" heading="170.5377" banner="true"/>
+    <lamp id="lamp-4-2" position="22.5067 -52.8063 0.15" heading="170.5377" banner="true"/>
+    <lamp id="lamp-5-2" position="-12.2569 -53.6354 0.15" heading="-173.8534" banner="true"/>
+    <lamp id="lamp-5-4" position="-31.8635 -55.7469 0.15" heading="-173.8534" banner="true"/>
+    <lamp id="lamp-6-0" position="-56.2583 -48.0538 0.15" heading="82.5686" banner="true"/>
+    <lamp id="lamp-6-2" position="-53.7077 -28.4994 0.15" heading="82.5686" banner="true"/>
+    <lamp id="lamp-7-0" position="-51.4698 -2.916 0.15" heading="95.1022" banner="true"/>
+    <lamp id="lamp-7-2" position="-53.2236 16.7259 0.15" heading="95.1022" banner="true"/>
+    <lamp id="lamp-7-4" position="-54.9773 36.3677 0.15" heading="95.1022" banner="true"/>
+    <tree id="bed-tree-0" position="-25 15.5 0.96" heading="0" scale="0.405"/>
+    <tree id="bed-tree-1" position="-25 -15.5 0.96" heading="73" scale="0.405"/>
+    <tree id="bed-tree-2" position="-27.25 1.5 -0.94" heading="146" scale="0.5"/>
+    <tree id="bed-tree-3" position="-27.25 -1.5 -0.94" heading="219" scale="0.54"/>
+    <tree id="pavement-tree-0-0" position="-42.5834 53.6066 0.15" heading="11.5922" scale="0.62"/>
+    <tree id="pavement-tree-0-1" position="-23.1966 50.2334 0.15" heading="52.5922" scale="0.72"/>
+    <tree id="pavement-tree-1-0" position="3.2704 57.7565 0.15" heading="16.4537" scale="0.72"/>
+    <tree id="pavement-tree-1-1" position="30.5096 47.3835 0.15" heading="57.4537" scale="0.79"/>
+    <tree id="pavement-tree-2-0" position="53.6028 39.8616 0.15" heading="-32.1113" scale="0.79"/>
+    <tree id="pavement-tree-2-1" position="50.2372 20.8984 0.15" heading="8.8887" scale="0.62"/>
+    <tree id="pavement-tree-3-0" position="57.4922 -6.0865 0.15" heading="-28.125" scale="0.62"/>
+    <tree id="pavement-tree-3-1" position="46.6678 -34.6335 0.15" heading="12.875" scale="0.72"/>
+    <tree id="pavement-tree-4-0" position="38.0482 -54.991 0.15" heading="262.5377" scale="0.72"/>
+    <tree id="pavement-tree-4-1" position="22.6718 -45.129 0.15" heading="303.5377" scale="0.79"/>
+    <tree id="pavement-tree-5-0" position="-4.5145 -52.3993 0.15" heading="-58.8534" scale="0.79"/>
+    <tree id="pavement-tree-5-1" position="-35.1855 -48.4607 0.15" heading="-17.8534" scale="0.62"/>
+    <tree id="pavement-tree-6-0" position="-55.0098 -41.5744 0.15" heading="220.5686" scale="0.62"/>
+    <tree id="pavement-tree-6-1" position="-45.1102 -21.3456 0.15" heading="261.5686" scale="0.72"/>
+    <tree id="pavement-tree-7-0" position="-51.8857 6.2398 0.15" heading="256.1022" scale="0.72"/>
+    <tree id="pavement-tree-7-1" position="-47.0143 32.6402 0.15" heading="297.1022" scale="0.79"/>
+    <weed id="weed-brush-55-0-0" position="-27.7707 -3.0496 -2" heading="4.0865" scale="0.8145"/>
+    <weed id="weed-brush-55-1-0" position="-25.4353 -2.3208 -2" heading="87.233" scale="0.6556"/>
+    <weed id="weed-brush-55-1-1" position="-25.4488 -0.5773 -2" heading="95.489" scale="0.6886"/>
+    <weed id="weed-brush-55-1-2" position="-25.4363 2.3661 -2" heading="87.745" scale="0.7216"/>
+    <weed id="weed-brush-55-2-0" position="-26.0993 3.0531 -2" heading="175.6725" scale="0.7543"/>
+    <weed id="weed-brush-55-2-1" position="-28.0738 3.0406 -2" heading="183.4165" scale="0.7213"/>
+    <weed id="weed-brush-55-3-2" position="-29.0403 -1.9924 -2" heading="-97.7397" scale="1.16"/>
+    <weed id="weed-brush-58-2-0" position="-19.9677 -6.3463 -2" heading="179.1812" scale="1.1582"/>
+    <weed id="weed-brush-69-0-0" position="19.6452 2.9392 0" heading="3.7121" scale="0.6966"/>
+    <weed id="weed-brush-69-0-1" position="20.6477 2.9527 0" heading="-4.0319" scale="0.7296"/>
+    <weed id="weed-brush-70-0-0" position="21.3322 -3.6659 0" heading="-4.2535" scale="0.8435"/>
+    <weed id="weed-brush-70-0-1" position="22.3347 -3.6524 0" heading="4.0025" scale="0.8766"/>
+    <weed id="weed-brush-70-2-0" position="22.1135 -2.9498 0" heading="176.2985" scale="0.8173"/>
+    <weed id="weed-brush-70-2-1" position="21.111 -2.9373 0" heading="184.5545" scale="0.8504"/>
+    <weed id="weed-brush-70-3-0" position="20.6443 -3.4638 0" heading="-84.8936" scale="1.0291"/>
+    <weed id="weed-brush-78-0-1" position="-3.1105 -3.7532 0" heading="-4.2211" scale="1.0773"/>
+    <weed id="weed-brush-78-0-2" position="-1.4101 -3.7417 0" heading="3.011" scale="0.9782"/>
+    <weed id="weed-brush-78-2-0" position="-0.7322 -3.3355 0" heading="176.861" scale="0.9625"/>
+    <weed id="weed-brush-78-2-1" position="-2.6209 -3.349 0" heading="185.117" scale="0.9955"/>
+    <weed id="weed-brush-79-0-0" position="1.5407 3.3547 0" heading="4.7242" scale="0.8262"/>
+    <weed id="weed-brush-79-0-1" position="2.6853 3.3412 0" heading="-3.5318" scale="0.7932"/>
+    <weed id="weed-brush-79-0-2" position="5.1299 3.3537 0" heading="4.2122" scale="0.7602"/>
+    <weed id="weed-brush-79-2-0" position="5.4793 3.7418 0" heading="177.1382" scale="0.8864"/>
+    <weed id="weed-brush-79-2-1" position="3.0347 3.7553 0" heading="184.8823" scale="0.8534"/>
+    <weed id="weed-brush-80-1-0" position="7.0412 8.1539 0" heading="83.3029" scale="0.7804"/>
+    <weed id="weed-brush-80-3-0" position="6.4532 7.8459 0" heading="-84.6401" scale="1.0795"/>
+    <weed id="weed-brush-81-1-0" position="7.0563 5.1054 0" heading="93.5489" scale="0.975"/>
+    <weed id="weed-brush-81-1-1" position="7.0438 5.8978 0" heading="85.2929" scale="0.9419"/>
+    <weed id="weed-brush-81-3-0" position="6.4508 6.1476 0" heading="-94.632" scale="0.8477"/>
+    <weed id="weed-brush-81-3-1" position="6.4373 4.4552 0" heading="-86.8879" scale="0.8147"/>
+    <weed id="weed-brush-83-0-0" position="6.6259 1.4368 0" heading="3.1325" scale="1.0962"/>
+    <weed id="weed-brush-83-1-1" position="7.0563 3.2279 0" heading="93.6844" scale="1.275"/>
+    <weed id="weed-brush-83-3-0" position="6.4591 3.1115 0" heading="-82.1913" scale="0.8991"/>
+    <weed id="weed-brush-84-1-0" position="7.0578 -3.3028 0" heading="95.3607" scale="1.0354"/>
+    <weed id="weed-brush-84-1-1" position="7.0443 -2.2131 0" heading="87.6167" scale="1.0684"/>
+    <weed id="weed-brush-84-3-0" position="6.4579 -2.4737 0" heading="-84.0873" scale="1.0092"/>
+    <weed id="weed-brush-84-3-1" position="6.4454 -3.5633 0" heading="-91.8313" scale="1.0422"/>
+    <weed id="weed-brush-85-3-1" position="6.4384 -6.052 0" heading="-85.7402" scale="0.9319"/>
+    <weed id="weed-brush-87-1-0" position="7.0438 -8.0546 0" heading="92.0403" scale="1.2557"/>
+    <weed id="weed-brush-87-3-0" position="6.4381 -7.8802 0" heading="-83.6876" scale="1.2773"/>
+    <weed id="weed-brush-90-0-0" position="-6.7068 1.4414 0" heading="7.7641" scale="1.2733"/>
+    <weed id="weed-brush-90-1-1" position="-6.4538 3.8735 0" heading="84.2704" scale="0.8549"/>
+    <weed id="weed-brush-90-1-2" position="-6.4424 6.0001 0" heading="93.0383" scale="0.954"/>
+    <weed id="weed-brush-90-1-3" position="-6.4549 7.9745 0" heading="84.7824" scale="0.921"/>
+    <weed id="weed-brush-91-1-0" position="-6.4486 -8.0375 0" heading="90.6949" scale="1.2838"/>
+    <weed id="weed-brush-91-1-1" position="-6.4361 -5.462 0" heading="82.9509" scale="0.6669"/>
+    <weed id="weed-brush-102-0-0" position="23.3275 11.3387 0" heading="3.3492" scale="1.0645"/>
+    <weed id="weed-brush-103-0-0" position="23.2622 8.2343 0" heading="-2.9287" scale="1.1236"/>
+    <weed id="weed-brush-104-2-0" position="23.2811 5.6407 0" heading="183.9246" scale="0.7214"/>
+    <weed id="weed-brush-104-3-0" position="22.9538 5.2798 0" heading="-93.2675" scale="0.9331"/>
+    <weed id="weed-brush-106-0-0" position="23.1523 -2.358 0" heading="-0.6964" scale="1.2024"/>
+    <weed id="weed-brush-106-2-0" position="23.2204 -1.6523 0" heading="178.7516" scale="1.2286"/>
+    <weed id="weed-brush-107-0-0" position="23.2612 -5.6651 0" heading="-2.769" scale="1.2681"/>
+    <weed id="weed-brush-122-1-0" position="26.9078 5.0321 0" heading="82.9506" scale="0.9538"/>
+    <weed id="weed-brush-122-2-0" position="25.8808 5.6434 0" heading="174.5112" scale="0.855"/>
+    <weed id="weed-brush-122-3-0" position="24.9456 5.2559 0" heading="-88.6353" scale="1.0139"/>
+    <weed id="weed-brush-124-0-0" position="24.4575 -5.6535 0" heading="-1.1867" scale="0.8176"/>
+    <weed id="weed-brush-124-0-1" position="25.5036 -5.64 0" heading="7.0693" scale="0.8506"/>
+    <weed id="weed-brush-124-2-0" position="25.4079 -4.3568 0" heading="178.2613" scale="0.8438"/>
+    <weed id="weed-brush-124-2-1" position="24.3618 -4.3443 0" heading="186.5173" scale="0.8768"/>
+    <weed id="weed-brush-377-3-0" position="26.7983 18.3614 0" heading="-89.386" scale="0.7476"/>
+    <weed id="weed-brush-378-3-0" position="26.7873 16.4521 0" heading="-82.3131" scale="1.2674"/>
+    <weed id="weed-brush-379-3-0" position="26.8048 14.2966 0" heading="-87.7097" scale="0.8167"/>
+    <weed id="weed-brush-382-2-0" position="-6.4379 9.0528 0" heading="180.2708" scale="0.7705"/>
+    <weed id="weed-brush-383-0-1" position="-4.135 8.4384 0" heading="2.1339" scale="0.6583"/>
+    <weed id="weed-brush-385-0-0" position="-2.6699 8.4447 0" heading="1.5235" scale="0.9998"/>
+    <weed id="weed-brush-385-1-0" position="-1.4556 8.7286 0" heading="84.67" scale="0.8409"/>
+    <weed id="weed-brush-385-2-0" position="-2.083 9.0625 0" heading="173.7044" scale="1.1271"/>
+    <weed id="weed-brush-386-0-0" position="2.5084 8.4507 0" heading="1.0684" scale="0.6661"/>
+    <weed id="weed-brush-386-2-0" position="2.5599 9.0596 0" heading="181.6204" scale="1.2898"/>
+    <weed id="weed-brush-387-0-0" position="3.8266 8.4559 0" heading="-6.3087" scale="1.0737"/>
+    <weed id="weed-brush-387-0-1" position="5.519 8.4424 0" heading="1.4353" scale="1.0407"/>
+    <weed id="weed-brush-387-2-0" position="5.0673 9.0575 0" heading="183.4648" scale="0.9993"/>
+    <weed id="weed-brush-387-2-1" position="3.3749 9.045 0" heading="175.2088" scale="0.9663"/>
+    <weed id="weed-brush-400-0-0" position="4.1465 4.7017 0" heading="-2.5716" scale="1.1375"/>
+    <weed id="weed-brush-404-0-0" position="-5.7077 14.4406 0" heading="6.9081" scale="1.2462"/>
+    <weed id="weed-brush-404-0-1" position="-4.0153 14.4531 0" heading="-1.3478" scale="1.2132"/>
+    <weed id="weed-brush-404-1-0" position="-3.4437 15.0693 0" heading="87.7712" scale="0.7138"/>
+    <weed id="weed-brush-404-2-0" position="-4.5071 15.5613 0" heading="175.0398" scale="1.005"/>
+    <weed id="weed-brush-404-3-0" position="-6.5558 14.8308 0" heading="-87.7681" scale="0.7933"/>
+    <weed id="weed-brush-406-2-0" position="6.1507 13.5488 0" heading="185.595" scale="1.1103"/>
+    <weed id="weed-brush-406-2-1" position="4.4583 13.5623 0" heading="177.339" scale="1.0773"/>
+    <weed id="weed-brush-408-0-0" position="0.1006 17.3504 0" heading="4.6195" scale="0.805"/>
+    <weed id="weed-brush-408-2-0" position="-0.1257 18.6485 0" heading="181.7068" scale="1.2988"/>
+    <weed id="weed-brush-413-0-0" position="-26.3103 14.948 0" heading="4.0476" scale="1.0436"/>
+    <weed id="weed-brush-413-0-1" position="-24.0537 14.9345 0" heading="-4.2084" scale="1.0106"/>
+    <weed id="weed-brush-413-2-1" position="-26.0878 16.053 0" heading="185.5651" scale="0.9362"/>
+    <weed id="weed-brush-415-0-1" position="-27.2609 25.4405 0" heading="5.7151" scale="0.746"/>
+    <weed id="weed-brush-415-0-2" position="-25.9792 25.455 0" heading="-1.517" scale="0.845"/>
+    <weed id="weed-brush-415-2-1" position="-22.0917 26.0461 0" heading="175.9416" scale="0.8204"/>
+    <weed id="weed-brush-415-2-2" position="-23.1922 26.0596 0" heading="183.6856" scale="0.7873"/>
+    <weed id="weed-brush-415-2-4" position="-28.2556 26.0566 0" heading="185.2214" scale="0.9855"/>
+    <weed id="weed-brush-415-2-5" position="-29.3562 26.0441 0" heading="176.9655" scale="0.9525"/>
+    <weed id="weed-brush-417-0-0" position="-9.4313 25.444 0" heading="4.7462" scale="0.6613"/>
+    <weed id="weed-brush-417-0-2" position="-4.6926 25.443 0" heading="4.2343" scale="1.2452"/>
+    <weed id="weed-brush-417-0-3" position="-3.5833 25.4555 0" heading="-4.0217" scale="1.2122"/>
+    <weed id="weed-brush-417-0-4" position="-1.2139 25.442 0" heading="3.7223" scale="1.1792"/>
+    <weed id="weed-brush-417-0-5" position="1.1554 25.4544 0" heading="-4.5336" scale="1.1461"/>
+    <weed id="weed-brush-417-0-7" position="4.6342 25.4534 0" heading="-5.0456" scale="1.0801"/>
+    <weed id="weed-brush-417-0-8" position="7.0035 25.4399 0" heading="2.6984" scale="1.047"/>
+    <weed id="weed-brush-417-0-9" position="9.3729 25.4524 0" heading="-5.5575" scale="1.014"/>
+    <weed id="weed-brush-417-2-0" position="9.588 26.0451 0" heading="173.6424" scale="0.7481"/>
+    <weed id="weed-brush-417-2-1" position="7.2187 26.0586 0" heading="181.3864" scale="0.7151"/>
+    <weed id="weed-brush-417-2-2" position="4.6667 26.0441 0" heading="174.1543" scale="0.8142"/>
+    <weed id="weed-brush-417-2-3" position="3.5574 26.0576 0" heading="181.8984" scale="0.7811"/>
+    <weed id="weed-brush-417-2-4" position="1.0055 26.0431 0" heading="174.6663" scale="0.8802"/>
+    <weed id="weed-brush-417-2-6" position="-2.6558 26.0421 0" heading="175.1782" scale="0.9463"/>
+    <weed id="weed-brush-417-2-7" position="-5.0252 26.0556 0" heading="182.9223" scale="0.9133"/>
+    <weed id="weed-brush-417-2-9" position="-9.9465 26.0546 0" heading="183.4342" scale="0.9793"/>
+    <weed id="weed-brush-418-0-0" position="14.936 25.4439 0" heading="6.7048" scale="0.8391"/>
+    <weed id="weed-brush-418-1-0" position="15.54 25.7276 0" heading="83.6582" scale="0.8607"/>
+    <weed id="weed-brush-418-2-0" position="14.5063 26.0458 0" heading="186.1528" scale="0.8653"/>
+    <weed id="weed-brush-419-0-1" position="21.4746 25.4492 0" heading="-3.6238" scale="0.8718"/>
+    <weed id="weed-brush-419-0-2" position="24.0062 25.4378 0" heading="5.1441" scale="0.9709"/>
+    <weed id="weed-brush-419-0-4" position="27.6385 25.4388 0" heading="5.6561" scale="1.0369"/>
+    <weed id="weed-brush-419-0-5" position="29.989 25.4513 0" heading="-2.5999" scale="1.0039"/>
+    <weed id="weed-brush-419-2-2" position="25.772 26.0643 0" heading="183.1328" scale="0.8576"/>
+    <weed id="weed-brush-419-2-3" position="23.4214 26.0519 0" heading="174.8768" scale="0.8246"/>
+    <weed id="weed-brush-419-2-4" position="21.0709 26.0654 0" heading="182.6208" scale="0.7915"/>
+    <weed id="weed-brush-420-2-0" position="-14.0146 28.5553 0" heading="187.2528" scale="0.9005"/>
+    <weed id="weed-brush-420-3-0" position="-14.2992 27.9401 0" heading="-82.9285" scale="1.1031"/>
+    <weed id="weed-brush-421-1-1" position="14.2949 27.5865 0" heading="82.0353" scale="0.7405"/>
+    <weed id="weed-brush-421-2-0" position="13.9912 28.5416 0" heading="186.9314" scale="1.238"/>
+    <weed id="weed-brush-421-3-0" position="13.6925 27.6321 0" heading="-90.6962" scale="0.7924"/>
+    <weed id="weed-brush-422-1-1" position="0.304 30.2892 0" heading="83.0776" scale="0.7286"/>
+    <weed id="weed-brush-422-3-0" position="-0.2947 29.5559 0" heading="-97.7947" scale="1.211"/>
+    <weed id="weed-brush-422-3-1" position="-0.3072 27.8996 0" heading="-89.5387" scale="1.244"/>
+    <weed id="weed-brush-423-1-0" position="-19.4457 26.5761 0" heading="96.3943" scale="1.1065"/>
+    <weed id="weed-brush-423-2-0" position="-19.7169 28.5524 0" heading="179.1688" scale="1.0633"/>
+    <weed id="weed-brush-423-3-0" position="-20.0623 27.5362 0" heading="-87.8778" scale="1.0849"/>
+    <weed id="weed-brush-423-3-1" position="-20.0498 26.8759 0" heading="-96.1338" scale="1.0519"/>
+    <weed id="weed-brush-424-1-0" position="-8.9597 26.6558 0" heading="82.9731" scale="0.9462"/>
+    <weed id="weed-brush-424-3-0" position="-9.556 28.1207 0" heading="-97.5789" scale="0.9724"/>
+    <weed id="weed-brush-425-1-0" position="9.5464 26.4521 0" heading="96.4243" scale="1.0475"/>
+    <weed id="weed-brush-425-1-1" position="9.5599 27.8625 0" heading="88.1683" scale="1.0144"/>
+    <weed id="weed-brush-425-2-0" position="9.2983 28.5522 0" heading="182.9189" scale="1.0521"/>
+    <weed id="weed-brush-425-3-0" position="8.9465 27.8371 0" heading="-91.3948" scale="1.1747"/>
+    <weed id="weed-brush-425-3-1" position="8.959 26.4268 0" heading="-83.6508" scale="1.1417"/>
+    <weed id="weed-brush-426-1-0" position="20.0471 26.3004 0" heading="82.9802" scale="1.1492"/>
+    <weed id="weed-brush-426-3-0" position="19.4535 28.0747 0" heading="-92.559" scale="1.2287"/>
+    <weed id="weed-brush-426-3-1" position="19.441 26.985 0" heading="-84.303" scale="1.2617"/>
+    <weed id="weed-brush-427-1-0" position="-18.9476 23.5687 0" heading="85.0351" scale="0.9367"/>
+    <weed id="weed-brush-427-3-0" position="-19.5658 24.3251 0" heading="-85.1914" scale="0.8623"/>
+    <weed id="weed-brush-427-3-1" position="-19.5533 23.5327 0" heading="-93.4474" scale="0.8293"/>
+    <weed id="weed-brush-428-1-0" position="19.5644 23.6643 0" heading="87.6138" scale="0.7765"/>
+    <weed id="weed-brush-428-3-0" position="18.9351 24.4855 0" heading="-96.847" scale="0.697"/>
+    <weed id="weed-brush-428-3-1" position="18.9486 23.1779 0" heading="-88.591" scale="0.73"/>
+    <weed id="weed-brush-429-1-1" position="-9.9344 22.5649 0" heading="96.0481" scale="0.7711"/>
+    <weed id="weed-brush-429-2-0" position="-10.3341 23.541 0" heading="173.4392" scale="0.9434"/>
+    <weed id="weed-brush-429-3-0" position="-10.5647 23.0334 0" heading="-85.4695" scale="0.8786"/>
+    <weed id="weed-brush-429-3-1" position="-10.5522 21.059 0" heading="-93.7254" scale="0.8456"/>
+    <weed id="weed-brush-430-0-0" position="10.2256 21.9584 0" heading="-4.1077" scale="1.0635"/>
+    <weed id="weed-brush-430-3-0" position="9.9345 24.9084 0" heading="-90.0073" scale="1.2463"/>
+    <weed id="weed-brush-430-3-1" position="9.947 22.9339 0" heading="-82.2633" scale="1.2133"/>
+    <weed id="weed-brush-431-1-0" position="0.5485 22.5056 0" heading="88.8998" scale="0.7771"/>
+    <weed id="weed-brush-431-2-0" position="-0.1684 23.3589 0" heading="174.2141" scale="1.0155"/>
+    <weed id="weed-brush-431-3-0" position="-0.5588 22.8732 0" heading="-90.5482" scale="0.7509"/>
+    <weed id="weed-brush-678-3-0" position="26.7998 -18.1735 0" heading="-83.8046" scale="1.0973"/>
+    <weed id="weed-brush-679-3-0" position="26.792 -16.6199 0" heading="-94.6584" scale="0.9763"/>
+    <weed id="weed-brush-680-3-0" position="26.7921 -14.5011 0" heading="-94.474" scale="1.2181"/>
+    <weed id="weed-brush-681-3-0" position="26.7931 -12.9211 0" heading="-97.845" scale="0.9471"/>
+    <weed id="weed-brush-683-0-0" position="-6.4965 -9.0514 0" heading="2.2414" scale="0.9388"/>
+    <weed id="weed-brush-684-0-0" position="-4.999 -9.0424 0" heading="-6.0188" scale="1.0611"/>
+    <weed id="weed-brush-684-0-1" position="-3.3066 -9.0559 0" heading="1.7252" scale="1.028"/>
+    <weed id="weed-brush-684-2-1" position="-5.1534 -8.4406 0" heading="173.3111" scale="0.9679"/>
+    <weed id="weed-brush-686-2-0" position="-2.3107 -8.4591 0" heading="175.3275" scale="0.8731"/>
+    <weed id="weed-brush-687-0-0" position="1.803 -9.0648 0" heading="0.9145" scale="1.0268"/>
+    <weed id="weed-brush-687-3-0" position="1.4356 -8.7605 0" heading="-87.5345" scale="0.9693"/>
+    <weed id="weed-brush-688-2-1" position="4.18 -8.4583 0" heading="182.1207" scale="1.0231"/>
+    <weed id="weed-brush-690-0-0" position="6.7265 -9.0447 0" heading="-7.0685" scale="1.0086"/>
+    <weed id="weed-brush-700-3-0" position="-4.3137 -4.9498 0" heading="-90.9502" scale="1.0457"/>
+    <weed id="weed-brush-701-3-0" position="3.6986 -5.0101 0" heading="-88.3437" scale="0.9887"/>
+    <weed id="weed-brush-705-1-0" position="-3.4566 -15.1859 0" heading="84.8297" scale="0.6591"/>
+    <weed id="weed-brush-705-2-0" position="-4.3022 -14.4554 0" heading="172.5046" scale="1.0799"/>
+    <weed id="weed-brush-705-2-1" position="-5.9946 -14.4419 0" heading="180.2487" scale="1.0469"/>
+    <weed id="weed-brush-705-3-0" position="-6.5591 -15.193 0" heading="-95.7223" scale="0.6853"/>
+    <weed id="weed-brush-707-0-0" position="4.6381 -13.5589 0" heading="-5.5873" scale="0.7532"/>
+    <weed id="weed-brush-707-1-0" position="6.543 -12.918 0" heading="92.0403" scale="1.1988"/>
+    <weed id="weed-brush-707-2-0" position="5.7967 -12.4591 0" heading="186.1406" scale="0.7316"/>
+    <weed id="weed-brush-707-2-1" position="4.1043 -12.4456 0" heading="177.8846" scale="0.6986"/>
+    <weed id="weed-brush-707-3-0" position="3.4592 -12.7273 0" heading="-94.6216" scale="1.117"/>
+    <weed id="weed-brush-709-0-0" position="-0.0403 -18.6549 0" heading="-0.2722" scale="1.1682"/>
+    <weed id="weed-brush-709-1-0" position="0.6494 -18.043 0" heading="96.9199" scale="0.9564"/>
+    <weed id="weed-brush-709-2-0" position="0.1252 -17.3585 0" heading="185.9543" scale="1.2426"/>
+    <weed id="weed-brush-709-3-0" position="-0.6438 -18.3568 0" heading="-95.137" scale="0.6574"/>
+    <weed id="weed-brush-714-0-1" position="-23.9087 -16.0444 0" heading="6.273" scale="0.7079"/>
+    <weed id="weed-brush-714-1-0" position="-22.9408 -15.7809 0" heading="93.4377" scale="0.8057"/>
+    <weed id="weed-brush-716-0-2" position="-25.716 -26.0587 0" heading="7.5013" scale="1.2468"/>
+    <weed id="weed-brush-716-0-3" position="-23.3655 -26.0462 0" heading="-0.7547" scale="1.2137"/>
+    <weed id="weed-brush-716-0-4" position="-21.1961 -26.0617 0" heading="5.9655" scale="1.0486"/>
+    <weed id="weed-brush-716-2-0" position="-19.6543 -25.452 0" heading="174.6665" scale="1.0148"/>
+    <weed id="weed-brush-716-2-1" position="-22.0049 -25.4385 0" heading="182.4106" scale="0.9818"/>
+    <weed id="weed-brush-716-2-2" position="-23.1055 -25.451 0" heading="174.1546" scale="0.9488"/>
+    <weed id="weed-brush-716-2-3" position="-25.456 -25.4374 0" heading="181.8986" scale="0.9157"/>
+    <weed id="weed-brush-716-2-4" position="-28.1688 -25.454 0" heading="175.6904" scale="1.147"/>
+    <weed id="weed-brush-716-2-5" position="-30.5194 -25.4405 0" heading="183.4345" scale="1.1139"/>
+    <weed id="weed-brush-717-0-0" position="-14.8967 -26.0552 0" heading="-2.7327" scale="1.1215"/>
+    <weed id="weed-brush-717-2-0" position="-13.9035 -25.4442 0" heading="172.8065" scale="1.042"/>
+    <weed id="weed-brush-717-3-0" position="-15.5589 -25.8803 0" heading="-88.0565" scale="0.9244"/>
+    <weed id="weed-brush-718-0-0" position="-10.0033 -26.0479 0" heading="6.5645" scale="0.8139"/>
+    <weed id="weed-brush-718-0-2" position="-5.2646 -26.0489 0" heading="6.0525" scale="0.7479"/>
+    <weed id="weed-brush-718-0-3" position="-2.8953 -26.0624 0" heading="-2.2034" scale="0.7148"/>
+    <weed id="weed-brush-718-0-6" position="3.318 -26.0469 0" heading="7.0764" scale="0.88"/>
+    <weed id="weed-brush-718-0-7" position="5.6873 -26.0604 0" heading="-1.1795" scale="0.847"/>
+    <weed id="weed-brush-718-0-8" position="7.6915 -26.0519 0" heading="4.5167" scale="1.1997"/>
+    <weed id="weed-brush-718-0-9" position="10.0609 -26.0654 0" heading="-3.7393" scale="1.1666"/>
+    <weed id="weed-brush-718-1-0" position="10.5617 -25.7058 0" heading="88.787" scale="0.7969"/>
+    <weed id="weed-brush-718-2-0" position="9.8547 -25.4387 0" heading="180.338" scale="0.7395"/>
+    <weed id="weed-brush-718-2-1" position="7.4854 -25.4512 0" heading="172.082" scale="0.7065"/>
+    <weed id="weed-brush-718-2-2" position="4.9334 -25.4397 0" heading="180.8499" scale="0.8056"/>
+    <weed id="weed-brush-718-2-3" position="2.5641 -25.4522 0" heading="172.594" scale="0.7725"/>
+    <weed id="weed-brush-718-2-4" position="1.6373 -25.4367 0" heading="179.3141" scale="1.2574"/>
+    <weed id="weed-brush-718-2-5" position="-0.732 -25.4492 0" heading="187.0581" scale="1.2243"/>
+    <weed id="weed-brush-718-2-7" position="-5.6533 -25.4502 0" heading="187.5701" scale="1.2904"/>
+    <weed id="weed-brush-718-2-8" position="-7.8401 -25.4347 0" heading="178.2902" scale="1.1253"/>
+    <weed id="weed-brush-718-2-9" position="-8.9495 -25.4472 0" heading="186.0342" scale="1.0922"/>
+    <weed id="weed-brush-718-3-0" position="-10.546 -25.6048 0" heading="-90.661" scale="0.7707"/>
+    <weed id="weed-brush-719-1-0" position="15.5484 -25.8525 0" heading="94.3597" scale="1.2078"/>
+    <weed id="weed-brush-719-2-0" position="14.3423 -25.4366 0" heading="178.4936" scale="1.0301"/>
+    <weed id="weed-brush-720-0-1" position="21.8712 -26.0496 0" heading="5.4232" scale="1.0519"/>
+    <weed id="weed-brush-720-0-2" position="23.5062 -26.0641 0" heading="-3.3448" scale="0.9528"/>
+    <weed id="weed-brush-720-2-0" position="30.4867 -25.4375 0" heading="181.6279" scale="1.0984"/>
+    <weed id="weed-brush-720-2-1" position="27.4206 -25.451 0" heading="173.8839" scale="1.1314"/>
+    <weed id="weed-brush-720-2-3" position="23.7884 -25.452 0" heading="174.3959" scale="1.1975"/>
+    <weed id="weed-brush-720-2-4" position="21.0845 -25.4354 0" heading="180.6041" scale="0.9662"/>
+    <weed id="weed-brush-720-3-0" position="18.4579 -25.6243 0" heading="-95.5642" scale="0.6601"/>
+    <weed id="weed-brush-721-1-0" position="-13.7037 -28.2155 0" heading="97.9503" scale="1.2993"/>
+    <weed id="weed-brush-721-1-1" position="-13.6912 -26.3759 0" heading="90.2063" scale="0.6823"/>
+    <weed id="weed-brush-721-3-0" position="-14.3066 -26.5609 0" heading="-97.4976" scale="1.2731"/>
+    <weed id="weed-brush-721-3-1" position="-14.2931 -27.6506 0" heading="-89.2417" scale="0.6561"/>
+    <weed id="weed-brush-722-0-0" position="14.0956 -28.562 0" heading="-3.0203" scale="0.7712"/>
+    <weed id="weed-brush-722-1-0" position="14.2969 -27.9325 0" heading="93.8332" scale="0.9301"/>
+    <weed id="weed-brush-722-1-1" position="14.3104 -26.5221 0" heading="85.5772" scale="0.8971"/>
+    <weed id="weed-brush-722-3-0" position="13.6996 -26.8676 0" heading="-94.5809" scale="0.8699"/>
+    <weed id="weed-brush-722-3-1" position="13.6861 -27.5279 0" heading="-86.8368" scale="0.8369"/>
+    <weed id="weed-brush-723-1-0" position="0.3021 -30.3914 0" heading="88.7854" scale="0.7068"/>
+    <weed id="weed-brush-723-1-1" position="0.3146 -27.5951 0" heading="97.0414" scale="0.7399"/>
+    <weed id="weed-brush-724-1-1" position="-19.444 -26.3607 0" heading="85.7264" scale="0.7509"/>
+    <weed id="weed-brush-724-3-0" position="-20.0414 -26.7552 0" heading="-88.9303" scale="1.2777"/>
+    <weed id="weed-brush-724-3-1" position="-20.0549 -28.1655 0" heading="-97.1863" scale="1.2447"/>
+    <weed id="weed-brush-725-1-1" position="-8.947 -26.3455 0" heading="82.3266" scale="0.9257"/>
+    <weed id="weed-brush-725-3-0" position="-9.566 -26.4398 0" heading="-85.4686" scale="0.9721"/>
+    <weed id="weed-brush-725-3-1" position="-9.5525 -27.5294 0" heading="-93.2126" scale="1.0051"/>
+    <weed id="weed-brush-726-0-0" position="9.2348 -28.5515 0" heading="-7.4819" scale="0.7357"/>
+    <weed id="weed-brush-726-1-1" position="9.5651 -26.9507 0" heading="85.0244" scale="0.9673"/>
+    <weed id="weed-brush-726-3-0" position="8.9564 -26.5013 0" heading="-82.4475" scale="1.0219"/>
+    <weed id="weed-brush-726-3-1" position="8.9428 -27.9117 0" heading="-90.7035" scale="0.9889"/>
+    <weed id="weed-brush-727-1-0" position="20.0571 -27.8894 0" heading="90.6689" scale="1.246"/>
+    <weed id="weed-brush-727-1-1" position="20.0436 -26.7997 0" heading="82.9249" scale="1.279"/>
+    <weed id="weed-brush-727-3-0" position="19.4532 -26.3342 0" heading="-89.8831" scale="1.2722"/>
+    <weed id="weed-brush-727-3-1" position="19.4407 -28.1739 0" heading="-97.6271" scale="0.6552"/>
+    <weed id="weed-brush-728-1-1" position="-18.9552 -23.4372 0" heading="95.801" scale="1.047"/>
+    <weed id="weed-brush-728-3-0" position="-19.5653 -23.3356 0" heading="-96.2151" scale="1.0585"/>
+    <weed id="weed-brush-729-1-0" position="19.5483 -24.863 0" heading="82.692" scale="1.2393"/>
+    <weed id="weed-brush-729-1-1" position="19.5608 -23.5554 0" heading="90.948" scale="1.2723"/>
+    <weed id="weed-brush-729-2-0" position="19.3563 -22.4413 0" heading="184.0063" scale="0.8277"/>
+    <weed id="weed-brush-729-3-0" position="18.9414 -23.4687 0" heading="-96.756" scale="1.2131"/>
+    <weed id="weed-brush-729-3-1" position="18.9549 -24.7763 0" heading="-88.5" scale="1.2461"/>
+    <weed id="weed-brush-730-1-0" position="-9.9358 -22.8083 0" heading="97.406" scale="1.2386"/>
+    <weed id="weed-brush-730-3-0" position="-10.5647 -20.5168 0" heading="-87.0547" scale="1.1592"/>
+    <weed id="weed-brush-730-3-1" position="-10.5512 -23.0924 0" heading="-94.7988" scale="1.1922"/>
+    <weed id="weed-brush-731-1-1" position="10.5654 -22.5519 0" heading="89.8403" scale="1.2333"/>
+    <weed id="weed-brush-731-2-0" position="10.3563 -21.9592 0" heading="183.2314" scale="0.7555"/>
+    <weed id="weed-brush-731-3-0" position="9.9355 -22.8498 0" heading="-91.6772" scale="0.6908"/>
+    <weed id="weed-brush-731-3-1" position="9.948 -24.8243 0" heading="-83.9332" scale="0.6577"/>
+    <weed id="weed-brush-732-0-0" position="0.0132 -23.3513 0" heading="-0.7867" scale="0.7659"/>
+    <weed id="weed-brush-732-2-0" position="-0.0598 -22.2488 0" heading="180.2008" scale="0.747"/>
+    <weed id="weed-brush-732-3-0" position="-0.5403 -23.097 0" heading="-96.6527" scale="1.2381"/>
+    <weed id="weed-brush-758-finish-0-0-0" position="-31.6935 -32.0608 0" heading="-7.5303" scale="0.8151"/>
+    <weed id="weed-brush-758-finish-0-3-0" position="-32.0627 -31.3335 0" heading="-90.3048" scale="0.8583"/>
+    <weed id="weed-brush-758-finish-1-3-0" position="-32.0576 -22.3847 0" heading="-94.9172" scale="1.2924"/>
+    <weed id="weed-brush-758-finish-1-3-1" position="-32.0441 -23.409 0" heading="-86.6612" scale="0.6754"/>
+    <weed id="weed-brush-758-finish-2-3-0" position="-32.049 -11.3951 0" heading="-84.1014" scale="1.1959"/>
+    <weed id="weed-brush-758-finish-3-1-1" position="-30.9549 1.6255 -2" heading="96.9994" scale="1.2994"/>
+    <weed id="weed-brush-758-finish-3-3-0" position="-32.0429 1.1879 0" heading="-90.7045" scale="1.2402"/>
+    <weed id="weed-brush-758-finish-3-3-1" position="-32.0554 -0.0762 0" heading="-82.4485" scale="1.2732"/>
+    <weed id="weed-brush-758-finish-4-3-0" position="-32.0418 9.8993 0" heading="-88.8085" scale="1.1301"/>
+    <weed id="weed-brush-758-finish-5-1-0" position="-30.937 20.8168 0" heading="87.4295" scale="1.1746"/>
+    <weed id="weed-brush-758-finish-6-2-0" position="-31.4566 32.0553 0" heading="185.7062" scale="1.1628"/>
+    <weed id="weed-brush-758-finish-6-3-0" position="-32.05 31.6693 0" heading="-85.2492" scale="1.0787"/>
+    <weed id="weed-brush-759-finish-0-2-0" position="-20.8155 32.0446 0" heading="172.6855" scale="1.1563"/>
+    <weed id="weed-brush-759-finish-1-0-0" position="-12.615 30.9439 0" heading="1.1016" scale="1.0117"/>
+    <weed id="weed-brush-759-finish-1-0-1" position="-11.5907 30.9574 0" heading="-6.6424" scale="1.0448"/>
+    <weed id="weed-brush-759-finish-1-2-0" position="-11.6899 32.0404 0" heading="181.6537" scale="0.9855"/>
+    <weed id="weed-brush-759-finish-1-2-1" position="-12.7142 32.0529 0" heading="173.9096" scale="1.0186"/>
+    <weed id="weed-brush-759-finish-2-0-0" position="-1.092 30.9599 0" heading="-1.0315" scale="1.24"/>
+    <weed id="weed-brush-759-finish-3-0-0" position="10.2598 30.9493 0" heading="3.8644" scale="0.7081"/>
+    <weed id="weed-brush-759-finish-3-0-1" position="11.5238 30.9369 0" heading="-3.8797" scale="0.7412"/>
+    <weed id="weed-brush-759-finish-3-2-1" position="9.8619 32.0654 0" heading="182.7823" scale="0.8229"/>
+    <weed id="weed-brush-759-finish-4-2-0" position="20.7296 32.0656 0" heading="186.802" scale="1.2671"/>
+    <weed id="weed-brush-760-finish-1-3-0" position="30.9586 -20.3089 0" heading="-82.5824" scale="0.9876"/>
+    <weed id="weed-brush-760-finish-2-1-0" position="32.0571 -12.2044 0" heading="97.0169" scale="0.9558"/>
+    <weed id="weed-brush-760-finish-2-1-1" position="32.0436 -11.1801 0" heading="89.2729" scale="0.9889"/>
+    <weed id="weed-brush-760-finish-4-1-0" position="32.0463 10.3528 0" heading="88.2983" scale="1.0092"/>
+    <weed id="weed-brush-760-finish-5-3-0" position="30.958 20.5043 0" heading="-89.2162" scale="1.02"/>
+    <weed id="weed-brush-760-finish-6-1-0" position="32.0521 31.5515 0" heading="95.1334" scale="1.0667"/>
+    <weed id="weed-brush-760-finish-6-2-0" position="31.517 32.0442 0" heading="184.1677" scale="0.7029"/>
+    <weed id="weed-brush-761-1-0" position="-9.9402 18.6161 0" heading="88.7964" scale="0.9743"/>
+    <weed id="weed-brush-761-2-2" position="-15.9842 20.0415 0" heading="179.5" scale="1.1175"/>
+    <weed id="weed-brush-761-2-3" position="-18.5228 20.055 0" heading="187.244" scale="1.0845"/>
+    <weed id="weed-brush-761-3-0" position="-19.0576 18.8933 0" heading="-97.8655" scale="0.8925"/>
+    <weed id="weed-brush-762-1-0" position="19.0436 19.3676 0" heading="96.2827" scale="1.2153"/>
+    <weed id="weed-brush-762-2-0" position="18.5026 20.0592 0" heading="174.9684" scale="0.9769"/>
+    <weed id="weed-brush-762-2-1" position="15.1912 20.0457 0" heading="183.2244" scale="1.01"/>
+    <weed id="weed-brush-762-2-2" position="13.4254 20.0602 0" heading="174.4565" scale="0.9109"/>
+    <weed id="weed-brush-762-3-0" position="9.9563 18.7256 0" heading="-84.7048" scale="1.2342"/>
+    <weed id="weed-brush-763-finish-0-1-0" position="-9.9576 12.2606 0" heading="84.3796" scale="1.0056"/>
+    <weed id="weed-brush-763-finish-0-1-1" position="-9.9441 14.5923 0" heading="92.1236" scale="0.9726"/>
+    <weed id="weed-brush-764-finish-0-3-1" position="9.9355 14.5855 0" heading="-90.8374" scale="0.8253"/>
+    <weed id="weed-brush-764-finish-0-3-2" position="9.949 12.6241 0" heading="-82.5814" scale="0.8584"/>
+    <weed id="weed-brush-764-finish-0-3-3" position="9.9365 10.6627 0" heading="-90.3254" scale="0.8914"/>
+    <weed id="weed-brush-765-finish-0-3-4" position="-19.0433 5.0013 -2" heading="-90.9665" scale="0.6581"/>
+    <weed id="weed-brush-765-finish-0-3-5" position="-19.0568 2.7448 -2" heading="-83.2225" scale="1.2751"/>
+    <weed id="weed-brush-766-finish-0-1-0" position="19.0536 12.4271 0" heading="89.6437" scale="1.2727"/>
+    <weed id="weed-brush-767-finish-0-3-0" position="10.9425 7.8151 0" heading="-84.9806" scale="1.1635"/>
+    <weed id="weed-brush-767-finish-0-3-1" position="10.955 6.8907 0" heading="-93.2366" scale="1.1304"/>
+    <weed id="weed-brush-767-finish-0-3-2" position="10.9435 4.7641 0" heading="-84.4687" scale="1.2295"/>
+    <weed id="weed-brush-768-finish-0-1-1" position="-9.9557 -11.5355 0" heading="85.1305" scale="1.1468"/>
+    <weed id="weed-brush-768-finish-0-2-0" position="-10.7373 -1.9595 0" heading="183.0661" scale="1.1909"/>
+    <weed id="weed-brush-768-finish-1-3-0" position="-19.0641 -13.2189 0" heading="-95.7959" scale="1.2872"/>
+    <weed id="weed-brush-768-finish-2-2-0" position="-13.2871 -1.9544 0" heading="173.3057" scale="0.6687"/>
+    <weed id="weed-brush-768-finish-2-2-1" position="-14.2116 -1.9409 0" heading="181.0497" scale="1.2857"/>
+    <weed id="weed-brush-768-finish-2-2-2" position="-16.1861 -1.9534 0" heading="172.7937" scale="1.2527"/>
+    <weed id="weed-brush-769-finish-0-3-0" position="10.9461 -2.5172 0" heading="-95.8922" scale="0.8449"/>
+    <weed id="weed-brush-769-finish-0-3-1" position="10.9586 -4.7737 0" heading="-88.1482" scale="0.8119"/>
+    <weed id="weed-brush-769-finish-0-3-2" position="10.9451 -7.0302 0" heading="-96.4042" scale="0.7789"/>
+    <weed id="weed-brush-769-finish-1-1-0" position="19.0441 -2.9504 0" heading="92.1141" scale="0.7893"/>
+    <weed id="weed-brush-769-finish-1-2-2" position="14.177 -1.9368 0" heading="180.6366" scale="1.0094"/>
+    <weed id="weed-brush-769-finish-1-2-3" position="13.2526 -1.9493 0" heading="172.3806" scale="0.9764"/>
+    <weed id="weed-brush-770-3-0" position="9.9406 -10.6141 0" heading="-87.6443" scale="0.9407"/>
+    <weed id="weed-brush-770-3-2" position="9.9396 -14.2585 0" heading="-88.1562" scale="0.8747"/>
+    <weed id="weed-brush-770-3-3" position="9.9531 -16.1763 0" heading="-95.9002" scale="0.9077"/>
+    <weed id="weed-brush-770-3-4" position="9.9427 -18.2854 0" heading="-86.6204" scale="1.0729"/>
+    <weed id="weed-brush-771-0-1" position="-13.3156 -20.06 0" heading="0.9874" scale="0.9076"/>
+    <weed id="weed-brush-771-0-2" position="-11.5721 -20.0465 0" heading="-6.7567" scale="0.9407"/>
+    <weed id="weed-brush-771-1-0" position="-9.9524 -18.5758 0" heading="93.4936" scale="1.1392"/>
+    <weed id="weed-brush-771-1-2" position="-9.9534 -15.0889 0" heading="94.0056" scale="1.2053"/>
+    <weed id="weed-brush-772-0-0" position="12.2229 -20.0592 0" heading="-0.6117" scale="0.8754"/>
+    <weed id="weed-brush-772-0-1" position="13.1034 -20.0467 0" heading="7.1323" scale="0.8424"/>
+    <weed id="weed-brush-772-0-2" position="14.9838 -20.0602 0" heading="-1.1236" scale="0.8094"/>
+    <weed id="weed-brush-774-0-0" position="16.6407 -20.0647 0" heading="-0.6592" scale="1.0449"/>
+    <weed id="weed-brush-774-0-1" position="18.3331 -20.0522 0" heading="7.0849" scale="1.0118"/>
+    <weed id="weed-brush-774-1-0" position="19.0439 -18.8626 0" heading="90.2962" scale="1.1289"/>
+    <weed id="weed-brush-775-finish-1-0-1" position="-22.3272 -32.0514 0" heading="-5.3105" scale="1.2333"/>
+    <weed id="weed-brush-775-finish-2-2-0" position="-11.4848 -30.9562 0" heading="183.3459" scale="0.8927"/>
+    <weed id="weed-brush-775-finish-4-0-0" position="8.5473 -32.0639 0" heading="-7.2724" scale="0.8921"/>
+    <weed id="weed-brush-775-finish-4-2-1" position="7.9664 -30.9566 0" heading="184.7438" scale="0.8806"/>
+    <weed id="weed-brush-775-finish-5-0-0" position="20.3774 -32.0602 0" heading="2.9863" scale="1.13"/>
+    <weed id="weed-brush-775-finish-5-2-0" position="20.5058 -30.9501 0" heading="182.4343" scale="1.1562"/>
+    <weed id="weed-joint-brush-0--1--17" position="-1.9155 -6.8 0" heading="-1.0535" scale="0.6027" variant="seam"/>
+    <weed id="weed-joint-brush-0-0-6" position="2.2613 2.4 0" heading="3.6999" scale="0.5875" variant="seam"/>
+    <weed id="weed-joint-brush-0-0-21" position="0.818 8.4 0" heading="0.73" scale="0.5461" variant="seam"/>
+    <weed id="weed-joint-brush-1-3-15" position="8.6309 6 0" heading="-0.8351" scale="0.7045" variant="seam"/>
+    <weed id="weed-joint-brush-1-3-21" position="8.9653 8.4 0" heading="1.7456" scale="0.9628" variant="seam"/>
+    <weed id="weed-joint-brush-1-4-16" position="10.1175 6.4 0" heading="4.5821" scale="0.4936" variant="seam"/>
+    <weed id="weed-joint-brush-1-4-21" position="10.2617 8.4 0" heading="2.7752" scale="0.7429" variant="seam"/>
+    <weed id="weed-joint-brush-3--7--1" position="-16.4451 -0.4 0" heading="-4.58" scale="0.7909" variant="seam"/>
+    <weed id="weed-joint-brush-4-5-4" position="13.6562 1.6 0" heading="4.3843" scale="0.9541" variant="seam"/>
+    <weed id="weed-joint-brush-4-7--2" position="16.9417 -0.8 0" heading="-0.2378" scale="0.8491" variant="seam"/>
+    <weed id="weed-joint-brush-6-8-6" position="20.0773 2.4 0" heading="5.5944" scale="0.5367" variant="seam"/>
+    <weed id="weed-joint-brush-6-9--42" position="22.4243 -16.8 0" heading="-4.7341" scale="0.5693" variant="seam"/>
+    <weed id="weed-joint-brush-6-9--34" position="22.5931 -13.6 0" heading="-2.7743" scale="0.5313" variant="seam"/>
+    <weed id="weed-joint-brush-6-9--13" position="22.28 -5.2 0" heading="-2.9272" scale="0.81" variant="seam"/>
+    <weed id="weed-joint-brush-6-9--3" position="22.4332 -1.2 0" heading="4.982" scale="0.5028" variant="seam"/>
+    <weed id="weed-joint-brush-6-10--40" position="24.7307 -16 0" heading="3.1379" scale="0.9624" variant="seam"/>
+    <weed id="weed-joint-brush-6-10-33" position="25.6372 13.2 0" heading="-3.2749" scale="0.612" variant="seam"/>
+    <weed id="weed-joint-brush-6-12-2" position="28.9926 0.8 0" heading="-2.1297" scale="0.9306" variant="seam"/>
+    <weed id="weed-joint-brush-156--11-51" position="-26.3134 20.4 0" heading="-0.6926" scale="0.7447" variant="seam"/>
+    <weed id="weed-joint-brush-156--11-69" position="-26.1446 27.6 0" heading="1.2672" scale="0.7067" variant="seam"/>
+    <weed id="weed-joint-brush-156--10-67" position="-22.2863 26.8 0" heading="5.0975" scale="0.642" variant="seam"/>
+    <weed id="weed-joint-brush-156--7-54" position="-15.9664 21.6 0" heading="0.1198" scale="0.6617" variant="seam"/>
+    <weed id="weed-joint-brush-156--7-66" position="-16.1352 26.4 0" heading="-1.84" scale="0.6998" variant="seam"/>
+    <weed id="weed-joint-brush-156--6-53" position="-13.0494 21.2 0" heading="2.6399" scale="0.8752" variant="seam"/>
+    <weed id="weed-joint-brush-156--5-58" position="-9.7672 23.2 0" heading="4.98" scale="0.7015" variant="seam"/>
+    <weed id="weed-joint-brush-156--4-59" position="-9.1387 23.6 0" heading="0.9967" scale="0.5549" variant="seam"/>
+    <weed id="weed-joint-brush-156-0-51" position="1.0873 20.4 0" heading="1.4924" scale="0.6844" variant="seam"/>
+    <weed id="weed-joint-brush-156-0-69" position="0.9185 27.6 0" heading="-0.4674" scale="0.7225" variant="seam"/>
+    <weed id="weed-joint-brush-156-3-55" position="9.5086 22 0" heading="1.0163" scale="0.9048" variant="seam"/>
+    <weed id="weed-joint-brush-156-6-77" position="16.4734 30.8 0" heading="1.255" scale="0.6819" variant="seam"/>
+    <weed id="weed-joint-brush-156-8-53" position="20.209 21.2 0" heading="-0.6192" scale="0.949" variant="seam"/>
+    <weed id="weed-joint-brush-156-10-68" position="25.0751 27.2 0" heading="0.2544" scale="0.8243" variant="seam"/>
+    <weed id="weed-joint-brush-156-11-75" position="27.1153 30 0" heading="4.9229" scale="0.7858" variant="seam"/>
+    <weed id="weed-joint-brush-157--1-47" position="-2.1316 18.8 0" heading="-3.2829" scale="0.5944" variant="seam"/>
+    <weed id="weed-joint-brush-157-0-47" position="1.9126 18.8 0" heading="4.3407" scale="0.6869" variant="seam"/>
+    <weed id="weed-joint-brush-157-2-37" position="5.5888 14.8 0" heading="3.5151" scale="0.6526" variant="seam"/>
+    <weed id="weed-joint-brush-158--10-36" position="-22.2712 14.4 0" heading="-4.0495" scale="0.6452" variant="seam"/>
+    <weed id="weed-joint-brush-158--10-49" position="-21.9123 19.6 0" heading="2.2979" scale="0.6162" variant="seam"/>
+    <weed id="weed-joint-brush-158--9-35" position="-20.0667 14 0" heading="-4.4094" scale="0.7456" variant="seam"/>
+    <weed id="weed-joint-brush-457--8--67" position="-18.8785 -26.8 0" heading="1.0336" scale="0.5104" variant="seam"/>
+    <weed id="weed-joint-brush-457--8--57" position="-18.7096 -22.8 0" heading="2.9935" scale="0.9623" variant="seam"/>
+    <weed id="weed-joint-brush-457--4--77" position="-8.1269 -30.8 0" heading="-1.3914" scale="0.7568" variant="seam"/>
+    <weed id="weed-joint-brush-457--4--67" position="-7.9581 -26.8 0" heading="0.5684" scale="0.7187" variant="seam"/>
+    <weed id="weed-joint-brush-457--3--62" position="-7.0986 -24.8 0" heading="-5.2348" scale="0.6857" variant="seam"/>
+    <weed id="weed-joint-brush-457--3--51" position="-4.8429 -20.4 0" heading="-3.4279" scale="0.9264" variant="seam"/>
+    <weed id="weed-joint-brush-457--2--70" position="-4.388 -28 0" heading="3.825" scale="0.5157" variant="seam"/>
+    <weed id="weed-joint-brush-457--1--68" position="-2.1058 -27.2 0" heading="-3.2766" scale="0.5834" variant="seam"/>
+    <weed id="weed-joint-brush-457--1--52" position="-2.2746 -20.8 0" heading="-5.2365" scale="0.6215" variant="seam"/>
+    <weed id="weed-joint-brush-457-0--72" position="1.3206 -28.8 0" heading="4.6726" scale="0.5021" variant="seam"/>
+    <weed id="weed-joint-brush-457-1--58" position="2.8361 -23.2 0" heading="-0.5484" scale="0.8233" variant="seam"/>
+    <weed id="weed-joint-brush-457-2--62" position="6.6185 -24.8 0" heading="1.6887" scale="0.7643" variant="seam"/>
+    <weed id="weed-joint-brush-457-2--58" position="6.6217 -23.2 0" heading="3.0276" scale="0.9198" variant="seam"/>
+    <weed id="weed-joint-brush-457-4--69" position="10.1508 -27.6 0" heading="3.0214" scale="0.7661" variant="seam"/>
+    <weed id="weed-joint-brush-457-6--54" position="15.6813 -21.6 0" heading="5.6473" scale="0.5217" variant="seam"/>
+    <weed id="weed-joint-brush-457-10--52" position="24.5049 -20.8 0" heading="-2.1595" scale="0.528" variant="seam"/>
+    <weed id="weed-joint-brush-457-11--70" position="27.3062 -28 0" heading="1.2592" scale="0.867" variant="seam"/>
+    <weed id="weed-joint-brush-457-11--53" position="27.6192 -21.2 0" heading="1.4121" scale="0.5882" variant="seam"/>
+    <weed id="weed-joint-brush-458--4--30" position="-7.2942 -12 0" heading="-1.1597" scale="0.6335" variant="seam"/>
+    <weed id="weed-joint-brush-458--3--28" position="-5.3771 -11.2 0" heading="4.0162" scale="0.6354" variant="seam"/>
+    <weed id="weed-joint-brush-458--2--35" position="-3.7559 -14 0" heading="4.7559" scale="0.5081" variant="seam"/>
+    <weed id="weed-joint-brush-458-0--31" position="2.0301 -12.4 0" heading="-2.1316" scale="0.7662" variant="seam"/>
+    <weed id="weed-joint-brush-458-0--25" position="2.1989 -10 0" heading="-0.1717" scale="0.7281" variant="seam"/>
+    <weed id="weed-joint-brush-458-1--44" position="2.8342 -17.6 0" heading="-0.4968" scale="0.7127" variant="seam"/>
+    <weed id="weed-joint-brush-458-1--32" position="2.6654 -12.8 0" heading="-2.4566" scale="0.7507" variant="seam"/>
+    <weed id="weed-joint-brush-458-2--36" position="4.9587 -14.4 0" heading="4.1302" scale="0.5464" variant="seam"/>
+    <weed id="weed-joint-brush-458-2--28" position="7.0421 -11.2 0" heading="-2.8147" scale="0.579" variant="seam"/>
+    <weed id="weed-joint-brush-459--11--47" position="-24.084 -18.8 0" heading="-3.2176" scale="0.7843" variant="seam"/>
+    <weed id="weed-joint-brush-459--11--33" position="-24.4183 -13.2 0" heading="-5.7983" scale="0.526" variant="seam"/>
+    <weed id="weed-joint-brush-459--10--33" position="-21.779 -13.2 0" heading="3.4655" scale="0.7863" variant="seam"/>
+    <grass-field id="lawn-brush-56" position="-28.85 -2.85 -0.94" src="planting/lawn-3.2x5.7.glb"/>
+    <grass-field id="lawn-brush-77" position="-1.35 -1.85 4.26" src="planting/lawn-2.7x3.7.glb"/>
+    <grass-field id="lawn-brush-405" position="-6.35 14.65 0.96" src="planting/lawn-2.7x0.7.glb"/>
+    <grass-field id="lawn-brush-407" position="3.65 12.65 0.96" src="planting/lawn-2.7x0.7.glb"/>
+    <grass-field id="lawn-brush-414" position="-26.85 15.15 0.96" src="planting/lawn-3.7x0.7.glb"/>
+    <grass-field id="lawn-brush-706" position="-6.35 -15.35 0.96" src="planting/lawn-2.7x0.7.glb"/>
+    <grass-field id="lawn-brush-708" position="3.65 -13.35 0.96" src="planting/lawn-2.7x0.7.glb"/>
+    <grass-field id="lawn-brush-715" position="-26.85 -15.85 0.96" src="planting/lawn-3.7x0.7.glb"/>
+    <procedural-wall id="planter-wall-100" position="-6.5 1.5 3.5" heading="90" width="7" depth="0.5" height="3.3" seed="21"/>
+    <procedural-wall id="planter-wall-101" position="-6.5 -8.5 3.5" heading="90" width="7" depth="0.5" height="3.3" seed="45"/>
+    <procedural-wall id="planter-wall-390" position="-7 8.5 3.5" heading="0" width="2.5" depth="0.5" height="3.3" seed="69"/>
+    <duct-run id="planter-service-west" position="-4.78 -8.59 4.08" points="0 0 0; 0 0.34 0; 0 0.34 1.34; -0.72 0.34 1.34; -0.72 0.34 2.28; -0.72 16.84 2.28; -0.72 16.84 0.84; -0.72 17.18 0.84" supports="0 0 0; 0 -0.25 0; 0 -0.25 0; 0 -0.25 0; 0 0 0.44; 0 0.25 0; 0 0 0"/>
+    <pipe-run id="planter-service-east" position="4.78 -8.59 4.08" points="0 0 0; 0 0.23 0; 0 0.23 1.46; 0.72 0.23 1.46; 0.72 0.23 2.4; 0.72 16.95 2.4; 0.72 16.95 0.2; 0.72 17.18 0.2" supports="0 0 0; 0 -0.14 0; 0 -0.14 0; 0 -0.14 0; 0 0 0.32; 0 0.14 0; 0 0 0"/>
+    <pipe-run id="planter-service-north" position="-6.59 6.78 4.08" points="0 0 0; 0.23 0 0; 0.23 0 1.66; 0.23 0.72 1.66; 0.23 0.72 2.6; 12.95 0.72 2.6; 12.95 0.72 0.2; 13.18 0.72 0.2" supports="0 0 0; -0.14 0 0; -0.14 0 0; -0.14 0 0; 0 0 0.12; 0.14 0 0; 0 0 0"/>
+    <pipe-run id="planter-service-south" position="-6.59 -6.78 4.08" points="0 0 0; 0.23 0 0; 0.23 0 1.66; 0.23 -0.72 1.66; 0.23 -0.72 2.6; 12.95 -0.72 2.6; 12.95 -0.72 0.2; 13.18 -0.72 0.2" supports="0 0 0; -0.14 0 0; -0.14 0 0; -0.14 0 0; 0 0 0.12; 0.14 0 0; 0 0 0"/>
+    <utility-cabinet id="arcade-cabinet-north" position="0 8.5 4.42" heading="0" seed="22"/>
+    <utility-cabinet id="arcade-cabinet-east" position="6.5 2.75 4.62" heading="-90" seed="67"/>
+    <procedural-wall id="arcade-planter-west-body" position="-1.5 -0.7 3.5" heading="90" width="2.48" depth="0.26" height="1.22" dressing="false" seed="81"/>
+    <procedural-wall id="arcade-planter-west-coping" position="-1.5 -0.735 4.72" heading="90" width="2.55" depth="0.295" height="0.085" dressing="false" seed="82"/>
+    <procedural-wall id="arcade-planter-south-body" position="-0.34 -2.26 3.5" heading="0" width="1.64" depth="0.26" height="1.04" dressing="false" seed="93"/>
+    <procedural-wall id="arcade-planter-south-coping" position="-0.375 -2.295 4.54" heading="0" width="1.71" depth="0.295" height="0.085" dressing="false" seed="94"/>
+    <ceiling-twin-strip id="arcade-lower-light-88" position="-4.8 0 3.25" heading="90" length="2.4" enclosed="true"/>
+    <ceiling-twin-strip id="arcade-lower-light-89" position="4.8 0 3.25" heading="90" length="2.4" enclosed="true"/>
+    <ceiling-twin-strip id="arcade-lower-light-402" position="0 5.6 3.25" heading="0" length="2.4" enclosed="true"/>
+    <ceiling-twin-strip id="arcade-light-403-0" position="-1 5.6 6.8" length="1.5"/>
+    <ceiling-twin-strip id="arcade-light-403-1" position="1 5.6 6.8" length="1.5"/>
+    <ceiling-twin-strip id="arcade-lower-light-703" position="0 -5.6 3.25" heading="0" length="2.4" enclosed="true"/>
+    <ceiling-bulkhead id="arcade-light-704-0" position="-1 -5.6 6.8"/>
+    <ceiling-bulkhead id="arcade-light-704-1" position="1 -5.6 6.8"/>
+    <passage-sign-lamp id="arcade-passage-sign-lamp" position="-3.25 -3.401 2.2" heading="180"/>
+    <wall-extraction-grille id="arcade-wall-grille" position="-6.501 -2.45 2.28" heading="90"/>
+    <ceiling-girder id="room-girder-brush-63" position="5.9253 -8.501 6.57" heading="90" length="17.002" soffitGap="0.23" hangerStations="2.901 0 0; 5.801 0 0; 8.601 0 0; 11.401 0 0; 14.201 0 0"/>
+  </city>
+  <box id="masonry-inner-west-north-shell" position="-10 2 0" rotation="0 0 90" width="9.8" depth="7" height="15.35" visible="false" material="m-white"/>
+  <box id="masonry-inner-east-north-shell" position="19 2 0" rotation="0 0 90" width="9.8" depth="7" height="12.35" visible="false" material="m-white"/>
+  <box id="masonry-inner-west-south-shell" position="-19 -3 0" rotation="0 0 270" width="9.8" depth="7" height="18.35" visible="false" material="m-white"/>
+  <box id="masonry-inner-east-south-shell" position="19 -14 0" rotation="0 0 90" width="9.8" depth="7" height="15.35" visible="false" material="m-white"/>
+  <box id="masonry-rim-0-0-shell" position="-31 31 0" rotation="0 0 0" width="9.8" depth="7" height="12.35" visible="false" material="m-white"/>
+  <box id="masonry-rim-0-1-shell" position="-13.55 31.35 0" rotation="0 0 90" width="9.8" depth="7" height="18.35" visible="false" material="m-white"/>
+  <box id="masonry-rim-0-2-shell" position="-11.2 31.05 0" rotation="0 0 0" width="9.8" depth="7" height="9.35" visible="false" material="m-white"/>
+  <box id="masonry-rim-0-3-shell" position="-0.3 31.75 0" rotation="0 0 0" width="9.8" depth="7" height="15.35" visible="false" material="m-white"/>
+  <box id="masonry-rim-0-4-shell" position="19.4 31.15 0" rotation="0 0 90" width="9.8" depth="7" height="21.35" visible="false" material="m-white"/>
+  <box id="masonry-rim-0-5-shell" position="21.15 31.45 0" rotation="0 0 0" width="9.8" depth="7" height="12.35" visible="false" material="m-white"/>
+  <box id="masonry-rim-1-0-shell" position="-31.05 -24 0" rotation="0 0 180" width="9.8" depth="7" height="18.35" visible="false" material="m-white"/>
+  <box id="masonry-rim-1-1-shell" position="-31.75 -21.65 0" rotation="0 0 90" width="9.8" depth="7" height="9.35" visible="false" material="m-white"/>
+  <box id="masonry-rim-1-2-shell" position="-31.15 -10.75 0" rotation="0 0 90" width="9.8" depth="7" height="15.35" visible="false" material="m-white"/>
+  <box id="masonry-rim-1-3-shell" position="-31.45 8.95 0" rotation="0 0 180" width="9.8" depth="7" height="21.35" visible="false" material="m-white"/>
+  <box id="masonry-rim-1-4-shell" position="-31 10.7 0" rotation="0 0 90" width="9.8" depth="7" height="12.35" visible="false" material="m-white"/>
+  <box id="masonry-rim-1-5-shell" position="-31.35 21.15 0" rotation="0 0 90" width="9.8" depth="7" height="12.35" visible="false" material="m-white"/>
+  <box id="masonry-rim-2-0-shell" position="31 -31.15 0" rotation="0 0 180" width="9.8" depth="7" height="9.35" visible="false" material="m-white"/>
+  <box id="masonry-rim-2-1-shell" position="20.1 -31.45 0" rotation="0 0 180" width="9.8" depth="7" height="15.35" visible="false" material="m-white"/>
+  <box id="masonry-rim-2-2-shell" position="0.4 -31 0" rotation="0 0 270" width="9.8" depth="7" height="21.35" visible="false" material="m-white"/>
+  <box id="masonry-rim-2-3-shell" position="-1.35 -31.35 0" rotation="0 0 180" width="9.8" depth="7" height="12.35" visible="false" material="m-white"/>
+  <box id="masonry-rim-2-4-shell" position="-11.8 -31.05 0" rotation="0 0 180" width="9.8" depth="7" height="12.35" visible="false" material="m-white"/>
+  <box id="masonry-rim-2-5-shell" position="-30.95 -31.75 0" rotation="0 0 270" width="9.8" depth="7" height="18.35" visible="false" material="m-white"/>
+  <box id="masonry-rim-3-0-shell" position="31 31 0" rotation="0 0 270" width="9.8" depth="7" height="15.35" visible="false" material="m-white"/>
+  <box id="masonry-rim-3-1-shell" position="31.35 11.3 0" rotation="0 0 360" width="9.8" depth="7" height="21.35" visible="false" material="m-white"/>
+  <box id="masonry-rim-3-2-shell" position="31.05 9.55 0" rotation="0 0 270" width="9.8" depth="7" height="12.35" visible="false" material="m-white"/>
+  <box id="masonry-rim-3-3-shell" position="31.75 -0.9 0" rotation="0 0 270" width="9.8" depth="7" height="12.35" visible="false" material="m-white"/>
+  <box id="masonry-rim-3-4-shell" position="31.15 -20.05 0" rotation="0 0 360" width="9.8" depth="7" height="18.35" visible="false" material="m-white"/>
+  <box id="masonry-rim-3-5-shell" position="31.45 -21.15 0" rotation="0 0 270" width="9.8" depth="7" height="9.35" visible="false" material="m-white"/>
+  <material id="m-boardformed-concrete"/>
+  <profile id="masonry-downstand-brush-63-section" points="-0.1852 0; -0.1852 -0.4978; -0.1672 -0.5158; 0.1672 -0.5158; 0.1852 -0.4978; 0.1852 0"/>
+  <path id="masonry-downstand-brush-63-axis" points="-3.9472 -3.5 3.25; -3.9472 4.85 3.25"/>
+  <sweep id="masonry-downstand-brush-63" path="masonry-downstand-brush-63-axis" profile="masonry-downstand-brush-63-section" material="m-boardformed-concrete" collidable="true"/>
+  <profile id="masonry-bearing-brush-78-brush-63-section" points="-0.1623 0.394; -0.1623 0.012; -0.1503 0; 0.1503 0; 0.1623 0.012; 0.1623 0.394"/>
+  <path id="masonry-bearing-brush-78-brush-63-axis" points="-3.94725 -3.475 2.4402; -3.94725 -3.275 2.4402; -3.94725 -2.585 2.7892"/>
+  <sweep id="masonry-bearing-brush-78-brush-63" path="masonry-bearing-brush-78-brush-63-axis" profile="masonry-bearing-brush-78-brush-63-section" material="m-boardformed-concrete" collidable="true"/>
+  <box id="masonry-arcade-planter-west-body-solid" position="-1.76 -0.7 3.5" width="0.26" depth="2.48" height="1.22" material="m-concrete" collidable="true" visible="false"/>
+  <box id="masonry-arcade-planter-west-coping-solid" position="-1.795 -0.735 4.72" width="0.295" depth="2.55" height="0.085" material="m-concrete" collidable="true" visible="false"/>
+  <box id="masonry-arcade-planter-south-body-solid" position="-0.34 -2.26 3.5" width="1.64" depth="0.26" height="1.04" material="m-concrete" collidable="true" visible="false"/>
+  <box id="masonry-arcade-planter-south-coping-solid" position="-0.375 -2.295 4.54" width="1.71" depth="0.295" height="0.085" material="m-concrete" collidable="true" visible="false"/>
+  <path id="arcade-window-axis" points="6.75 6.5 4.5; 6.75 4 4.5"/>
+  <wall id="masonry-arcade-window-wall" path="arcade-window-axis" thickness="0.18" height="1.4" material="builtin:casement-surround"/>
+  <opening id="arcade-aperture-closed" host="masonry-arcade-window-wall" shape="rectangle" center="0.645 0.7" width="1.13" height="1.28"/>
+  <window id="masonry-arcade-window-closed" opening="arcade-aperture-closed" open="false"/>
+  <opening id="arcade-aperture-open" host="masonry-arcade-window-wall" shape="rectangle" center="1.855 0.7" width="1.13" height="1.28"/>
+  <window id="masonry-arcade-window-open" opening="arcade-aperture-open" open="true"/>
+  <profile id="surround-inside-rail-fold" points="0.001 -0.028; -0.002 -0.028; -0.006 -0.024; -0.006 0.024; -0.002 0.028; 0.001 0.028"/>
+  <extrusion id="masonry-arcade-window-surround-inside-rail-0" profile="surround-inside-rail-fold" position="6.66 4.002 4.53" rotation="-90 0 0" distance="2.496" material="builtin:casement-surround" collidable="false"/>
+  <extrusion id="masonry-arcade-window-surround-inside-rail-1" profile="surround-inside-rail-fold" position="6.66 4.002 5.87" rotation="-90 0 0" distance="2.496" material="builtin:casement-surround" collidable="false"/>
+  <profile id="surround-inside-post-fold" points="0.001 -0.038; -0.002 -0.038; -0.006 -0.034; -0.006 0.034; -0.002 0.038; 0.001 0.038"/>
+  <extrusion id="masonry-arcade-window-surround-inside-post-0" profile="surround-inside-post-fold" position="6.66 4.04 4.56" distance="1.28" material="builtin:casement-surround" collidable="false"/>
+  <extrusion id="masonry-arcade-window-surround-inside-post-1" profile="surround-inside-post-fold" position="6.66 5.25 4.56" distance="1.28" material="builtin:casement-surround" collidable="false"/>
+  <extrusion id="masonry-arcade-window-surround-inside-post-2" profile="surround-inside-post-fold" position="6.66 6.46 4.56" distance="1.28" material="builtin:casement-surround" collidable="false"/>
+  <profile id="surround-outside-rail-fold" points="-0.001 -0.028; 0.002 -0.028; 0.006 -0.024; 0.006 0.024; 0.002 0.028; -0.001 0.028"/>
+  <extrusion id="masonry-arcade-window-surround-outside-rail-0" profile="surround-outside-rail-fold" position="6.84 4.002 4.53" rotation="-90 0 0" distance="2.496" material="builtin:casement-surround" collidable="false"/>
+  <extrusion id="masonry-arcade-window-surround-outside-rail-1" profile="surround-outside-rail-fold" position="6.84 4.002 5.87" rotation="-90 0 0" distance="2.496" material="builtin:casement-surround" collidable="false"/>
+  <profile id="surround-outside-post-fold" points="-0.001 -0.038; 0.002 -0.038; 0.006 -0.034; 0.006 0.034; 0.002 0.038; -0.001 0.038"/>
+  <extrusion id="masonry-arcade-window-surround-outside-post-0" profile="surround-outside-post-fold" position="6.84 4.04 4.56" distance="1.28" material="builtin:casement-surround" collidable="false"/>
+  <extrusion id="masonry-arcade-window-surround-outside-post-1" profile="surround-outside-post-fold" position="6.84 5.25 4.56" distance="1.28" material="builtin:casement-surround" collidable="false"/>
+  <extrusion id="masonry-arcade-window-surround-outside-post-2" profile="surround-outside-post-fold" position="6.84 6.46 4.56" distance="1.28" material="builtin:casement-surround" collidable="false"/>
+</architecture>

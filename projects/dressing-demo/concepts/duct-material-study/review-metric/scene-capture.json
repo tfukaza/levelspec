@@ -1,0 +1,45 @@
+{
+  "records": [
+    {
+      "name": "street",
+      "mode": "overview",
+      "stale": "false",
+      "frames": "4",
+      "frustum": "-16.720209601481393,16.720209601481393,9.5,-9.5,0.01,10000",
+      "projection": "orthographic",
+      "projectionMatrix": "0.05980786269039361,0,0,0,0,0.10526315789473684,0,0,0,0,-0.0002000002000002,0,0,0,-1.000002000002,1",
+      "viewMatrix": "0.5881716976750462,-0.13484246215417459,0.7974155531805571,0,0.8087360843031886,0.09806724520303589,-0.5799385841313142,0,1.3877787807814454e-16,0.9860021936174825,0.1667323429377527,0,-22.129960125023622,-8.742908099514153,-20.26885351538943,1",
+      "view": "{\"projection\":\"orthographic\",\"position\":[28,7.000000000000007,12],\"target\":[6,23,7.4],\"fov\":55,\"viewHeight\":19,\"roll\":0,\"appearance\":\"full-render\",\"frameAspect\":1.760022063313831,\"frameAspectLock\":1.76}",
+      "walk": "{\"active\":false,\"feet\":[2,2,0],\"stance\":\"standing\",\"grounded\":true,\"verticalSpeed\":0,\"helper\":\"off\",\"yaw\":0,\"pitch\":0,\"collision\":\"physical\",\"height\":1.8,\"radius\":0.35}",
+      "triangles": "6596969",
+      "cut": "18.89999923706055",
+      "drawCalls": "116261",
+      "camera": "28,7.000000000000007,12,1,6,23,7.4",
+      "renderHash": "ef6a803ada279efca493cdc65c364932ce7200e88352033e4d0f24cd4819236b"
+    },
+    {
+      "name": "ventInstalled",
+      "mode": "overview",
+      "stale": "false",
+      "frames": "7",
+      "frustum": "-1.2649934420620437,1.2649934420620437,1.15,-1.15,0.01,10000",
+      "projection": "orthographic",
+      "projectionMatrix": "0.7905179321482627,0,0,0,0,0.8695652173913044,0,0,0,0,-0.0002000002000002,0,0,0,-1.000002000002,1",
+      "viewMatrix": "0.7386499078522201,-0.14976012386393453,0.6572428918825716,0,0.6740892475258055,0.16410334699456508,-0.7201900984290709,0,-2.498001805406602e-16,0.9750087162715215,0.22216661134058746,0,-20.373635440360914,-9.752498792878848,-6.712208745127505,1",
+      "view": "{\"projection\":\"orthographic\",\"position\":[18,10.5,11],\"target\":[14.449999999999998,14.389999999999999,9.8],\"fov\":55,\"viewHeight\":2.3,\"roll\":0,\"appearance\":\"full-render\",\"frameAspect\":1.0999942974452555,\"frameAspectLock\":1.1}",
+      "walk": "{\"active\":false,\"feet\":[2,2,0],\"stance\":\"standing\",\"grounded\":true,\"verticalSpeed\":0,\"helper\":\"off\",\"yaw\":0,\"pitch\":0,\"collision\":\"physical\",\"height\":1.8,\"radius\":0.35}",
+      "triangles": "732290",
+      "cut": "18.89999923706055",
+      "drawCalls": "3271",
+      "camera": "18,10.5,11,1,14.449999999999998,14.389999999999999,9.8",
+      "renderHash": "ef6a803ada279efca493cdc65c364932ce7200e88352033e4d0f24cd4819236b"
+    }
+  ],
+  "errors": [],
+  "lightingHash": "97b77c55914f58d16da14e72c751063852443e6463b60a488fcb8a03568900ca",
+  "materialHashes": {
+    "vent-metal.png": "316722a2ea7dac5d0e5e5f9284e7343557c4b5cc9088e3d52d36d326002940a8",
+    "vent-metal-normal.png": "07b1ef8b233ec3c0568ff428cb57b833f6f2b39844050bf9080d101053e1224b",
+    "vent-metal-properties.png": "c2080d783c090382698bc024b1980d01b4c934e59438b9e62a6db774b93f711f"
+  }
+}

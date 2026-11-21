@@ -1,0 +1,25 @@
+{
+  "images": [
+    {
+      "file": "bowl-stack.png",
+      "sha256": "d6f7fb92d5187bad40e16b5f818223389b2721c5212e1f0c27ee3d5472d0d59b"
+    },
+    {
+      "file": "ladle.png",
+      "sha256": "f2b792b26485bc7877c253fd43638919dec5359db55be3b5256b53d20cb86838"
+    },
+    {
+      "file": "register.png",
+      "sha256": "2ac3c480c97b1f7850307fd9033440533c92e0b3d58421c9c1b4b9f8a33ffad0"
+    },
+    {
+      "file": "roasting-oven.png",
+      "sha256": "d056065dcdc6f4fde77d8075e90192905492abed62efeb1d7792f6a41effa043"
+    },
+    {
+      "file": "wok.png",
+      "sha256": "e53e2e48fc7a8f69640d202c78e7b38524e6a58f4421e5ba5a7b5cde454193e2"
+    }
+  ],
+  "generator": "Built-in ImageGen"
+}

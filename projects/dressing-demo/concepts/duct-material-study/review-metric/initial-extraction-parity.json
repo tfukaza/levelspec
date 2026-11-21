@@ -1,0 +1,32 @@
+{
+  "positions": {
+    "before": 20700,
+    "after": 20700,
+    "maxDifference": 0,
+    "changed": 0
+  },
+  "normals": {
+    "before": 20700,
+    "after": 20700,
+    "maxDifference": 0,
+    "changed": 0
+  },
+  "indices": {
+    "before": 6900,
+    "after": 6900,
+    "maxDifference": 0,
+    "changed": 0
+  },
+  "uv": {
+    "before": 13800,
+    "after": 13800,
+    "maxDifference": 7.1638061407504114,
+    "changed": 7338
+  },
+  "colors": {
+    "before": 20700,
+    "after": 20700,
+    "maxDifference": 0.357,
+    "changed": 1368
+  }
+}

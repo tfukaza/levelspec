@@ -1,0 +1,37 @@
+{
+  "date": "2026-11-13",
+  "scope": "Exaggerated specular on shared rounded duct corners and folded lips",
+  "materialBefore": {
+    "color": "#c3c8c6",
+    "roughness": 0.3,
+    "metalness": 0.65
+  },
+  "materialAfter": {
+    "color": "#e0e7e5",
+    "roughness": 0.2,
+    "metalness": 0.8
+  },
+  "sourceFingerprint": "2bb46819503a6e3c752dd0bf8518874f3e6d2a82bce169a39cf2ec671155f2b2",
+  "renderHash": "1880291a42a315510d8e4edd4cd8daf6d03a3f6cfcea133bb2ae8c642b7469b6",
+  "published": "generated/dressing-demo/presets",
+  "checks": {
+    "focusedTests": 14,
+    "typecheck": "passed",
+    "testReview": "accepted; existing coverage sufficient",
+    "implementationReview": "accepted",
+    "visualReview": "accepted",
+    "matchedCameraAndLighting": true,
+    "fullDemoBuild": "passed",
+    "publishedCacheMatchesCurrentSource": true,
+    "browserPageErrors": [],
+    "physicalHashMatchesBlockout": true
+  },
+  "incrementalCost": {
+    "triangles": 0,
+    "textures": 0,
+    "materials": 0
+  },
+  "residuals": [
+    "Warm corner polish is more continuous than the reference, an intentional exaggeration"
+  ]
+}

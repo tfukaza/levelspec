@@ -1,0 +1,133 @@
+{
+  "atlas": {
+    "width": 1024,
+    "height": 1024,
+    "images": {
+      "market-trays.png": {
+        "sha256": "0b6e0e8538ecea8634ba1064ca1075b35fd7dc6ffcb542fe86517bb8889badc6",
+        "bytes": 987760
+      },
+      "market-trays-normal.png": {
+        "sha256": "e628d0891fc95396f7875d396d9eea47150cc88cfa226737fc987121b87e2ef3",
+        "bytes": 443347
+      },
+      "market-trays-properties.png": {
+        "sha256": "6173700f3a01ad4391be85a367acc270f996ec653c8699570de686c70cc08b1b",
+        "bytes": 740484
+      }
+    }
+  },
+  "models": [
+    {
+      "id": "ginger",
+      "size": "small",
+      "folder": "ginger-small-5aa0f4ba",
+      "task": "5aa0f4ba-68a0-44ea-bffe-e275011effcc",
+      "target": 850,
+      "triangles": 859,
+      "sha256": "f3026b9c4046a0578abd1595e8ec1e80f883778154631b29c6b81eb05c63253c",
+      "warnings": 1
+    },
+    {
+      "id": "daikon",
+      "size": "medium",
+      "folder": "daikon-medium-4b794cce",
+      "task": "4b794cce-0f99-446e-81e5-ae5e0c67c8a6",
+      "target": 1100,
+      "triangles": 739,
+      "sha256": "6692f35e04ca204c902103a4dce8a93a665a245147a37a97ef87ebdeb09c8967",
+      "warnings": 1
+    },
+    {
+      "id": "bok-choy",
+      "size": "large",
+      "folder": "bok-choy-solid-tray-97a4aacc",
+      "task": "97a4aacc-5d58-4116-bb70-f1ed852a1fef",
+      "target": 1200,
+      "triangles": 1224,
+      "sha256": "35a07d3b7c3437e13b294f4efc00c606c6290179135f567ee7aba8608fa6774c",
+      "warnings": 1
+    },
+    {
+      "id": "eggplant",
+      "size": "medium",
+      "folder": "eggplant-medium-d381b298",
+      "task": "d381b298-e2d2-40e4-a1ca-890119c09c81",
+      "target": 1100,
+      "triangles": 1074,
+      "sha256": "2c802b20cc933379d29f7f63070bf90580ecb2d76d02401adda57e0cffb21e7b",
+      "warnings": 1
+    },
+    {
+      "id": "bitter-melon",
+      "size": "medium",
+      "folder": "bitter-melon-repair-c65e9583",
+      "file": "model-repaired.glb",
+      "task": "c65e9583-8ef5-4843-bc96-22245145a772",
+      "target": 1100,
+      "triangles": 1064,
+      "sha256": "5b6f92613ebd87d9a65637cf1052e53777d3c4d3eec4064644950e232349629f",
+      "warnings": 1
+    },
+    {
+      "id": "choy-sum",
+      "size": "large",
+      "folder": "choy-sum-repair-3cca7a52",
+      "task": "3cca7a52-ec24-48c6-b5b7-e34abc0e45b7",
+      "target": 1250,
+      "triangles": 1133,
+      "sha256": "f8e96edb68c565a66254d1c375002e83117be33ff8940060616024e98e3b74e6",
+      "warnings": 1
+    },
+    {
+      "id": "lotus-root",
+      "size": "small",
+      "folder": "lotus-root-b862228d",
+      "task": "b862228d-3251-4b94-99b6-eec9e1d47ce2",
+      "target": 950,
+      "triangles": 918,
+      "sha256": "35e6b5ac861200d8af7a9bdf10fd5a5876dc0f3c792f0dc88d698032163e5de8",
+      "warnings": 1
+    },
+    {
+      "id": "carrot",
+      "size": "small",
+      "folder": "carrot-tray-0355b29d",
+      "task": "0355b29d-970c-4458-bc1a-b9a1c7844d50",
+      "target": 1100,
+      "triangles": 1048,
+      "sha256": "1b4b2538d0d7e6273f4d3fb7ba3b66a851b2d31d19055c8e3d917e0e699b7a26",
+      "warnings": 1
+    },
+    {
+      "id": "red-radish",
+      "size": "medium",
+      "folder": "radish-tray-ab3f668d",
+      "task": "ab3f668d-7597-4858-9c29-051609951140",
+      "target": 1100,
+      "triangles": 1002,
+      "sha256": "58c8e44e110cd929e8e9dba9e5cd0b3a0a7e72668e700ad2112a57f8c22acd4f",
+      "warnings": 1
+    },
+    {
+      "id": "pineapple",
+      "size": "large",
+      "folder": "pineapple-tray-61d4304f",
+      "task": "61d4304f-702d-4a53-9791-870bd9291b90",
+      "target": 1350,
+      "triangles": 1351,
+      "sha256": "54366699b6fe90a71aa38a4d07930fbe97cd55997532e9cf16902ec9462d3bed",
+      "warnings": 1
+    },
+    {
+      "id": "oranges",
+      "size": "medium",
+      "folder": "oranges-tray-626637ea",
+      "task": "626637ea-a271-4a98-87e0-db9e592a6ab5",
+      "target": 1100,
+      "triangles": 1021,
+      "sha256": "23048de9c6d93e2e0bb1fa4dcb18e507a09ea8c5237efe2747f71edb5bb4c846",
+      "warnings": 1
+    }
+  ]
+}

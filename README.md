@@ -1,109 +1,61 @@
 # LevelSpec
 
-A level is a **program**, not a mesh. You write down what a place *is* — rooms,
-what is next to what, where the walls and doors and stairs go — and a
-deterministic compiler owns every coordinate that comes out of it.
+Author and evaluate architectural levels in AML XML. LevelSpec produces AML;
+SuperSpec reads it and builds the scene with physical geometry, procedural
+materials, exports and shared preview. LevelSpec owns the authoring harnesses,
+demos, projects and reference evidence.
 
-The point is that the compiler can then be held to a standard no hand-built
-geometry meets. Across the 9 authored levels and 380 floor plans in this repo,
-the compiled output has **0 coplanar-same-normal face pairs and 0 intersecting
-volumes**, and its navmesh is **100% reachable with 0 playable islands**. A
-naive build of the identical specs — each box individually watertight, correctly
-wound, and passing every half-space test — produces hundreds of both.
+The [sample map index](projects/README.md#sample-maps) links the retained AML
+maps. The [Klali Stoa project](projects/klali-stoa/README.md) shows how an AML
+level passes through SuperSpec and into a game.
 
-```
-spec (JSON or a drawn plan)
-  → compile()        11 passes; every coordinate decided here
-  → validate()       geometry, navigation, tactical gates
-  → bakeNavmesh()    independent re-derivation from the solids
-  → geometry / OBJ / Quake .map / OpenSCAD / CadQuery / DXF / SVG
-```
+## Run
 
-## Drawing a map
+Keep this checkout beside `superspec/`. The implementation is selected by
+`superspec.lock.json`; `tools/superspec.mjs` verifies its complete source and asset
+fingerprint before launching it. See [SuperSpec setup](../superspec/README.md).
 
-Writing a LevelSpec by hand means converting shapes into rectangles in your
-head, and you cannot tell whether you got it right until you compile and walk
-it. So there is a layer above: you draw the map, one character per cell.
-
-```
-layer ground z=0 height=5 roof=no
-
-legend
-  T  t_spawn   "T Spawn"   spawn
-  L  long_a    "Long A"    lane   +0.8
-  /  ramp_up   "Ramp"      ramp
-end
-
-plan
-##################
-#TTTTTT#####LLLLL#
-#TTTTTT///////LLL#
-##################
-end
+```powershell
+npm ci
+npm --prefix ../superspec ci
+./tools/rust.ps1 build
+./tools/rust.ps1 wasm
+npm run build:rust-ui
+npm run levelspec -- init projects/my-level
+npm run levelspec -- validate projects/my-level/level.aml --json
+npm run levelspec -- preview projects/my-level/level.aml
+npm run test:engine
 ```
 
-Two rules do most of the work:
+On any platform, `npm run levelspec -- <arguments>` forwards arguments and paths
+from the current directory to SuperSpec's native CLI. `RUST_CLI` can select an
+explicit built executable. Packaged native preview requires no Node installation.
+`npm run dev` opens the shared Wasm editor. Use **Open AML and companions** or
+**Open AML folder** to load a scene; the [demo library](demos/README.md) contains the courtyard, sign-weathering study and Dust II map.
 
-- A letter is floor; `#`, `.` and space are not.
-- **Where two different areas touch, that is a doorway** — exactly as wide as
-  the run of cells that touch. Where they do not touch, there is a wall.
+`./tools/rust.ps1 wasm-threads` builds the experimental shared-memory variant.
+The threaded toolchain still requires rebuilding Rust's standard library with
+experimental atomics support. Source pins must be updated together with the
+SuperSpec distribution manifest after reviewed implementation changes.
 
-Openings need no declaration, because a gap you draw in a wall *is* the
-opening. Areas are not rectangles either — each letter's cells are decomposed
-into maximal rectangles on the way out, so an L-shaped site costs nothing.
+## Native workflows
 
-## The map library
+`superspec --help` lists `init`, `inspect`, `validate`, `scene`, `build`, `glb`, `preview`, `generate`, `trace`, `migrate`, `reconstruct`, `bake`, `game-export` and `benchmark`. Finite `--json` commands emit one stdout result. Progress uses stderr. Exit codes are 0 for success, 1 for failure, 2 for usage, and 130 for cancellation.
 
-380 floor plans in three sets. `maps/cs/` holds 111 real competitive layouts
-and `maps/traced/` another 110: their footprints are traced from published
-radar images and their elevation comes from the radar's own shading.
-`maps/hand/` holds 159 originals authored directly in the DSL. Every one of
-them passes the same gates as a hand-authored level, because that is what they
-are.
+The browser editor supports AML editing, companion assets, validation, source inspection and GLB downloads. Both browser surfaces provide orbit and standing inspection. Click **Walk**, then a supported floor. WASD moves, mouse capture controls looking, and Escape exits. TypeScript controls check standing support and collision against the generated model.
 
-```bash
-python3 tools/trace_radar.py "reference/cs-maps/Mirage/Mirage - Radar.png" \
-    --cells 48 --bands 5 --out maps/traced/mirage.plan   # footprint
-node tools/finalize.ts                                    # elevation + gates
-node tools/plans.ts                                       # compile + report
+Use `tools/capture-level.mjs` for named browser captures. It launches the native preview and records accepted source/asset hashes and camera state. Node runs the browser automation. `tools/package-rust.ps1` packages the native executable, reviewer and material library together. Blender and Quake build tools are optional external programs for their corresponding export workflows.
+
+## Sources and checks
+
+Keep authoring sources and references under `projects/`. Generated products belong under ignored `generated/`. Domain coordinates are right-handed Z-up meters. Render visibility, collision and navigation have separate representations. Navigation checks and inspection walking provide sampled evidence.
+
+```powershell
+npm run check
+npm test
+./tools/rust.ps1 check
 ```
 
-`reference/cs-maps/` is the complete source archive the traces came from — 475
-images across 234 map pages, covering CS 1.6 through CS2, official and
-community, including cut and unreleased maps. 140 of those are radars (122
-single, plus 9 upper/lower pairs for the two-storey maps); the rest are
-screenshots and logos kept as provenance rather than as inputs. `index.tsv`
-records which map each file belongs to and where it came from.
+The Rust PoC replaces the former Node backend. Maintained native tests and focused fixtures live in SuperSpec. LevelSpec's `tests/engine` owns acceptance of Daiban and Dust II through that dependency. Historical evidence remains under `docs/` and authored projects; generated recovery snapshots are not required dependencies.
 
-Not every radar becomes a map. 17 are Danger Zone or open-terrain layouts whose
-radars have no distinguishable background, so a trace of them is one solid
-rectangle — they are excluded rather than shipped as a filled square.
-
-These are **topology reconstructions, not measured copies** — proportions are
-approximate, and no assets, textures, models or map files from any shipped game
-are used or reproduced.
-
-## Commands
-
-```bash
-npm run compile   # build + validate every authored level, write artifacts
-npm run gen       # the procedural generator, still used as a fallback
-npm test          # 244 assertions
-```
-
-## Why it holds together
-
-Two rules, applied everywhere:
-
-- **One owner per boundary edge.** A wall between two rooms belongs to exactly
-  one of them. Overlaps are impossible rather than cleaned up afterwards.
-- **One owner per junction square** — the same rule, one dimension down.
-
-Everything else follows. Ramps inset for a wall that already exists rather than
-burying a stringer inside it; risers seal every open elevation change so you
-cannot walk off a ledge into the void; a flight's ends live in the two areas it
-joins so the compiler can read their real heights.
-
-The validators are not warnings. `generateLevel` and `loadAuthored` both throw
-rather than hand back a level that fails one, so a broken floor cannot reach a
-player.
+See [current capabilities and limitations](docs/IMPLEMENTATION.md), [implementation evidence](docs/RUST_PROGRESS.md), and [the documentation index](docs/README.md). The one-second incremental preview goal remains under measurement. The accepted demo uses building texture density 16, with overview and close views inspected.

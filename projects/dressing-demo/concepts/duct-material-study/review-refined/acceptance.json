@@ -1,0 +1,96 @@
+{
+  "date": "2026-11-13",
+  "iteration": "v31",
+  "scope": "Duct material, rust, contact shading, subdued randomized edge polish and folded return sides",
+  "sourceFingerprint": "e20b02861ca78b73625022555887697023f7e1ac1f0027a3b58da075c0e3571d",
+  "componentRenderHash": "ade0c18aeed60eaba80ea41f0836f5d483d9ebdba4e0578814dae013fb2f458b",
+  "sceneRenderHash": "5f09df9ba205de7b9e8062c74df6d22c0d394d0778cbade6a6aaf07812bc9871",
+  "published": "generated/dressing-demo/presets",
+  "checks": {
+    "focusedTests": 21,
+    "typecheck": "passed",
+    "testReview": "accepted",
+    "implementationReview": "accepted",
+    "visualReview": "v31 accepted against selective concept crops and four module sizes",
+    "fullDemoBuild": "passed",
+    "publishedCacheMatchesCurrentSource": true,
+    "browserPageErrors": [],
+    "physicalHashMatchesBlockout": true
+  },
+  "budget": {
+    "before": {
+      "triangles": 2196,
+      "physicalUnchanged": true,
+      "generatedImages": 0,
+      "materials": 38
+    },
+    "after": {
+      "triangles": 3692,
+      "physicalUnchanged": true,
+      "generatedImages": 0,
+      "materials": 38
+    }
+  },
+  "resources": {
+    "sharedMaps": 3,
+    "mapDimensions": [
+      1024,
+      1024
+    ],
+    "texelsPerMeter": 512,
+    "additionalMaterials": 0,
+    "maximumSeamWashes": 2,
+    "maximumWashTriangles": 100
+  },
+  "appearance": {
+    "baseMetalRgb": [
+      151,
+      175,
+      174
+    ],
+    "edgeMaterial": {
+      "color": "#f4faf7",
+      "roughness": 0.34,
+      "metalness": 0.42
+    },
+    "shaftBevelRadiusMeters": 0.024,
+    "shaftBevelFacets": 4,
+    "angularPolishRange": [
+      0.4,
+      1
+    ],
+    "collarFadeRange": [
+      0.65,
+      1
+    ],
+    "polishSamplingMeters": 0.24,
+    "wallContactFadeMeters": 0.075,
+    "jointContactFadeMeters": [
+      0.025,
+      0.085
+    ],
+    "braceLinearTint": [
+      0.38,
+      0.45,
+      0.43
+    ],
+    "clampLinearTint": [
+      0.63,
+      0.69,
+      0.67
+    ]
+  },
+  "iterationNotes": {
+    "v25": "Cooler darker zinc improved the value hierarchy",
+    "v27": "Charcoal hardware improved; opaque repeated rust patches rejected",
+    "v28": "Fine rust and diagonal seams improved; long corner outline still too strong",
+    "v29": "Muted varied edges and sparse mechanically located washes accepted",
+    "v30": "Wider bevel rounded the shoulder but lacked a clear bright core",
+    "v31": "Soft silver center with shaded shoulders accepted for rounded glow cue"
+  },
+  "residuals": [
+    "Upper boot is bluer and underside more olive than the source",
+    "At building scale most visible aging comes from wall runoff",
+    "Lower return profile is smoother and omits one small secondary support visible in the concept"
+  ]
+}

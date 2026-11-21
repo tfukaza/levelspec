@@ -1,0 +1,12 @@
+[package]
+name = "levelspec-engine-acceptance"
+version = "0.1.0"
+edition = "2024"
+rust-version = "1.100"
+publish = false
+
+[dependencies]
+levelspec-aml = { path = "../../crates/aml" }
+superspec-engine = { path = "../../../superspec/crates/engine" }
+superspec-geometry = { path = "../../../superspec/crates/geometry" }
+superspec-types = { path = "../../../superspec/crates/types" }

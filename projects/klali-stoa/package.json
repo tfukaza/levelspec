@@ -1,0 +1,13 @@
+{
+  "name": "klali-stoa-city",
+  "private": true,
+  "type": "module",
+  "dependencies": {
+    "@gltf-transform/core": "^4.3.0",
+    "@gltf-transform/extensions": "^4.3.0",
+    "@gltf-transform/functions": "^4.3.0",
+    "meshoptimizer": "^0.25.0",
+    "sharp": "0.35.5",
+    "three": "0.186.0"
+  }
+}

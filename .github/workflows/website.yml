@@ -1,0 +1,29 @@
+name: Viewer consumer checks
+on:
+  pull_request:
+  push:
+    branches: [main]
+  workflow_dispatch:
+    inputs:
+      superspec_ref:
+        description: Published SuperSpec commit matching superspec.lock.json
+        required: true
+        type: string
+permissions:
+  contents: read
+concurrency:
+  group: viewer-consumer-${{ github.ref }}
+  cancel-in-progress: true
+jobs:
+  unavailable:
+    if: ${{ inputs.superspec_ref == '' && vars.SUPERSPEC_REF == '' }}
+    runs-on: ubuntu-latest
+    steps:
+      - run: |
+          echo "::error::SuperSpec acceptance requires a published engine revision. Set SUPERSPEC_REF to the matching commit or dispatch this workflow with superspec_ref. The extraction must be published first."
+          exit 1
+  implementation:
+    if: ${{ inputs.superspec_ref != '' || vars.SUPERSPEC_REF != '' }}
+    uses: ./.github/workflows/rust.yml
+    with:
+      superspec_ref: ${{ inputs.superspec_ref || vars.SUPERSPEC_REF }}

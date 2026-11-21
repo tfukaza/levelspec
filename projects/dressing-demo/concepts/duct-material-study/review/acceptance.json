@@ -1,0 +1,33 @@
+{
+  "date": "2026-11-13",
+  "scope": "Duct finish, procedural flange/bracket runoff, directional daylight modelling inside shadows",
+  "grimeProduction": "Fully procedural; generated grime sheet retained only as reference",
+  "componentIteration": "v14",
+  "componentRenderHash": "67bafceffc5520ec65b87729562da63db5ce26e4e4a67e263b4a797fc2d7591f",
+  "sceneRenderHash": "c1454421f7d6140a57bbecbbea0beccd5221c255040ad0490a6ef9a1e37b248b",
+  "sourceFingerprint": "aa3e8f5eb63f7d9d34f9d21931b3aa02b784a1cd4f7f9ea12ccd9bf9f7dd406a",
+  "published": "generated/dressing-demo/presets",
+  "checks": {
+    "typecheck": "passed",
+    "focusedTests": 17,
+    "independentImplementationReview": "accepted",
+    "independentComponentVisualReview": "accepted",
+    "independentIntegratedVisualReview": "accepted",
+    "fullDemoBuild": "passed",
+    "publishedCacheMatchesCurrentSource": true,
+    "browserPageErrors": [],
+    "physicalHashMatchesBlockout": true,
+    "sourceRoundTripAndBothStairRoutes": "passed"
+  },
+  "incrementalCost": {
+    "ductMetalTrianglesAdded": 416,
+    "sharedMetalMaps": 3,
+    "mapDimensions": [512, 512],
+    "separateRunoffDecalMeshes": 0,
+    "additionalShadowMaps": 0
+  },
+  "residuals": [
+    "Duct faces remain brighter and cleaner than the concept, especially seam corrosion",
+    "Only the broad central duct variant was refined in this pass; additional reference duct types remain separate work"
+  ]
+}
