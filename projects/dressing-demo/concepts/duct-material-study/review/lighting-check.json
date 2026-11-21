@@ -1,0 +1,31 @@
+{
+  "neutralDifference": 0.008330078125,
+  "dayRestoration": 0,
+  "neutralRestoration": 0,
+  "litBefore": [
+    210,
+    210,
+    217
+  ],
+  "litAfter": [
+    210,
+    210,
+    217
+  ],
+  "shadowBefore": [
+    128,
+    142,
+    176
+  ],
+  "shadowAfter": [
+    155,
+    162,
+    186
+  ],
+  "litDifference": 0,
+  "shadowGain": 19,
+  "shadowLights": [
+    4,
+    4
+  ]
+}

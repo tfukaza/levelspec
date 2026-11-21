@@ -1,0 +1,62 @@
+{
+  "originalSource": "projects/kowloon-signs/material-study.aml",
+  "originalSourceSha256": "c44d0588445001ecab4b7f9d897f60d0b82199a51c91086dc7abbe334b445ed2",
+  "sceneSha256": "6c2e60ff3ee7fbdaeb4233fd60dc7ee1f289012b93e700c6c24ede14a0e5a7a2",
+  "changes": "Companion references only; geometry, scene IDs and material parameters are unchanged.",
+  "companions": [
+    {
+      "original": "projects/dressing-demo/textures/signboard.png",
+      "reference": "levelspec-material:signboard.png",
+      "bytes": 1565429,
+      "sha256": "34fcc105e129d698336662eb28260404ba5dd121435f4e30677b88613ca4cd96"
+    },
+    {
+      "original": "projects/dressing-demo/textures/rust.png",
+      "reference": "levelspec-material:rust.png",
+      "bytes": 2365458,
+      "sha256": "7daee0f288b922bd005b9abdec5a70b41bc4fd988de1b3991e1c5a008f135879"
+    },
+    {
+      "original": "projects/dressing-demo/textures/timber.png",
+      "reference": "levelspec-material:timber.png",
+      "bytes": 19054,
+      "sha256": "bc5ae3223375167419c41215734211760af25832e4ab3f4f322db98bef2123ca"
+    },
+    {
+      "original": "projects/dressing-demo/textures/metal.png",
+      "reference": "levelspec-material:metal.png",
+      "bytes": 181063,
+      "sha256": "300570cabfa78394e458764bbd797faeb4132e968732d63d71faa08d0828aded"
+    },
+    {
+      "original": "projects/dressing-demo/textures/lettering.png",
+      "reference": "levelspec-material:lettering.png",
+      "bytes": 4027287,
+      "sha256": "8f8c820af0153d6aa633beb59fb2af2d4cfcf9dd74703b4cc3c4ec9991dd766d"
+    },
+    {
+      "original": "projects/dressing-demo/textures/roofing.png",
+      "reference": "levelspec-material:roofing.png",
+      "bytes": 534755,
+      "sha256": "dbac0a57170f1d2fbbf810360c4f1cd9dbd8e0b16670d90996964cd6f90c9fab"
+    },
+    {
+      "original": "projects/dressing-demo/textures/wall-concrete-repaired.png",
+      "reference": "textures/wall-concrete-repaired.png",
+      "bytes": 3436983,
+      "sha256": "d0365156df345093cbab70d453362197c10c559db7f97ef250529613c20172c7"
+    },
+    {
+      "original": "projects/dressing-demo/textures/plaster.png",
+      "reference": "textures/plaster.png",
+      "bytes": 510867,
+      "sha256": "5aa7ae5fd7a38df934abab063786cf836aaba8ecea1b7f338586cca924290707"
+    },
+    {
+      "original": "projects/dressing-demo/textures/ground-concrete.png",
+      "reference": "textures/ground-concrete.png",
+      "bytes": 2414519,
+      "sha256": "54e69bc990c442defbecf66a3eedac13a9f557547cfacc783d59ef615ea13b78"
+    }
+  ]
+}

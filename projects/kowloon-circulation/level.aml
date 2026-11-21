@@ -1,0 +1,926 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<architecture version="1" id="kowloon-circulation" name="Rain Cut · Kowloon circulation study" validation="premap">
+
+  <material id="soffit" color="#52645a" roughness="0.89"/>
+  <material id="runoff" color="#c2c9b7" roughness="0.84" repeat="0.40" texture="textures/streaked-concrete.png"/>
+  <material id="facade-dark" color="#8e9a8b" roughness="0.89" repeat="0.38" texture="textures/streaked-concrete.png"/>
+  <material id="window-dark" color="#263837" roughness="0.55"/>
+  <material id="window-lit" color="#c9a77c" emissive="#d79654" emissive-strength="0.39" roughness="0.43"/>
+  <material id="grout" color="#40524b" roughness="0.9"/>
+  <definition id="tenement-window"><box id="surround" width="1.48" depth="0.135" height="1.44" material="runoff" collidable="false"/><box id="glass" position="0.12 0.137 0.14" width="1.24" depth="0.016" height="1.13" material="window-dark" collidable="false"/><box id="divider" position="0.70 0.155 0.14" width="0.055" depth="0.036" height="1.14" material="rail" collidable="false"/><box id="sill" position="-0.04 0.13 0.095" width="1.56" depth="0.16" height="0.047" material="grout" collidable="false"/></definition>
+  <definition id="tenement-window-lit"><instance id="frame" ref="tenement-window"/><box id="curtain" position="0.13 0.161 0.17" width="0.54" depth="0.018" height="1.07" material="window-lit" collidable="false"/></definition>
+  <definition id="service-shutter"><box id="panel" width="1.85" depth="0.09" height="2.11" material="grout" collidable="false"/><box id="header" position="-0.08 0.10 1.91" width="2.01" depth="0.12" height="0.20" material="runoff" collidable="false"/></definition>
+  <definition id="window-unit"><box id="body" width="0.57" depth="0.36" height="0.37" material="builtin:aircon" collidable="false"/></definition>
+  <instance id="south-front-shutter-0" ref="service-shutter" position="-16.92 -6.59 0.22" rotation="0 0 0"/>
+  <instance id="south-front-window-0-1" ref="tenement-window" position="-16.92 -6.59 3.21" rotation="0 0 0"/>
+  <instance id="south-front-ac-0-1" ref="window-unit" position="-15.38 -6.59 2.99" rotation="0 0 0"/>
+  <instance id="south-front-window-0-2" ref="tenement-window" position="-16.92 -6.59 5.86" rotation="0 0 0"/>
+  <instance id="south-front-window-0-3" ref="tenement-window" position="-16.92 -6.59 8.51" rotation="0 0 0"/>
+  <instance id="south-front-window-1-1" ref="tenement-window" position="-14.2 -6.59 3.21" rotation="0 0 0"/>
+  <instance id="south-front-window-1-2" ref="tenement-window-lit" position="-14.2 -6.59 5.86" rotation="0 0 0"/>
+  <instance id="south-front-window-1-3" ref="tenement-window" position="-14.2 -6.59 8.51" rotation="0 0 0"/>
+  <instance id="south-front-ac-1-3" ref="window-unit" position="-12.66 -6.59 8.29" rotation="0 0 0"/>
+  <instance id="south-front-shutter-2" ref="service-shutter" position="-11.48 -6.59 0.22" rotation="0 0 0"/>
+  <instance id="south-front-window-2-1" ref="tenement-window-lit" position="-11.48 -6.59 3.21" rotation="0 0 0"/>
+  <instance id="south-front-window-2-2" ref="tenement-window" position="-11.48 -6.59 5.86" rotation="0 0 0"/>
+  <instance id="south-front-ac-2-2" ref="window-unit" position="-9.94 -6.59 5.64" rotation="0 0 0"/>
+  <instance id="south-front-window-2-3" ref="tenement-window" position="-11.48 -6.59 8.51" rotation="0 0 0"/>
+  <instance id="south-front-shutter-3" ref="service-shutter" position="-8.76 -6.59 0.22" rotation="0 0 0"/>
+  <instance id="south-front-window-3-1" ref="tenement-window" position="-8.76 -6.59 3.21" rotation="0 0 0"/>
+  <instance id="south-front-ac-3-1" ref="window-unit" position="-7.22 -6.59 2.99" rotation="0 0 0"/>
+  <instance id="south-front-window-3-2" ref="tenement-window" position="-8.76 -6.59 5.86" rotation="0 0 0"/>
+  <instance id="south-front-window-3-3" ref="tenement-window-lit" position="-8.76 -6.59 8.51" rotation="0 0 0"/>
+  <instance id="south-front-window-4-1" ref="tenement-window" position="-6.04 -6.59 3.21" rotation="0 0 0"/>
+  <instance id="south-front-window-4-2" ref="tenement-window-lit" position="-6.04 -6.59 5.86" rotation="0 0 0"/>
+  <instance id="south-front-window-4-3" ref="tenement-window" position="-6.04 -6.59 8.51" rotation="0 0 0"/>
+  <instance id="south-front-ac-4-3" ref="window-unit" position="-4.5 -6.59 8.29" rotation="0 0 0"/>
+  <instance id="south-front-shutter-5" ref="service-shutter" position="-3.32 -6.59 0.22" rotation="0 0 0"/>
+  <instance id="south-front-window-5-1" ref="tenement-window" position="-3.32 -6.59 3.21" rotation="0 0 0"/>
+  <instance id="south-front-window-5-2" ref="tenement-window" position="-3.32 -6.59 5.86" rotation="0 0 0"/>
+  <instance id="south-front-ac-5-2" ref="window-unit" position="-1.78 -6.59 5.64" rotation="0 0 0"/>
+  <instance id="south-front-window-5-3" ref="tenement-window" position="-3.32 -6.59 8.51" rotation="0 0 0"/>
+  <instance id="southeast-front-shutter-0" ref="service-shutter" position="3.53 -6.59 0.22" rotation="0 0 0"/>
+  <instance id="southeast-front-window-0-1" ref="tenement-window" position="3.53 -6.59 3.21" rotation="0 0 0"/>
+  <instance id="southeast-front-ac-0-1" ref="window-unit" position="5.07 -6.59 2.99" rotation="0 0 0"/>
+  <instance id="southeast-front-window-0-2" ref="tenement-window" position="3.53 -6.59 5.86" rotation="0 0 0"/>
+  <instance id="southeast-front-window-0-3" ref="tenement-window" position="3.53 -6.59 8.51" rotation="0 0 0"/>
+  <instance id="southeast-front-window-0-4" ref="tenement-window" position="3.53 -6.59 11.16" rotation="0 0 0"/>
+  <instance id="southeast-front-ac-0-4" ref="window-unit" position="5.07 -6.59 10.94" rotation="0 0 0"/>
+  <instance id="southeast-front-window-1-1" ref="tenement-window" position="6.25 -6.59 3.21" rotation="0 0 0"/>
+  <instance id="southeast-front-window-1-2" ref="tenement-window-lit" position="6.25 -6.59 5.86" rotation="0 0 0"/>
+  <instance id="southeast-front-window-1-3" ref="tenement-window" position="6.25 -6.59 8.51" rotation="0 0 0"/>
+  <instance id="southeast-front-ac-1-3" ref="window-unit" position="7.79 -6.59 8.29" rotation="0 0 0"/>
+  <instance id="southeast-front-window-1-4" ref="tenement-window-lit" position="6.25 -6.59 11.16" rotation="0 0 0"/>
+  <instance id="southeast-front-shutter-2" ref="service-shutter" position="8.97 -6.59 0.22" rotation="0 0 0"/>
+  <instance id="southeast-front-window-2-1" ref="tenement-window-lit" position="8.97 -6.59 3.21" rotation="0 0 0"/>
+  <instance id="southeast-front-window-2-2" ref="tenement-window" position="8.97 -6.59 5.86" rotation="0 0 0"/>
+  <instance id="southeast-front-ac-2-2" ref="window-unit" position="10.51 -6.59 5.64" rotation="0 0 0"/>
+  <instance id="southeast-front-window-2-3" ref="tenement-window" position="8.97 -6.59 8.51" rotation="0 0 0"/>
+  <instance id="southeast-front-window-2-4" ref="tenement-window" position="8.97 -6.59 11.16" rotation="0 0 0"/>
+  <instance id="southeast-front-shutter-3" ref="service-shutter" position="11.69 -6.59 0.22" rotation="0 0 0"/>
+  <instance id="southeast-front-window-3-1" ref="tenement-window" position="11.69 -6.59 3.21" rotation="0 0 0"/>
+  <instance id="southeast-front-ac-3-1" ref="window-unit" position="13.23 -6.59 2.99" rotation="0 0 0"/>
+  <instance id="southeast-front-window-3-2" ref="tenement-window" position="11.69 -6.59 5.86" rotation="0 0 0"/>
+  <instance id="southeast-front-window-3-3" ref="tenement-window-lit" position="11.69 -6.59 8.51" rotation="0 0 0"/>
+  <instance id="southeast-front-window-3-4" ref="tenement-window" position="11.69 -6.59 11.16" rotation="0 0 0"/>
+  <instance id="southeast-front-ac-3-4" ref="window-unit" position="13.23 -6.59 10.94" rotation="0 0 0"/>
+  <instance id="southeast-front-window-4-1" ref="tenement-window" position="14.41 -6.59 3.21" rotation="0 0 0"/>
+  <instance id="southeast-front-window-4-2" ref="tenement-window-lit" position="14.41 -6.59 5.86" rotation="0 0 0"/>
+  <instance id="southeast-front-window-4-3" ref="tenement-window" position="14.41 -6.59 8.51" rotation="0 0 0"/>
+  <instance id="southeast-front-ac-4-3" ref="window-unit" position="15.95 -6.59 8.29" rotation="0 0 0"/>
+  <instance id="southeast-front-window-4-4" ref="tenement-window" position="14.41 -6.59 11.16" rotation="0 0 0"/>
+  <instance id="southeast-front-shutter-5" ref="service-shutter" position="17.13 -6.59 0.22" rotation="0 0 0"/>
+  <instance id="southeast-front-window-5-1" ref="tenement-window" position="17.13 -6.59 3.21" rotation="0 0 0"/>
+  <instance id="southeast-front-window-5-2" ref="tenement-window" position="17.13 -6.59 5.86" rotation="0 0 0"/>
+  <instance id="southeast-front-ac-5-2" ref="window-unit" position="18.67 -6.59 5.64" rotation="0 0 0"/>
+  <instance id="southeast-front-window-5-3" ref="tenement-window" position="17.13 -6.59 8.51" rotation="0 0 0"/>
+  <instance id="southeast-front-window-5-4" ref="tenement-window-lit" position="17.13 -6.59 11.16" rotation="0 0 0"/>
+  <instance id="west-front-shutter-0" ref="service-shutter" position="-17.99 11.47 1.84" rotation="0 0 -90"/>
+  <instance id="west-front-window-0-1" ref="tenement-window" position="-17.99 11.47 4.83" rotation="0 0 -90"/>
+  <instance id="west-front-ac-0-1" ref="window-unit" position="-17.99 9.93 4.61" rotation="0 0 -90"/>
+  <instance id="west-front-window-0-2" ref="tenement-window" position="-17.99 11.47 7.48" rotation="0 0 -90"/>
+  <instance id="west-front-window-0-3" ref="tenement-window" position="-17.99 11.47 10.13" rotation="0 0 -90"/>
+  <instance id="west-front-window-1-1" ref="tenement-window" position="-17.99 8.75 4.83" rotation="0 0 -90"/>
+  <instance id="west-front-window-1-2" ref="tenement-window-lit" position="-17.99 8.75 7.48" rotation="0 0 -90"/>
+  <instance id="west-front-window-1-3" ref="tenement-window" position="-17.99 8.75 10.13" rotation="0 0 -90"/>
+  <instance id="west-front-ac-1-3" ref="window-unit" position="-17.99 7.21 9.91" rotation="0 0 -90"/>
+  <instance id="west-front-shutter-2" ref="service-shutter" position="-17.99 6.03 1.84" rotation="0 0 -90"/>
+  <instance id="west-front-window-2-1" ref="tenement-window-lit" position="-17.99 6.03 4.83" rotation="0 0 -90"/>
+  <instance id="west-front-window-2-2" ref="tenement-window" position="-17.99 6.03 7.48" rotation="0 0 -90"/>
+  <instance id="west-front-ac-2-2" ref="window-unit" position="-17.99 4.49 7.26" rotation="0 0 -90"/>
+  <instance id="west-front-window-2-3" ref="tenement-window" position="-17.99 6.03 10.13" rotation="0 0 -90"/>
+  <instance id="east-front-shutter-0" ref="service-shutter" position="10.69 6.6 0.22" rotation="0 0 90"/>
+  <instance id="east-front-window-0-1" ref="tenement-window" position="10.69 6.6 3.21" rotation="0 0 90"/>
+  <instance id="east-front-ac-0-1" ref="window-unit" position="10.69 8.14 2.99" rotation="0 0 90"/>
+  <instance id="east-front-window-0-2" ref="tenement-window" position="10.69 6.6 5.86" rotation="0 0 90"/>
+  <instance id="east-front-window-0-3" ref="tenement-window" position="10.69 6.6 8.51" rotation="0 0 90"/>
+  <instance id="east-front-window-1-1" ref="tenement-window" position="10.69 9.32 3.21" rotation="0 0 90"/>
+  <instance id="east-front-window-1-2" ref="tenement-window-lit" position="10.69 9.32 5.86" rotation="0 0 90"/>
+  <instance id="east-front-window-1-3" ref="tenement-window" position="10.69 9.32 8.51" rotation="0 0 90"/>
+  <instance id="east-front-ac-1-3" ref="window-unit" position="10.69 10.86 8.29" rotation="0 0 90"/>
+  <instance id="east-road-shutter-0" ref="service-shutter" position="16.48 5.99 0.22" rotation="0 0 180"/>
+  <instance id="east-road-window-0-1" ref="tenement-window" position="16.48 5.99 3.21" rotation="0 0 180"/>
+  <instance id="east-road-ac-0-1" ref="window-unit" position="14.94 5.99 2.99" rotation="0 0 180"/>
+  <instance id="east-road-window-0-2" ref="tenement-window" position="16.48 5.99 5.86" rotation="0 0 180"/>
+  <instance id="east-road-window-0-3" ref="tenement-window" position="16.48 5.99 8.51" rotation="0 0 180"/>
+  <instance id="east-road-window-1-1" ref="tenement-window" position="13.76 5.99 3.21" rotation="0 0 180"/>
+  <instance id="east-road-window-1-2" ref="tenement-window-lit" position="13.76 5.99 5.86" rotation="0 0 180"/>
+  <instance id="east-road-window-1-3" ref="tenement-window" position="13.76 5.99 8.51" rotation="0 0 180"/>
+  <instance id="east-road-ac-1-3" ref="window-unit" position="12.22 5.99 8.29" rotation="0 0 180"/>
+  <instance id="far-front-shutter-0" ref="service-shutter" position="16.37 19.99 0.22" rotation="0 0 180"/>
+  <instance id="far-front-window-0-1" ref="tenement-window" position="16.37 19.99 3.21" rotation="0 0 180"/>
+  <instance id="far-front-ac-0-1" ref="window-unit" position="14.83 19.99 2.99" rotation="0 0 180"/>
+  <instance id="far-front-window-0-2" ref="tenement-window" position="16.37 19.99 5.86" rotation="0 0 180"/>
+  <instance id="far-front-window-0-3" ref="tenement-window" position="16.37 19.99 8.51" rotation="0 0 180"/>
+  <instance id="far-front-window-0-4" ref="tenement-window" position="16.37 19.99 11.16" rotation="0 0 180"/>
+  <instance id="far-front-ac-0-4" ref="window-unit" position="14.83 19.99 10.94" rotation="0 0 180"/>
+  <instance id="far-front-window-1-1" ref="tenement-window" position="13.65 19.99 3.21" rotation="0 0 180"/>
+  <instance id="far-front-window-1-2" ref="tenement-window-lit" position="13.65 19.99 5.86" rotation="0 0 180"/>
+  <instance id="far-front-window-1-3" ref="tenement-window" position="13.65 19.99 8.51" rotation="0 0 180"/>
+  <instance id="far-front-ac-1-3" ref="window-unit" position="12.11 19.99 8.29" rotation="0 0 180"/>
+  <instance id="far-front-window-1-4" ref="tenement-window-lit" position="13.65 19.99 11.16" rotation="0 0 180"/>
+  <instance id="far-front-shutter-2" ref="service-shutter" position="10.93 19.99 0.22" rotation="0 0 180"/>
+  <instance id="far-front-window-2-1" ref="tenement-window-lit" position="10.93 19.99 3.21" rotation="0 0 180"/>
+  <instance id="far-front-window-2-2" ref="tenement-window" position="10.93 19.99 5.86" rotation="0 0 180"/>
+  <instance id="far-front-ac-2-2" ref="window-unit" position="9.39 19.99 5.64" rotation="0 0 180"/>
+  <instance id="far-front-window-2-3" ref="tenement-window" position="10.93 19.99 8.51" rotation="0 0 180"/>
+  <instance id="far-front-window-2-4" ref="tenement-window" position="10.93 19.99 11.16" rotation="0 0 180"/>
+  <instance id="far-front-shutter-3" ref="service-shutter" position="8.21 19.99 0.22" rotation="0 0 180"/>
+  <instance id="far-front-window-3-1" ref="tenement-window" position="8.21 19.99 3.21" rotation="0 0 180"/>
+  <instance id="far-front-ac-3-1" ref="window-unit" position="6.67 19.99 2.99" rotation="0 0 180"/>
+  <instance id="far-front-window-3-2" ref="tenement-window" position="8.21 19.99 5.86" rotation="0 0 180"/>
+  <instance id="far-front-window-3-3" ref="tenement-window-lit" position="8.21 19.99 8.51" rotation="0 0 180"/>
+  <instance id="far-front-window-3-4" ref="tenement-window" position="8.21 19.99 11.16" rotation="0 0 180"/>
+  <instance id="far-front-ac-3-4" ref="window-unit" position="6.67 19.99 10.94" rotation="0 0 180"/>
+  <instance id="far-front-window-4-1" ref="tenement-window" position="5.49 19.99 3.21" rotation="0 0 180"/>
+  <instance id="far-front-window-4-2" ref="tenement-window-lit" position="5.49 19.99 5.86" rotation="0 0 180"/>
+  <instance id="far-front-window-4-3" ref="tenement-window" position="5.49 19.99 8.51" rotation="0 0 180"/>
+  <instance id="far-front-ac-4-3" ref="window-unit" position="3.95 19.99 8.29" rotation="0 0 180"/>
+  <instance id="far-front-window-4-4" ref="tenement-window" position="5.49 19.99 11.16" rotation="0 0 180"/>
+  <instance id="far-front-shutter-5" ref="service-shutter" position="2.77 19.99 0.22" rotation="0 0 180"/>
+  <instance id="far-front-window-5-1" ref="tenement-window" position="2.77 19.99 3.21" rotation="0 0 180"/>
+  <instance id="far-front-window-5-2" ref="tenement-window" position="2.77 19.99 5.86" rotation="0 0 180"/>
+  <instance id="far-front-ac-5-2" ref="window-unit" position="1.23 19.99 5.64" rotation="0 0 180"/>
+  <instance id="far-front-window-5-3" ref="tenement-window" position="2.77 19.99 8.51" rotation="0 0 180"/>
+  <instance id="far-front-window-5-4" ref="tenement-window-lit" position="2.77 19.99 11.16" rotation="0 0 180"/>
+  <instance id="far-front-shutter-6" ref="service-shutter" position="0.05 19.99 0.22" rotation="0 0 180"/>
+  <instance id="far-front-window-6-1" ref="tenement-window-lit" position="0.05 19.99 3.21" rotation="0 0 180"/>
+  <instance id="far-front-ac-6-1" ref="window-unit" position="-1.49 19.99 2.99" rotation="0 0 180"/>
+  <instance id="far-front-window-6-2" ref="tenement-window" position="0.05 19.99 5.86" rotation="0 0 180"/>
+  <instance id="far-front-window-6-3" ref="tenement-window-lit" position="0.05 19.99 8.51" rotation="0 0 180"/>
+  <instance id="far-front-window-6-4" ref="tenement-window" position="0.05 19.99 11.16" rotation="0 0 180"/>
+  <instance id="far-front-ac-6-4" ref="window-unit" position="-1.49 19.99 10.94" rotation="0 0 180"/>
+  <instance id="far-front-window-7-1" ref="tenement-window" position="-2.67 19.99 3.21" rotation="0 0 180"/>
+  <instance id="far-front-window-7-2" ref="tenement-window" position="-2.67 19.99 5.86" rotation="0 0 180"/>
+  <instance id="far-front-window-7-3" ref="tenement-window" position="-2.67 19.99 8.51" rotation="0 0 180"/>
+  <instance id="far-front-ac-7-3" ref="window-unit" position="-4.21 19.99 8.29" rotation="0 0 180"/>
+  <instance id="far-front-window-7-4" ref="tenement-window" position="-2.67 19.99 11.16" rotation="0 0 180"/>
+  <instance id="far-front-shutter-8" ref="service-shutter" position="-5.39 19.99 0.22" rotation="0 0 180"/>
+  <instance id="far-front-window-8-1" ref="tenement-window" position="-5.39 19.99 3.21" rotation="0 0 180"/>
+  <instance id="far-front-window-8-2" ref="tenement-window-lit" position="-5.39 19.99 5.86" rotation="0 0 180"/>
+  <instance id="far-front-ac-8-2" ref="window-unit" position="-6.93 19.99 5.64" rotation="0 0 180"/>
+  <instance id="far-front-window-8-3" ref="tenement-window" position="-5.39 19.99 8.51" rotation="0 0 180"/>
+  <instance id="far-front-window-8-4" ref="tenement-window-lit" position="-5.39 19.99 11.16" rotation="0 0 180"/>
+  <instance id="far-front-shutter-9" ref="service-shutter" position="-8.11 19.99 0.22" rotation="0 0 180"/>
+  <instance id="far-front-window-9-1" ref="tenement-window" position="-8.11 19.99 3.21" rotation="0 0 180"/>
+  <instance id="far-front-ac-9-1" ref="window-unit" position="-9.65 19.99 2.99" rotation="0 0 180"/>
+  <instance id="far-front-window-9-2" ref="tenement-window" position="-8.11 19.99 5.86" rotation="0 0 180"/>
+  <instance id="far-front-window-9-3" ref="tenement-window" position="-8.11 19.99 8.51" rotation="0 0 180"/>
+  <instance id="far-front-window-9-4" ref="tenement-window" position="-8.11 19.99 11.16" rotation="0 0 180"/>
+  <instance id="far-front-ac-9-4" ref="window-unit" position="-9.65 19.99 10.94" rotation="0 0 180"/>
+  <instance id="far-front-window-10-1" ref="tenement-window-lit" position="-10.83 19.99 3.21" rotation="0 0 180"/>
+  <instance id="far-front-window-10-2" ref="tenement-window" position="-10.83 19.99 5.86" rotation="0 0 180"/>
+  <instance id="far-front-window-10-3" ref="tenement-window-lit" position="-10.83 19.99 8.51" rotation="0 0 180"/>
+  <instance id="far-front-ac-10-3" ref="window-unit" position="-12.37 19.99 8.29" rotation="0 0 180"/>
+  <instance id="far-front-window-10-4" ref="tenement-window" position="-10.83 19.99 11.16" rotation="0 0 180"/>
+  <box id="road-rear-fill" position="17 5.98 -0.37" width="3" depth="6.03" height="6.1" material="facade-dark"/>
+  <box id="far-road-block" position="20 2.36 -0.3" width="5.2" depth="6.8" height="11.6" material="runoff"/>
+  <box id="alley-rear-block" position="-13.9 16.0 0.18" width="6.4" depth="3.7" height="9.7" material="runoff"/>
+  <instance id="alley-rear-shutter-0" ref="service-shutter" position="-8.04 15.99 0.22" rotation="0 0 180"/>
+  <instance id="alley-rear-window-0-1" ref="tenement-window" position="-8.04 15.99 3.21" rotation="0 0 180"/>
+  <instance id="alley-rear-ac-0-1" ref="window-unit" position="-9.58 15.99 2.99" rotation="0 0 180"/>
+  <instance id="alley-rear-window-0-2" ref="tenement-window" position="-8.04 15.99 5.86" rotation="0 0 180"/>
+  <instance id="alley-rear-window-1-1" ref="tenement-window" position="-10.76 15.99 3.21" rotation="0 0 180"/>
+  <instance id="alley-rear-window-1-2" ref="tenement-window-lit" position="-10.76 15.99 5.86" rotation="0 0 180"/>
+  <material id="grip-concrete" color="#e1e7d8" repeat="1.65" roughness="0.58"
+    texture="textures/ramp-rings.png" normal-texture="textures/ramp-rings-normal.png" normal-scale="0.76"/>
+  <material id="stair-concrete" color="#dbe0cd" repeat="0.88" roughness="1" texture="textures/stair-concrete.png" normal-texture="textures/stair-concrete-normal.png" metallic-roughness-texture="textures/stair-concrete-properties.png" normal-scale="0.80"/>
+  <material id="stair-mosaic" color="#c6c9b3" repeat="1.65" roughness="1" texture="textures/stair-mosaic.png" normal-texture="textures/stair-mosaic-normal.png" metallic-roughness-texture="textures/stair-mosaic-properties.png" normal-scale="0.65"/>
+  <material id="stair-edge" color="#a5ac99" repeat="1.14" roughness="1" texture="textures/stair-concrete.png" normal-texture="textures/stair-concrete-normal.png" metallic-roughness-texture="textures/stair-concrete-properties.png" normal-scale="0.9"/>
+  <material id="stair-edge-repair" color="#bfa985" repeat="1.14" roughness="1" texture="textures/stair-concrete.png" normal-texture="textures/stair-concrete-normal.png" metallic-roughness-texture="textures/stair-concrete-properties.png" normal-scale="0.75"/>
+  <material id="stair-tile-edge" color="#c4b892" repeat="1.07" roughness="1" texture="textures/stair-concrete.png" normal-texture="textures/stair-concrete-normal.png" metallic-roughness-texture="textures/stair-concrete-properties.png" normal-scale="0.59"/>
+  <material id="stair-groove" color="#494a3c" roughness="0.85"/>
+  <material id="stair-rail-paint" color="#e4e5d8" repeat="2.35" roughness="1" metalness="1" texture="textures/stair-rail.png" normal-texture="textures/stair-rail-normal.png" metallic-roughness-texture="textures/stair-rail-properties.png" normal-scale="0.75"/>
+
+  <material id="stair-rail-rust" color="#aa885e" repeat="4.2" roughness="1" metalness="1" texture="textures/stair-rail-hardware.png" normal-texture="textures/stair-rail-hardware-normal.png" metallic-roughness-texture="textures/stair-rail-hardware-properties.png" normal-scale="0.85"/>
+  <material id="rail" color="#506f65" roughness="0.68" metalness="0.15"/>
+  <material id="drain" color="#323d36" roughness="0.69" metalness="0.25"/>
+  <material id="cream-paint" color="#b7b3a0" roughness="0.85"/>
+  <material id="yellow-paint" color="#ac8b47" roughness="0.83"/>
+  <material id="water" color="#cad7ca" roughness="0.26" repeat="0.78" texture="textures/stormwater.png"/>
+  <material id="glass" color="#e6b982" roughness="0.38" emissive="#ffc376" emissive-strength="0.8"/>
+
+  <sky color="#889eaa" intensity="0.48"/>
+  <light id="sky-break" position="-16 -9 20" target="0 6 0" color="#c2d3e0" intensity="1.4" kind="directional"/>
+
+  <!-- Service road and curb sidewalks. -->
+  <profile id="road-plan" points="-18 -4; 20 -4; 20 2; -18 2"/>
+  <profile id="south-walk-plan" points="-18 -6.6; 20 -6.6; 20 -4; -18 -4"/>
+  <profile id="north-walk-plan" points="-18 2; 20 2; 20 4.1; -18 4.1"/>
+  <slab id="asphalt-road" profile="road-plan" thickness="0.32" material="builtin:asphalt"/>
+  <slab id="south-sidewalk" profile="south-walk-plan" elevation="0.18" thickness="0.5" material="builtin:concrete"/>
+  <slab id="north-sidewalk" profile="north-walk-plan" elevation="0.18" thickness="0.5" material="builtin:concrete"/>
+
+  <!-- Lower plaza, kinked tiled passage and western two-flight climb. -->
+  <profile id="plaza-plan" points="-5 4.1; 9 4.1; 9 7.6; 10.7 7.6; 10.7 12; 7.6 12; 7.6 10.2; -8.9 10.2; -8.9 6.85; -11.1 6.85; -11.1 5.8; -5 5.8"/>
+  <slab id="tile-plaza" profile="plaza-plan" elevation="0.18" thickness="0.55" material="builtin:concrete"/>
+  <profile id="bank-walk-plan" points="-8.9 10.2; 7.6 10.2; 7.6 12; -8.9 12"/>
+  <slab id="south-bank-walk" profile="bank-walk-plan" elevation="0.18" thickness="0.45" material="builtin:concrete"/>
+
+  <path id="alley-lower-axis" points="-10 6.85 0.18; -10 9.3 1.08"/>
+  <path id="alley-upper-axis" points="-11.1 10.4 1.08; -16 10.4 1.8"/>
+  <profile id="alley-turn-plan" points="-11.1 9.3; -8.9 9.3; -8.9 11.5; -11.1 11.5"/>
+  <profile id="terrace-plan" points="-18 4.1; -16 4.1; -16 12; -18 12"/>
+  <stairs id="alley-lower" path="alley-lower-axis" width="2.2" count="6" thickness="0.27" underside="filled" material="stair-concrete"/>
+  <landing id="alley-turn" profile="alley-turn-plan" elevation="1.08" thickness="1.3" material="stair-concrete"/>
+  <stairs id="alley-upper" path="alley-upper-axis" width="2.2" count="5" thickness="0.30" underside="sloped" material="builtin:concrete"/>
+  <landing id="upper-terrace" profile="terrace-plan" elevation="1.8" thickness="2.1" material="builtin:concrete"/>
+
+  <!-- Sloping west lane rejoins the same plaza. The offset bend uses paired rails. -->
+  <path id="ramp-south" points="-16 4.1 1.8; -11 4.1 1.03; -7.2 4.1 0.46; -5 4.1 0.18"/>
+  <path id="ramp-north" points="-16 5.8 1.8; -11 5.95 1.03; -7.2 5.85 0.46; -5 5.8 0.18"/>
+  <ramp id="ring-ramp" left="ramp-south" right="ramp-north" thickness="0.3" material="grip-concrete"/>
+  <path id="ramp-retaining-foot" points="-15.99 4.19 -0.35; -11 4.19 -0.35; -7.2 4.19 -0.35; -5.01 4.19 -0.35"/>
+  <path id="ramp-retaining-head" points="-15.99 4.19 1.63; -11 4.19 0.86; -7.2 4.19 0.29; -5.01 4.19 0.01"/>
+  <retaining-wall id="roadside-retaining" lower="ramp-retaining-foot" upper="ramp-retaining-head" thickness="0.20" height="2.5" mode="open" material="soffit"/>
+
+  <!-- The two overpass flights rise in opposite directions alongside the road. -->
+  <profile id="overpass-deck-plan" points="4 -6.48; 6.6 -6.48; 6.6 6.4; 4 6.4"/>
+  <path id="overpass-north-axis" points="-3.78 5.25 0.18; 4 5.25 4.62"/>
+  <path id="overpass-south-axis" points="6.6 -5.32 4.62; 15.1 -5.32 0.18"/>
+  <stairs id="overpass-north-stairs" path="overpass-north-axis" width="2.2" count="28" thickness="0.36" underside="sloped" material="builtin:concrete"/>
+  <stairs id="overpass-south-stairs" path="overpass-south-axis" width="2.2" count="28" thickness="0.36" underside="sloped" material="builtin:concrete"/>
+  <slab id="road-overpass" profile="overpass-deck-plan" elevation="4.62" thickness="0.46" material="builtin:concrete"/>
+  <box id="crossing-south-pier" position="4.4 -5.75 -0.12" width="1.8" depth="0.75" height="4.29" material="runoff"/>
+  <box id="crossing-north-pier" position="4.4 3.1 -0.12" width="1.8" depth="0.75" height="4.29" material="runoff"/>
+  <profile id="north-pier-cap-plan" dimensions="3" points="0.385 5.06 2.25; 1.025 5.06 2.615; 1.025 5.46 2.615; 0.385 5.46 2.25"/>
+  <assembly id="north-flight-support">
+    <box id="north-flight-pier" position="0.385 5.06 -0.12" width="0.64" depth="0.4" height="2.51" material="soffit"/>
+    <slab id="north-pier-cap" profile="north-pier-cap-plan" thickness="0.23" material="soffit"/>
+  </assembly>
+  <box id="south-flight-pier" position="9.82 -5.52 -0.12" width="0.64" depth="0.4" height="2.74" material="soffit"/>
+
+  <!-- Small stormwater canal with a level footbridge to the far bank. -->
+  <profile id="channel-plan" points="-18 12; 17 12; 17 15.6; -18 15.6"/>
+  <profile id="channel-bed-plan" points="-18 11.99; 17 11.99; 17 15.61; -18 15.61"/>
+  <profile id="far-bank-plan" points="-18 15.6; 17 15.6; 17 20; -18 20"/>
+  <profile id="canal-deck-plan" points="7.6 12; 10.7 12; 10.7 15.6; 7.6 15.6"/>
+  <slab id="channel-bed" profile="channel-bed-plan" elevation="-1.82" thickness="0.24" material="soffit"/>
+  <water id="stormwater" profile="channel-plan" elevation="-1.21" material="water"/>
+  <slab id="canal-footbridge" profile="canal-deck-plan" elevation="0.18" thickness="0.35" material="builtin:concrete"/>
+  <slab id="far-bank-path" profile="far-bank-plan" elevation="0.18" thickness="0.44" material="builtin:concrete"/>
+  <box id="south-embankment" position="-18.09 11.81 -2.05" width="35.18" depth="0.24" height="1.92" material="runoff"/>
+  <box id="north-embankment" position="-18.09 15.55 -2.05" width="35.18" depth="0.24" height="1.92" material="runoff"/>
+
+  <profile id="round-stair-handgrip" points="0.026 0; 0.024 0.010; 0.018 0.018; 0.010 0.024; 0 0.026; -0.010 0.024; -0.018 0.018; -0.024 0.010; -0.026 0; -0.024 -0.010; -0.018 -0.018; -0.010 -0.024; 0 -0.026; 0.010 -0.024; 0.018 -0.018; 0.024 -0.010"/>
+  <profile id="rail-section" points="-0.023 -0.024; 0.023 -0.024; 0.023 0.024; -0.023 0.024"/>
+
+  <profile id="post-section" points="-0.024 -0.024; 0.024 -0.024; 0.024 0.024; -0.024 0.024"/>
+  <enclosure id="alley-hand-rail" host="alley-lower" side="right" construction="railing" height="0.87" material="stair-rail-paint"><rail profile="round-stair-handgrip"/><posts profile="post-section" maximum-spacing="0.95"/></enclosure>
+  <enclosure id="alley-return-guard" host="alley-upper" side="left" construction="railing" height="0.94" material="stair-rail-paint"><rail profile="round-stair-handgrip"/><posts profile="post-section" maximum-spacing="0.76"/></enclosure>
+  <enclosure id="upper-flight-canal-guard" host="alley-upper" side="right" construction="parapet" height="0.90" thickness="0.13" material="soffit"/>
+  <enclosure id="turn-canal-guard" host="alley-turn" edge="2" start="0.07" end="2.10" construction="parapet" height="0.90" thickness="0.13" material="soffit"/>
+  <enclosure id="alley-turn-guard" host="alley-turn" edge="1" start="0.12" construction="railing" height="0.94" material="stair-rail-paint"><rail profile="round-stair-handgrip"/><posts profile="post-section" maximum-spacing="0.75"/></enclosure>
+  <enclosure id="terrace-inner-guard" host="upper-terrace" edge="1" start="1.73" end="5.17" construction="parapet" height="0.83" thickness="0.14" material="soffit"/>
+  <enclosure id="terrace-road-guard" host="upper-terrace" edge="0" construction="railing" height="1.05" material="rail"><rail profile="rail-section"/></enclosure>
+  <enclosure id="terrace-canal-guard" host="upper-terrace" edge="2" construction="railing" height="1.05" material="rail"><rail profile="rail-section"/></enclosure>
+  <enclosure id="north-steps-road-guard" host="overpass-north-stairs" side="right" construction="railing" height="1.04" material="rail"><rail profile="rail-section"/></enclosure>
+  <enclosure id="north-steps-plaza-guard" host="overpass-north-stairs" side="left" construction="railing" height="1.04" material="rail"><rail profile="rail-section"/></enclosure>
+  <enclosure id="south-steps-road-guard" host="overpass-south-stairs" side="left" construction="railing" height="1.04" material="rail"><rail profile="rail-section"/></enclosure>
+  <enclosure id="south-steps-building-guard" host="overpass-south-stairs" side="right" construction="railing" height="1.04" material="rail"><rail profile="rail-section"/></enclosure>
+  <enclosure id="overpass-west-guard" host="road-overpass" edge="3" start="2.27" construction="railing" height="1.04" material="rail"><rail profile="rail-section"/></enclosure>
+  <enclosure id="overpass-east-guard" host="road-overpass" edge="1" start="2.30" construction="railing" height="1.04" material="rail"><rail profile="rail-section"/></enclosure>
+  <enclosure id="overpass-north-end-guard" host="road-overpass" edge="2" construction="railing" height="1.04" material="rail"><rail profile="rail-section"/></enclosure>
+  <enclosure id="overpass-south-end-guard" host="road-overpass" edge="0" construction="railing" height="1.04" material="rail"><rail profile="rail-section"/></enclosure>
+  <enclosure id="canal-bridge-east-guard" host="canal-footbridge" edge="1" start="0.075" end="3.525" construction="railing" height="1.04" material="rail"><rail profile="rail-section"/></enclosure>
+  <enclosure id="canal-bridge-west-guard" host="canal-footbridge" edge="3" start="0.075" end="3.525" construction="railing" height="1.04" material="rail"><rail profile="rail-section"/></enclosure>
+  <enclosure id="south-bank-guard" host="south-bank-walk" edge="2" construction="railing" height="1.04" material="rail"><rail profile="rail-section"/></enclosure>
+  <enclosure id="far-bank-west-guard" host="far-bank-path" edge="0" end="25.6" construction="railing" height="1.04" material="rail"><rail profile="rail-section"/></enclosure>
+  <enclosure id="far-bank-east-guard" host="far-bank-path" edge="0" start="28.7" construction="railing" height="1.04" material="rail"><rail profile="rail-section"/></enclosure>
+
+  <!-- Context profiles are bounded tenement/service-block lots. -->
+  <box id="south-block" position="-17.5 -12.3 0.18" width="19.5" depth="5.7" height="12.1" material="facade-dark"/>
+  <box id="south-east-block" position="3 -12.3 0.18" width="16.7" depth="5.7" height="15" material="facade-dark"/>
+  <box id="west-block" position="-23 3.1 1.8" width="5" depth="8.9" height="12.1" material="facade-dark"/>
+  <box id="alley-block" position="-15.8 6.02 0.18" width="4.68" depth="3.28" height="9.3" material="builtin:concrete" collidable="false"/>
+  <box id="east-block" position="10.7 6 0.18" width="6.3" depth="6" height="12.1" material="facade-dark"/>
+  <box id="far-block" position="-14 20 0.18" width="30.9" depth="5" height="15" material="facade-dark"/>
+
+  <path id="alley-west-wall-path" points="-11.16 6.85 0.18; -11.16 9.3 0.18"/>
+  <wall id="alley-west-wall" path="alley-west-wall-path" thickness="0.09" height="2.36" material="builtin:ceramic"/>
+  <path id="alley-sidewall-path" points="-8.8 6.86 0.18; -8.8 9.3 0.18"/>
+  <wall id="alley-sidewall" path="alley-sidewall-path" thickness="0.20" height="3.05" material="builtin:ceramic"/>
+  <path id="ramp-inner-path" points="-15.97 5.85 1.795; -11 6 1.03; -7.2 5.9 0.46; -5.03 5.85 0.184"/>
+  <wall id="ramp-inner-curb" path="ramp-inner-path" thickness="0.15" height="0.62" material="soffit"/>
+  <path id="ramp-parapet-path" points="-16 4.02 1.8; -11 4.02 1.03; -7.2 4.02 0.46; -5 4.02 0.18"/>
+  <wall id="ramp-parapet" path="ramp-parapet-path" thickness="0.18" height="0.79" material="soffit"/>
+  <!-- Road markings, guards, drains and utility fixtures are editable finish details. -->
+  <definition id="lane-dash"><box id="paint" width="1.08" depth="0.095" height="0.003" material="cream-paint" collidable="false"/></definition>
+  <definition id="flat-picket"><box id="bar" width="0.028" depth="0.028" height="1.03" anchor="bottom-center" material="rail" collidable="false"/></definition>
+  <definition id="slope-picket"><box id="bar" width="0.028" depth="0.028" height="1.13" anchor="bottom-center" position="0 0 -0.10" material="rail" collidable="false"/></definition>
+  <definition id="channel-grate"><box id="rim" width="0.41" depth="0.25" height="0.016" material="drain" collidable="false"/><box id="slots" position="0.035 0.04 0.017" width="0.34" depth="0.17" height="0.004" material="soffit" collidable="false"/></definition>
+  <definition id="bulkhead-lamp"><box id="housing" width="0.30" depth="0.19" height="0.16" material="drain" collidable="false"/><box id="lens" position="0.031 0.037 -0.026" width="0.238" depth="0.116" height="0.041" material="glass" collidable="false"/></definition>
+  <instance id="road-center-1" ref="lane-dash" position="-17 -1.05 0.003"/>
+  <instance id="road-center-2" ref="lane-dash" position="-14.35 -1.05 0.003"/>
+  <instance id="road-center-3" ref="lane-dash" position="-11.7 -1.05 0.003"/>
+  <instance id="road-center-4" ref="lane-dash" position="-9.05 -1.05 0.003"/>
+  <instance id="road-center-5" ref="lane-dash" position="-6.4 -1.05 0.003"/>
+  <instance id="road-center-6" ref="lane-dash" position="-3.75 -1.05 0.003"/>
+  <instance id="road-center-7" ref="lane-dash" position="-1.1 -1.05 0.003"/>
+  <instance id="road-center-8" ref="lane-dash" position="1.55 -1.05 0.003"/>
+  <instance id="road-center-9" ref="lane-dash" position="4.2 -1.05 0.003"/>
+  <instance id="road-center-10" ref="lane-dash" position="6.85 -1.05 0.003"/>
+  <instance id="road-center-11" ref="lane-dash" position="9.5 -1.05 0.003"/>
+  <instance id="road-center-12" ref="lane-dash" position="12.15 -1.05 0.003"/>
+  <instance id="road-center-13" ref="lane-dash" position="14.8 -1.05 0.003"/>
+  <instance id="road-center-14" ref="lane-dash" position="17.45 -1.05 0.003"/>
+  <box id="road-north-curb-paint" position="-17.85 1.82 0.003" width="37.70" depth="0.073" height="0.003" material="yellow-paint" collidable="false"/>
+  <instance id="north-drain-1" ref="channel-grate" position="-14.7 1.57 0.003"/>
+  <instance id="north-drain-2" ref="channel-grate" position="-7.6 1.57 0.003"/>
+  <instance id="north-drain-3" ref="channel-grate" position="-0.5 1.57 0.003"/>
+  <instance id="north-drain-4" ref="channel-grate" position="6.6 1.57 0.003"/>
+  <instance id="north-drain-5" ref="channel-grate" position="13.7 1.57 0.003"/>
+  <box id="road-south-curb-paint" position="-17.85 -3.9 0.003" width="37.70" depth="0.073" height="0.003" material="yellow-paint" collidable="false"/>
+  <instance id="south-drain-1" ref="channel-grate" position="-14.7 -3.66 0.003"/>
+  <instance id="south-drain-2" ref="channel-grate" position="-7.6 -3.66 0.003"/>
+  <instance id="south-drain-3" ref="channel-grate" position="-0.5 -3.66 0.003"/>
+  <instance id="south-drain-4" ref="channel-grate" position="6.6 -3.66 0.003"/>
+  <instance id="south-drain-5" ref="channel-grate" position="13.7 -3.66 0.003"/>
+  <instance id="bridge-west-picket-1" ref="flat-picket" position="4 -6.35 4.62"/>
+  <instance id="bridge-west-picket-2" ref="flat-picket" position="4 -6.11 4.62"/>
+  <instance id="bridge-west-picket-3" ref="flat-picket" position="4 -5.871 4.62"/>
+  <instance id="bridge-west-picket-4" ref="flat-picket" position="4 -5.631 4.62"/>
+  <instance id="bridge-west-picket-5" ref="flat-picket" position="4 -5.391 4.62"/>
+  <instance id="bridge-west-picket-6" ref="flat-picket" position="4 -5.151 4.62"/>
+  <instance id="bridge-west-picket-7" ref="flat-picket" position="4 -4.911 4.62"/>
+  <instance id="bridge-west-picket-8" ref="flat-picket" position="4 -4.672 4.62"/>
+  <instance id="bridge-west-picket-9" ref="flat-picket" position="4 -4.432 4.62"/>
+  <instance id="bridge-west-picket-10" ref="flat-picket" position="4 -4.192 4.62"/>
+  <instance id="bridge-west-picket-11" ref="flat-picket" position="4 -3.952 4.62"/>
+  <instance id="bridge-west-picket-12" ref="flat-picket" position="4 -3.713 4.62"/>
+  <instance id="bridge-west-picket-13" ref="flat-picket" position="4 -3.473 4.62"/>
+  <instance id="bridge-west-picket-14" ref="flat-picket" position="4 -3.233 4.62"/>
+  <instance id="bridge-west-picket-15" ref="flat-picket" position="4 -2.993 4.62"/>
+  <instance id="bridge-west-picket-16" ref="flat-picket" position="4 -2.754 4.62"/>
+  <instance id="bridge-west-picket-17" ref="flat-picket" position="4 -2.514 4.62"/>
+  <instance id="bridge-west-picket-18" ref="flat-picket" position="4 -2.274 4.62"/>
+  <instance id="bridge-west-picket-19" ref="flat-picket" position="4 -2.034 4.62"/>
+  <instance id="bridge-west-picket-20" ref="flat-picket" position="4 -1.794 4.62"/>
+  <instance id="bridge-west-picket-21" ref="flat-picket" position="4 -1.555 4.62"/>
+  <instance id="bridge-west-picket-22" ref="flat-picket" position="4 -1.315 4.62"/>
+  <instance id="bridge-west-picket-23" ref="flat-picket" position="4 -1.075 4.62"/>
+  <instance id="bridge-west-picket-24" ref="flat-picket" position="4 -0.835 4.62"/>
+  <instance id="bridge-west-picket-25" ref="flat-picket" position="4 -0.596 4.62"/>
+  <instance id="bridge-west-picket-26" ref="flat-picket" position="4 -0.356 4.62"/>
+  <instance id="bridge-west-picket-27" ref="flat-picket" position="4 -0.116 4.62"/>
+  <instance id="bridge-west-picket-28" ref="flat-picket" position="4 0.124 4.62"/>
+  <instance id="bridge-west-picket-29" ref="flat-picket" position="4 0.364 4.62"/>
+  <instance id="bridge-west-picket-30" ref="flat-picket" position="4 0.603 4.62"/>
+  <instance id="bridge-west-picket-31" ref="flat-picket" position="4 0.843 4.62"/>
+  <instance id="bridge-west-picket-32" ref="flat-picket" position="4 1.083 4.62"/>
+  <instance id="bridge-west-picket-33" ref="flat-picket" position="4 1.323 4.62"/>
+  <instance id="bridge-west-picket-34" ref="flat-picket" position="4 1.562 4.62"/>
+  <instance id="bridge-west-picket-35" ref="flat-picket" position="4 1.802 4.62"/>
+  <instance id="bridge-west-picket-36" ref="flat-picket" position="4 2.042 4.62"/>
+  <instance id="bridge-west-picket-37" ref="flat-picket" position="4 2.282 4.62"/>
+  <instance id="bridge-west-picket-38" ref="flat-picket" position="4 2.521 4.62"/>
+  <instance id="bridge-west-picket-39" ref="flat-picket" position="4 2.761 4.62"/>
+  <instance id="bridge-west-picket-40" ref="flat-picket" position="4 3.001 4.62"/>
+  <instance id="bridge-west-picket-41" ref="flat-picket" position="4 3.241 4.62"/>
+  <instance id="bridge-west-picket-42" ref="flat-picket" position="4 3.481 4.62"/>
+  <instance id="bridge-west-picket-43" ref="flat-picket" position="4 3.72 4.62"/>
+  <instance id="bridge-west-picket-44" ref="flat-picket" position="4 3.96 4.62"/>
+  <instance id="bridge-east-picket-1" ref="flat-picket" position="6.6 -4.01 4.62"/>
+  <instance id="bridge-east-picket-2" ref="flat-picket" position="6.6 -3.771 4.62"/>
+  <instance id="bridge-east-picket-3" ref="flat-picket" position="6.6 -3.532 4.62"/>
+  <instance id="bridge-east-picket-4" ref="flat-picket" position="6.6 -3.292 4.62"/>
+  <instance id="bridge-east-picket-5" ref="flat-picket" position="6.6 -3.053 4.62"/>
+  <instance id="bridge-east-picket-6" ref="flat-picket" position="6.6 -2.814 4.62"/>
+  <instance id="bridge-east-picket-7" ref="flat-picket" position="6.6 -2.574 4.62"/>
+  <instance id="bridge-east-picket-8" ref="flat-picket" position="6.6 -2.335 4.62"/>
+  <instance id="bridge-east-picket-9" ref="flat-picket" position="6.6 -2.096 4.62"/>
+  <instance id="bridge-east-picket-10" ref="flat-picket" position="6.6 -1.856 4.62"/>
+  <instance id="bridge-east-picket-11" ref="flat-picket" position="6.6 -1.617 4.62"/>
+  <instance id="bridge-east-picket-12" ref="flat-picket" position="6.6 -1.378 4.62"/>
+  <instance id="bridge-east-picket-13" ref="flat-picket" position="6.6 -1.139 4.62"/>
+  <instance id="bridge-east-picket-14" ref="flat-picket" position="6.6 -0.899 4.62"/>
+  <instance id="bridge-east-picket-15" ref="flat-picket" position="6.6 -0.66 4.62"/>
+  <instance id="bridge-east-picket-16" ref="flat-picket" position="6.6 -0.421 4.62"/>
+  <instance id="bridge-east-picket-17" ref="flat-picket" position="6.6 -0.181 4.62"/>
+  <instance id="bridge-east-picket-18" ref="flat-picket" position="6.6 0.058 4.62"/>
+  <instance id="bridge-east-picket-19" ref="flat-picket" position="6.6 0.297 4.62"/>
+  <instance id="bridge-east-picket-20" ref="flat-picket" position="6.6 0.537 4.62"/>
+  <instance id="bridge-east-picket-21" ref="flat-picket" position="6.6 0.776 4.62"/>
+  <instance id="bridge-east-picket-22" ref="flat-picket" position="6.6 1.015 4.62"/>
+  <instance id="bridge-east-picket-23" ref="flat-picket" position="6.6 1.255 4.62"/>
+  <instance id="bridge-east-picket-24" ref="flat-picket" position="6.6 1.494 4.62"/>
+  <instance id="bridge-east-picket-25" ref="flat-picket" position="6.6 1.733 4.62"/>
+  <instance id="bridge-east-picket-26" ref="flat-picket" position="6.6 1.973 4.62"/>
+  <instance id="bridge-east-picket-27" ref="flat-picket" position="6.6 2.212 4.62"/>
+  <instance id="bridge-east-picket-28" ref="flat-picket" position="6.6 2.451 4.62"/>
+  <instance id="bridge-east-picket-29" ref="flat-picket" position="6.6 2.691 4.62"/>
+  <instance id="bridge-east-picket-30" ref="flat-picket" position="6.6 2.93 4.62"/>
+  <instance id="bridge-east-picket-31" ref="flat-picket" position="6.6 3.169 4.62"/>
+  <instance id="bridge-east-picket-32" ref="flat-picket" position="6.6 3.409 4.62"/>
+  <instance id="bridge-east-picket-33" ref="flat-picket" position="6.6 3.648 4.62"/>
+  <instance id="bridge-east-picket-34" ref="flat-picket" position="6.6 3.887 4.62"/>
+  <instance id="bridge-east-picket-35" ref="flat-picket" position="6.6 4.126 4.62"/>
+  <instance id="bridge-east-picket-36" ref="flat-picket" position="6.6 4.366 4.62"/>
+  <instance id="bridge-east-picket-37" ref="flat-picket" position="6.6 4.605 4.62"/>
+  <instance id="bridge-east-picket-38" ref="flat-picket" position="6.6 4.844 4.62"/>
+  <instance id="bridge-east-picket-39" ref="flat-picket" position="6.6 5.084 4.62"/>
+  <instance id="bridge-east-picket-40" ref="flat-picket" position="6.6 5.323 4.62"/>
+  <instance id="bridge-east-picket-41" ref="flat-picket" position="6.6 5.562 4.62"/>
+  <instance id="bridge-east-picket-42" ref="flat-picket" position="6.6 5.802 4.62"/>
+  <instance id="bridge-east-picket-43" ref="flat-picket" position="6.6 6.041 4.62"/>
+  <instance id="bridge-east-picket-44" ref="flat-picket" position="6.6 6.28 4.62"/>
+  <instance id="bridge-north-picket-1" ref="flat-picket" position="4.118 6.4 4.62"/>
+  <instance id="bridge-north-picket-2" ref="flat-picket" position="4.355 6.4 4.62"/>
+  <instance id="bridge-north-picket-3" ref="flat-picket" position="4.591 6.4 4.62"/>
+  <instance id="bridge-north-picket-4" ref="flat-picket" position="4.827 6.4 4.62"/>
+  <instance id="bridge-north-picket-5" ref="flat-picket" position="5.064 6.4 4.62"/>
+  <instance id="bridge-north-picket-6" ref="flat-picket" position="5.3 6.4 4.62"/>
+  <instance id="bridge-north-picket-7" ref="flat-picket" position="5.536 6.4 4.62"/>
+  <instance id="bridge-north-picket-8" ref="flat-picket" position="5.773 6.4 4.62"/>
+  <instance id="bridge-north-picket-9" ref="flat-picket" position="6.009 6.4 4.62"/>
+  <instance id="bridge-north-picket-10" ref="flat-picket" position="6.245 6.4 4.62"/>
+  <instance id="bridge-north-picket-11" ref="flat-picket" position="6.482 6.4 4.62"/>
+  <instance id="bridge-south-picket-1" ref="flat-picket" position="4.118 -6.48 4.62"/>
+  <instance id="bridge-south-picket-2" ref="flat-picket" position="4.355 -6.48 4.62"/>
+  <instance id="bridge-south-picket-3" ref="flat-picket" position="4.591 -6.48 4.62"/>
+  <instance id="bridge-south-picket-4" ref="flat-picket" position="4.827 -6.48 4.62"/>
+  <instance id="bridge-south-picket-5" ref="flat-picket" position="5.064 -6.48 4.62"/>
+  <instance id="bridge-south-picket-6" ref="flat-picket" position="5.3 -6.48 4.62"/>
+  <instance id="bridge-south-picket-7" ref="flat-picket" position="5.536 -6.48 4.62"/>
+  <instance id="bridge-south-picket-8" ref="flat-picket" position="5.773 -6.48 4.62"/>
+  <instance id="bridge-south-picket-9" ref="flat-picket" position="6.009 -6.48 4.62"/>
+  <instance id="bridge-south-picket-10" ref="flat-picket" position="6.245 -6.48 4.62"/>
+  <instance id="bridge-south-picket-11" ref="flat-picket" position="6.482 -6.48 4.62"/>
+  <instance id="north-flight-in-picket-1" ref="slope-picket" position="-3.655 4.15 0.252"/>
+  <instance id="north-flight-in-picket-2" ref="slope-picket" position="-3.404 4.15 0.395"/>
+  <instance id="north-flight-in-picket-3" ref="slope-picket" position="-3.153 4.15 0.538"/>
+  <instance id="north-flight-in-picket-4" ref="slope-picket" position="-2.902 4.15 0.681"/>
+  <instance id="north-flight-in-picket-5" ref="slope-picket" position="-2.651 4.15 0.825"/>
+  <instance id="north-flight-in-picket-6" ref="slope-picket" position="-2.400 4.15 0.968"/>
+  <instance id="north-flight-in-picket-7" ref="slope-picket" position="-2.149 4.15 1.111"/>
+  <instance id="north-flight-in-picket-8" ref="slope-picket" position="-1.898 4.15 1.254"/>
+  <instance id="north-flight-in-picket-9" ref="slope-picket" position="-1.647 4.15 1.397"/>
+  <instance id="north-flight-in-picket-10" ref="slope-picket" position="-1.396 4.15 1.541"/>
+  <instance id="north-flight-in-picket-11" ref="slope-picket" position="-1.145 4.15 1.684"/>
+  <instance id="north-flight-in-picket-12" ref="slope-picket" position="-0.894 4.15 1.827"/>
+  <instance id="north-flight-in-picket-13" ref="slope-picket" position="-0.643 4.15 1.970"/>
+  <instance id="north-flight-in-picket-14" ref="slope-picket" position="-0.392 4.15 2.114"/>
+  <instance id="north-flight-in-picket-15" ref="slope-picket" position="-0.141 4.15 2.257"/>
+  <instance id="north-flight-in-picket-16" ref="slope-picket" position="0.110 4.15 2.400"/>
+  <instance id="north-flight-in-picket-17" ref="slope-picket" position="0.361 4.15 2.543"/>
+  <instance id="north-flight-in-picket-18" ref="slope-picket" position="0.612 4.15 2.686"/>
+  <instance id="north-flight-in-picket-19" ref="slope-picket" position="0.863 4.15 2.830"/>
+  <instance id="north-flight-in-picket-20" ref="slope-picket" position="1.114 4.15 2.973"/>
+  <instance id="north-flight-in-picket-21" ref="slope-picket" position="1.365 4.15 3.116"/>
+  <instance id="north-flight-in-picket-22" ref="slope-picket" position="1.616 4.15 3.259"/>
+  <instance id="north-flight-in-picket-23" ref="slope-picket" position="1.867 4.15 3.403"/>
+  <instance id="north-flight-in-picket-24" ref="slope-picket" position="2.118 4.15 3.546"/>
+  <instance id="north-flight-in-picket-25" ref="slope-picket" position="2.369 4.15 3.689"/>
+  <instance id="north-flight-in-picket-26" ref="slope-picket" position="2.620 4.15 3.832"/>
+  <instance id="north-flight-in-picket-27" ref="slope-picket" position="2.871 4.15 3.975"/>
+  <instance id="north-flight-in-picket-28" ref="slope-picket" position="3.122 4.15 4.119"/>
+  <instance id="north-flight-in-picket-29" ref="slope-picket" position="3.373 4.15 4.262"/>
+  <instance id="north-flight-in-picket-30" ref="slope-picket" position="3.624 4.15 4.405"/>
+  <instance id="north-flight-in-picket-31" ref="slope-picket" position="3.875 4.15 4.548"/>
+  <instance id="north-flight-out-picket-1" ref="slope-picket" position="-3.655 6.35 0.252"/>
+  <instance id="north-flight-out-picket-2" ref="slope-picket" position="-3.404 6.35 0.395"/>
+  <instance id="north-flight-out-picket-3" ref="slope-picket" position="-3.153 6.35 0.538"/>
+  <instance id="north-flight-out-picket-4" ref="slope-picket" position="-2.902 6.35 0.681"/>
+  <instance id="north-flight-out-picket-5" ref="slope-picket" position="-2.651 6.35 0.825"/>
+  <instance id="north-flight-out-picket-6" ref="slope-picket" position="-2.400 6.35 0.968"/>
+  <instance id="north-flight-out-picket-7" ref="slope-picket" position="-2.149 6.35 1.111"/>
+  <instance id="north-flight-out-picket-8" ref="slope-picket" position="-1.898 6.35 1.254"/>
+  <instance id="north-flight-out-picket-9" ref="slope-picket" position="-1.647 6.35 1.397"/>
+  <instance id="north-flight-out-picket-10" ref="slope-picket" position="-1.396 6.35 1.541"/>
+  <instance id="north-flight-out-picket-11" ref="slope-picket" position="-1.145 6.35 1.684"/>
+  <instance id="north-flight-out-picket-12" ref="slope-picket" position="-0.894 6.35 1.827"/>
+  <instance id="north-flight-out-picket-13" ref="slope-picket" position="-0.643 6.35 1.970"/>
+  <instance id="north-flight-out-picket-14" ref="slope-picket" position="-0.392 6.35 2.114"/>
+  <instance id="north-flight-out-picket-15" ref="slope-picket" position="-0.141 6.35 2.257"/>
+  <instance id="north-flight-out-picket-16" ref="slope-picket" position="0.110 6.35 2.400"/>
+  <instance id="north-flight-out-picket-17" ref="slope-picket" position="0.361 6.35 2.543"/>
+  <instance id="north-flight-out-picket-18" ref="slope-picket" position="0.612 6.35 2.686"/>
+  <instance id="north-flight-out-picket-19" ref="slope-picket" position="0.863 6.35 2.830"/>
+  <instance id="north-flight-out-picket-20" ref="slope-picket" position="1.114 6.35 2.973"/>
+  <instance id="north-flight-out-picket-21" ref="slope-picket" position="1.365 6.35 3.116"/>
+  <instance id="north-flight-out-picket-22" ref="slope-picket" position="1.616 6.35 3.259"/>
+  <instance id="north-flight-out-picket-23" ref="slope-picket" position="1.867 6.35 3.403"/>
+  <instance id="north-flight-out-picket-24" ref="slope-picket" position="2.118 6.35 3.546"/>
+  <instance id="north-flight-out-picket-25" ref="slope-picket" position="2.369 6.35 3.689"/>
+  <instance id="north-flight-out-picket-26" ref="slope-picket" position="2.620 6.35 3.832"/>
+  <instance id="north-flight-out-picket-27" ref="slope-picket" position="2.871 6.35 3.975"/>
+  <instance id="north-flight-out-picket-28" ref="slope-picket" position="3.122 6.35 4.119"/>
+  <instance id="north-flight-out-picket-29" ref="slope-picket" position="3.373 6.35 4.262"/>
+  <instance id="north-flight-out-picket-30" ref="slope-picket" position="3.624 6.35 4.405"/>
+  <instance id="north-flight-out-picket-31" ref="slope-picket" position="3.875 6.35 4.548"/>
+  <instance id="south-flight-in-picket-1" ref="slope-picket" position="6.729 -4.22 4.553"/>
+  <instance id="south-flight-in-picket-2" ref="slope-picket" position="6.986 -4.22 4.418"/>
+  <instance id="south-flight-in-picket-3" ref="slope-picket" position="7.244 -4.22 4.284"/>
+  <instance id="south-flight-in-picket-4" ref="slope-picket" position="7.502 -4.22 4.149"/>
+  <instance id="south-flight-in-picket-5" ref="slope-picket" position="7.759 -4.22 4.015"/>
+  <instance id="south-flight-in-picket-6" ref="slope-picket" position="8.017 -4.22 3.88"/>
+  <instance id="south-flight-in-picket-7" ref="slope-picket" position="8.274 -4.22 3.745"/>
+  <instance id="south-flight-in-picket-8" ref="slope-picket" position="8.532 -4.22 3.611"/>
+  <instance id="south-flight-in-picket-9" ref="slope-picket" position="8.789 -4.22 3.476"/>
+  <instance id="south-flight-in-picket-10" ref="slope-picket" position="9.047 -4.22 3.342"/>
+  <instance id="south-flight-in-picket-11" ref="slope-picket" position="9.305 -4.22 3.207"/>
+  <instance id="south-flight-in-picket-12" ref="slope-picket" position="9.562 -4.22 3.073"/>
+  <instance id="south-flight-in-picket-13" ref="slope-picket" position="9.82 -4.22 2.938"/>
+  <instance id="south-flight-in-picket-14" ref="slope-picket" position="10.077 -4.22 2.804"/>
+  <instance id="south-flight-in-picket-15" ref="slope-picket" position="10.335 -4.22 2.669"/>
+  <instance id="south-flight-in-picket-16" ref="slope-picket" position="10.592 -4.22 2.535"/>
+  <instance id="south-flight-in-picket-17" ref="slope-picket" position="10.85 -4.22 2.4"/>
+  <instance id="south-flight-in-picket-18" ref="slope-picket" position="11.108 -4.22 2.265"/>
+  <instance id="south-flight-in-picket-19" ref="slope-picket" position="11.365 -4.22 2.131"/>
+  <instance id="south-flight-in-picket-20" ref="slope-picket" position="11.623 -4.22 1.996"/>
+  <instance id="south-flight-in-picket-21" ref="slope-picket" position="11.88 -4.22 1.862"/>
+  <instance id="south-flight-in-picket-22" ref="slope-picket" position="12.138 -4.22 1.727"/>
+  <instance id="south-flight-in-picket-23" ref="slope-picket" position="12.395 -4.22 1.593"/>
+  <instance id="south-flight-in-picket-24" ref="slope-picket" position="12.653 -4.22 1.458"/>
+  <instance id="south-flight-in-picket-25" ref="slope-picket" position="12.911 -4.22 1.324"/>
+  <instance id="south-flight-in-picket-26" ref="slope-picket" position="13.168 -4.22 1.189"/>
+  <instance id="south-flight-in-picket-27" ref="slope-picket" position="13.426 -4.22 1.055"/>
+  <instance id="south-flight-in-picket-28" ref="slope-picket" position="13.683 -4.22 0.92"/>
+  <instance id="south-flight-in-picket-29" ref="slope-picket" position="13.941 -4.22 0.785"/>
+  <instance id="south-flight-in-picket-30" ref="slope-picket" position="14.198 -4.22 0.651"/>
+  <instance id="south-flight-in-picket-31" ref="slope-picket" position="14.456 -4.22 0.516"/>
+  <instance id="south-flight-in-picket-32" ref="slope-picket" position="14.714 -4.22 0.382"/>
+  <instance id="south-flight-in-picket-33" ref="slope-picket" position="14.971 -4.22 0.247"/>
+  <instance id="south-flight-out-picket-1" ref="slope-picket" position="6.729 -6.42 4.553"/>
+  <instance id="south-flight-out-picket-2" ref="slope-picket" position="6.986 -6.42 4.418"/>
+  <instance id="south-flight-out-picket-3" ref="slope-picket" position="7.244 -6.42 4.284"/>
+  <instance id="south-flight-out-picket-4" ref="slope-picket" position="7.502 -6.42 4.149"/>
+  <instance id="south-flight-out-picket-5" ref="slope-picket" position="7.759 -6.42 4.015"/>
+  <instance id="south-flight-out-picket-6" ref="slope-picket" position="8.017 -6.42 3.88"/>
+  <instance id="south-flight-out-picket-7" ref="slope-picket" position="8.274 -6.42 3.745"/>
+  <instance id="south-flight-out-picket-8" ref="slope-picket" position="8.532 -6.42 3.611"/>
+  <instance id="south-flight-out-picket-9" ref="slope-picket" position="8.789 -6.42 3.476"/>
+  <instance id="south-flight-out-picket-10" ref="slope-picket" position="9.047 -6.42 3.342"/>
+  <instance id="south-flight-out-picket-11" ref="slope-picket" position="9.305 -6.42 3.207"/>
+  <instance id="south-flight-out-picket-12" ref="slope-picket" position="9.562 -6.42 3.073"/>
+  <instance id="south-flight-out-picket-13" ref="slope-picket" position="9.82 -6.42 2.938"/>
+  <instance id="south-flight-out-picket-14" ref="slope-picket" position="10.077 -6.42 2.804"/>
+  <instance id="south-flight-out-picket-15" ref="slope-picket" position="10.335 -6.42 2.669"/>
+  <instance id="south-flight-out-picket-16" ref="slope-picket" position="10.592 -6.42 2.535"/>
+  <instance id="south-flight-out-picket-17" ref="slope-picket" position="10.85 -6.42 2.4"/>
+  <instance id="south-flight-out-picket-18" ref="slope-picket" position="11.108 -6.42 2.265"/>
+  <instance id="south-flight-out-picket-19" ref="slope-picket" position="11.365 -6.42 2.131"/>
+  <instance id="south-flight-out-picket-20" ref="slope-picket" position="11.623 -6.42 1.996"/>
+  <instance id="south-flight-out-picket-21" ref="slope-picket" position="11.88 -6.42 1.862"/>
+  <instance id="south-flight-out-picket-22" ref="slope-picket" position="12.138 -6.42 1.727"/>
+  <instance id="south-flight-out-picket-23" ref="slope-picket" position="12.395 -6.42 1.593"/>
+  <instance id="south-flight-out-picket-24" ref="slope-picket" position="12.653 -6.42 1.458"/>
+  <instance id="south-flight-out-picket-25" ref="slope-picket" position="12.911 -6.42 1.324"/>
+  <instance id="south-flight-out-picket-26" ref="slope-picket" position="13.168 -6.42 1.189"/>
+  <instance id="south-flight-out-picket-27" ref="slope-picket" position="13.426 -6.42 1.055"/>
+  <instance id="south-flight-out-picket-28" ref="slope-picket" position="13.683 -6.42 0.92"/>
+  <instance id="south-flight-out-picket-29" ref="slope-picket" position="13.941 -6.42 0.785"/>
+  <instance id="south-flight-out-picket-30" ref="slope-picket" position="14.198 -6.42 0.651"/>
+  <instance id="south-flight-out-picket-31" ref="slope-picket" position="14.456 -6.42 0.516"/>
+  <instance id="south-flight-out-picket-32" ref="slope-picket" position="14.714 -6.42 0.382"/>
+  <instance id="south-flight-out-picket-33" ref="slope-picket" position="14.971 -6.42 0.247"/>
+  <instance id="canal-west-picket-1" ref="flat-picket" position="7.6 12.166 0.18"/>
+  <instance id="canal-west-picket-2" ref="flat-picket" position="7.6 12.338 0.18"/>
+  <instance id="canal-west-picket-3" ref="flat-picket" position="7.6 12.51 0.18"/>
+  <instance id="canal-west-picket-4" ref="flat-picket" position="7.6 12.682 0.18"/>
+  <instance id="canal-west-picket-5" ref="flat-picket" position="7.6 12.854 0.18"/>
+  <instance id="canal-west-picket-6" ref="flat-picket" position="7.6 13.026 0.18"/>
+  <instance id="canal-west-picket-7" ref="flat-picket" position="7.6 13.198 0.18"/>
+  <instance id="canal-west-picket-8" ref="flat-picket" position="7.6 13.37 0.18"/>
+  <instance id="canal-west-picket-9" ref="flat-picket" position="7.6 13.542 0.18"/>
+  <instance id="canal-west-picket-10" ref="flat-picket" position="7.6 13.714 0.18"/>
+  <instance id="canal-west-picket-11" ref="flat-picket" position="7.6 13.886 0.18"/>
+  <instance id="canal-west-picket-12" ref="flat-picket" position="7.6 14.058 0.18"/>
+  <instance id="canal-west-picket-13" ref="flat-picket" position="7.6 14.23 0.18"/>
+  <instance id="canal-west-picket-14" ref="flat-picket" position="7.6 14.402 0.18"/>
+  <instance id="canal-west-picket-15" ref="flat-picket" position="7.6 14.574 0.18"/>
+  <instance id="canal-west-picket-16" ref="flat-picket" position="7.6 14.746 0.18"/>
+  <instance id="canal-west-picket-17" ref="flat-picket" position="7.6 14.918 0.18"/>
+  <instance id="canal-west-picket-18" ref="flat-picket" position="7.6 15.09 0.18"/>
+  <instance id="canal-west-picket-19" ref="flat-picket" position="7.6 15.262 0.18"/>
+  <instance id="canal-west-picket-20" ref="flat-picket" position="7.6 15.434 0.18"/>
+  <instance id="canal-east-picket-1" ref="flat-picket" position="10.7 12.166 0.18"/>
+  <instance id="canal-east-picket-2" ref="flat-picket" position="10.7 12.338 0.18"/>
+  <instance id="canal-east-picket-3" ref="flat-picket" position="10.7 12.51 0.18"/>
+  <instance id="canal-east-picket-4" ref="flat-picket" position="10.7 12.682 0.18"/>
+  <instance id="canal-east-picket-5" ref="flat-picket" position="10.7 12.854 0.18"/>
+  <instance id="canal-east-picket-6" ref="flat-picket" position="10.7 13.026 0.18"/>
+  <instance id="canal-east-picket-7" ref="flat-picket" position="10.7 13.198 0.18"/>
+  <instance id="canal-east-picket-8" ref="flat-picket" position="10.7 13.37 0.18"/>
+  <instance id="canal-east-picket-9" ref="flat-picket" position="10.7 13.542 0.18"/>
+  <instance id="canal-east-picket-10" ref="flat-picket" position="10.7 13.714 0.18"/>
+  <instance id="canal-east-picket-11" ref="flat-picket" position="10.7 13.886 0.18"/>
+  <instance id="canal-east-picket-12" ref="flat-picket" position="10.7 14.058 0.18"/>
+  <instance id="canal-east-picket-13" ref="flat-picket" position="10.7 14.23 0.18"/>
+  <instance id="canal-east-picket-14" ref="flat-picket" position="10.7 14.402 0.18"/>
+  <instance id="canal-east-picket-15" ref="flat-picket" position="10.7 14.574 0.18"/>
+  <instance id="canal-east-picket-16" ref="flat-picket" position="10.7 14.746 0.18"/>
+  <instance id="canal-east-picket-17" ref="flat-picket" position="10.7 14.918 0.18"/>
+  <instance id="canal-east-picket-18" ref="flat-picket" position="10.7 15.09 0.18"/>
+  <instance id="canal-east-picket-19" ref="flat-picket" position="10.7 15.262 0.18"/>
+  <instance id="canal-east-picket-20" ref="flat-picket" position="10.7 15.434 0.18"/>
+  <instance id="near-bank-picket-1" ref="flat-picket" position="-8.776 12 0.18"/>
+  <instance id="near-bank-picket-2" ref="flat-picket" position="-8.527 12 0.18"/>
+  <instance id="near-bank-picket-3" ref="flat-picket" position="-8.278 12 0.18"/>
+  <instance id="near-bank-picket-4" ref="flat-picket" position="-8.029 12 0.18"/>
+  <instance id="near-bank-picket-5" ref="flat-picket" position="-7.78 12 0.18"/>
+  <instance id="near-bank-picket-6" ref="flat-picket" position="-7.532 12 0.18"/>
+  <instance id="near-bank-picket-7" ref="flat-picket" position="-7.283 12 0.18"/>
+  <instance id="near-bank-picket-8" ref="flat-picket" position="-7.034 12 0.18"/>
+  <instance id="near-bank-picket-9" ref="flat-picket" position="-6.785 12 0.18"/>
+  <instance id="near-bank-picket-10" ref="flat-picket" position="-6.537 12 0.18"/>
+  <instance id="near-bank-picket-11" ref="flat-picket" position="-6.288 12 0.18"/>
+  <instance id="near-bank-picket-12" ref="flat-picket" position="-6.039 12 0.18"/>
+  <instance id="near-bank-picket-13" ref="flat-picket" position="-5.79 12 0.18"/>
+  <instance id="near-bank-picket-14" ref="flat-picket" position="-5.541 12 0.18"/>
+  <instance id="near-bank-picket-15" ref="flat-picket" position="-5.293 12 0.18"/>
+  <instance id="near-bank-picket-16" ref="flat-picket" position="-5.044 12 0.18"/>
+  <instance id="near-bank-picket-17" ref="flat-picket" position="-4.795 12 0.18"/>
+  <instance id="near-bank-picket-18" ref="flat-picket" position="-4.546 12 0.18"/>
+  <instance id="near-bank-picket-19" ref="flat-picket" position="-4.297 12 0.18"/>
+  <instance id="near-bank-picket-20" ref="flat-picket" position="-4.049 12 0.18"/>
+  <instance id="near-bank-picket-21" ref="flat-picket" position="-3.8 12 0.18"/>
+  <instance id="near-bank-picket-22" ref="flat-picket" position="-3.551 12 0.18"/>
+  <instance id="near-bank-picket-23" ref="flat-picket" position="-3.302 12 0.18"/>
+  <instance id="near-bank-picket-24" ref="flat-picket" position="-3.053 12 0.18"/>
+  <instance id="near-bank-picket-25" ref="flat-picket" position="-2.805 12 0.18"/>
+  <instance id="near-bank-picket-26" ref="flat-picket" position="-2.556 12 0.18"/>
+  <instance id="near-bank-picket-27" ref="flat-picket" position="-2.307 12 0.18"/>
+  <instance id="near-bank-picket-28" ref="flat-picket" position="-2.058 12 0.18"/>
+  <instance id="near-bank-picket-29" ref="flat-picket" position="-1.81 12 0.18"/>
+  <instance id="near-bank-picket-30" ref="flat-picket" position="-1.561 12 0.18"/>
+  <instance id="near-bank-picket-31" ref="flat-picket" position="-1.312 12 0.18"/>
+  <instance id="near-bank-picket-32" ref="flat-picket" position="-1.063 12 0.18"/>
+  <instance id="near-bank-picket-33" ref="flat-picket" position="-0.814 12 0.18"/>
+  <instance id="near-bank-picket-34" ref="flat-picket" position="-0.566 12 0.18"/>
+  <instance id="near-bank-picket-35" ref="flat-picket" position="-0.317 12 0.18"/>
+  <instance id="near-bank-picket-36" ref="flat-picket" position="-0.068 12 0.18"/>
+  <instance id="near-bank-picket-37" ref="flat-picket" position="0.181 12 0.18"/>
+  <instance id="near-bank-picket-38" ref="flat-picket" position="0.43 12 0.18"/>
+  <instance id="near-bank-picket-39" ref="flat-picket" position="0.678 12 0.18"/>
+  <instance id="near-bank-picket-40" ref="flat-picket" position="0.927 12 0.18"/>
+  <instance id="near-bank-picket-41" ref="flat-picket" position="1.176 12 0.18"/>
+  <instance id="near-bank-picket-42" ref="flat-picket" position="1.425 12 0.18"/>
+  <instance id="near-bank-picket-43" ref="flat-picket" position="1.673 12 0.18"/>
+  <instance id="near-bank-picket-44" ref="flat-picket" position="1.922 12 0.18"/>
+  <instance id="near-bank-picket-45" ref="flat-picket" position="2.171 12 0.18"/>
+  <instance id="near-bank-picket-46" ref="flat-picket" position="2.42 12 0.18"/>
+  <instance id="near-bank-picket-47" ref="flat-picket" position="2.669 12 0.18"/>
+  <instance id="near-bank-picket-48" ref="flat-picket" position="2.917 12 0.18"/>
+  <instance id="near-bank-picket-49" ref="flat-picket" position="3.166 12 0.18"/>
+  <instance id="near-bank-picket-50" ref="flat-picket" position="3.415 12 0.18"/>
+  <instance id="near-bank-picket-51" ref="flat-picket" position="3.664 12 0.18"/>
+  <instance id="near-bank-picket-52" ref="flat-picket" position="3.913 12 0.18"/>
+  <instance id="near-bank-picket-53" ref="flat-picket" position="4.161 12 0.18"/>
+  <instance id="near-bank-picket-54" ref="flat-picket" position="4.41 12 0.18"/>
+  <instance id="near-bank-picket-55" ref="flat-picket" position="4.659 12 0.18"/>
+  <instance id="near-bank-picket-56" ref="flat-picket" position="4.908 12 0.18"/>
+  <instance id="near-bank-picket-57" ref="flat-picket" position="5.157 12 0.18"/>
+  <instance id="near-bank-picket-58" ref="flat-picket" position="5.405 12 0.18"/>
+  <instance id="near-bank-picket-59" ref="flat-picket" position="5.654 12 0.18"/>
+  <instance id="near-bank-picket-60" ref="flat-picket" position="5.903 12 0.18"/>
+  <instance id="near-bank-picket-61" ref="flat-picket" position="6.152 12 0.18"/>
+  <instance id="near-bank-picket-62" ref="flat-picket" position="6.4 12 0.18"/>
+  <instance id="near-bank-picket-63" ref="flat-picket" position="6.649 12 0.18"/>
+  <instance id="near-bank-picket-64" ref="flat-picket" position="6.898 12 0.18"/>
+  <instance id="near-bank-picket-65" ref="flat-picket" position="7.147 12 0.18"/>
+  <instance id="near-bank-picket-66" ref="flat-picket" position="7.396 12 0.18"/>
+  <instance id="far-bank-west-picket-1" ref="flat-picket" position="-17.876 15.6 0.18"/>
+  <instance id="far-bank-west-picket-2" ref="flat-picket" position="-17.628 15.6 0.18"/>
+  <instance id="far-bank-west-picket-3" ref="flat-picket" position="-17.38 15.6 0.18"/>
+  <instance id="far-bank-west-picket-4" ref="flat-picket" position="-17.131 15.6 0.18"/>
+  <instance id="far-bank-west-picket-5" ref="flat-picket" position="-16.883 15.6 0.18"/>
+  <instance id="far-bank-west-picket-6" ref="flat-picket" position="-16.635 15.6 0.18"/>
+  <instance id="far-bank-west-picket-7" ref="flat-picket" position="-16.387 15.6 0.18"/>
+  <instance id="far-bank-west-picket-8" ref="flat-picket" position="-16.139 15.6 0.18"/>
+  <instance id="far-bank-west-picket-9" ref="flat-picket" position="-15.891 15.6 0.18"/>
+  <instance id="far-bank-west-picket-10" ref="flat-picket" position="-15.643 15.6 0.18"/>
+  <instance id="far-bank-west-picket-11" ref="flat-picket" position="-15.394 15.6 0.18"/>
+  <instance id="far-bank-west-picket-12" ref="flat-picket" position="-15.146 15.6 0.18"/>
+  <instance id="far-bank-west-picket-13" ref="flat-picket" position="-14.898 15.6 0.18"/>
+  <instance id="far-bank-west-picket-14" ref="flat-picket" position="-14.65 15.6 0.18"/>
+  <instance id="far-bank-west-picket-15" ref="flat-picket" position="-14.402 15.6 0.18"/>
+  <instance id="far-bank-west-picket-16" ref="flat-picket" position="-14.154 15.6 0.18"/>
+  <instance id="far-bank-west-picket-17" ref="flat-picket" position="-13.905 15.6 0.18"/>
+  <instance id="far-bank-west-picket-18" ref="flat-picket" position="-13.657 15.6 0.18"/>
+  <instance id="far-bank-west-picket-19" ref="flat-picket" position="-13.409 15.6 0.18"/>
+  <instance id="far-bank-west-picket-20" ref="flat-picket" position="-13.161 15.6 0.18"/>
+  <instance id="far-bank-west-picket-21" ref="flat-picket" position="-12.913 15.6 0.18"/>
+  <instance id="far-bank-west-picket-22" ref="flat-picket" position="-12.665 15.6 0.18"/>
+  <instance id="far-bank-west-picket-23" ref="flat-picket" position="-12.417 15.6 0.18"/>
+  <instance id="far-bank-west-picket-24" ref="flat-picket" position="-12.168 15.6 0.18"/>
+  <instance id="far-bank-west-picket-25" ref="flat-picket" position="-11.92 15.6 0.18"/>
+  <instance id="far-bank-west-picket-26" ref="flat-picket" position="-11.672 15.6 0.18"/>
+  <instance id="far-bank-west-picket-27" ref="flat-picket" position="-11.424 15.6 0.18"/>
+  <instance id="far-bank-west-picket-28" ref="flat-picket" position="-11.176 15.6 0.18"/>
+  <instance id="far-bank-west-picket-29" ref="flat-picket" position="-10.928 15.6 0.18"/>
+  <instance id="far-bank-west-picket-30" ref="flat-picket" position="-10.679 15.6 0.18"/>
+  <instance id="far-bank-west-picket-31" ref="flat-picket" position="-10.431 15.6 0.18"/>
+  <instance id="far-bank-west-picket-32" ref="flat-picket" position="-10.183 15.6 0.18"/>
+  <instance id="far-bank-west-picket-33" ref="flat-picket" position="-9.935 15.6 0.18"/>
+  <instance id="far-bank-west-picket-34" ref="flat-picket" position="-9.687 15.6 0.18"/>
+  <instance id="far-bank-west-picket-35" ref="flat-picket" position="-9.439 15.6 0.18"/>
+  <instance id="far-bank-west-picket-36" ref="flat-picket" position="-9.19 15.6 0.18"/>
+  <instance id="far-bank-west-picket-37" ref="flat-picket" position="-8.942 15.6 0.18"/>
+  <instance id="far-bank-west-picket-38" ref="flat-picket" position="-8.694 15.6 0.18"/>
+  <instance id="far-bank-west-picket-39" ref="flat-picket" position="-8.446 15.6 0.18"/>
+  <instance id="far-bank-west-picket-40" ref="flat-picket" position="-8.198 15.6 0.18"/>
+  <instance id="far-bank-west-picket-41" ref="flat-picket" position="-7.95 15.6 0.18"/>
+  <instance id="far-bank-west-picket-42" ref="flat-picket" position="-7.702 15.6 0.18"/>
+  <instance id="far-bank-west-picket-43" ref="flat-picket" position="-7.453 15.6 0.18"/>
+  <instance id="far-bank-west-picket-44" ref="flat-picket" position="-7.205 15.6 0.18"/>
+  <instance id="far-bank-west-picket-45" ref="flat-picket" position="-6.957 15.6 0.18"/>
+  <instance id="far-bank-west-picket-46" ref="flat-picket" position="-6.709 15.6 0.18"/>
+  <instance id="far-bank-west-picket-47" ref="flat-picket" position="-6.461 15.6 0.18"/>
+  <instance id="far-bank-west-picket-48" ref="flat-picket" position="-6.213 15.6 0.18"/>
+  <instance id="far-bank-west-picket-49" ref="flat-picket" position="-5.964 15.6 0.18"/>
+  <instance id="far-bank-west-picket-50" ref="flat-picket" position="-5.716 15.6 0.18"/>
+  <instance id="far-bank-west-picket-51" ref="flat-picket" position="-5.468 15.6 0.18"/>
+  <instance id="far-bank-west-picket-52" ref="flat-picket" position="-5.22 15.6 0.18"/>
+  <instance id="far-bank-west-picket-53" ref="flat-picket" position="-4.972 15.6 0.18"/>
+  <instance id="far-bank-west-picket-54" ref="flat-picket" position="-4.724 15.6 0.18"/>
+  <instance id="far-bank-west-picket-55" ref="flat-picket" position="-4.476 15.6 0.18"/>
+  <instance id="far-bank-west-picket-56" ref="flat-picket" position="-4.227 15.6 0.18"/>
+  <instance id="far-bank-west-picket-57" ref="flat-picket" position="-3.979 15.6 0.18"/>
+  <instance id="far-bank-west-picket-58" ref="flat-picket" position="-3.731 15.6 0.18"/>
+  <instance id="far-bank-west-picket-59" ref="flat-picket" position="-3.483 15.6 0.18"/>
+  <instance id="far-bank-west-picket-60" ref="flat-picket" position="-3.235 15.6 0.18"/>
+  <instance id="far-bank-west-picket-61" ref="flat-picket" position="-2.987 15.6 0.18"/>
+  <instance id="far-bank-west-picket-62" ref="flat-picket" position="-2.738 15.6 0.18"/>
+  <instance id="far-bank-west-picket-63" ref="flat-picket" position="-2.49 15.6 0.18"/>
+  <instance id="far-bank-west-picket-64" ref="flat-picket" position="-2.242 15.6 0.18"/>
+  <instance id="far-bank-west-picket-65" ref="flat-picket" position="-1.994 15.6 0.18"/>
+  <instance id="far-bank-west-picket-66" ref="flat-picket" position="-1.746 15.6 0.18"/>
+  <instance id="far-bank-west-picket-67" ref="flat-picket" position="-1.498 15.6 0.18"/>
+  <instance id="far-bank-west-picket-68" ref="flat-picket" position="-1.25 15.6 0.18"/>
+  <instance id="far-bank-west-picket-69" ref="flat-picket" position="-1.001 15.6 0.18"/>
+  <instance id="far-bank-west-picket-70" ref="flat-picket" position="-0.753 15.6 0.18"/>
+  <instance id="far-bank-west-picket-71" ref="flat-picket" position="-0.505 15.6 0.18"/>
+  <instance id="far-bank-west-picket-72" ref="flat-picket" position="-0.257 15.6 0.18"/>
+  <instance id="far-bank-west-picket-73" ref="flat-picket" position="-0.009 15.6 0.18"/>
+  <instance id="far-bank-west-picket-74" ref="flat-picket" position="0.239 15.6 0.18"/>
+  <instance id="far-bank-west-picket-75" ref="flat-picket" position="0.488 15.6 0.18"/>
+  <instance id="far-bank-west-picket-76" ref="flat-picket" position="0.736 15.6 0.18"/>
+  <instance id="far-bank-west-picket-77" ref="flat-picket" position="0.984 15.6 0.18"/>
+  <instance id="far-bank-west-picket-78" ref="flat-picket" position="1.232 15.6 0.18"/>
+  <instance id="far-bank-west-picket-79" ref="flat-picket" position="1.48 15.6 0.18"/>
+  <instance id="far-bank-west-picket-80" ref="flat-picket" position="1.728 15.6 0.18"/>
+  <instance id="far-bank-west-picket-81" ref="flat-picket" position="1.977 15.6 0.18"/>
+  <instance id="far-bank-west-picket-82" ref="flat-picket" position="2.225 15.6 0.18"/>
+  <instance id="far-bank-west-picket-83" ref="flat-picket" position="2.473 15.6 0.18"/>
+  <instance id="far-bank-west-picket-84" ref="flat-picket" position="2.721 15.6 0.18"/>
+  <instance id="far-bank-west-picket-85" ref="flat-picket" position="2.969 15.6 0.18"/>
+  <instance id="far-bank-west-picket-86" ref="flat-picket" position="3.217 15.6 0.18"/>
+  <instance id="far-bank-west-picket-87" ref="flat-picket" position="3.465 15.6 0.18"/>
+  <instance id="far-bank-west-picket-88" ref="flat-picket" position="3.714 15.6 0.18"/>
+  <instance id="far-bank-west-picket-89" ref="flat-picket" position="3.962 15.6 0.18"/>
+  <instance id="far-bank-west-picket-90" ref="flat-picket" position="4.21 15.6 0.18"/>
+  <instance id="far-bank-west-picket-91" ref="flat-picket" position="4.458 15.6 0.18"/>
+  <instance id="far-bank-west-picket-92" ref="flat-picket" position="4.706 15.6 0.18"/>
+  <instance id="far-bank-west-picket-93" ref="flat-picket" position="4.954 15.6 0.18"/>
+  <instance id="far-bank-west-picket-94" ref="flat-picket" position="5.203 15.6 0.18"/>
+  <instance id="far-bank-west-picket-95" ref="flat-picket" position="5.451 15.6 0.18"/>
+  <instance id="far-bank-west-picket-96" ref="flat-picket" position="5.699 15.6 0.18"/>
+  <instance id="far-bank-west-picket-97" ref="flat-picket" position="5.947 15.6 0.18"/>
+  <instance id="far-bank-west-picket-98" ref="flat-picket" position="6.195 15.6 0.18"/>
+  <instance id="far-bank-west-picket-99" ref="flat-picket" position="6.443 15.6 0.18"/>
+  <instance id="far-bank-west-picket-100" ref="flat-picket" position="6.691 15.6 0.18"/>
+  <instance id="far-bank-west-picket-101" ref="flat-picket" position="6.94 15.6 0.18"/>
+  <instance id="far-bank-west-picket-102" ref="flat-picket" position="7.188 15.6 0.18"/>
+  <instance id="far-bank-west-picket-103" ref="flat-picket" position="7.436 15.6 0.18"/>
+  <instance id="far-bank-east-picket-1" ref="flat-picket" position="10.86 15.6 0.18"/>
+  <instance id="far-bank-east-picket-2" ref="flat-picket" position="11.101 15.6 0.18"/>
+  <instance id="far-bank-east-picket-3" ref="flat-picket" position="11.342 15.6 0.18"/>
+  <instance id="far-bank-east-picket-4" ref="flat-picket" position="11.583 15.6 0.18"/>
+  <instance id="far-bank-east-picket-5" ref="flat-picket" position="11.823 15.6 0.18"/>
+  <instance id="far-bank-east-picket-6" ref="flat-picket" position="12.064 15.6 0.18"/>
+  <instance id="far-bank-east-picket-7" ref="flat-picket" position="12.305 15.6 0.18"/>
+  <instance id="far-bank-east-picket-8" ref="flat-picket" position="12.546 15.6 0.18"/>
+  <instance id="far-bank-east-picket-9" ref="flat-picket" position="12.787 15.6 0.18"/>
+  <instance id="far-bank-east-picket-10" ref="flat-picket" position="13.027 15.6 0.18"/>
+  <instance id="far-bank-east-picket-11" ref="flat-picket" position="13.268 15.6 0.18"/>
+  <instance id="far-bank-east-picket-12" ref="flat-picket" position="13.509 15.6 0.18"/>
+  <instance id="far-bank-east-picket-13" ref="flat-picket" position="13.75 15.6 0.18"/>
+  <instance id="far-bank-east-picket-14" ref="flat-picket" position="13.99 15.6 0.18"/>
+  <instance id="far-bank-east-picket-15" ref="flat-picket" position="14.231 15.6 0.18"/>
+  <instance id="far-bank-east-picket-16" ref="flat-picket" position="14.472 15.6 0.18"/>
+  <instance id="far-bank-east-picket-17" ref="flat-picket" position="14.713 15.6 0.18"/>
+  <instance id="far-bank-east-picket-18" ref="flat-picket" position="14.953 15.6 0.18"/>
+  <instance id="far-bank-east-picket-19" ref="flat-picket" position="15.194 15.6 0.18"/>
+  <instance id="far-bank-east-picket-20" ref="flat-picket" position="15.435 15.6 0.18"/>
+  <instance id="far-bank-east-picket-21" ref="flat-picket" position="15.676 15.6 0.18"/>
+  <instance id="far-bank-east-picket-22" ref="flat-picket" position="15.917 15.6 0.18"/>
+  <instance id="far-bank-east-picket-23" ref="flat-picket" position="16.157 15.6 0.18"/>
+  <instance id="far-bank-east-picket-24" ref="flat-picket" position="16.398 15.6 0.18"/>
+  <instance id="far-bank-east-picket-25" ref="flat-picket" position="16.639 15.6 0.18"/>
+  <instance id="far-bank-east-picket-26" ref="flat-picket" position="16.88 15.6 0.18"/>
+  <instance id="underpass-lamp-1" ref="bulkhead-lamp" position="5.85 -4.6 4.03"/>
+  <instance id="underpass-lamp-2" ref="bulkhead-lamp" position="5.85 -1.8 4.03"/>
+  <instance id="underpass-lamp-3" ref="bulkhead-lamp" position="5.85 1 4.03"/>
+  <instance id="underpass-lamp-4" ref="bulkhead-lamp" position="5.85 3.8 4.03"/>
+  <instance id="alley-lamp-a" ref="bulkhead-lamp" position="-9.08 7.3 2.55"/>
+  <instance id="alley-lamp-b" ref="bulkhead-lamp" position="-9.08 9 2.92"/>
+  <instance id="canal-lamp" ref="bulkhead-lamp" position="10.71 11.7 2.05"/>
+  <box id="overpass-west-beam" position="4.16 -6.42 3.99" width="0.35" depth="12.74" height="0.17" material="runoff"/>
+  <box id="overpass-east-beam" position="6.06 -6.42 3.99" width="0.35" depth="12.74" height="0.17" material="runoff"/>
+
+  <!-- Lower stair finish details (generated by update-stair-study.mjs). -->
+  <faceted-solid id="tread-1-nosing-1" collidable="false" material="stair-edge" points="-11.085 6.864 0.296; -11.085 6.831 0.296; -11.085 6.826 0.303; -11.085 6.826 0.321; -11.085 6.834 0.334; -11.085 6.907 0.334; -11.085 6.907 0.313; -10.557 6.864 0.296; -10.557 6.831 0.296; -10.557 6.826 0.303; -10.557 6.826 0.321; -10.557 6.834 0.334; -10.557 6.907 0.334; -10.557 6.907 0.313" triangles="0 1 6; 1 2 6; 2 3 6; 3 4 6; 4 5 6; 7 13 8; 8 13 9; 9 13 10; 10 13 11; 11 13 12; 1 0 7; 1 7 8; 2 1 8; 2 8 9; 3 2 9; 3 9 10; 4 3 10; 4 10 11; 5 4 11; 5 11 12; 6 5 12; 6 12 13; 0 6 13; 0 13 7"/>
+  <faceted-solid id="tread-1-nosing-2" collidable="false" material="stair-edge" points="-10.55 6.864 0.296; -10.55 6.824 0.296; -10.55 6.819 0.303; -10.55 6.819 0.321; -10.55 6.827 0.334; -10.55 6.907 0.334; -10.55 6.907 0.313; -10.002 6.864 0.296; -10.002 6.824 0.296; -10.002 6.819 0.303; -10.002 6.819 0.321; -10.002 6.827 0.334; -10.002 6.907 0.334; -10.002 6.907 0.313" triangles="0 1 6; 1 2 6; 2 3 6; 3 4 6; 4 5 6; 7 13 8; 8 13 9; 9 13 10; 10 13 11; 11 13 12; 1 0 7; 1 7 8; 2 1 8; 2 8 9; 3 2 9; 3 9 10; 4 3 10; 4 10 11; 5 4 11; 5 11 12; 6 5 12; 6 12 13; 0 6 13; 0 13 7"/>
+  <faceted-solid id="tread-1-nosing-3" collidable="false" material="stair-edge" points="-9.995 6.864 0.296; -9.995 6.829 0.296; -9.995 6.824 0.303; -9.995 6.824 0.321; -9.995 6.832 0.334; -9.995 6.907 0.334; -9.995 6.907 0.313; -9.466 6.864 0.296; -9.466 6.829 0.296; -9.466 6.824 0.303; -9.466 6.824 0.321; -9.466 6.832 0.334; -9.466 6.907 0.334; -9.466 6.907 0.313" triangles="0 1 6; 1 2 6; 2 3 6; 3 4 6; 4 5 6; 7 13 8; 8 13 9; 9 13 10; 10 13 11; 11 13 12; 1 0 7; 1 7 8; 2 1 8; 2 8 9; 3 2 9; 3 9 10; 4 3 10; 4 10 11; 5 4 11; 5 11 12; 6 5 12; 6 12 13; 0 6 13; 0 13 7"/>
+  <faceted-solid id="tread-1-nosing-4" collidable="false" material="stair-edge" points="-9.459 6.864 0.296; -9.459 6.821 0.296; -9.459 6.816 0.303; -9.459 6.816 0.321; -9.459 6.824 0.334; -9.459 6.907 0.334; -9.459 6.907 0.313; -8.921 6.864 0.296; -8.921 6.821 0.296; -8.921 6.816 0.303; -8.921 6.816 0.321; -8.921 6.824 0.334; -8.921 6.907 0.334; -8.921 6.907 0.313" triangles="0 1 6; 1 2 6; 2 3 6; 3 4 6; 4 5 6; 7 13 8; 8 13 9; 9 13 10; 10 13 11; 11 13 12; 1 0 7; 1 7 8; 2 1 8; 2 8 9; 3 2 9; 3 9 10; 4 3 10; 4 10 11; 5 4 11; 5 11 12; 6 5 12; 6 12 13; 0 6 13; 0 13 7"/>
+  <box id="tread-1-grip-1a" position="-11.052 6.928 0.331" width="0.132" depth="0.007" height="0.001" material="stair-groove" collidable="false"/>
+  <box id="tread-1-grip-1b" position="-10.897 6.928 0.331" width="1.941" depth="0.007" height="0.001" material="stair-groove" collidable="false"/>
+  <box id="tread-1-grip-2a" position="-11.052 6.951 0.331" width="0.442" depth="0.007" height="0.001" material="stair-groove" collidable="false"/>
+  <box id="tread-1-grip-2b" position="-10.587 6.951 0.331" width="1.631" depth="0.007" height="0.001" material="stair-groove" collidable="false"/>
+  <box id="riser-1-pour-joint" position="-10.35 6.848 0.206" width="0.008" depth="0.001" height="0.088" material="stair-groove" collidable="false"/>
+  <faceted-solid id="tread-2-nosing-1" collidable="false" material="stair-edge" points="-11.085 7.272 0.446; -11.085 7.229 0.446; -11.085 7.224 0.453; -11.085 7.224 0.471; -11.085 7.232 0.484; -11.085 7.315 0.484; -11.085 7.315 0.463; -10.537 7.272 0.446; -10.537 7.229 0.446; -10.537 7.224 0.453; -10.537 7.224 0.471; -10.537 7.232 0.484; -10.537 7.315 0.484; -10.537 7.315 0.463" triangles="0 1 6; 1 2 6; 2 3 6; 3 4 6; 4 5 6; 7 13 8; 8 13 9; 9 13 10; 10 13 11; 11 13 12; 1 0 7; 1 7 8; 2 1 8; 2 8 9; 3 2 9; 3 9 10; 4 3 10; 4 10 11; 5 4 11; 5 11 12; 6 5 12; 6 12 13; 0 6 13; 0 13 7"/>
+  <faceted-solid id="tread-2-nosing-2" collidable="false" material="stair-edge" points="-10.53 7.272 0.446; -10.53 7.242 0.446; -10.53 7.237 0.453; -10.53 7.237 0.471; -10.53 7.245 0.484; -10.53 7.315 0.484; -10.53 7.315 0.463; -10.001 7.272 0.446; -10.001 7.242 0.446; -10.001 7.237 0.453; -10.001 7.237 0.471; -10.001 7.245 0.484; -10.001 7.315 0.484; -10.001 7.315 0.463" triangles="0 1 6; 1 2 6; 2 3 6; 3 4 6; 4 5 6; 7 13 8; 8 13 9; 9 13 10; 10 13 11; 11 13 12; 1 0 7; 1 7 8; 2 1 8; 2 8 9; 3 2 9; 3 9 10; 4 3 10; 4 10 11; 5 4 11; 5 11 12; 6 5 12; 6 12 13; 0 6 13; 0 13 7"/>
+  <faceted-solid id="tread-2-nosing-3" collidable="false" material="stair-edge" points="-9.994 7.286 0.446; -9.994 7.253 0.446; -9.994 7.248 0.453; -9.994 7.248 0.471; -9.994 7.256 0.484; -9.994 7.329 0.484; -9.994 7.329 0.463; -9.456 7.286 0.446; -9.456 7.253 0.446; -9.456 7.248 0.453; -9.456 7.248 0.471; -9.456 7.256 0.484; -9.456 7.329 0.484; -9.456 7.329 0.463" triangles="0 1 6; 1 2 6; 2 3 6; 3 4 6; 4 5 6; 7 13 8; 8 13 9; 9 13 10; 10 13 11; 11 13 12; 1 0 7; 1 7 8; 2 1 8; 2 8 9; 3 2 9; 3 9 10; 4 3 10; 4 10 11; 5 4 11; 5 11 12; 6 5 12; 6 12 13; 0 6 13; 0 13 7"/>
+  <faceted-solid id="tread-2-nosing-4" collidable="false" material="stair-edge" points="-9.449 7.272 0.446; -9.449 7.232 0.446; -9.449 7.227 0.453; -9.449 7.227 0.471; -9.449 7.235 0.484; -9.449 7.315 0.484; -9.449 7.315 0.463; -8.921 7.272 0.446; -8.921 7.232 0.446; -8.921 7.227 0.453; -8.921 7.227 0.471; -8.921 7.235 0.484; -8.921 7.315 0.484; -8.921 7.315 0.463" triangles="0 1 6; 1 2 6; 2 3 6; 3 4 6; 4 5 6; 7 13 8; 8 13 9; 9 13 10; 10 13 11; 11 13 12; 1 0 7; 1 7 8; 2 1 8; 2 8 9; 3 2 9; 3 9 10; 4 3 10; 4 10 11; 5 4 11; 5 11 12; 6 5 12; 6 12 13; 0 6 13; 0 13 7"/>
+  <box id="tread-2-grip-1a" position="-11.052 7.336 0.481" width="0.342" depth="0.007" height="0.001" material="stair-groove" collidable="false"/>
+  <box id="tread-2-grip-1b" position="-10.687 7.336 0.481" width="1.731" depth="0.007" height="0.001" material="stair-groove" collidable="false"/>
+  <box id="tread-2-grip-2a" position="-11.052 7.359 0.481" width="0.652" depth="0.007" height="0.001" material="stair-groove" collidable="false"/>
+  <box id="tread-2-grip-2b" position="-10.377 7.359 0.481" width="1.421" depth="0.007" height="0.001" material="stair-groove" collidable="false"/>
+  <box id="riser-2-pour-joint" position="-10.07 7.256 0.356" width="0.008" depth="0.001" height="0.088" material="stair-groove" collidable="false"/>
+  <faceted-solid id="tread-3-nosing-1" collidable="false" material="stair-edge" points="-11.085 7.681 0.596; -11.085 7.641 0.596; -11.085 7.636 0.603; -11.085 7.636 0.621; -11.085 7.644 0.634; -11.085 7.724 0.634; -11.085 7.724 0.613; -10.556 7.681 0.596; -10.556 7.641 0.596; -10.556 7.636 0.603; -10.556 7.636 0.621; -10.556 7.644 0.634; -10.556 7.724 0.634; -10.556 7.724 0.613" triangles="0 1 6; 1 2 6; 2 3 6; 3 4 6; 4 5 6; 7 13 8; 8 13 9; 9 13 10; 10 13 11; 11 13 12; 1 0 7; 1 7 8; 2 1 8; 2 8 9; 3 2 9; 3 9 10; 4 3 10; 4 10 11; 5 4 11; 5 11 12; 6 5 12; 6 12 13; 0 6 13; 0 13 7"/>
+  <faceted-solid id="tread-3-nosing-2" collidable="false" material="stair-edge" points="-10.549 7.681 0.596; -10.549 7.646 0.596; -10.549 7.641 0.603; -10.549 7.641 0.621; -10.549 7.649 0.634; -10.549 7.724 0.634; -10.549 7.724 0.613; -10.011 7.681 0.596; -10.011 7.646 0.596; -10.011 7.641 0.603; -10.011 7.641 0.621; -10.011 7.649 0.634; -10.011 7.724 0.634; -10.011 7.724 0.613" triangles="0 1 6; 1 2 6; 2 3 6; 3 4 6; 4 5 6; 7 13 8; 8 13 9; 9 13 10; 10 13 11; 11 13 12; 1 0 7; 1 7 8; 2 1 8; 2 8 9; 3 2 9; 3 9 10; 4 3 10; 4 10 11; 5 4 11; 5 11 12; 6 5 12; 6 12 13; 0 6 13; 0 13 7"/>
+  <faceted-solid id="tread-3-nosing-3" collidable="false" material="stair-edge" points="-10.004 7.681 0.596; -10.004 7.638 0.596; -10.004 7.633 0.603; -10.004 7.633 0.621; -10.004 7.641 0.634; -10.004 7.724 0.634; -10.004 7.724 0.613; -9.476 7.681 0.596; -9.476 7.638 0.596; -9.476 7.633 0.603; -9.476 7.633 0.621; -9.476 7.641 0.634; -9.476 7.724 0.634; -9.476 7.724 0.613" triangles="0 1 6; 1 2 6; 2 3 6; 3 4 6; 4 5 6; 7 13 8; 8 13 9; 9 13 10; 10 13 11; 11 13 12; 1 0 7; 1 7 8; 2 1 8; 2 8 9; 3 2 9; 3 9 10; 4 3 10; 4 10 11; 5 4 11; 5 11 12; 6 5 12; 6 12 13; 0 6 13; 0 13 7"/>
+  <faceted-solid id="tread-3-nosing-4" collidable="false" material="stair-edge" points="-9.469 7.681 0.596; -9.469 7.651 0.596; -9.469 7.646 0.603; -9.469 7.646 0.621; -9.469 7.654 0.634; -9.469 7.724 0.634; -9.469 7.724 0.613; -8.921 7.681 0.596; -8.921 7.651 0.596; -8.921 7.646 0.603; -8.921 7.646 0.621; -8.921 7.654 0.634; -8.921 7.724 0.634; -8.921 7.724 0.613" triangles="0 1 6; 1 2 6; 2 3 6; 3 4 6; 4 5 6; 7 13 8; 8 13 9; 9 13 10; 10 13 11; 11 13 12; 1 0 7; 1 7 8; 2 1 8; 2 8 9; 3 2 9; 3 9 10; 4 3 10; 4 10 11; 5 4 11; 5 11 12; 6 5 12; 6 12 13; 0 6 13; 0 13 7"/>
+  <box id="tread-3-grip-1a" position="-11.052 7.745 0.631" width="0.552" depth="0.007" height="0.001" material="stair-groove" collidable="false"/>
+  <box id="tread-3-grip-1b" position="-10.477 7.745 0.631" width="1.521" depth="0.007" height="0.001" material="stair-groove" collidable="false"/>
+  <box id="tread-3-grip-2a" position="-11.052 7.768 0.631" width="0.142" depth="0.007" height="0.001" material="stair-groove" collidable="false"/>
+  <box id="tread-3-grip-2b" position="-10.887 7.768 0.631" width="1.931" depth="0.007" height="0.001" material="stair-groove" collidable="false"/>
+  <box id="riser-3-pour-joint" position="-9.79 7.665 0.506" width="0.008" depth="0.001" height="0.088" material="stair-groove" collidable="false"/>
+  <faceted-solid id="tread-4-nosing-1" collidable="false" material="stair-edge" points="-11.085 8.089 0.746; -11.085 8.059 0.746; -11.085 8.054 0.753; -11.085 8.054 0.771; -11.085 8.062 0.784; -11.085 8.132 0.784; -11.085 8.132 0.763; -10.547 8.089 0.746; -10.547 8.059 0.746; -10.547 8.054 0.753; -10.547 8.054 0.771; -10.547 8.062 0.784; -10.547 8.132 0.784; -10.547 8.132 0.763" triangles="0 1 6; 1 2 6; 2 3 6; 3 4 6; 4 5 6; 7 13 8; 8 13 9; 9 13 10; 10 13 11; 11 13 12; 1 0 7; 1 7 8; 2 1 8; 2 8 9; 3 2 9; 3 9 10; 4 3 10; 4 10 11; 5 4 11; 5 11 12; 6 5 12; 6 12 13; 0 6 13; 0 13 7"/>
+  <faceted-solid id="tread-4-nosing-2" collidable="false" material="stair-edge" points="-10.54 8.089 0.746; -10.54 8.056 0.746; -10.54 8.051 0.753; -10.54 8.051 0.771; -10.54 8.059 0.784; -10.54 8.132 0.784; -10.54 8.132 0.763; -10.012 8.089 0.746; -10.012 8.056 0.746; -10.012 8.051 0.753; -10.012 8.051 0.771; -10.012 8.059 0.784; -10.012 8.132 0.784; -10.012 8.132 0.763" triangles="0 1 6; 1 2 6; 2 3 6; 3 4 6; 4 5 6; 7 13 8; 8 13 9; 9 13 10; 10 13 11; 11 13 12; 1 0 7; 1 7 8; 2 1 8; 2 8 9; 3 2 9; 3 9 10; 4 3 10; 4 10 11; 5 4 11; 5 11 12; 6 5 12; 6 12 13; 0 6 13; 0 13 7"/>
+  <faceted-solid id="tread-4-nosing-3" collidable="false" material="stair-edge" points="-10.005 8.089 0.746; -10.005 8.049 0.746; -10.005 8.044 0.753; -10.005 8.044 0.771; -10.005 8.052 0.784; -10.005 8.132 0.784; -10.005 8.132 0.763; -9.457 8.089 0.746; -9.457 8.049 0.746; -9.457 8.044 0.753; -9.457 8.044 0.771; -9.457 8.052 0.784; -9.457 8.132 0.784; -9.457 8.132 0.763" triangles="0 1 6; 1 2 6; 2 3 6; 3 4 6; 4 5 6; 7 13 8; 8 13 9; 9 13 10; 10 13 11; 11 13 12; 1 0 7; 1 7 8; 2 1 8; 2 8 9; 3 2 9; 3 9 10; 4 3 10; 4 10 11; 5 4 11; 5 11 12; 6 5 12; 6 12 13; 0 6 13; 0 13 7"/>
+  <faceted-solid id="tread-4-nosing-4" collidable="false" material="stair-edge" points="-9.45 8.089 0.746; -9.45 8.054 0.746; -9.45 8.049 0.753; -9.45 8.049 0.771; -9.45 8.057 0.784; -9.45 8.132 0.784; -9.45 8.132 0.763; -8.921 8.089 0.746; -8.921 8.054 0.746; -8.921 8.049 0.753; -8.921 8.049 0.771; -8.921 8.057 0.784; -8.921 8.132 0.784; -8.921 8.132 0.763" triangles="0 1 6; 1 2 6; 2 3 6; 3 4 6; 4 5 6; 7 13 8; 8 13 9; 9 13 10; 10 13 11; 11 13 12; 1 0 7; 1 7 8; 2 1 8; 2 8 9; 3 2 9; 3 9 10; 4 3 10; 4 10 11; 5 4 11; 5 11 12; 6 5 12; 6 12 13; 0 6 13; 0 13 7"/>
+  <box id="tread-4-grip-1a" position="-11.052 8.153 0.781" width="0.762" depth="0.007" height="0.001" material="stair-groove" collidable="false"/>
+  <box id="tread-4-grip-1b" position="-10.267 8.153 0.781" width="1.311" depth="0.007" height="0.001" material="stair-groove" collidable="false"/>
+  <box id="tread-4-grip-2a" position="-11.052 8.176 0.781" width="0.352" depth="0.007" height="0.001" material="stair-groove" collidable="false"/>
+  <box id="tread-4-grip-2b" position="-10.677 8.176 0.781" width="1.721" depth="0.007" height="0.001" material="stair-groove" collidable="false"/>
+  <box id="riser-4-pour-joint" position="-10.35 8.073 0.656" width="0.008" depth="0.001" height="0.088" material="stair-groove" collidable="false"/>
+  <faceted-solid id="tread-5-nosing-1" collidable="false" material="stair-edge" points="-11.085 8.497 0.896; -11.085 8.462 0.896; -11.085 8.457 0.903; -11.085 8.457 0.921; -11.085 8.465 0.934; -11.085 8.54 0.934; -11.085 8.54 0.913; -10.557 8.497 0.896; -10.557 8.462 0.896; -10.557 8.457 0.903; -10.557 8.457 0.921; -10.557 8.465 0.934; -10.557 8.54 0.934; -10.557 8.54 0.913" triangles="0 1 6; 1 2 6; 2 3 6; 3 4 6; 4 5 6; 7 13 8; 8 13 9; 9 13 10; 10 13 11; 11 13 12; 1 0 7; 1 7 8; 2 1 8; 2 8 9; 3 2 9; 3 9 10; 4 3 10; 4 10 11; 5 4 11; 5 11 12; 6 5 12; 6 12 13; 0 6 13; 0 13 7"/>
+  <faceted-solid id="tread-5-nosing-2" collidable="false" material="stair-edge-repair" points="-10.55 8.497 0.896; -10.55 8.454 0.896; -10.55 8.449 0.903; -10.55 8.449 0.921; -10.55 8.457 0.934; -10.55 8.54 0.934; -10.55 8.54 0.913; -10.002 8.497 0.896; -10.002 8.454 0.896; -10.002 8.449 0.903; -10.002 8.449 0.921; -10.002 8.457 0.934; -10.002 8.54 0.934; -10.002 8.54 0.913" triangles="0 1 6; 1 2 6; 2 3 6; 3 4 6; 4 5 6; 7 13 8; 8 13 9; 9 13 10; 10 13 11; 11 13 12; 1 0 7; 1 7 8; 2 1 8; 2 8 9; 3 2 9; 3 9 10; 4 3 10; 4 10 11; 5 4 11; 5 11 12; 6 5 12; 6 12 13; 0 6 13; 0 13 7"/>
+  <faceted-solid id="tread-5-nosing-3" collidable="false" material="stair-edge" points="-9.995 8.511 0.896; -9.995 8.481 0.896; -9.995 8.476 0.903; -9.995 8.476 0.921; -9.995 8.484 0.934; -9.995 8.554 0.934; -9.995 8.554 0.913; -9.466 8.511 0.896; -9.466 8.481 0.896; -9.466 8.476 0.903; -9.466 8.476 0.921; -9.466 8.484 0.934; -9.466 8.554 0.934; -9.466 8.554 0.913" triangles="0 1 6; 1 2 6; 2 3 6; 3 4 6; 4 5 6; 7 13 8; 8 13 9; 9 13 10; 10 13 11; 11 13 12; 1 0 7; 1 7 8; 2 1 8; 2 8 9; 3 2 9; 3 9 10; 4 3 10; 4 10 11; 5 4 11; 5 11 12; 6 5 12; 6 12 13; 0 6 13; 0 13 7"/>
+  <faceted-solid id="tread-5-nosing-4" collidable="false" material="stair-edge" points="-9.459 8.497 0.896; -9.459 8.464 0.896; -9.459 8.459 0.903; -9.459 8.459 0.921; -9.459 8.467 0.934; -9.459 8.54 0.934; -9.459 8.54 0.913; -8.921 8.497 0.896; -8.921 8.464 0.896; -8.921 8.459 0.903; -8.921 8.459 0.921; -8.921 8.467 0.934; -8.921 8.54 0.934; -8.921 8.54 0.913" triangles="0 1 6; 1 2 6; 2 3 6; 3 4 6; 4 5 6; 7 13 8; 8 13 9; 9 13 10; 10 13 11; 11 13 12; 1 0 7; 1 7 8; 2 1 8; 2 8 9; 3 2 9; 3 9 10; 4 3 10; 4 10 11; 5 4 11; 5 11 12; 6 5 12; 6 12 13; 0 6 13; 0 13 7"/>
+  <box id="tread-5-grip-1a" position="-11.052 8.561 0.931" width="0.252" depth="0.007" height="0.001" material="stair-groove" collidable="false"/>
+  <box id="tread-5-grip-1b" position="-10.777 8.561 0.931" width="1.821" depth="0.007" height="0.001" material="stair-groove" collidable="false"/>
+  <box id="tread-5-grip-2a" position="-11.052 8.584 0.931" width="0.562" depth="0.007" height="0.001" material="stair-groove" collidable="false"/>
+  <box id="tread-5-grip-2b" position="-10.467 8.584 0.931" width="1.511" depth="0.007" height="0.001" material="stair-groove" collidable="false"/>
+  <box id="riser-5-pour-joint" position="-10.07 8.481 0.806" width="0.008" depth="0.001" height="0.088" material="stair-groove" collidable="false"/>
+  <faceted-solid id="tread-6-nosing-1" collidable="false" material="stair-edge" points="-11.085 8.906 1.046; -11.085 8.873 1.046; -11.085 8.868 1.053; -11.085 8.868 1.071; -11.085 8.876 1.084; -11.085 8.949 1.084; -11.085 8.949 1.063; -10.537 8.906 1.046; -10.537 8.873 1.046; -10.537 8.868 1.053; -10.537 8.868 1.071; -10.537 8.876 1.084; -10.537 8.949 1.084; -10.537 8.949 1.063" triangles="0 1 6; 1 2 6; 2 3 6; 3 4 6; 4 5 6; 7 13 8; 8 13 9; 9 13 10; 10 13 11; 11 13 12; 1 0 7; 1 7 8; 2 1 8; 2 8 9; 3 2 9; 3 9 10; 4 3 10; 4 10 11; 5 4 11; 5 11 12; 6 5 12; 6 12 13; 0 6 13; 0 13 7"/>
+  <faceted-solid id="tread-6-nosing-2" collidable="false" material="stair-edge" points="-10.53 8.906 1.046; -10.53 8.866 1.046; -10.53 8.861 1.053; -10.53 8.861 1.071; -10.53 8.869 1.084; -10.53 8.949 1.084; -10.53 8.949 1.063; -10.001 8.906 1.046; -10.001 8.866 1.046; -10.001 8.861 1.053; -10.001 8.861 1.071; -10.001 8.869 1.084; -10.001 8.949 1.084; -10.001 8.949 1.063" triangles="0 1 6; 1 2 6; 2 3 6; 3 4 6; 4 5 6; 7 13 8; 8 13 9; 9 13 10; 10 13 11; 11 13 12; 1 0 7; 1 7 8; 2 1 8; 2 8 9; 3 2 9; 3 9 10; 4 3 10; 4 10 11; 5 4 11; 5 11 12; 6 5 12; 6 12 13; 0 6 13; 0 13 7"/>
+  <faceted-solid id="tread-6-nosing-3" collidable="false" material="stair-edge" points="-9.994 8.906 1.046; -9.994 8.871 1.046; -9.994 8.866 1.053; -9.994 8.866 1.071; -9.994 8.874 1.084; -9.994 8.949 1.084; -9.994 8.949 1.063; -9.456 8.906 1.046; -9.456 8.871 1.046; -9.456 8.866 1.053; -9.456 8.866 1.071; -9.456 8.874 1.084; -9.456 8.949 1.084; -9.456 8.949 1.063" triangles="0 1 6; 1 2 6; 2 3 6; 3 4 6; 4 5 6; 7 13 8; 8 13 9; 9 13 10; 10 13 11; 11 13 12; 1 0 7; 1 7 8; 2 1 8; 2 8 9; 3 2 9; 3 9 10; 4 3 10; 4 10 11; 5 4 11; 5 11 12; 6 5 12; 6 12 13; 0 6 13; 0 13 7"/>
+  <faceted-solid id="tread-6-nosing-4" collidable="false" material="stair-edge" points="-9.449 8.906 1.046; -9.449 8.863 1.046; -9.449 8.858 1.053; -9.449 8.858 1.071; -9.449 8.866 1.084; -9.449 8.949 1.084; -9.449 8.949 1.063; -8.921 8.906 1.046; -8.921 8.863 1.046; -8.921 8.858 1.053; -8.921 8.858 1.071; -8.921 8.866 1.084; -8.921 8.949 1.084; -8.921 8.949 1.063" triangles="0 1 6; 1 2 6; 2 3 6; 3 4 6; 4 5 6; 7 13 8; 8 13 9; 9 13 10; 10 13 11; 11 13 12; 1 0 7; 1 7 8; 2 1 8; 2 8 9; 3 2 9; 3 9 10; 4 3 10; 4 10 11; 5 4 11; 5 11 12; 6 5 12; 6 12 13; 0 6 13; 0 13 7"/>
+  <box id="tread-6-grip-1a" position="-11.052 8.97 1.081" width="0.462" depth="0.007" height="0.001" material="stair-groove" collidable="false"/>
+  <box id="tread-6-grip-1b" position="-10.567 8.97 1.081" width="1.611" depth="0.007" height="0.001" material="stair-groove" collidable="false"/>
+  <box id="tread-6-grip-2a" position="-11.052 8.993 1.081" width="0.772" depth="0.007" height="0.001" material="stair-groove" collidable="false"/>
+  <box id="tread-6-grip-2b" position="-10.257 8.993 1.081" width="1.301" depth="0.007" height="0.001" material="stair-groove" collidable="false"/>
+  <box id="riser-6-pour-joint" position="-9.79 8.89 0.956" width="0.008" depth="0.001" height="0.088" material="stair-groove" collidable="false"/>
+  <box id="stair-post-1-shoe" position="-8.952 6.801 0.331" width="0.098" depth="0.1" height="0.019" material="stair-rail-rust" collidable="false"/>
+  <box id="stair-post-1-collar" position="-8.931 6.818 0.356" width="0.062" depth="0.064" height="0.051" material="stair-rail-rust" collidable="false"/>
+  <cylinder id="stair-post-1-bolt-1" position="-8.937 6.884 0.35" radius="0.008" height="0.008" segments="6" material="stair-rail-rust" collidable="false"/>
+  <cylinder id="stair-post-1-bolt-2" position="-8.869 6.884 0.35" radius="0.008" height="0.008" segments="6" material="stair-rail-rust" collidable="false"/>
+  <box id="stair-post-2-shoe" position="-8.952 7.618 0.631" width="0.098" depth="0.1" height="0.019" material="stair-rail-rust" collidable="false"/>
+  <box id="stair-post-2-collar" position="-8.931 7.635 0.656" width="0.062" depth="0.064" height="0.051" material="stair-rail-rust" collidable="false"/>
+  <cylinder id="stair-post-2-bolt-1" position="-8.937 7.701 0.65" radius="0.008" height="0.008" segments="6" material="stair-rail-rust" collidable="false"/>
+  <cylinder id="stair-post-2-bolt-2" position="-8.869 7.701 0.65" radius="0.008" height="0.008" segments="6" material="stair-rail-rust" collidable="false"/>
+  <box id="stair-post-3-shoe" position="-8.952 8.434 0.931" width="0.098" depth="0.1" height="0.019" material="stair-rail-rust" collidable="false"/>
+  <box id="stair-post-3-collar" position="-8.931 8.451 0.956" width="0.062" depth="0.064" height="0.051" material="stair-rail-rust" collidable="false"/>
+  <cylinder id="stair-post-3-bolt-1" position="-8.937 8.517 0.95" radius="0.008" height="0.008" segments="6" material="stair-rail-rust" collidable="false"/>
+  <cylinder id="stair-post-3-bolt-2" position="-8.869 8.517 0.95" radius="0.008" height="0.008" segments="6" material="stair-rail-rust" collidable="false"/>
+  <box id="stair-post-4-shoe" position="-8.952 9.251 1.081" width="0.098" depth="0.1" height="0.019" material="stair-rail-rust" collidable="false"/>
+  <box id="stair-post-4-collar" position="-8.931 9.268 1.106" width="0.062" depth="0.064" height="0.051" material="stair-rail-rust" collidable="false"/>
+  <cylinder id="stair-post-4-bolt-1" position="-8.937 9.334 1.1" radius="0.008" height="0.008" segments="6" material="stair-rail-rust" collidable="false"/>
+  <cylinder id="stair-post-4-bolt-2" position="-8.869 9.334 1.1" radius="0.008" height="0.008" segments="6" material="stair-rail-rust" collidable="false"/>
+  <!-- End lower stair finish details. -->
+  <marker id="plaza-start" kind="spawn" element="tile-plaza" position="-7.7 6.5 0.18"/>
+  <marker id="terrace-arrival" kind="poi" element="upper-terrace" position="-17 8.6 1.8"/>
+  <marker id="overpass-arrival" kind="poi" element="south-sidewalk" position="16.2 -5.25 0.18"/>
+  <marker id="far-bank-arrival" kind="poi" element="far-bank-path" position="9.15 17.8 0.18"/>
+  <marker id="road-west" kind="poi" element="asphalt-road" position="-4 -1 0"/>
+  <marker id="road-east" kind="poi" element="asphalt-road" position="11 -1 0"/>
+  <marker id="stair-landing" kind="poi" element="alley-turn" position="-10 10.4 1.08"/>
+  <marker id="ramp-middle" kind="poi" element="ring-ramp" position="-12.5 4.98 1.261"/>
+  <marker id="overpass-middle" kind="poi" element="road-overpass" position="5.3 -0.4 4.62"/>
+  <route id="alley-first-flight" from="plaza-start" to="stair-landing" min-routes="1" max-distance="9"/>
+  <route id="alley-return-flight" from="stair-landing" to="terrace-arrival" min-routes="1" max-distance="11"/>
+  <route id="plaza-to-ramp" from="plaza-start" to="ramp-middle" min-routes="1" max-distance="12"/>
+  <route id="ramp-ascent" from="ramp-middle" to="terrace-arrival" min-routes="1" max-distance="10"/>
+  <route id="north-overpass-ascent" from="plaza-start" to="overpass-middle" min-routes="1" max-distance="25"/>
+  <route id="south-overpass-descent" from="overpass-middle" to="overpass-arrival" min-routes="1" max-distance="20"/>
+  <route id="plaza-to-terrace" from="plaza-start" to="terrace-arrival" min-routes="1" max-distance="25"/>
+  <route id="plaza-to-south-walk" from="plaza-start" to="overpass-arrival" min-routes="1" max-distance="45"/>
+  <route id="plaza-to-far-bank" from="plaza-start" to="far-bank-arrival" min-routes="1" max-distance="40"/>
+  <route id="road-under-bridge" from="road-west" to="road-east" min-routes="1" max-distance="16"/>
+
+  <dressing theme="kowloon-street@1" seed="rain-cut" time-of-day="night" grime="0.85" wear="0.56" detail="medium">
+    <building host="alley-block" stories="3" texture-density="64" shops="0" grime="0.92" wear="0.63"/>
+    <wall host="alley-sidewall" face="side" windows="false" material="builtin:concrete" tile-share="0.73" tile-size="0.17" tile-wear="0.61" tile-color="#789d8b" grime="0.97" wear="0.67" texture-density="128"/>
+    <wall host="alley-west-wall" face="side" windows="false" material="builtin:concrete" tile-share="0.64" tile-size="0.16" tile-wear="0.65" tile-color="#819587" grime="0.96" wear="0.7" texture-density="128"/>
+    <floor host="tile-plaza" material="builtin:concrete" ground="patched" patch-size="1.9" relief="0.005" wetness="0.65" repairs="0.72" tile-share="0.76" tile-size="0.31" tile-wear="0.73" tile-color="#909f8b" asphalt="0" timber-share="0" litter="0.27" texture-density="72"/>
+    <floor host="south-bank-walk" material="builtin:concrete" ground="patched" relief="0.004" wetness="0.62" tile-share="0.75" tile-size="0.27" tile-color="#8d9d90" asphalt="0" timber-share="0" texture-density="64"/>
+    <floor host="alley-upper" material="builtin:concrete" grime="0.95" wear="0.69"/>
+    <floor host="overpass-north-stairs" material="builtin:concrete" grime="0.86" wear="0.53"/>
+    <floor host="overpass-south-stairs" material="builtin:concrete" grime="0.86" wear="0.53"/>
+    <floor host="road-overpass" material="builtin:concrete" grime="0.91" wear="0.56"/>
+    <floor host="canal-footbridge" material="builtin:concrete" grime="0.94" wear="0.55"/>
+  </dressing>
+</architecture>

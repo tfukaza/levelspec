@@ -1,0 +1,66 @@
+{
+  "previews": [
+    {
+      "id": "kowloon",
+      "renderHash": "972d0e54b39b31fa58116e38041736b421fd078c4f9d974753d3abd69708c545",
+      "physicalHash": "d56c87c8cb1bbe4133e3de7301c29d738e98d1fab1603af47f1cab558644ac67"
+    }
+  ],
+  "variants": [
+    {
+      "name": "compact",
+      "x": 0,
+      "width": 0.58,
+      "depth": 0.38,
+      "standOff": 0.2,
+      "height": 3.2,
+      "supports": [
+        1.2,
+        2.3
+      ],
+      "variant": 0
+    },
+    {
+      "name": "standard",
+      "x": 3.4,
+      "width": 0.78,
+      "depth": 0.62,
+      "standOff": 0.32,
+      "height": 5.2,
+      "supports": [
+        1.18,
+        4.3
+      ],
+      "variant": 1
+    },
+    {
+      "name": "wide",
+      "x": 7,
+      "width": 1.2,
+      "depth": 0.9,
+      "standOff": 0.55,
+      "height": 7.5,
+      "supports": [
+        1.2,
+        6.6
+      ],
+      "variant": 2
+    },
+    {
+      "name": "custom-bends",
+      "x": 11,
+      "width": 0.9,
+      "depth": 0.7,
+      "standOff": 0.4,
+      "height": 6.4,
+      "lowerBendHeight": 1.3,
+      "upperBendHeight": 0.9,
+      "sections": 4,
+      "supports": [
+        1.5,
+        5.3
+      ],
+      "variant": 3
+    }
+  ]
+}

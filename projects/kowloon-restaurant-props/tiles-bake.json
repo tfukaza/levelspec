@@ -1,0 +1,36 @@
+{
+  "width": 1152,
+  "height": 576,
+  "density": 320,
+  "meters": [
+    3.6,
+    1.8
+  ],
+  "tileSize": 0.18,
+  "wear": 0.42,
+  "grime": 0.95,
+  "sourcePath": "src/materials/library/wall-ceramic-weathered.png",
+  "sourceSha256": "ecc76777912f119983966f9611f353e8409ca98c6e625e69dece9c1a88e8b63e",
+  "recipes": {
+    "tools/bake-restaurant-tiles.ts": "aad5d5c0ae69525c3cb85feac6194051f45e9d2300fd590670ea23650d9b0777",
+    "src/dressing/tile-field.ts": "187d012f1fc2e848970b2de015c4653d3f0cc4321674c94402665ffaac341003",
+    "src/dressing/finish/tile-damage.ts": "eb58ff9b9263dcd9b477751d22a2753cd06bf5180cb76ab88f3a22439dcc368a",
+    "src/dressing/finish/noise.ts": "0084c6eaea8425f7948e141775639fccca1ca0c69c21026192ab56f95be15d31",
+    "src/dressing/finish/tile-grid.ts": "ed8afd395035e0af1455407f9853de7f9c400b135b9e8081c28d22247cef3ec1"
+  },
+  "outputs": {
+    "src/materials/library/restaurant-tiles.png": {
+      "bytes": 811114,
+      "sha256": "3185bae41ae6e4636feb39c1f630260a1f5307d7d044405d6cf546199b350e54"
+    },
+    "src/materials/library/restaurant-tiles-normal.png": {
+      "bytes": 388673,
+      "sha256": "6f2f5fa4ab11c6a68a438dc5b99b3b27dc3efa200b3007fb5c2a03f2e5771a99"
+    },
+    "src/materials/library/restaurant-tiles-properties.png": {
+      "bytes": 58747,
+      "sha256": "06e5b60af1eb1940c0a9b30d09dbb82c24c8963a8d1f200618ffc760b2efda14"
+    }
+  },
+  "channels": "sRGB albedo; OpenGL tangent normal; linear R unused G roughness B metalness"
+}

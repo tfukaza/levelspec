@@ -1,0 +1,58 @@
+{
+  "date": "2026-11-13",
+  "scope": "Modular duct assembly, thin fractal rust on its own metal, physical UV scale and reusable prop skill guidance",
+  "componentIteration": "v23",
+  "componentRenderHash": "e8ad89e4efe7efa9b8406b7ee441f4d91d6907af3e527e244d9eebe61071389e",
+  "sceneRenderHash": "ef6a803ada279efca493cdc65c364932ce7200e88352033e4d0f24cd4819236b",
+  "sourceFingerprint": "88a15042b6ee13b2ac34c1068ac192a230fc6cf9f6c2d2712cdeebaf068e900a",
+  "published": "generated/dressing-demo/presets",
+  "installedHost": "background-east",
+  "installedMetalBounds": {
+    "min": [
+      14.005,
+      13.988,
+      9.028
+    ],
+    "max": [
+      14.952,
+      14.792,
+      13.852
+    ]
+  },
+  "checks": {
+    "typecheck": "passed",
+    "focusedTests": 23,
+    "finalMaterialTests": 8,
+    "independentImplementationReview": "accepted",
+    "independentComponentVisualReview": "v23 accepted; smaller lobes and gaps within larger thin films",
+    "integratedBrowserVisualReview": "passed",
+    "fullDemoBuild": "passed",
+    "publishedCacheMatchesCurrentSource": true,
+    "browserPageErrors": [],
+    "physicalHashMatchesBlockout": true,
+    "skillValidation": "Skill is valid!",
+    "defaultGeometryParity": "Positions, normals and indices exactly equal to the pre-modular duct"
+  },
+  "incrementalCost": {
+    "ductMetalTrianglesAdded": 0,
+    "sharedMetalMaps": 3,
+    "mapDimensions": [
+      1024,
+      1024
+    ],
+    "coveredMeters": [
+      2,
+      2
+    ],
+    "texelsPerMeter": 512,
+    "sharedMapDecodedMiB": 12,
+    "sharedMapMipmappedMiB": 16,
+    "additionalScalarMaterials": 1,
+    "perInstanceMaps": 0,
+    "separateRunoffDecalMeshes": 0
+  },
+  "residuals": [
+    "Oxidation remains slightly warmer and softer than the concept",
+    "This reusable wall-mounted two-return assembly is not an arbitrary duct-network router"
+  ]
+}

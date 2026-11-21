@@ -1,0 +1,20 @@
+[
+  {
+    "key": "metal-base",
+    "args": {
+      "referenced_image_paths": [
+        "C:/Users/tomok/OneDrive/code/levelspec/projects/dressing-demo/concepts/details/vent-panel-rust.png",
+        "C:/Users/tomok/OneDrive/code/levelspec/src/materials/library/concrete-shared.png"
+      ],
+      "transparent_background": false,
+      "prompt": "Use case: background-extraction / game material texture. Image 1 is a reference for the cool neutral gray sheet metal BASE PIGMENT only. Image 2 is a reference for the subtle broad organic tonal variation technique, not for concrete grains or concrete material. Extract/reimagine the CLEAN MATTE ZINC SHEET METAL base albedo into a flat square seamless 1024x1024 texture. Remove ALL rust, bolts, seams, frames, grime, drips, scratches, contact shadows, edge highlights, directional lighting, shading and reflections. Fill the whole image with even cool neutral light-gray sheet metal pigment, with extremely subtle large cloudy darkness and slight gray-green/gray-blue hue variation spanning roughly a quarter to half the image. Very quiet clean centers. No white-noise grain, no TV static, no stipple, no sand, no galvanization spangle, no brushed lines. Soft broad variations, low contrast, unlit PBR albedo, no rendered object, no text, no border."
+    }
+  },
+  {
+    "key": "grime-atlas",
+    "args": {
+      "transparent_background": true,
+      "prompt": "Use case: game asset texture atlas. Generate one transparent RGBA sheet of EIGHT isolated architectural runoff/grime decals arranged exactly in a 4-column by 2-row regular grid, each cell with ample transparent margin. 1536x1024 landscape. Each decal is wall-mounted industrial weathering hanging DOWN from an invisible horizontal source along its top: 1 broad pale dusty umber wash with branching dark tails; 2 narrow dark brown viscous pointed icicle-like streaks of unequal lengths; 3 wide diffuse gray charcoal soot stain with soft uneven edge and a few drips; 4 rusty ocher fan with pooled shoulders and broken reddish rivet trails; 5 long thin black-brown rain trails with wandering edges; 6 spread-out greenish gray damp plume with irregular downward tips; 7 heavily accumulated dark oxide at top with two long brown watery branches; 8 short coarse tan drip cluster with clear negative gaps. Subtle painterly realistic organic silhouette like 1990s detailed architectural concept art. Strong readable flowing forms, varied width, opacity, darkness, hue and length. Continuous semi-transparent staining, strongest at top, fading downward, genuine alpha transparency. No wall texture, no background, no cast shadows, no hardware or objects, no highlights, no text, no grid lines, no numbers. Avoid high frequency speckle/static; all shapes must remain legible reduced to 256 pixels per cell."
+    }
+  }
+]

@@ -1,0 +1,14 @@
+[package]
+name = "levelspec-aml"
+version = "0.1.0"
+edition = "2024"
+rust-version = "1.100"
+license = "MIT"
+publish = false
+
+[dependencies]
+superspec-aml = { path = "../../../superspec/crates/aml" }
+superspec-profiles = { path = "../../../superspec/crates/profiles" }
+
+[lints.rust]
+unsafe_code = "forbid"

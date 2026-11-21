@@ -1,0 +1,5 @@
+[
+ {"id":"flight","position":[-9.98,6.28,1.54],"target":[-9.96,9.3,1.28],"projection":"perspective","fov":64,"frameAspect":1.31},
+ {"id":"treads","position":[-10.13,6.52,1.06],"target":[-9.92,7.86,0.59],"projection":"perspective","fov":59,"frameAspect":1.38},
+ {"id":"handrail","position":[-9.67,7.27,1.43],"target":[-8.93,8.06,1.06],"projection":"perspective","fov":52,"frameAspect":1.38}
+]

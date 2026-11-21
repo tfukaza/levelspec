@@ -1,0 +1,18 @@
+{
+  "version": 1,
+  "fingerprint": "e20b02861ca78b73625022555887697023f7e1ac1f0027a3b58da075c0e3571d",
+  "previews": [
+    {
+      "id": "blockout",
+      "physicalHash": "f3d6de45ab95086dceb6d1ea8e30ede70b2fd4cbe1bea4f085442e85f0cb38dd",
+      "renderHash": "f00801827b7003f5478e2349e328d31e88b66cb47db9c331767e19a41bfe1a4e",
+      "triangles": 1786
+    },
+    {
+      "id": "kowloon",
+      "physicalHash": "f3d6de45ab95086dceb6d1ea8e30ede70b2fd4cbe1bea4f085442e85f0cb38dd",
+      "renderHash": "5f09df9ba205de7b9e8062c74df6d22c0d394d0778cbade6a6aaf07812bc9871",
+      "triangles": 1132060
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "records": [
+    {
+      "name": "modules",
+      "mode": "overview",
+      "stale": "false",
+      "frames": "4",
+      "frustum": "-8.695009732057812,8.695009732057812,4.7,-4.7,0.01,10000",
+      "projection": "orthographic",
+      "projectionMatrix": "0.11500849692129489,0,0,0,0,0.2127659574468085,0,0,0,0,-0.0002000002000002,0,0,0,-1.000002000002,1",
+      "viewMatrix": "-0.9084904526785744,-0.13120924565933323,0.3967735263918035,0,0.41790560823214434,-0.285237490563768,0.8625511443300077,0,1.2490009027033006e-16,0.9494333614479706,0.3139686165361229,0,4.99669748973216,-2.981139258520753,-32.390520571880444,1",
+      "view": "{\"projection\":\"orthographic\",\"position\":[17,24.999999999999993,12.999999999999998],\"target\":[5.500000000000001,0,3.9000000000000004],\"fov\":55,\"viewHeight\":9.4,\"roll\":0,\"appearance\":\"full-render\",\"frameAspect\":1.8500020706505984,\"frameAspectLock\":1.85}",
+      "walk": "{\"active\":false,\"feet\":[0,0,0],\"stance\":\"standing\",\"grounded\":true,\"verticalSpeed\":0,\"helper\":\"off\",\"yaw\":0,\"pitch\":0,\"collision\":\"physical\",\"height\":2,\"radius\":0.25}",
+      "triangles": "91484",
+      "cut": "8.200000381469726",
+      "drawCalls": "115",
+      "camera": "17,24.999999999999993,12.999999999999998,1,5.500000000000001,0,3.9000000000000004",
+      "renderHash": "bd0cbef5aa043d0c31495f98a678cfde56a5e27285b412e01fd43f4df68e7398"
+    }
+  ],
+  "errors": [],
+  "lightingHash": "97b77c55914f58d16da14e72c751063852443e6463b60a488fcb8a03568900ca",
+  "materialHashes": {
+    "vent-metal.png": "4cbd699f807fd470714231c707c4ca5a06e50d267f914685b521d11ff258b0ee",
+    "vent-metal-normal.png": "07b1ef8b233ec3c0568ff428cb57b833f6f2b39844050bf9080d101053e1224b",
+    "vent-metal-properties.png": "10b481df0d3cd602551ac7809e1fc8cb2f327bf492c964dc1171682d325c67f2"
+  }
+}

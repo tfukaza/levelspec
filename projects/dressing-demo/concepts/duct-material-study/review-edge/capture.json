@@ -1,0 +1,62 @@
+{
+  "records": [
+    {
+      "name": "vent",
+      "mode": "overview",
+      "stale": "false",
+      "frames": "5",
+      "frustum": "-2.5199910184762775,2.5199910184762775,3.15,-3.15,0.01,10000",
+      "projection": "orthographic",
+      "projectionMatrix": "0.396826811154531,0,0,0,0,0.31746031746031744,0,0,0,0,-0.0002000002000002,0,0,0,-1.000002000002,1",
+      "viewMatrix": "0.6308202196282738,-0.1776008097487437,0.7553302608029991,0,0.7759290241434046,0.14438715182170567,-0.6140736925489313,0,1.5265566588595895e-16,0.9734527737725163,0.2288879578190905,0,-16.496049513282504,-7.391173688745075,-14.439560310415773,1",
+      "view": "{\"projection\":\"orthographic\",\"position\":[20,5.000000000000005,10.5],\"target\":[8.45,14.390000000000002,7],\"fov\":55,\"viewHeight\":6.3,\"roll\":0,\"appearance\":\"full-render\",\"frameAspect\":0.7999971487226277,\"frameAspectLock\":0.8}",
+      "walk": "{\"active\":false,\"feet\":[2,2,0],\"stance\":\"standing\",\"grounded\":true,\"verticalSpeed\":0,\"helper\":\"off\",\"yaw\":0,\"pitch\":0,\"collision\":\"physical\",\"height\":1.8,\"radius\":0.35}",
+      "triangles": "662994",
+      "cut": "15.35",
+      "drawCalls": "11544",
+      "camera": "20,5.000000000000005,10.5,1,8.45,14.390000000000002,7",
+      "renderHash": "82e38483c1e6dd57c3d04dc9556f3409751c6b9fa2002e951c19c45070ce24a4"
+    },
+    {
+      "name": "ventSupport",
+      "mode": "overview",
+      "stale": "false",
+      "frames": "8",
+      "frustum": "-1.2649934420620437,1.2649934420620437,1.15,-1.15,0.01,10000",
+      "projection": "orthographic",
+      "projectionMatrix": "0.7905179321482627,0,0,0,0,0.8695652173913044,0,0,0,0,-0.0002000002000002,0,0,0,-1.000002000002,1",
+      "viewMatrix": "0.6983101958965668,-0.12328691847148987,0.7050980116556156,0,0.7157952712241807,0.12027532962333129,-0.6878742434319667,0,-2.7755575615628914e-17,0.9850554201758412,0.1722376822364862,0,-16.201015108241947,-6.008286801145189,-6.279140003033904,1",
+      "view": "{\"projection\":\"orthographic\",\"position\":[15,8.000000000000002,6.999999999999999],\"target\":[8.45,14.39,5.4],\"fov\":55,\"viewHeight\":2.3,\"roll\":0,\"appearance\":\"full-render\",\"frameAspect\":1.0999942974452555,\"frameAspectLock\":1.1}",
+      "walk": "{\"active\":false,\"feet\":[2,2,0],\"stance\":\"standing\",\"grounded\":true,\"verticalSpeed\":0,\"helper\":\"off\",\"yaw\":0,\"pitch\":0,\"collision\":\"physical\",\"height\":1.8,\"radius\":0.35}",
+      "triangles": "100972",
+      "cut": "15.35",
+      "drawCalls": "816",
+      "camera": "15,8.000000000000002,6.999999999999999,1,8.45,14.39,5.4",
+      "renderHash": "82e38483c1e6dd57c3d04dc9556f3409751c6b9fa2002e951c19c45070ce24a4"
+    },
+    {
+      "name": "ventGrazing",
+      "mode": "overview",
+      "stale": "false",
+      "frames": "11",
+      "frustum": "-2.5199910184762775,2.5199910184762775,3.15,-3.15,0.01,10000",
+      "projection": "orthographic",
+      "projectionMatrix": "0.396826811154531,0,0,0,0,0.31746031746031744,0,0,0,0,-0.0002000002000002,0,0,0,-1.000002000002,1",
+      "viewMatrix": "-0.8860929358398348,-0.07636169317339014,0.45717414720261157,0,0.46350761488323156,-0.14598154316570594,0.873985171499046,0,-2.7755575615628907e-17,0.9863357850502293,0.16474744043337333,0,0.8176107296769022,-4.158419781881953,-29.732794312213073,1",
+      "view": "{\"projection\":\"orthographic\",\"position\":[14.000000000000002,25,9],\"target\":[8.45,14.390000000000002,7],\"fov\":55,\"viewHeight\":6.3,\"roll\":0,\"appearance\":\"full-render\",\"frameAspect\":0.7999971487226277,\"frameAspectLock\":0.8}",
+      "walk": "{\"active\":false,\"feet\":[2,2,0],\"stance\":\"standing\",\"grounded\":true,\"verticalSpeed\":0,\"helper\":\"off\",\"yaw\":0,\"pitch\":0,\"collision\":\"physical\",\"height\":1.8,\"radius\":0.35}",
+      "triangles": "129228",
+      "cut": "15.35",
+      "drawCalls": "2266",
+      "camera": "14.000000000000002,25,9,1,8.45,14.390000000000002,7",
+      "renderHash": "82e38483c1e6dd57c3d04dc9556f3409751c6b9fa2002e951c19c45070ce24a4"
+    }
+  ],
+  "errors": [],
+  "lightingHash": "97b77c55914f58d16da14e72c751063852443e6463b60a488fcb8a03568900ca",
+  "materialHashes": {
+    "vent-metal.png": "316722a2ea7dac5d0e5e5f9284e7343557c4b5cc9088e3d52d36d326002940a8",
+    "vent-metal-normal.png": "07b1ef8b233ec3c0568ff428cb57b833f6f2b39844050bf9080d101053e1224b",
+    "vent-metal-properties.png": "c2080d783c090382698bc024b1980d01b4c934e59438b9e62a6db774b93f711f"
+  }
+}

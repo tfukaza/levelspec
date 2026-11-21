@@ -1,0 +1,441 @@
+{
+  "source": "projects/storefront-study/register/source/model.glb",
+  "sourceSha256": "5922d884a4d5156efa9b8bdfa7a88a87de235ff6e8976fc4b3bd95f805faae6e",
+  "task": {
+    "id": "f6fb2a1f-0312-4be2-9781-0e9388c987e0",
+    "model": "P1-20260311",
+    "creditsConsumed": 50
+  },
+  "triangleCount": 2870,
+  "sourceTriangleCount": 2125,
+  "sourceVertexCount": 1990,
+  "size": [
+    0.24712329,
+    0.28,
+    0.18684932
+  ],
+  "uniformScale": 0.2805479452054795,
+  "origin": "Bottom centered in XY; Z=0 at lowest source vertex; meters, right-handed Z-up.",
+  "axes": "Source glTF [x,y,z] -> domain [-z,-x,y]; inspected source +X/front becomes domain -Y. Proper rotation, determinant +1.",
+  "uv": "Source glTF [u,v] -> domain [u,1-v]; export returns [u,v]. Images keep original orientation.",
+  "maps": "RGB albedo sRGB; properties RGB preserves original ORM channels (G roughness, B metallic). Normal green is inverted locally to compensate the imported domain-V tangent reversal.",
+  "normalResampling": "Resized vectors have green inverted and are renormalized; no global exporter or source image is modified.",
+  "edit": "Retained source positions/triangles/UVs unchanged, uniformly fitted. Corner normals pointing nearly tangent or backward to their face (dot < .15) use the geometric face normal. Detached keys/receipt replaced by authored geometry; a conforming rear display is added.",
+  "repairs": {
+    "removed": [
+      {
+        "kind": "keys",
+        "triangles": 28,
+        "min": [
+          -0.09726027,
+          -0.1169863,
+          0.09041096
+        ],
+        "max": [
+          -0.07753425,
+          -0.09890411,
+          0.10410959
+        ]
+      },
+      {
+        "kind": "keys",
+        "triangles": 28,
+        "min": [
+          -0.07534247,
+          -0.1169863,
+          0.09041096
+        ],
+        "max": [
+          -0.05561644,
+          -0.09890411,
+          0.10465753
+        ]
+      },
+      {
+        "kind": "keys",
+        "triangles": 36,
+        "min": [
+          -0.03917808,
+          -0.1230137,
+          0.08931507
+        ],
+        "max": [
+          0.02219178,
+          -0.10109589,
+          0.10575342
+        ]
+      },
+      {
+        "kind": "keys",
+        "triangles": 28,
+        "min": [
+          -0.09726027,
+          -0.09835616,
+          0.0969863
+        ],
+        "max": [
+          -0.07753425,
+          -0.07972603,
+          0.11123288
+        ]
+      },
+      {
+        "kind": "keys",
+        "triangles": 28,
+        "min": [
+          -0.09726027,
+          -0.07972603,
+          0.10410959
+        ],
+        "max": [
+          -0.07753425,
+          -0.06109589,
+          0.11780822
+        ]
+      },
+      {
+        "kind": "keys",
+        "triangles": 28,
+        "min": [
+          -0.07534247,
+          -0.09835616,
+          0.09753425
+        ],
+        "max": [
+          -0.05561644,
+          -0.07972603,
+          0.11123288
+        ]
+      },
+      {
+        "kind": "keys",
+        "triangles": 28,
+        "min": [
+          -0.07534247,
+          -0.07972603,
+          0.10410959
+        ],
+        "max": [
+          -0.05616438,
+          -0.06109589,
+          0.11780822
+        ]
+      },
+      {
+        "kind": "keys",
+        "triangles": 28,
+        "min": [
+          -0.09726027,
+          -0.06054795,
+          0.11068493
+        ],
+        "max": [
+          -0.07753425,
+          -0.04246575,
+          0.12438356
+        ]
+      },
+      {
+        "kind": "keys",
+        "triangles": 28,
+        "min": [
+          -0.09726027,
+          -0.04191781,
+          0.11726027
+        ],
+        "max": [
+          -0.07753425,
+          -0.02328767,
+          0.1309589
+        ]
+      },
+      {
+        "kind": "keys",
+        "triangles": 28,
+        "min": [
+          -0.07534247,
+          -0.06054795,
+          0.11068493
+        ],
+        "max": [
+          -0.05561644,
+          -0.04246575,
+          0.12438356
+        ]
+      },
+      {
+        "kind": "keys",
+        "triangles": 28,
+        "min": [
+          -0.07534247,
+          -0.04191781,
+          0.11726027
+        ],
+        "max": [
+          -0.05561644,
+          -0.02328767,
+          0.1309589
+        ]
+      },
+      {
+        "kind": "receipt",
+        "triangles": 212,
+        "min": [
+          -0.0830137,
+          -0.00465753,
+          0.12986301
+        ],
+        "max": [
+          -0.05178082,
+          0.02109589,
+          0.15561644
+        ]
+      },
+      {
+        "kind": "keys",
+        "triangles": 36,
+        "min": [
+          -0.03863014,
+          -0.10164384,
+          0.09589041
+        ],
+        "max": [
+          0.02164384,
+          -0.07753425,
+          0.11287671
+        ]
+      },
+      {
+        "kind": "keys",
+        "triangles": 105,
+        "min": [
+          -0.03972603,
+          -0.07972603,
+          0.10465753
+        ],
+        "max": [
+          0.02219178,
+          -0.02,
+          0.13315068
+        ]
+      },
+      {
+        "kind": "keys",
+        "triangles": 20,
+        "min": [
+          0.03808219,
+          -0.1230137,
+          0.08821918
+        ],
+        "max": [
+          0.05945205,
+          -0.10164384,
+          0.10356164
+        ]
+      },
+      {
+        "kind": "keys",
+        "triangles": 18,
+        "min": [
+          0.06164384,
+          -0.12356164,
+          0.08821918
+        ],
+        "max": [
+          0.08356164,
+          -0.10109589,
+          0.10246575
+        ]
+      },
+      {
+        "kind": "keys",
+        "triangles": 20,
+        "min": [
+          0.08575342,
+          -0.12356164,
+          0.08821918
+        ],
+        "max": [
+          0.10712329,
+          -0.08191781,
+          0.11123288
+        ]
+      },
+      {
+        "kind": "keys",
+        "triangles": 20,
+        "min": [
+          0.03808219,
+          -0.10054795,
+          0.09589041
+        ],
+        "max": [
+          0.05945205,
+          -0.07972603,
+          0.11013699
+        ]
+      },
+      {
+        "kind": "keys",
+        "triangles": 20,
+        "min": [
+          0.03808219,
+          -0.07863014,
+          0.10410959
+        ],
+        "max": [
+          0.05945205,
+          -0.05945205,
+          0.11890411
+        ]
+      },
+      {
+        "kind": "keys",
+        "triangles": 36,
+        "min": [
+          0.06164384,
+          -0.1,
+          0.09643836
+        ],
+        "max": [
+          0.08356164,
+          -0.05945205,
+          0.11835616
+        ]
+      },
+      {
+        "kind": "keys",
+        "triangles": 20,
+        "min": [
+          0.03863014,
+          -0.05835616,
+          0.11068493
+        ],
+        "max": [
+          0.05945205,
+          -0.0369863,
+          0.12547945
+        ]
+      },
+      {
+        "kind": "keys",
+        "triangles": 20,
+        "min": [
+          0.03808219,
+          -0.03589041,
+          0.11835616
+        ],
+        "max": [
+          0.05945205,
+          -0.01890411,
+          0.13041096
+        ]
+      },
+      {
+        "kind": "keys",
+        "triangles": 20,
+        "min": [
+          0.06219178,
+          -0.05835616,
+          0.11068493
+        ],
+        "max": [
+          0.0830137,
+          -0.0369863,
+          0.12547945
+        ]
+      },
+      {
+        "kind": "keys",
+        "triangles": 20,
+        "min": [
+          0.06219178,
+          -0.03589041,
+          0.11835616
+        ],
+        "max": [
+          0.08356164,
+          -0.01890411,
+          0.1309589
+        ]
+      },
+      {
+        "kind": "keys",
+        "triangles": 20,
+        "min": [
+          0.08575342,
+          -0.07863014,
+          0.10410959
+        ],
+        "max": [
+          0.10767123,
+          -0.05945205,
+          0.12
+        ]
+      },
+      {
+        "kind": "keys",
+        "triangles": 20,
+        "min": [
+          0.08630137,
+          -0.05835616,
+          0.11068493
+        ],
+        "max": [
+          0.10712329,
+          -0.0369863,
+          0.12547945
+        ]
+      },
+      {
+        "kind": "keys",
+        "triangles": 20,
+        "min": [
+          0.08575342,
+          -0.03643836,
+          0.11835616
+        ],
+        "max": [
+          0.10712329,
+          -0.01890411,
+          0.13260274
+        ]
+      }
+    ],
+    "retainedTriangles": 1182,
+    "authoredTriangles": 1688,
+    "note": "Detached generated keys/receipt removed; housing, printer, feet and their original UVs/maps retained. Rear display follows the actual shell."
+  },
+  "sourceImages": {
+    "color": {
+      "width": 2048,
+      "height": 2048,
+      "sha256": "d994a88e5cd3398fa2eeffce9cd3865b48bbf9eb1d4a3b09a52e0afc4a30325b"
+    },
+    "properties": {
+      "width": 2048,
+      "height": 2048,
+      "sha256": "57503a1a2de88d1a6a69d95875761ef83334ef1889ac6e5bac72e65f7d7e9239"
+    },
+    "normal": {
+      "width": 2048,
+      "height": 2048,
+      "sha256": "4eca3289a40690adc9d7fbf3ae2fcee88522802b96da87ea602ec819996154f9"
+    }
+  },
+  "outputTextureSize": 1024,
+  "maximumUvRoundtripError": 4.999389568993706e-9,
+  "sourceOpposedMeanNormals": 10,
+  "repairedCornerNormals": 416,
+  "materialFactors": {
+    "baseColor": [
+      1,
+      1,
+      1,
+      1
+    ],
+    "roughness": 1,
+    "metallic": 1,
+    "normalScale": 1
+  }
+}

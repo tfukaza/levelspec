@@ -1,0 +1,49 @@
+{
+  "generator": "Built-in image_gen",
+  "promptFile": "prompts.json",
+  "images": {
+    "metal-base-ai.png": {
+      "sha256": "85ef38e881fa315963d89970edee48c0f662e4ff1efc106c94703b33ead7d45e",
+      "usage": "Broad-filtered albedo basis; no lighting retained"
+    },
+    "grime-atlas-ai.png": {
+      "sha256": "4ec44df1f80181611fab98c0fcdcb48d04b6fb226492798d797f7631d2eb3902",
+      "usage": "Visual study only; not a production dependency"
+    }
+  },
+  "production": {
+    "baker": "tools/bake-vent-metal.ts",
+    "runoff": "src/dressing/finish/runoff.ts",
+    "outputs": {
+      "vent-metal.png": {
+        "sha256": "4cbd699f807fd470714231c707c4ca5a06e50d267f914685b521d11ff258b0ee",
+        "dimensions": [
+          1024,
+          1024
+        ]
+      },
+      "vent-metal-normal.png": {
+        "sha256": "07b1ef8b233ec3c0568ff428cb57b833f6f2b39844050bf9080d101053e1224b",
+        "dimensions": [
+          1024,
+          1024
+        ]
+      },
+      "vent-metal-properties.png": {
+        "sha256": "10b481df0d3cd602551ac7809e1fc8cb2f327bf492c964dc1171682d325c67f2",
+        "dimensions": [
+          1024,
+          1024
+        ]
+      }
+    },
+    "assembly": "src/dressing/props/duct.ts",
+    "weathering": "Periodic thin metric fractal oxidation plus at most two vertex-color washes below clear shaft seams; wall runoff remains separate",
+    "textureMeters": [
+      2,
+      2
+    ],
+    "texelsPerMeter": 512,
+    "edgeFinish": "Shared scalar vent-edge finish on a 24 mm radial bevel; soft bright center, darker shoulders, collar fades and smooth local-meter polish variation"
+  }
+}

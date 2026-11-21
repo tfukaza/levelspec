@@ -1,0 +1,99 @@
+name: SuperSpec consumer acceptance
+on:
+  workflow_call:
+    inputs:
+      superspec_ref:
+        description: Published SuperSpec commit matching superspec.lock.json
+        required: true
+        type: string
+  workflow_dispatch:
+    inputs:
+      superspec_ref:
+        description: Published SuperSpec commit matching superspec.lock.json
+        required: true
+        type: string
+permissions:
+  contents: read
+concurrency:
+  group: superspec-${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+jobs:
+  revision:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Require an immutable published revision
+        env:
+          SUPERSPEC_REF: ${{ inputs.superspec_ref }}
+        run: '[[ "$SUPERSPEC_REF" =~ ^[0-9a-fA-F]{40}$ ]] || { echo "::error::Provide a published SuperSpec commit SHA matching the source pin."; exit 1; }'
+  native:
+    needs: revision
+    strategy:
+      matrix:
+        os: [ubuntu-latest, windows-latest]
+    runs-on: ${{ matrix.os }}
+    timeout-minutes: 30
+    defaults:
+      run:
+        working-directory: levelspec
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262
+        with:
+          path: levelspec
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262
+        with:
+          repository: tfukaza/superspec
+          ref: ${{ inputs.superspec_ref }}
+          path: superspec
+      - uses: actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020
+        with:
+          node-version: '24'
+      - run: node tools/superspec.mjs verify
+      - run: cargo check --manifest-path ../superspec/Cargo.toml --workspace --all-targets --locked
+      - run: node tools/superspec.mjs test-harness
+      - run: cargo build --manifest-path ../superspec/Cargo.toml -p superspec-cli --release --locked
+      - run: node tools/superspec.mjs run validate examples/daiban.aml --json
+      - run: node tools/superspec.mjs run validate demos/dust2/scene.aml --json
+  browser:
+    needs: revision
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    defaults:
+      run:
+        working-directory: superspec
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262
+        with:
+          path: levelspec
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262
+        with:
+          repository: tfukaza/superspec
+          ref: ${{ inputs.superspec_ref }}
+          path: superspec
+      - uses: actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020
+        with:
+          node-version: '24'
+          cache: npm
+          cache-dependency-path: |
+            levelspec/package-lock.json
+            superspec/package-lock.json
+      - run: node tools/superspec.mjs verify
+        working-directory: levelspec
+      - run: rustup target add wasm32-unknown-unknown
+      - run: cargo install wasm-bindgen-cli --version 0.2.130 --locked
+      - run: cargo build -p superspec-cli --release --locked
+      - run: cargo build -p superspec-wasm --target wasm32-unknown-unknown --release --locked
+      - run: wasm-bindgen --target web --out-dir generated/wasm target/wasm32-unknown-unknown/release/superspec_wasm.wasm
+      - run: npm ci
+      - run: npm ci
+        working-directory: levelspec
+      - run: npm run build:rust-ui
+        working-directory: levelspec
+      - run: npm run check
+        working-directory: levelspec
+      - run: npm test
+        working-directory: levelspec
+      - run: npx playwright install --with-deps chromium
+      - run: npm run test:rust:browser
+        working-directory: levelspec
+      - run: npm run test:preview:browser
+        working-directory: levelspec

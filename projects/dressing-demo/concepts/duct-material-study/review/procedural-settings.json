@@ -1,0 +1,98 @@
+[
+  {
+    "name": "Sparse oxide wash",
+    "seed": "study",
+    "width": 1.4,
+    "length": 2,
+    "coarseness": 0.4,
+    "spread": 1,
+    "density": 0.125,
+    "strength": 0.95,
+    "tint": [
+      0.43,
+      0.23,
+      0.095
+    ],
+    "variation": 0.9
+  },
+  {
+    "name": "Coarse pointed trails",
+    "seed": "study",
+    "width": 1.4,
+    "length": 2,
+    "coarseness": 1,
+    "spread": 0.15,
+    "density": 0.4,
+    "strength": 0.95,
+    "tint": [
+      0.43,
+      0.23,
+      0.095
+    ],
+    "variation": 0.9
+  },
+  {
+    "name": "Fine soot trails",
+    "seed": "study",
+    "width": 1.4,
+    "length": 2,
+    "coarseness": 0,
+    "spread": 0.25,
+    "density": 0.8,
+    "strength": 0.95,
+    "tint": [
+      0.16,
+      0.18,
+      0.19
+    ],
+    "variation": 0.9
+  },
+  {
+    "name": "Wide ledge runoff",
+    "seed": "study",
+    "width": 2.8,
+    "length": 0.8,
+    "coarseness": 0.55,
+    "spread": 1,
+    "density": 0.3,
+    "strength": 0.95,
+    "tint": [
+      0.43,
+      0.23,
+      0.095
+    ],
+    "variation": 0.9
+  },
+  {
+    "name": "Diffuse damp",
+    "seed": "study",
+    "width": 1.4,
+    "length": 2,
+    "coarseness": 0.4,
+    "spread": 1,
+    "density": 0,
+    "strength": 0.7,
+    "tint": [
+      0.34,
+      0.4,
+      0.31
+    ],
+    "variation": 0.9
+  },
+  {
+    "name": "Long rust bleed",
+    "seed": "study",
+    "width": 0.7,
+    "length": 2.8,
+    "coarseness": 0.4,
+    "spread": 1,
+    "density": 0.25,
+    "strength": 0.95,
+    "tint": [
+      0.56,
+      0.28,
+      0.1
+    ],
+    "variation": 0.9
+  }
+]

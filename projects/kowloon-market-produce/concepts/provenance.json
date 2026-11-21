@@ -1,0 +1,121 @@
+{
+  "generator": "Built-in ImageGen",
+  "images": [
+    {
+      "file": "beef-shank.png",
+      "sha256": "b518c5d107ce6f34ab6c6a229309068fec311fc5d9a7d4d1329bdc500b3da010"
+    },
+    {
+      "file": "bitter-melon-large.png",
+      "sha256": "949af08af598d945dcbcd1d53184645055b4c3023b530f3cd861f5b132ea6c38"
+    },
+    {
+      "file": "bitter-melon-medium.png",
+      "sha256": "6180c11c80118a23be368d134eeea063374e4f9622ad505313061e15747c052a"
+    },
+    {
+      "file": "bitter-melon-repair.png",
+      "sha256": "fc5f920d85aef6c9581466141b99a45c1eab214879f1ca72c16be8de71c3ffb7"
+    },
+    {
+      "file": "bitter-melon-small.png",
+      "sha256": "d07b340d9d20cdb6afc5ff81e535f315425b85de343a0155230352046ea43c00"
+    },
+    {
+      "file": "bok-choy-large-solid-tray.png",
+      "sha256": "6253968f3fc421b1ed2ad124a1e0d2d4a8853fa543e04bb49435c235714e48be"
+    },
+    {
+      "file": "bok-choy-large.png",
+      "sha256": "d673b1128d8ca69c5480fbd5280b1433921fb48742098b4541a0f9587f1f1e13"
+    },
+    {
+      "file": "bok-choy-medium.png",
+      "sha256": "20381295b6a2d120fd72f9f046918be4347e4394cad80f1552a31cfb7494976e"
+    },
+    {
+      "file": "bok-choy-small.png",
+      "sha256": "469da53695f306ad72f7b8139a280913d154f2452e25e4bf3546bb5dc42d21f4"
+    },
+    {
+      "file": "carrot-tray.png",
+      "sha256": "8604626b237451a99f87969eebde9fd8c3fa9b77ad7d211fa5a323c3b710266b"
+    },
+    {
+      "file": "choy-sum-large.png",
+      "sha256": "9641dd28101674f2c3b33c18030bfa1f6770faf113e6416a102bd609dde5cef1"
+    },
+    {
+      "file": "choy-sum-medium.png",
+      "sha256": "484869234ca9d868524978da27e9cf4ac6bf2f61be70c59fdf2a3d1e6b8e6b0f"
+    },
+    {
+      "file": "choy-sum-repair.png",
+      "sha256": "00153f9ee10540301bc42f358f5be1a6e2107a5d810cc2a3cb02966c09cc9274"
+    },
+    {
+      "file": "choy-sum-small.png",
+      "sha256": "6d65cb91eafd0b6717ff639e08136827eff996bc3e7e377d83343361b4c50b3a"
+    },
+    {
+      "file": "daikon-medium.png",
+      "sha256": "65ff30be1957a291786f4ddef83dabe488146826fe1d002f3f4a4b2a9c41cb9f"
+    },
+    {
+      "file": "eggplant-large.png",
+      "sha256": "ccddc066599e9893e27735ed98c20fb9022563caa0ef134db3054c6a78174658"
+    },
+    {
+      "file": "eggplant-medium.png",
+      "sha256": "e6df0af30c33af07b49d8d8a484ba329f2b1f1469f3fc8ac1e31d1eb13025c9c"
+    },
+    {
+      "file": "eggplant-small.png",
+      "sha256": "d7d25ff025639814c51e6526ddc96297dde1ce632e781d0bb6a7a1f79b1d0afd"
+    },
+    {
+      "file": "fish-pomfret.png",
+      "sha256": "d421dcf1bd87f53c1d8bb79a58a1edc036fae015349c58ddd01860a3d9149610"
+    },
+    {
+      "file": "fish-red-snapper.png",
+      "sha256": "f95c631f77381bc19482b59759781292600557ab83d6f4a7ccf6a3e412f59edd"
+    },
+    {
+      "file": "fish.png",
+      "sha256": "082b2aa97a52b6439d292aca4e26cd7513882da26d04bb14327456eb9147c8ff"
+    },
+    {
+      "file": "ginger-small.png",
+      "sha256": "94fb0ec9346ff8fa41428e02d621301132a362c254c43bfd03ed545d0d0ea0be"
+    },
+    {
+      "file": "long-beans.png",
+      "sha256": "447b1c7f4d7feb1db3adbb4f6aefda8035da26abee506413e4541ac329314f37"
+    },
+    {
+      "file": "lotus-root.png",
+      "sha256": "32c99d0e7059c4384a393c993f7828b2cc5e00bc91e448a4544e4662915ba851"
+    },
+    {
+      "file": "oranges-tray.png",
+      "sha256": "56574fd42134676c10a8d8948bc27994e2f306da02b223660111bcba18576371"
+    },
+    {
+      "file": "pineapple-tray.png",
+      "sha256": "e2a8a900717154c97845d2908a70e8c5e642ad11f6c717bb9c97fdd6ecbcf6ee"
+    },
+    {
+      "file": "pork-ribs.png",
+      "sha256": "dd3ef041ec602ef69d8aa81a6af891f343afb411e990390f5af4482bcf14bc7f"
+    },
+    {
+      "file": "pork.png",
+      "sha256": "96b6e5746594c134a974d1358cd1cf27d6c9d53a40bd4770b0686f9a2050b3e6"
+    },
+    {
+      "file": "radish-tray.png",
+      "sha256": "e5ce7b06d7426a59032a3dfe6e8849ca66746cbf43248cbf2b2059f98309f6f1"
+    }
+  ]
+}

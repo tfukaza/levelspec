@@ -1,0 +1,14 @@
+{
+  "before": {
+    "triangles": 2196,
+    "physicalUnchanged": true,
+    "generatedImages": 0,
+    "materials": 38
+  },
+  "after": {
+    "triangles": 3692,
+    "physicalUnchanged": true,
+    "generatedImages": 0,
+    "materials": 38
+  }
+}
